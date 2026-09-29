@@ -1,0 +1,7506 @@
+[
+ {
+  "id": 1,
+  "sources": [
+   "dict:common.language"
+  ],
+  "en": "English",
+  "fr": "Français",
+  "adapted": null
+ },
+ {
+  "id": 2,
+  "sources": [
+   "dict:common.languageLabel",
+   "dict:landing.home.footer.languageLabel",
+   "dict:footer.languageLabel"
+  ],
+  "en": "Language",
+  "fr": "Langue",
+  "adapted": null
+ },
+ {
+  "id": 3,
+  "sources": [
+   "dict:landing.heroPlaceholder"
+  ],
+  "en": "Ask anything...",
+  "fr": "Posez votre question…",
+  "adapted": null
+ },
+ {
+  "id": 4,
+  "sources": [
+   "dict:landing.heroFieldLabel"
+  ],
+  "en": "Describe what you need",
+  "fr": "Décrivez votre besoin",
+  "adapted": null
+ },
+ {
+  "id": 5,
+  "sources": [
+   "dict:landing.heroSend"
+  ],
+  "en": "Send message",
+  "fr": "Envoyer le message",
+  "adapted": null
+ },
+ {
+  "id": 6,
+  "sources": [
+   "dict:landing.heroVoiceStart",
+   "dict:legal.privacy.sections.input.subsections.voice.heading"
+  ],
+  "en": "Voice input",
+  "fr": "Saisie vocale",
+  "adapted": null
+ },
+ {
+  "id": 7,
+  "sources": [
+   "dict:landing.heroVoiceStop"
+  ],
+  "en": "Stop voice input",
+  "fr": "Arrêter la saisie vocale",
+  "adapted": null
+ },
+ {
+  "id": 8,
+  "sources": [
+   "dict:landing.heroVoiceFinish"
+  ],
+  "en": "Finish voice input",
+  "fr": "Terminer la saisie vocale",
+  "adapted": null
+ },
+ {
+  "id": 9,
+  "sources": [
+   "dict:landing.heroVoiceActive"
+  ],
+  "en": "Microphone on. Send your message to turn it off.",
+  "fr": "Microphone activé. Envoyez votre message pour le désactiver.",
+  "adapted": null
+ },
+ {
+  "id": 10,
+  "sources": [
+   "dict:landing.heroVoicePaused"
+  ],
+  "en": "Text entry paused. The microphone is on and speech is still processed until you send.",
+  "fr": "Saisie en pause. Le microphone reste activé et la parole est toujours traitée jusqu’à l’envoi du message.",
+  "adapted": null
+ },
+ {
+  "id": 11,
+  "sources": [
+   "dict:landing.home.heroTitle"
+  ],
+  "en": "Hello,\nAmerica",
+  "fr": "Bonjour,\nl’Amérique",
+  "adapted": null
+ },
+ {
+  "id": 12,
+  "sources": [
+   "dict:landing.home.firstGovVideoTitle"
+  ],
+  "en": "FirstGov.gov — From the archives",
+  "fr": "FirstGov.gov — Archives",
+  "adapted": null
+ },
+ {
+  "id": 13,
+  "sources": [
+   "dict:landing.home.heroBody"
+  ],
+  "en": "Whatever you need from government, start here.",
+  "fr": "Un seul endroit pour trouver des réponses sur tous les sites du gouvernement.",
+  "adapted": null
+ },
+ {
+  "id": 14,
+  "sources": [
+   "dict:landing.home.frontDoor.carouselLabel"
+  ],
+  "en": "Example questions",
+  "fr": "Exemples de questions",
+  "adapted": null
+ },
+ {
+  "id": 15,
+  "sources": [
+   "dict:landing.home.frontDoor.previous"
+  ],
+  "en": "Previous example",
+  "fr": "Exemple précédent",
+  "adapted": null
+ },
+ {
+  "id": 16,
+  "sources": [
+   "dict:landing.home.frontDoor.next"
+  ],
+  "en": "Next example",
+  "fr": "Exemple suivant",
+  "adapted": null
+ },
+ {
+  "id": 17,
+  "sources": [
+   "dict:landing.home.frontDoor.pauseLabel"
+  ],
+  "en": "the example questions",
+  "fr": "les exemples de questions",
+  "adapted": null
+ },
+ {
+  "id": 18,
+  "sources": [
+   "dict:landing.home.frontDoor.play"
+  ],
+  "en": "Play {carousel}",
+  "fr": "Faire défiler {carousel}",
+  "adapted": null
+ },
+ {
+  "id": 19,
+  "sources": [
+   "dict:landing.home.frontDoor.pause"
+  ],
+  "en": "Pause {carousel}",
+  "fr": "Mettre {carousel} en pause",
+  "adapted": null
+ },
+ {
+  "id": 20,
+  "sources": [
+   "dict:landing.home.frontDoor.slideStatus"
+  ],
+  "en": "Example {current} of {total}: {prompt}",
+  "fr": "Exemple {current} sur {total} : {prompt}",
+  "adapted": null
+ },
+ {
+  "id": 21,
+  "sources": [
+   "dict:landing.home.frontDoor.cards.socialSecurity.prompt"
+  ],
+  "en": "How do I replace my social security card?",
+  "fr": "Comment remplacer ma carte de Social Security ?",
+  "adapted": null
+ },
+ {
+  "id": 22,
+  "sources": [
+   "dict:landing.home.frontDoor.cards.socialSecurity.imageAlt"
+  ],
+  "en": "A person walking along a beach",
+  "fr": "Une personne marche le long d’une plage",
+  "adapted": null
+ },
+ {
+  "id": 23,
+  "sources": [
+   "dict:landing.home.frontDoor.cards.nationalPark.prompt"
+  ],
+  "en": "How do I book a campsite in a national park?",
+  "fr": "Comment réserver un emplacement de camping dans un parc national ?",
+  "adapted": null
+ },
+ {
+  "id": 24,
+  "sources": [
+   "dict:landing.home.frontDoor.cards.nationalPark.imageAlt"
+  ],
+  "en": "People jumping from rocks beside a forest",
+  "fr": "Des personnes sautent depuis des rochers à côté d’une forêt",
+  "adapted": null
+ },
+ {
+  "id": 25,
+  "sources": [
+   "dict:landing.home.frontDoor.cards.veteranCare.prompt"
+  ],
+  "en": "I’m a veteran. How do I get care?",
+  "fr": "Je suis un ancien militaire. Comment obtenir des soins ?",
+  "adapted": null
+ },
+ {
+  "id": 26,
+  "sources": [
+   "dict:landing.home.frontDoor.cards.veteranCare.imageAlt"
+  ],
+  "en": "A person standing in the bed of a pickup truck beside the water",
+  "fr": "Une personne debout dans la benne d’un pick-up au bord de l’eau",
+  "adapted": null
+ },
+ {
+  "id": 27,
+  "sources": [
+   "dict:landing.home.frontDoor.cards.nameChange.prompt"
+  ],
+  "en": "I just got married. How do I change my last name?",
+  "fr": "Je viens de me marier. Comment changer de nom de famille ?",
+  "adapted": null
+ },
+ {
+  "id": 28,
+  "sources": [
+   "dict:landing.home.frontDoor.cards.nameChange.imageAlt"
+  ],
+  "en": "A bride sitting in a car with a rain-speckled window",
+  "fr": "Une mariée assise dans une voiture dont la vitre est couverte de gouttes de pluie",
+  "adapted": null
+ },
+ {
+  "id": 29,
+  "sources": [
+   "dict:landing.home.frontDoor.cards.childFuture.prompt"
+  ],
+  "en": "How can I invest in my child’s future?",
+  "fr": "Comment investir dans l’avenir de mon enfant ?",
+  "adapted": null
+ },
+ {
+  "id": 30,
+  "sources": [
+   "dict:landing.home.frontDoor.cards.childFuture.imageAlt"
+  ],
+  "en": "An adult hugging a child in a stable beside a horse",
+  "fr": "Un adulte serre un enfant dans ses bras dans une écurie, à côté d’un cheval",
+  "adapted": null
+ },
+ {
+  "id": 31,
+  "sources": [
+   "dict:landing.home.frontDoor.cards.medicare.prompt"
+  ],
+  "en": "When do I qualify for Medicare?",
+  "fr": "Quand ai-je droit à Medicare ?",
+  "adapted": null
+ },
+ {
+  "id": 32,
+  "sources": [
+   "dict:landing.home.frontDoor.cards.medicare.imageAlt"
+  ],
+  "en": "People sitting on a stone wall overlooking the sea",
+  "fr": "Des personnes assises sur un muret en pierre face à la mer",
+  "adapted": null
+ },
+ {
+  "id": 33,
+  "sources": [
+   "dict:landing.home.frontDoor.cards.newJob.prompt"
+  ],
+  "en": "Help me find a new job",
+  "fr": "Aidez-moi à trouver un nouvel emploi",
+  "adapted": null
+ },
+ {
+  "id": 34,
+  "sources": [
+   "dict:landing.home.frontDoor.cards.newJob.imageAlt"
+  ],
+  "en": "A person riding an escalator",
+  "fr": "Une personne sur un escalier mécanique",
+  "adapted": null
+ },
+ {
+  "id": 35,
+  "sources": [
+   "dict:landing.home.frontDoor.cards.newBusiness.prompt"
+  ],
+  "en": "How do I register my new business?",
+  "fr": "Comment immatriculer ma nouvelle entreprise ?",
+  "adapted": null
+ },
+ {
+  "id": 36,
+  "sources": [
+   "dict:landing.home.frontDoor.cards.newBusiness.imageAlt"
+  ],
+  "en": "A person repairing a bicycle in a workshop",
+  "fr": "Une personne répare un vélo dans un atelier",
+  "adapted": null
+ },
+ {
+  "id": 37,
+  "sources": [
+   "dict:landing.home.frontDoor.cards.addressChange.prompt"
+  ],
+  "en": "How do I update my address with USPS?",
+  "fr": "Comment changer mon adresse auprès d’USPS ?",
+  "adapted": null
+ },
+ {
+  "id": 38,
+  "sources": [
+   "dict:landing.home.frontDoor.cards.addressChange.imageAlt"
+  ],
+  "en": "An adult and child looking at a tablet among moving boxes",
+  "fr": "Un adulte et un enfant regardent une tablette au milieu de cartons de déménagement",
+  "adapted": null
+ },
+ {
+  "id": 39,
+  "sources": [
+   "dict:landing.home.frontDoor.cards.passport.prompt"
+  ],
+  "en": "How do I get a passport for my child?",
+  "fr": "Comment obtenir un passeport pour mon enfant ?",
+  "adapted": null
+ },
+ {
+  "id": 40,
+  "sources": [
+   "dict:landing.home.frontDoor.cards.passport.imageAlt"
+  ],
+  "en": "A child watching an airplane through airport windows",
+  "fr": "Un enfant regarde un avion à travers les vitres d’un aéroport",
+  "adapted": null
+ },
+ {
+  "id": 41,
+  "sources": [
+   "dict:landing.home.frontDoor.cards.militaryService.prompt"
+  ],
+  "en": "Which military service is best for me?",
+  "fr": "Quelle branche des forces armées me convient le mieux ?",
+  "adapted": null
+ },
+ {
+  "id": 42,
+  "sources": [
+   "dict:landing.home.frontDoor.cards.militaryService.imageAlt"
+  ],
+  "en": "Two people standing together in a doorway",
+  "fr": "Deux personnes debout ensemble dans une entrée",
+  "adapted": null
+ },
+ {
+  "id": 43,
+  "sources": [
+   "dict:landing.home.manifesto.showFlag"
+  ],
+  "en": "Play American flag animation",
+  "fr": "Lancer l’animation du drapeau américain",
+  "adapted": null
+ },
+ {
+  "id": 44,
+  "sources": [
+   "dict:landing.home.manifesto.replayFlag"
+  ],
+  "en": "Replay American flag animation",
+  "fr": "Rejouer l’animation du drapeau américain",
+  "adapted": null
+ },
+ {
+  "id": 45,
+  "sources": [
+   "dict:landing.home.manifesto.lead1",
+   "html:index.html",
+   "html:index.html",
+   "html:index.html"
+  ],
+  "en": "America.gov",
+  "fr": "America.gov",
+  "adapted": null
+ },
+ {
+  "id": 46,
+  "sources": [
+   "dict:landing.home.manifesto.beforeSources"
+  ],
+  "en": "uses AI\nto get simple answers only\nfrom",
+  "fr": "utilise l’IA pour obtenir des réponses simples provenant uniquement de",
+  "adapted": null
+ },
+ {
+  "id": 47,
+  "sources": [
+   "dict:landing.home.manifesto.beforePrivacy"
+  ],
+  "en": "official\ngovernment sources. It’s\nfree to use, never includes\nads, and keeps",
+  "fr": "sources officielles du gouvernement. Son utilisation est gratuite, sans publicité, et",
+  "adapted": null
+ },
+ {
+  "id": 48,
+  "sources": [
+   "dict:landing.home.manifesto.afterPrivacy"
+  ],
+  "en": "your\nprivacy protected.",
+  "fr": "votre vie privée est protégée.",
+  "adapted": null
+ },
+ {
+  "id": 49,
+  "sources": [
+   "dict:landing.home.manifesto.photoAlt"
+  ],
+  "en": "A mother at a laptop with a toddler in her lap",
+  "fr": "Une mère devant un ordinateur portable, son jeune enfant sur les genoux",
+  "adapted": null
+ },
+ {
+  "id": 50,
+  "sources": [
+   "dict:landing.home.manifesto.flagDescription"
+  ],
+  "en": "The arrow turns into an American flag.",
+  "fr": "La flèche se transforme en drapeau américain.",
+  "adapted": null
+ },
+ {
+  "id": 51,
+  "sources": [
+   "dict:landing.home.manifesto.cycleAgencyBadges"
+  ],
+  "en": "Cycle agency badges",
+  "fr": "Faire défiler les emblèmes des agences",
+  "adapted": null
+ },
+ {
+  "id": 52,
+  "sources": [
+   "dict:landing.home.manifesto.animateFingerprint"
+  ],
+  "en": "Animate the fingerprint",
+  "fr": "Animer l’empreinte digitale",
+  "adapted": null
+ },
+ {
+  "id": 53,
+  "sources": [
+   "dict:landing.home.manifesto.agencyBadgesDescription"
+  ],
+  "en": "Agency badges shown: {sources}.",
+  "fr": "Emblèmes des agences affichés : {sources}.",
+  "adapted": null
+ },
+ {
+  "id": 54,
+  "sources": [
+   "dict:landing.home.manifesto.fingerprintAnimationDescription"
+  ],
+  "en": "Decorative animation: a light scans the fingerprint and a checkmark appears.",
+  "fr": "Animation décorative : une lumière parcourt l’empreinte digitale, puis une coche apparaît.",
+  "adapted": null
+ },
+ {
+  "id": 55,
+  "sources": [
+   "dict:landing.home.manifesto.fingerprintAnimationComplete"
+  ],
+  "en": "Fingerprint animation complete. A checkmark appears.",
+  "fr": "L’animation de l’empreinte digitale est terminée. Une coche apparaît.",
+  "adapted": null
+ },
+ {
+  "id": 56,
+  "sources": [
+   "dict:landing.home.features.ask.title"
+  ],
+  "en": "29,000 websites into one.",
+  "fr": "29 000 sites réunis en un seul.",
+  "adapted": null
+ },
+ {
+  "id": 57,
+  "sources": [
+   "dict:landing.home.features.ask.body"
+  ],
+  "en": "No more wandering from site to site. America.gov brings the government together in one place.",
+  "fr": "Plus besoin de passer d’un site à l’autre. America.gov réunit le gouvernement en un seul endroit.",
+  "adapted": null
+ },
+ {
+  "id": 58,
+  "sources": [
+   "dict:landing.home.features.ask.cta"
+  ],
+  "en": "See how it works",
+  "fr": "Comment ça marche",
+  "adapted": null
+ },
+ {
+  "id": 59,
+  "sources": [
+   "dict:landing.home.features.ask.animationDescription"
+  ],
+  "en": "An animated sphere of government website previews rotates, illustrating 29,000 websites brought together in one place.",
+  "fr": "Une sphère animée de captures de sites gouvernementaux tourne pour illustrer le regroupement de 29 000 sites en un seul endroit.",
+  "adapted": null
+ },
+ {
+  "id": 60,
+  "sources": [
+   "dict:landing.home.features.privacy.label"
+  ],
+  "en": "Private",
+  "fr": "Confidentialité",
+  "adapted": null
+ },
+ {
+  "id": 61,
+  "sources": [
+   "dict:landing.home.features.privacy.title"
+  ],
+  "en": "America.gov keeps your data private.",
+  "fr": "America.gov protège la confidentialité de vos données.",
+  "adapted": null
+ },
+ {
+  "id": 62,
+  "sources": [
+   "dict:landing.home.features.privacy.body"
+  ],
+  "en": "Your personal information isn’t collected or stored, and your conversation disappears when you leave.",
+  "fr": "Vos informations personnelles ne sont ni collectées ni conservées, et votre conversation disparaît lorsque vous quittez le site.",
+  "adapted": null
+ },
+ {
+  "id": 63,
+  "sources": [
+   "dict:landing.home.features.privacy.cta"
+  ],
+  "en": "Learn about privacy",
+  "fr": "En savoir plus sur la confidentialité",
+  "adapted": null
+ },
+ {
+  "id": 64,
+  "sources": [
+   "dict:landing.home.features.privacy.starDescription"
+  ],
+  "en": "A shooting star streaks across the night sky.",
+  "fr": "Une étoile filante traverse le ciel nocturne.",
+  "adapted": null
+ },
+ {
+  "id": 65,
+  "sources": [
+   "dict:landing.home.features.government.title"
+  ],
+  "en": "Clear answers. Official sources.",
+  "fr": "Des réponses claires. Des sources officielles.",
+  "adapted": null
+ },
+ {
+  "id": 66,
+  "sources": [
+   "dict:landing.home.features.government.body"
+  ],
+  "en": "Every answer is exclusively sourced from federal, state, and local websites.",
+  "fr": "Chaque réponse s’appuie exclusivement sur les sites du gouvernement fédéral, des États et des administrations locales.",
+  "adapted": null
+ },
+ {
+  "id": 67,
+  "sources": [
+   "dict:landing.home.features.government.cta"
+  ],
+  "en": "Learn about sources",
+  "fr": "Nos sources",
+  "adapted": null
+ },
+ {
+  "id": 68,
+  "sources": [
+   "dict:landing.home.features.browser.title"
+  ],
+  "en": "No app to download.",
+  "fr": "Aucune application à télécharger.",
+  "adapted": null
+ },
+ {
+  "id": 69,
+  "sources": [
+   "dict:landing.home.features.browser.body"
+  ],
+  "en": "Just open America.gov in your browser on your phone, tablet, or computer.",
+  "fr": "Ouvrez simplement America.gov dans le navigateur de votre téléphone, tablette ou ordinateur.",
+  "adapted": null
+ },
+ {
+  "id": 70,
+  "sources": [
+   "dict:landing.home.features.browser.cta"
+  ],
+  "en": "Ask a question",
+  "fr": "Poser une question",
+  "adapted": null
+ },
+ {
+  "id": 71,
+  "sources": [
+   "dict:landing.home.features.crowdAlt"
+  ],
+  "en": "A crowd of people seen from above",
+  "fr": "Une foule vue d’en haut",
+  "adapted": null
+ },
+ {
+  "id": 72,
+  "sources": [
+   "dict:landing.home.roadmap.eyebrow",
+   "dict:landing.home.footer.links.roadmap"
+  ],
+  "en": "Coming soon",
+  "fr": "À venir",
+  "adapted": null
+ },
+ {
+  "id": 73,
+  "sources": [
+   "dict:landing.home.roadmap.title",
+   "html:how-it-works/index.html",
+   "static-copy:"
+  ],
+  "en": "More coming in 2027",
+  "fr": "Encore plus en 2027",
+  "adapted": null
+ },
+ {
+  "id": 74,
+  "sources": [
+   "dict:landing.home.roadmap.body",
+   "html:how-it-works/index.html",
+   "static-copy:"
+  ],
+  "en": "Going beyond answers, you’ll be able to complete forms, track progress, and organize everything in one place.",
+  "fr": "Au-delà des réponses, vous pourrez remplir des formulaires, suivre vos démarches et tout organiser au même endroit.",
+  "adapted": null
+ },
+ {
+  "id": 75,
+  "sources": [
+   "dict:landing.home.roadmap.cta",
+   "html:how-it-works/index.html",
+   "static-copy:"
+  ],
+  "en": "See what’s ahead",
+  "fr": "Découvrir la suite",
+  "adapted": null
+ },
+ {
+  "id": 76,
+  "sources": [
+   "dict:landing.home.roadmap.phoneAlt"
+  ],
+  "en": "A phone showing America.gov collecting passport details",
+  "fr": "Un téléphone affichant un formulaire America.gov pour renseigner les informations d’un passeport",
+  "adapted": null
+ },
+ {
+  "id": 77,
+  "sources": [
+   "dict:landing.home.roadmap.previewsLabel"
+  ],
+  "en": "Previews of services planned for 2027",
+  "fr": "Aperçus des services prévus pour 2027",
+  "adapted": null
+ },
+ {
+  "id": 78,
+  "sources": [
+   "dict:landing.home.roadmap.previews.jobs"
+  ],
+  "en": "Find federal jobs matched to your experience. The preview shows uploading a resume and comparing job matches, with details about the agency, location, salary, and remote work.",
+  "fr": "Trouvez des emplois fédéraux adaptés à votre expérience. L’aperçu montre l’importation d’un CV et la comparaison des offres, avec des détails sur l’agence, le lieu, le salaire et le télétravail.",
+  "adapted": null
+ },
+ {
+  "id": 79,
+  "sources": [
+   "dict:landing.home.roadmap.previews.campgrounds"
+  ],
+  "en": "Choose a campground. The preview shows a map and four campgrounds near Greer, Arizona, with photos and addresses.",
+  "fr": "Choisissez un camping. L’aperçu montre une carte et quatre campings près de Greer, en Arizona, avec des photos et des adresses.",
+  "adapted": null
+ },
+ {
+  "id": 80,
+  "sources": [
+   "dict:landing.home.roadmap.previews.medications"
+  ],
+  "en": "Compare medication costs. The preview shows adding Albuterol HFA and choosing its form, strength, and package size.",
+  "fr": "Comparez le coût des médicaments. L’aperçu montre l’ajout d’Albuterol HFA et le choix de sa forme, de son dosage et de son conditionnement.",
+  "adapted": null
+ },
+ {
+  "id": 81,
+  "sources": [
+   "dict:landing.home.roadmap.previews.pharmacies"
+  ],
+  "en": "Choose preferred pharmacies. The preview shows nearby pharmacies on a map, with their names, addresses, and selections.",
+  "fr": "Choisissez vos pharmacies préférées. L’aperçu montre les pharmacies à proximité sur une carte, avec leurs noms, adresses et sélections.",
+  "adapted": null
+ },
+ {
+  "id": 82,
+  "sources": [
+   "dict:landing.home.roadmap.previews.name"
+  ],
+  "en": "Update your legal name across agencies. The preview shows selecting Social Security, MyTravelGov, CBP Trusted Traveler Programs, and Global Entry / TSA PreCheck.",
+  "fr": "Mettez à jour votre nom légal auprès de plusieurs agences. L’aperçu montre la sélection de la Social Security, de MyTravelGov, des programmes de voyageurs de confiance de CBP et de Global Entry / TSA PreCheck.",
+  "adapted": null
+ },
+ {
+  "id": 83,
+  "sources": [
+   "dict:landing.home.roadmap.previews.housing"
+  ],
+  "en": "Find housing. The preview shows a photo and address for Mocksville Place, a multifamily housing development in North Carolina.",
+  "fr": "Trouvez un logement. L’aperçu montre une photo et l’adresse de Mocksville Place, une résidence collective en Caroline du Nord.",
+  "adapted": null
+ },
+ {
+  "id": 84,
+  "sources": [
+   "dict:landing.home.roadmap.previews.passport"
+  ],
+  "en": "Apply for a passport and track its progress. The preview shows confirming a passport photo, submitting an application, and tracking it from submitted to processing with an estimated arrival date.",
+  "fr": "Demandez un passeport et suivez son avancement. L’aperçu montre la confirmation d’une photo de passeport, l’envoi d’une demande et le suivi de son traitement, avec une date d’arrivée estimée.",
+  "adapted": null
+ },
+ {
+  "id": 85,
+  "sources": [
+   "dict:landing.home.roadmap.previews.login"
+  ],
+  "en": "Sign in to access services. The preview shows a Login button.",
+  "fr": "Connectez-vous pour accéder aux services. L’aperçu montre un bouton de connexion.",
+  "adapted": null
+ },
+ {
+  "id": 86,
+  "sources": [
+   "dict:landing.home.footer.navLabel",
+   "dict:footer.navLabel"
+  ],
+  "en": "Footer",
+  "fr": "Pied de page",
+  "adapted": null
+ },
+ {
+  "id": 87,
+  "sources": [
+   "dict:landing.home.footer.poweredBy"
+  ],
+  "en": "Powered by U.S.\n<agency>General Services Administration</agency>",
+  "fr": "Un service de la\n<agency>General Services Administration</agency> des États-Unis",
+  "adapted": null
+ },
+ {
+  "id": 88,
+  "sources": [
+   "dict:landing.home.footer.links.howItWorks",
+   "static-copy:"
+  ],
+  "en": "How it works",
+  "fr": "Comment ça marche",
+  "adapted": null
+ },
+ {
+  "id": 89,
+  "sources": [
+   "dict:landing.home.footer.links.privacy"
+  ],
+  "en": "Privacy",
+  "fr": "Confidentialité",
+  "adapted": null
+ },
+ {
+  "id": 90,
+  "sources": [
+   "dict:landing.home.footer.links.about"
+  ],
+  "en": "About",
+  "fr": "À propos",
+  "adapted": null
+ },
+ {
+  "id": 91,
+  "sources": [
+   "dict:landing.home.footer.links.faq",
+   "static-copy:"
+  ],
+  "en": "Frequently asked questions",
+  "fr": "Questions fréquentes",
+  "adapted": null
+ },
+ {
+  "id": 92,
+  "sources": [
+   "dict:landing.home.footer.links.feedback"
+  ],
+  "en": "Submit feedback",
+  "fr": "Donner un avis",
+  "adapted": null
+ },
+ {
+  "id": 93,
+  "sources": [
+   "dict:landing.home.footer.designedBy"
+  ],
+  "en": "Designed & Engineered in D.C. <studio>by <studioLink>National Design Studio</studioLink></studio>",
+  "fr": "Conçu et développé à D.C. <studio>par <studioLink>National Design Studio</studioLink></studio>",
+  "adapted": null
+ },
+ {
+  "id": 94,
+  "sources": [
+   "dict:landing.home.footer.together",
+   "static-copy:"
+  ],
+  "en": "Every federal agency, working together",
+  "fr": "Toutes les agences fédérales, ensemble.",
+  "adapted": null
+ },
+ {
+  "id": 95,
+  "sources": [
+   "dict:landing.home.footer.leadership",
+   "static-copy:"
+  ],
+  "en": "Led by the GSA, National Design Studio, and the White House.",
+  "fr": "Sous la direction de la GSA, du National Design Studio et de la Maison-Blanche.",
+  "adapted": null
+ },
+ {
+  "id": 96,
+  "sources": [
+   "dict:landing.home.heroFuture"
+  ],
+  "en": "Coming in 2027, America.gov will enable you to apply, enroll, file, and directly action anything else that needs to get done.",
+  "fr": "Dès 2027, America.gov vous permettra de déposer des demandes, de vous inscrire, de remplir vos formalités et d’effectuer directement toutes les démarches nécessaires.",
+  "adapted": null
+ },
+ {
+  "id": 97,
+  "sources": [
+   "dict:landing.heroExampleQuestion"
+  ],
+  "en": "Example question: {prompt}",
+  "fr": "Exemple de question : {prompt}",
+  "adapted": null
+ },
+ {
+  "id": 98,
+  "sources": [
+   "dict:landing.heroTryExample"
+  ],
+  "en": "Try ‘{prompt}’",
+  "fr": "Essayez « {prompt} »",
+  "adapted": null
+ },
+ {
+  "id": 99,
+  "sources": [
+   "dict:home.conversationHeading"
+  ],
+  "en": "Conversation with America",
+  "fr": "Conversation avec America",
+  "adapted": null
+ },
+ {
+  "id": 100,
+  "sources": [
+   "dict:home.welcome"
+  ],
+  "en": "Hello, I’m America — here to help you get things done.",
+  "fr": "Bonjour, je suis America — ici pour vous aider à accomplir vos démarches.",
+  "adapted": null
+ },
+ {
+  "id": 101,
+  "sources": [
+   "dict:home.welcomeFollowUps.passport"
+  ],
+  "en": "How do I renew my passport?",
+  "fr": "Comment renouveler mon passeport ?",
+  "adapted": null
+ },
+ {
+  "id": 102,
+  "sources": [
+   "dict:home.welcomeFollowUps.benefits"
+  ],
+  "en": "What benefits am I eligible for?",
+  "fr": "À quelles aides ai-je droit ?",
+  "adapted": null
+ },
+ {
+  "id": 103,
+  "sources": [
+   "dict:home.leftChat"
+  ],
+  "en": "Left the conversation. You’re back on the America home page.",
+  "fr": "Vous avez quitté la conversation et êtes de retour sur la page d’accueil d’America.",
+  "adapted": null
+ },
+ {
+  "id": 104,
+  "sources": [
+   "dict:askDock.askLabel",
+   "dict:faq.ask.send"
+  ],
+  "en": "Ask America",
+  "fr": "Demander à America",
+  "adapted": null
+ },
+ {
+  "id": 105,
+  "sources": [
+   "dict:askDock.messageLabel"
+  ],
+  "en": "Message",
+  "fr": "Message",
+  "adapted": null
+ },
+ {
+  "id": 106,
+  "sources": [
+   "dict:askDock.placeholder"
+  ],
+  "en": "Ask anything…",
+  "fr": "Posez votre question…",
+  "adapted": null
+ },
+ {
+  "id": 107,
+  "sources": [
+   "dict:footer.links.privacyPolicy"
+  ],
+  "en": "Privacy Policy",
+  "fr": "Politique de confidentialité",
+  "adapted": null
+ },
+ {
+  "id": 108,
+  "sources": [
+   "dict:footer.links.terms"
+  ],
+  "en": "Terms of Use",
+  "fr": "Conditions d’utilisation",
+  "adapted": null
+ },
+ {
+  "id": 109,
+  "sources": [
+   "dict:nav.home",
+   "dict:chrome.home"
+  ],
+  "en": "Home",
+  "fr": "Accueil",
+  "adapted": null
+ },
+ {
+  "id": 110,
+  "sources": [
+   "dict:nav.faq"
+  ],
+  "en": "FAQ",
+  "fr": "FAQ",
+  "adapted": null
+ },
+ {
+  "id": 111,
+  "sources": [
+   "dict:nav.homeLabelAmerica"
+  ],
+  "en": "America.gov home",
+  "fr": "Accueil America.gov",
+  "adapted": null
+ },
+ {
+  "id": 112,
+  "sources": [
+   "dict:nav.closeMenu"
+  ],
+  "en": "Close menu",
+  "fr": "Fermer le menu",
+  "adapted": null
+ },
+ {
+  "id": 113,
+  "sources": [
+   "dict:nav.menuLabel"
+  ],
+  "en": "Menu",
+  "fr": "Menu",
+  "adapted": null
+ },
+ {
+  "id": 114,
+  "sources": [
+   "dict:nav.disclaimer"
+  ],
+  "en": "AI may make mistakes. <terms>Terms</terms> and <privacy>Privacy</privacy>",
+  "fr": "L’IA peut faire des erreurs. <terms>Conditions</terms> et <privacy>Confidentialité</privacy>",
+  "adapted": null
+ },
+ {
+  "id": 115,
+  "sources": [
+   "dict:ui.opensInNewTab"
+  ],
+  "en": "opens in a new tab",
+  "fr": "s’ouvre dans un nouvel onglet",
+  "adapted": null
+ },
+ {
+  "id": 116,
+  "sources": [
+   "dict:ui.retry",
+   "dict:video.retry"
+  ],
+  "en": "Try again",
+  "fr": "Réessayer",
+  "adapted": null
+ },
+ {
+  "id": 117,
+  "sources": [
+   "dict:ui.stopResponse"
+  ],
+  "en": "Stop response",
+  "fr": "Arrêter la réponse",
+  "adapted": null
+ },
+ {
+  "id": 118,
+  "sources": [
+   "dict:ui.attach"
+  ],
+  "en": "Upload PDF",
+  "fr": "Joindre",
+  "adapted": null
+ },
+ {
+  "id": 119,
+  "sources": [
+   "dict:ui.removeAttachment"
+  ],
+  "en": "Remove attachment",
+  "fr": "Supprimer la pièce jointe",
+  "adapted": null
+ },
+ {
+  "id": 120,
+  "sources": [
+   "dict:ui.drop"
+  ],
+  "en": "Drop a document anywhere",
+  "fr": "Déposez un document n’importe où",
+  "adapted": null
+ },
+ {
+  "id": 121,
+  "sources": [
+   "dict:ui.uploading"
+  ],
+  "en": "Uploading",
+  "fr": "Importation…",
+  "adapted": null
+ },
+ {
+  "id": 122,
+  "sources": [
+   "dict:ui.languageError"
+  ],
+  "en": "The language could not be updated. Please try again.",
+  "fr": "Impossible de changer la langue. Veuillez réessayer.",
+  "adapted": null
+ },
+ {
+  "id": 123,
+  "sources": [
+   "dict:ui.languagePending"
+  ],
+  "en": "Changing language…",
+  "fr": "Changement de langue…",
+  "adapted": null
+ },
+ {
+  "id": 124,
+  "sources": [
+   "dict:ui.encrypted"
+  ],
+  "en": "Your privacy",
+  "fr": "Votre vie privée",
+  "adapted": null
+ },
+ {
+  "id": 125,
+  "sources": [
+   "dict:ui.submitting",
+   "dict:feedback.sending",
+   "dict:phoneDemo.cards.sending"
+  ],
+  "en": "Sending…",
+  "fr": "Envoi…",
+  "adapted": null
+ },
+ {
+  "id": 126,
+  "sources": [
+   "dict:ui.continue",
+   "dict:phoneDemo.cards.continue",
+   "static-copy:"
+  ],
+  "en": "Continue",
+  "fr": "Continuer",
+  "adapted": null
+ },
+ {
+  "id": 127,
+  "sources": [
+   "dict:ui.back",
+   "static-copy:"
+  ],
+  "en": "Back",
+  "fr": "Retour",
+  "adapted": null
+ },
+ {
+  "id": 128,
+  "sources": [
+   "dict:ui.cancel"
+  ],
+  "en": "Cancel",
+  "fr": "Annuler",
+  "adapted": null
+ },
+ {
+  "id": 129,
+  "sources": [
+   "dict:ui.submit"
+  ],
+  "en": "Submit",
+  "fr": "Envoyer",
+  "adapted": null
+ },
+ {
+  "id": 130,
+  "sources": [
+   "dict:ui.copy"
+  ],
+  "en": "Copy",
+  "fr": "Copier",
+  "adapted": null
+ },
+ {
+  "id": 131,
+  "sources": [
+   "dict:ui.copied"
+  ],
+  "en": "Copied",
+  "fr": "Copié",
+  "adapted": null
+ },
+ {
+  "id": 132,
+  "sources": [
+   "dict:ui.download"
+  ],
+  "en": "Download",
+  "fr": "Télécharger",
+  "adapted": null
+ },
+ {
+  "id": 133,
+  "sources": [
+   "dict:ui.close"
+  ],
+  "en": "Close",
+  "fr": "Fermer",
+  "adapted": null
+ },
+ {
+  "id": 134,
+  "sources": [
+   "dict:ui.aiMistakes"
+  ],
+  "en": "How AI works",
+  "fr": "Comment fonctionne l’IA",
+  "adapted": null
+ },
+ {
+  "id": 135,
+  "sources": [
+   "dict:ui.preferenceError"
+  ],
+  "en": "Language changed, but the preference could not be saved or shared with other tabs.",
+  "fr": "La langue a changé, mais la préférence n’a pas pu être enregistrée ou partagée avec les autres onglets.",
+  "adapted": null
+ },
+ {
+  "id": 136,
+  "sources": [
+   "dict:sources.title"
+  ],
+  "en": "Sources",
+  "fr": "Sources",
+  "adapted": null
+ },
+ {
+  "id": 137,
+  "sources": [
+   "dict:sources.view"
+  ],
+  "en": "View sources",
+  "fr": "Voir les sources",
+  "adapted": null
+ },
+ {
+  "id": 138,
+  "sources": [
+   "dict:sources.count"
+  ],
+  "en": "{count, plural, one {# source} other {# sources}}",
+  "fr": "{count, plural, one {# source} other {# sources}}",
+  "adapted": null
+ },
+ {
+  "id": 139,
+  "sources": [
+   "dict:legal.updated"
+  ],
+  "en": "Last updated: {date}",
+  "fr": "Dernière mise à jour : {date}",
+  "adapted": null
+ },
+ {
+  "id": 140,
+  "sources": [
+   "dict:legal.notFound.headlines.ohSnap"
+  ],
+  "en": "Oh, snap",
+  "fr": "Oh, zut",
+  "adapted": null
+ },
+ {
+  "id": 141,
+  "sources": [
+   "dict:legal.notFound.headlines.woof"
+  ],
+  "en": "Woof",
+  "fr": "Ouaf",
+  "adapted": null
+ },
+ {
+  "id": 142,
+  "sources": [
+   "dict:legal.notFound.headlines.hotDog"
+  ],
+  "en": "Hot dog",
+  "fr": "Ça alors",
+  "adapted": null
+ },
+ {
+  "id": 143,
+  "sources": [
+   "dict:legal.notFound.headlines.bummerIceCream",
+   "dict:legal.notFound.headlines.bummer"
+  ],
+  "en": "Bummer",
+  "fr": "Dommage",
+  "adapted": null
+ },
+ {
+  "id": 144,
+  "sources": [
+   "dict:legal.notFound.headlines.foulBall"
+  ],
+  "en": "Foul ball",
+  "fr": "Faute !",
+  "adapted": null
+ },
+ {
+  "id": 145,
+  "sources": [
+   "dict:legal.notFound.headlines.ohBoy"
+  ],
+  "en": "Oh boy",
+  "fr": "Oh là là",
+  "adapted": null
+ },
+ {
+  "id": 146,
+  "sources": [
+   "dict:legal.notFound.headlines.whoops"
+  ],
+  "en": "Whoops",
+  "fr": "Oups",
+  "adapted": null
+ },
+ {
+  "id": 147,
+  "sources": [
+   "dict:legal.notFound.headlines.badNewsBears"
+  ],
+  "en": "Bad news bears",
+  "fr": "Pas de chance",
+  "adapted": null
+ },
+ {
+  "id": 148,
+  "sources": [
+   "dict:legal.notFound.headlines.ahhhh"
+  ],
+  "en": "Ahhhh",
+  "fr": "Aaah",
+  "adapted": null
+ },
+ {
+  "id": 149,
+  "sources": [
+   "dict:legal.notFound.headlines.cmon"
+  ],
+  "en": "C’mon",
+  "fr": "Allez",
+  "adapted": null
+ },
+ {
+  "id": 150,
+  "sources": [
+   "dict:legal.notFound.headlines.yikes"
+  ],
+  "en": "Yikes",
+  "fr": "Aïe",
+  "adapted": null
+ },
+ {
+  "id": 151,
+  "sources": [
+   "dict:legal.notFound.message"
+  ],
+  "en": "This page either moved or doesn’t exist.",
+  "fr": "Cette page a été déplacée ou n’existe pas.",
+  "adapted": null
+ },
+ {
+  "id": 152,
+  "sources": [
+   "dict:legal.notFound.prompt"
+  ],
+  "en": "Ask a question or",
+  "fr": "Posez une question ou",
+  "adapted": null
+ },
+ {
+  "id": 153,
+  "sources": [
+   "dict:legal.notFound.home"
+  ],
+  "en": "return Home.",
+  "fr": "retournez à l’accueil.",
+  "adapted": null
+ },
+ {
+  "id": 154,
+  "sources": [
+   "dict:legal.terms.title"
+  ],
+  "en": "Terms of use",
+  "fr": "Conditions d’utilisation",
+  "adapted": null
+ },
+ {
+  "id": 155,
+  "sources": [
+   "dict:legal.terms.description",
+   "html:terms/index.html",
+   "html:terms/index.html",
+   "html:terms/index.html"
+  ],
+  "en": "The terms that apply when you use America.gov.",
+  "fr": "Les conditions qui s’appliquent lorsque vous utilisez America.gov.",
+  "adapted": null
+ },
+ {
+  "id": 156,
+  "sources": [
+   "dict:legal.terms.sections.agreement.heading"
+  ],
+  "en": "Agreement to these terms",
+  "fr": "Acceptation des présentes conditions",
+  "adapted": null
+ },
+ {
+  "id": 157,
+  "sources": [
+   "dict:legal.terms.sections.agreement.paragraphs.1"
+  ],
+  "en": "These Terms of Use apply to America.gov and to the tools and answers served through it. America.gov is an official service of the United States government, operated by the General Services Administration.",
+  "fr": "Les présentes Conditions d’utilisation s’appliquent à America.gov ainsi qu’aux outils et réponses fournis par son intermédiaire. America.gov est un service officiel du gouvernement des États-Unis, exploité par la General Services Administration.",
+  "adapted": null
+ },
+ {
+  "id": 158,
+  "sources": [
+   "dict:legal.terms.sections.agreement.paragraphs.2"
+  ],
+  "en": "By using America.gov you agree to these terms. If you do not agree, do not use the site. We may change these terms as the service changes, and the date at the top of this page tells you when it was last updated.",
+  "fr": "En utilisant America.gov, vous acceptez ces conditions. Si vous ne les acceptez pas, n’utilisez pas le site. Nous pouvons modifier ces conditions à mesure que le service évolue ; la date en haut de cette page indique la dernière mise à jour.",
+  "adapted": null
+ },
+ {
+  "id": 159,
+  "sources": [
+   "dict:legal.terms.sections.service.heading"
+  ],
+  "en": "What America.gov does and does not do",
+  "fr": "Ce qu’America.gov fait et ne fait pas",
+  "adapted": null
+ },
+ {
+  "id": 160,
+  "sources": [
+   "dict:legal.terms.sections.service.paragraphs.1"
+  ],
+  "en": "America.gov helps you find government information and understand the steps for government tasks. It explains information and links to the agency that owns a program. Asking a question here does not submit an application, file a document, or contact an agency on your behalf.",
+  "fr": "America.gov vous aide à trouver des informations gouvernementales et à comprendre les étapes des démarches administratives. Il explique les informations et renvoie vers l’agence responsable d’un programme. Poser une question ici ne dépose pas de demande, ne transmet aucun document et ne contacte aucune agence en votre nom.",
+  "adapted": null
+ },
+ {
+  "id": 161,
+  "sources": [
+   "dict:legal.terms.sections.service.paragraphs.2"
+  ],
+  "en": "America.gov is not the agency of record. It does not decide your eligibility, approve a benefit, or change a filing. Only the responsible agency can do that, and the agency’s own determination always controls.",
+  "fr": "America.gov n’est pas l’agence compétente. Il ne décide pas de votre admissibilité, n’approuve aucune prestation et ne modifie aucun dossier. Seule l’agence responsable peut le faire, et sa propre décision prévaut toujours.",
+  "adapted": null
+ },
+ {
+  "id": 162,
+  "sources": [
+   "dict:legal.terms.sections.ai.heading"
+  ],
+  "en": "Answers generated with AI",
+  "fr": "Réponses générées par l’IA",
+  "adapted": null
+ },
+ {
+  "id": 163,
+  "sources": [
+   "dict:legal.terms.sections.ai.paragraphs.1"
+  ],
+  "en": "Some answers on America.gov are generated with AI. They can be incomplete or wrong, and they can be out of date the moment a program changes.",
+  "fr": "Certaines réponses sur America.gov sont générées par l’intelligence artificielle. Elles peuvent être incomplètes ou erronées, et devenir obsolètes dès qu’un programme change.",
+  "adapted": null
+ },
+ {
+  "id": 164,
+  "sources": [
+   "dict:legal.terms.sections.ai.paragraphs.2"
+  ],
+  "en": "Check the linked source before you act on an answer, especially for anything involving money, immigration status, benefits, or a deadline. Nothing here is legal, tax, medical, or financial advice.",
+  "fr": "Vérifiez la source liée avant d’agir sur la base d’une réponse, en particulier pour tout ce qui concerne l’argent, le statut d’immigration, les prestations ou une échéance. Rien ici ne constitue un conseil juridique, fiscal, médical ou financier.",
+  "adapted": null
+ },
+ {
+  "id": 165,
+  "sources": [
+   "dict:legal.terms.sections.acceptableUse.heading"
+  ],
+  "en": "Acceptable use",
+  "fr": "Utilisation acceptable",
+  "adapted": null
+ },
+ {
+  "id": 166,
+  "sources": [
+   "dict:legal.terms.sections.acceptableUse.paragraphs.1"
+  ],
+  "en": "Use America.gov for its intended purpose. Do not attempt to gain unauthorized access to any part of the service, probe or test its security, or interfere with how it works for other people.",
+  "fr": "Utilisez America.gov aux fins prévues. Ne tentez pas d’accéder sans autorisation à une partie du service, d’en sonder ou tester la sécurité, ni de perturber son fonctionnement pour les autres.",
+  "adapted": null
+ },
+ {
+  "id": 167,
+  "sources": [
+   "dict:legal.terms.sections.acceptableUse.paragraphs.2"
+  ],
+  "en": "Do not use automated tools to scrape the site, place an unreasonable load on it, misrepresent who you are, or use the service to carry out anything unlawful. We may block activity that does any of these things.",
+  "fr": "N’utilisez pas d’outils automatisés pour extraire le contenu du site, ne lui imposez pas une charge déraisonnable, ne vous faites pas passer pour quelqu’un d’autre et n’utilisez pas le service à des fins illicites. Nous pouvons bloquer toute activité de ce type.",
+  "adapted": null
+ },
+ {
+  "id": 168,
+  "sources": [
+   "dict:legal.terms.sections.reuse.heading"
+  ],
+  "en": "Content and reuse",
+  "fr": "Contenu et réutilisation",
+  "adapted": null
+ },
+ {
+  "id": 169,
+  "sources": [
+   "dict:legal.terms.sections.reuse.paragraphs.1"
+  ],
+  "en": "Most content on America.gov is a work of the United States government and is in the public domain. You may use it freely, and you do not need our permission to do so.",
+  "fr": "L’essentiel du contenu d’America.gov est une œuvre du gouvernement des États-Unis et relève du domaine public. Vous pouvez l’utiliser librement, sans notre autorisation.",
+  "adapted": null
+ },
+ {
+  "id": 170,
+  "sources": [
+   "dict:legal.terms.sections.reuse.paragraphs.2"
+  ],
+  "en": "Some material is not ours to license, including third-party logos, trademarks, photographs, and agency seals. Do not use a government seal or logo in a way that suggests endorsement of your product, service, or organization.",
+  "fr": "Nous ne pouvons pas accorder de droits d’utilisation sur certains éléments, notamment les logos, marques et photographies de tiers, ainsi que les sceaux des agences. N’utilisez pas un sceau ou un logo gouvernemental d’une manière qui laisse entendre que le gouvernement soutient votre produit, service ou organisation.",
+  "adapted": null
+ },
+ {
+  "id": 171,
+  "sources": [
+   "dict:legal.terms.sections.links.heading"
+  ],
+  "en": "Links to other sites",
+  "fr": "Liens vers d’autres sites",
+  "adapted": null
+ },
+ {
+  "id": 172,
+  "sources": [
+   "dict:legal.terms.sections.links.paragraphs.1"
+  ],
+  "en": "America.gov links to federal, state, local, tribal, and non-government sites when they are the best answer to your question. A link is not an endorsement.",
+  "fr": "America.gov renvoie vers des sites fédéraux, d’État, locaux, tribaux et non gouvernementaux lorsqu’ils constituent la meilleure réponse à votre question. Un lien ne vaut pas approbation.",
+  "adapted": null
+ },
+ {
+  "id": 173,
+  "sources": [
+   "dict:legal.terms.sections.links.paragraphs.2"
+  ],
+  "en": "Once you leave America.gov, the terms and privacy practices of that site apply. We do not control their content and are not responsible for it.",
+  "fr": "Lorsque vous quittez America.gov, les conditions et pratiques de confidentialité du site que vous consultez s’appliquent. Nous ne contrôlons pas le contenu de ces sites et n’en sommes pas responsables.",
+  "adapted": null
+ },
+ {
+  "id": 174,
+  "sources": [
+   "dict:legal.terms.sections.warranty.heading"
+  ],
+  "en": "No warranty",
+  "fr": "Absence de garantie",
+  "adapted": null
+ },
+ {
+  "id": 175,
+  "sources": [
+   "dict:legal.terms.sections.warranty.paragraphs.1"
+  ],
+  "en": "America.gov is provided as is. We work to keep it accurate and available, but we do not warrant that it will be error-free, uninterrupted, or fit for a particular purpose.",
+  "fr": "America.gov est fourni en l’état. Nous nous efforçons d’assurer l’exactitude de ses informations et sa disponibilité, mais nous ne garantissons pas qu’il soit exempt d’erreurs, accessible sans interruption ou adapté à un usage particulier.",
+  "adapted": null
+ },
+ {
+  "id": 176,
+  "sources": [
+   "dict:legal.terms.sections.warranty.paragraphs.2"
+  ],
+  "en": "To the extent allowed by law, the United States government is not liable for any loss that results from your use of the site or from reliance on an answer it gives you.",
+  "fr": "Dans la mesure permise par la loi, le gouvernement des États-Unis n’est pas responsable des pertes résultant de votre utilisation du site ou de la confiance accordée à une réponse qu’il vous donne.",
+  "adapted": null
+ },
+ {
+  "id": 177,
+  "sources": [
+   "dict:legal.terms.sections.changes.heading"
+  ],
+  "en": "Changes to these terms",
+  "fr": "Modifications des présentes conditions",
+  "adapted": null
+ },
+ {
+  "id": 178,
+  "sources": [
+   "dict:legal.terms.sections.changes.paragraphs.1"
+  ],
+  "en": "We will post any change to these terms on this page and update the date at the top. Continuing to use America.gov after a change means you accept the updated terms.",
+  "fr": "Nous publierons toute modification de ces conditions sur cette page et mettrons à jour la date en haut. Continuer à utiliser America.gov après une modification signifie que vous acceptez les conditions mises à jour.",
+  "adapted": null
+ },
+ {
+  "id": 179,
+  "sources": [
+   "dict:legal.privacy.title"
+  ],
+  "en": "Privacy policy",
+  "fr": "Politique de confidentialité",
+  "adapted": null
+ },
+ {
+  "id": 180,
+  "sources": [
+   "dict:legal.privacy.description",
+   "html:privacy-policy/index.html",
+   "html:privacy-policy/index.html",
+   "html:privacy-policy/index.html"
+  ],
+  "en": "What America.gov collects, how it is used, and the choices you have.",
+  "fr": "Les informations qu’America.gov collecte, leur utilisation et les choix dont vous disposez.",
+  "adapted": null
+ },
+ {
+  "id": 181,
+  "sources": [
+   "dict:legal.privacy.sections.scope.heading"
+  ],
+  "en": "1. Scope of this policy",
+  "fr": "1. Champ d’application de cette politique",
+  "adapted": null
+ },
+ {
+  "id": 182,
+  "sources": [
+   "dict:legal.privacy.sections.scope.paragraphs.1"
+  ],
+  "en": "America.gov is operated by the General Services Administration (GSA). This policy covers America.gov, including the chat surface (“chat”) and the pages served under this domain. It explains what we collect, why we collect it, and what we do with it.",
+  "fr": "America.gov est exploité par la General Services Administration (GSA). La présente politique s’applique à America.gov, y compris à l’interface de discussion (« chat ») et aux pages hébergées sous ce domaine. Elle explique quelles informations nous collectons, pour quelles raisons et comment nous les utilisons.",
+  "adapted": null
+ },
+ {
+  "id": 183,
+  "sources": [
+   "dict:legal.privacy.sections.scope.paragraphs.2"
+  ],
+  "en": "Other government sites we link to have their own privacy policies. When you leave America.gov, this policy stops applying.",
+  "fr": "Les autres sites gouvernementaux vers lesquels nous proposons des liens disposent de leurs propres politiques de confidentialité. La présente politique cesse de s’appliquer lorsque vous quittez America.gov.",
+  "adapted": null
+ },
+ {
+  "id": 184,
+  "sources": [
+   "dict:legal.privacy.sections.input.heading"
+  ],
+  "en": "2. Your questions, attachments, and voice input",
+  "fr": "2. Vos questions, pièces jointes et saisie vocale",
+  "adapted": null
+ },
+ {
+  "id": 185,
+  "sources": [
+   "dict:legal.privacy.sections.input.paragraphs.1"
+  ],
+  "en": "You can browse America.gov without telling us who you are. We do not ask you to create an account to get an answer.",
+  "fr": "Vous pouvez consulter America.gov sans nous communiquer votre identité. Nous ne vous demandons pas de créer un compte pour obtenir une réponse.",
+  "adapted": null
+ },
+ {
+  "id": 186,
+  "sources": [
+   "dict:legal.privacy.sections.input.paragraphs.2"
+  ],
+  "en": "You can use America.gov without giving us personal information. You choose what to include in your question or attachment.",
+  "fr": "Vous pouvez utiliser America.gov sans nous fournir d’informations personnelles. Vous choisissez les informations à inclure dans votre question ou votre pièce jointe.",
+  "adapted": null
+ },
+ {
+  "id": 187,
+  "sources": [
+   "dict:legal.privacy.sections.input.subsections.questions.heading"
+  ],
+  "en": "Questions and conversations",
+  "fr": "Questions et conversations",
+  "adapted": null
+ },
+ {
+  "id": 188,
+  "sources": [
+   "dict:legal.privacy.sections.input.subsections.questions.paragraphs.1"
+  ],
+  "en": "When you ask a question, we process what you type so we can answer it. The application does not save chat history or include message text in its usage analytics unless you explicitly provide feedback using the thumbs up/thumbs down icons.",
+  "fr": "Lorsque vous posez une question, nous traitons le texte que vous saisissez afin d’y répondre. L’application ne conserve pas l’historique des conversations et n’inclut pas le texte des messages dans ses analyses d’utilisation, sauf si vous donnez explicitement votre avis à l’aide des icônes de pouce levé ou baissé.",
+  "adapted": null
+ },
+ {
+  "id": 189,
+  "sources": [
+   "dict:legal.privacy.sections.input.subsections.questions.paragraphs.2"
+  ],
+  "en": "Your conversation and pending questions are held in browser memory. America.gov does not save them as an account history. Your browser may preserve the page and its conversation when you navigate away and return using the Back button.",
+  "fr": "Votre conversation et les questions en attente restent dans la mémoire du navigateur. America.gov ne les enregistre pas dans l’historique d’un compte. Votre navigateur peut conserver la page et sa conversation lorsque vous la quittez puis y revenez avec le bouton Retour.",
+  "adapted": null
+ },
+ {
+  "id": 190,
+  "sources": [
+   "dict:legal.privacy.sections.input.subsections.questions.paragraphs.3"
+  ],
+  "en": "When you ask a question to <america>America.gov</america>, our AI model performs searches across government websites in a secure, sandboxed version of the Internet.",
+  "fr": "Lorsque vous posez une question à <america>America.gov</america>, notre modèle d’IA effectue des recherches sur des sites gouvernementaux dans une version sécurisée d’Internet, au sein d’un environnement isolé.",
+  "adapted": null
+ },
+ {
+  "id": 191,
+  "sources": [
+   "dict:legal.privacy.sections.input.subsections.attachments.heading"
+  ],
+  "en": "PDF attachments",
+  "fr": "Pièces jointes PDF",
+  "adapted": null
+ },
+ {
+  "id": 192,
+  "sources": [
+   "dict:legal.privacy.sections.input.subsections.attachments.paragraphs.1"
+  ],
+  "en": "If you attach a PDF, we extract its text in your browser. Avoid sending PDFs that contain personally identifiable information (PII).",
+  "fr": "Si vous joignez un PDF, nous en extrayons le texte dans votre navigateur. Évitez d’envoyer des PDF contenant des informations permettant d’identifier une personne (PII, selon le sigle anglais).",
+  "adapted": null
+ },
+ {
+  "id": 193,
+  "sources": [
+   "dict:legal.privacy.sections.input.subsections.attachments.paragraphs.2"
+  ],
+  "en": "When a file is uploaded, we will make a best-effort attempt in your browser to remove any private details using <rampart>Rampart</rampart> (an open-source classifier system to detect some types of PII, such as Social Security Numbers, phone numbers, email addresses, and credit card numbers).",
+  "fr": "Lorsqu’un fichier est importé, nous nous efforcerons de supprimer les informations privées dans votre navigateur à l’aide de <rampart>Rampart</rampart>. Ce système de classification à code source ouvert détecte certains types de PII, notamment les numéros de sécurité sociale américains, les numéros de téléphone, les adresses électroniques et les numéros de carte de crédit.",
+  "adapted": null
+ },
+ {
+  "id": 194,
+  "sources": [
+   "dict:legal.privacy.sections.input.subsections.voice.paragraphs.1"
+  ],
+  "en": "America.gov uses your browser’s built-in speech recognition to convert speech into text. The provider depends on your browser and operating system—for example, Google in Chrome, Apple in Safari, or Microsoft Azure in desktop Edge.",
+  "fr": "America.gov utilise la reconnaissance vocale intégrée à votre navigateur pour convertir la parole en texte. Le fournisseur dépend de votre navigateur et de votre système d’exploitation : par exemple, Google pour Chrome, Apple pour Safari ou Microsoft Azure pour la version d’Edge sur ordinateur.",
+  "adapted": null
+ },
+ {
+  "id": 195,
+  "sources": [
+   "dict:legal.privacy.sections.input.subsections.voice.paragraphs.2"
+  ],
+  "en": "Your browser may send microphone audio directly to that provider for transcription under its privacy practices. America.gov’s servers receive the resulting text, which we process like text you type. You can choose to type instead.",
+  "fr": "Votre navigateur peut transmettre directement le son capté par le microphone à ce fournisseur pour transcription, conformément aux pratiques de confidentialité de celui-ci. Les serveurs d’America.gov reçoivent le texte obtenu, que nous traitons de la même manière que le texte que vous saisissez. Vous pouvez choisir de saisir votre texte au clavier.",
+  "adapted": null
+ },
+ {
+  "id": 196,
+  "sources": [
+   "dict:legal.privacy.sections.technical.heading"
+  ],
+  "en": "3. Technical information and approximate location",
+  "fr": "3. Informations techniques et localisation approximative",
+  "adapted": null
+ },
+ {
+  "id": 197,
+  "sources": [
+   "dict:legal.privacy.sections.technical.subsections.requests.heading"
+  ],
+  "en": "Request information and service protection",
+  "fr": "Informations sur les requêtes et protection du service",
+  "adapted": null
+ },
+ {
+  "id": 198,
+  "sources": [
+   "dict:legal.privacy.sections.technical.subsections.requests.paragraphs.1"
+  ],
+  "en": "We receive technical information with requests, including the requested URL, network address, date and time, and headers your browser sends. Application metrics record request routes, response status, timing, and errors.",
+  "fr": "Nous recevons des informations techniques avec les requêtes, notamment l’URL demandée, l’adresse réseau, la date et l’heure, ainsi que les en-têtes transmis par votre navigateur. Les données de fonctionnement enregistrées par l’application comprennent les chemins des requêtes, le statut des réponses, les durées et les erreurs.",
+  "adapted": null
+ },
+ {
+  "id": 199,
+  "sources": [
+   "dict:legal.privacy.sections.technical.subsections.requests.paragraphs.2"
+  ],
+  "en": "We use your IP address to keep the service available and to stop abuse via automated rate limiting. If you hit a rate limit, the address appears in Cloudflare security logs.",
+  "fr": "Nous utilisons votre adresse IP pour assurer la disponibilité du service et prévenir les abus en limitant automatiquement la fréquence des requêtes. Si vous atteignez cette limite, votre adresse figure dans les journaux de sécurité de Cloudflare.",
+  "adapted": null
+ },
+ {
+  "id": 200,
+  "sources": [
+   "dict:legal.privacy.sections.technical.subsections.location.heading",
+   "dict:privacyNotice.location.heading"
+  ],
+  "en": "Approximate location",
+  "fr": "Localisation approximative",
+  "adapted": null
+ },
+ {
+  "id": 201,
+  "sources": [
+   "dict:legal.privacy.sections.technical.subsections.location.paragraphs.1"
+  ],
+  "en": "To include results relevant to your area, we may send our AI providers your general area (such as your city or region), estimated from your network address. This estimate is approximate; we do not use GPS or ask your browser for your precise location.",
+  "fr": "Pour fournir des résultats pertinents dans votre zone géographique, nous pouvons transmettre à nos fournisseurs d’IA votre localisation approximative, par exemple votre ville ou votre région, estimée à partir de votre adresse réseau. Nous n’utilisons pas le GPS et ne demandons pas à votre navigateur votre localisation précise.",
+  "adapted": null
+ },
+ {
+  "id": 202,
+  "sources": [
+   "dict:legal.privacy.sections.storage.heading"
+  ],
+  "en": "4. Cookies, browser storage, and analytics",
+  "fr": "4. Cookies, stockage dans le navigateur et analyses d’utilisation",
+  "adapted": null
+ },
+ {
+  "id": 203,
+  "sources": [
+   "dict:legal.privacy.sections.storage.subsections.browser.heading"
+  ],
+  "en": "Cookies and browser storage",
+  "fr": "Cookies et stockage dans le navigateur",
+  "adapted": null
+ },
+ {
+  "id": 204,
+  "sources": [
+   "dict:legal.privacy.sections.storage.subsections.browser.paragraphs.1"
+  ],
+  "en": "The application does not save language preferences, questions, or diagnostic preferences to cookies, local storage, or session storage. Your language selection is included in the page URL and can persist when you reload, bookmark, or share that URL.",
+  "fr": "L’application n’enregistre ni les préférences de langue, ni les questions, ni les préférences de diagnostic dans des cookies, dans le stockage local ou dans le stockage de session. La langue sélectionnée figure dans l’URL de la page et peut être conservée lorsque vous rechargez cette URL, l’ajoutez aux favoris ou la partagez.",
+  "adapted": null
+ },
+ {
+  "id": 205,
+  "sources": [
+   "dict:legal.privacy.sections.storage.subsections.browser.paragraphs.2"
+  ],
+  "en": "The application removes legacy preferences and pending questions saved by earlier versions. You can also clear site data in your browser settings. Questions included in a page URL can appear in browser history.",
+  "fr": "L’application supprime les anciennes préférences et les questions en attente enregistrées par les versions antérieures. Vous pouvez également effacer les données du site dans les paramètres de votre navigateur. Les questions incluses dans l’URL d’une page peuvent apparaître dans l’historique du navigateur.",
+  "adapted": null
+ },
+ {
+  "id": 206,
+  "sources": [
+   "dict:legal.privacy.sections.storage.subsections.analytics.heading"
+  ],
+  "en": "Analytics",
+  "fr": "Analyses d’utilisation",
+  "adapted": null
+ },
+ {
+  "id": 207,
+  "sources": [
+   "dict:legal.privacy.sections.storage.subsections.analytics.paragraphs.1"
+  ],
+  "en": "We do not use advertising cookies or third-party trackers, and we do not currently participate in federal web analytics programs.",
+  "fr": "Nous n’utilisons ni cookies publicitaires ni traceurs tiers, et nous ne participons actuellement à aucun programme fédéral d’analyse des sites web.",
+  "adapted": null
+ },
+ {
+  "id": 208,
+  "sources": [
+   "dict:legal.privacy.sections.retention.heading"
+  ],
+  "en": "5. Information we store and how long we keep it",
+  "fr": "5. Informations conservées et durées de conservation",
+  "adapted": null
+ },
+ {
+  "id": 209,
+  "sources": [
+   "dict:legal.privacy.sections.retention.subsections.feedback.heading",
+   "dict:feedback.reviewer.feedbackStep"
+  ],
+  "en": "Feedback",
+  "fr": "Avis",
+  "adapted": null
+ },
+ {
+  "id": 210,
+  "sources": [
+   "dict:legal.privacy.sections.retention.subsections.feedback.paragraphs.1"
+  ],
+  "en": "Our feedback form does not ask for your name, email address, or other personal information. When you choose to give us feedback, we store your rating and comments, along with the AI-generated response, sources, and metadata, for up to one year to improve our product. Please do not include personal information in your comments.",
+  "fr": "Notre formulaire d’avis ne demande ni votre nom, ni votre adresse électronique, ni d’autres informations personnelles. Lorsque vous choisissez de nous donner votre avis, nous conservons votre évaluation et vos commentaires, ainsi que la réponse générée par l’IA, les sources et les métadonnées, pendant une durée maximale d’un an afin d’améliorer notre produit. Veuillez ne pas inclure d’informations personnelles dans vos commentaires.",
+  "adapted": null
+ },
+ {
+  "id": 211,
+  "sources": [
+   "dict:legal.privacy.sections.retention.subsections.operations.heading"
+  ],
+  "en": "Operational measurements",
+  "fr": "Mesures de fonctionnement",
+  "adapted": null
+ },
+ {
+  "id": 212,
+  "sources": [
+   "dict:legal.privacy.sections.retention.subsections.operations.paragraphs.1"
+  ],
+  "en": "We record operational measurements, including pseudonymous identifiers, model and tool outcomes, timing, and token counts, to understand usage and improve reliability. We store this for up to 90 days.",
+  "fr": "Nous enregistrons des mesures de fonctionnement, notamment des identifiants pseudonymes, les résultats des modèles et des outils, les durées et le nombre de jetons, afin de comprendre l’utilisation du service et d’en améliorer la fiabilité. Nous conservons ces données pendant une durée maximale de 90 jours.",
+  "adapted": null
+ },
+ {
+  "id": 213,
+  "sources": [
+   "dict:legal.privacy.sections.retention.subsections.cache.heading"
+  ],
+  "en": "Cached responses and search results",
+  "fr": "Réponses et résultats de recherche mis en cache",
+  "adapted": null
+ },
+ {
+  "id": 214,
+  "sources": [
+   "dict:legal.privacy.sections.retention.subsections.cache.paragraphs.1"
+  ],
+  "en": "To improve performance, we store AI-generated responses in Cloudflare KV for up to two hours. We store only a hash of the prompt as the cache key, not the prompt text. The cached response itself is not hashed. We may store search results our AI performs for up to two hours and generated follow-up suggestions for up to 30 days for faster responses.",
+  "fr": "Pour améliorer les performances, nous stockons les réponses générées par l’IA dans Cloudflare KV pendant une durée maximale de deux heures. Nous conservons uniquement une empreinte de hachage de la requête comme clé de cache, et non le texte de la requête. La réponse mise en cache n’est pas hachée. Nous pouvons conserver les résultats des recherches effectuées par notre IA pendant une durée maximale de deux heures et les suggestions de questions de suivi générées pendant une durée maximale de 30 jours afin de répondre plus rapidement.",
+  "adapted": null
+ },
+ {
+  "id": 215,
+  "sources": [
+   "dict:legal.privacy.sections.retention.subsections.security.heading"
+  ],
+  "en": "Security logs",
+  "fr": "Journaux de sécurité",
+  "adapted": null
+ },
+ {
+  "id": 216,
+  "sources": [
+   "dict:legal.privacy.sections.retention.subsections.security.paragraphs.1"
+  ],
+  "en": "We retain Cloudflare security logs, which may include your IP address, for 12 months. Separately, Cloudflare’s published Enterprise retention limits are up to 30 days for its Security Events dataset and up to 90 days for its Security Analytics dataset.",
+  "fr": "Nous conservons les journaux de sécurité de Cloudflare, qui peuvent inclure votre adresse IP, pendant 12 mois. Séparément, les durées de conservation publiées par Cloudflare pour son offre Enterprise sont de 30 jours au maximum pour son jeu de données Security Events et de 90 jours au maximum pour son jeu de données Security Analytics.",
+  "adapted": null
+ },
+ {
+  "id": 217,
+  "sources": [
+   "dict:legal.privacy.sections.sharing.heading"
+  ],
+  "en": "6. How we share information",
+  "fr": "6. Partage des informations",
+  "adapted": null
+ },
+ {
+  "id": 218,
+  "sources": [
+   "dict:legal.privacy.sections.sharing.subsections.providers.heading"
+  ],
+  "en": "Service providers",
+  "fr": "Prestataires de services",
+  "adapted": null
+ },
+ {
+  "id": 219,
+  "sources": [
+   "dict:legal.privacy.sections.sharing.subsections.providers.paragraphs.1"
+  ],
+  "en": "We share information you provide with the vendors who run the infrastructure behind this service under contract to the government. Our AI providers operate under Zero Data Retention (ZDR) agreements and retain none of your prompts or the responses they generate. America.gov’s own response cache is separate and is described in Section 5.",
+  "fr": "Nous partageons les informations que vous fournissez avec les prestataires qui exploitent l’infrastructure de ce service sous contrat avec le gouvernement. Nos fournisseurs d’IA opèrent dans le cadre d’accords de non-conservation des données (Zero Data Retention, ZDR) et ne conservent aucune de vos requêtes ni les réponses qu’ils génèrent. Le cache de réponses propre à America.gov est distinct et décrit à la section 5.",
+  "adapted": null
+ },
+ {
+  "id": 220,
+  "sources": [
+   "dict:legal.privacy.sections.sharing.subsections.providers.paragraphs.2"
+  ],
+  "en": "Our AI providers are contractually prohibited from selling your information, building an advertising profile, or training their AI models with your data.",
+  "fr": "Il est contractuellement interdit à nos fournisseurs d’IA de vendre vos informations, de créer un profil publicitaire ou d’entraîner leurs modèles d’IA avec vos données.",
+  "adapted": null
+ },
+ {
+  "id": 221,
+  "sources": [
+   "dict:legal.privacy.sections.sharing.subsections.legal.heading"
+  ],
+  "en": "Legal requirements and security incidents",
+  "fr": "Obligations légales et incidents de sécurité",
+  "adapted": null
+ },
+ {
+  "id": 222,
+  "sources": [
+   "dict:legal.privacy.sections.sharing.subsections.legal.paragraphs.1"
+  ],
+  "en": "We may also share information when we are required to by law, or when it is necessary to investigate a security incident or an attempt to misuse the service.",
+  "fr": "Nous pouvons également partager des informations lorsque la loi nous y oblige ou lorsque cela est nécessaire pour enquêter sur un incident de sécurité ou une tentative d’utilisation abusive du service.",
+  "adapted": null
+ },
+ {
+  "id": 223,
+  "sources": [
+   "dict:legal.privacy.sections.security.heading"
+  ],
+  "en": "7. Security",
+  "fr": "7. Sécurité",
+  "adapted": null
+ },
+ {
+  "id": 224,
+  "sources": [
+   "dict:legal.privacy.sections.security.paragraphs.1"
+  ],
+  "en": "The America.gov team implements industry-standard security measures in compliance with federal information security regulations; this includes encryption and access controls to protect and isolate user data from unauthorized access, use, or disclosure.",
+  "fr": "L’équipe d’America.gov met en œuvre des mesures de sécurité conformes aux normes du secteur et à la réglementation fédérale en matière de sécurité de l’information. Ces mesures comprennent le chiffrement et les contrôles d’accès pour protéger et isoler les données des utilisateurs contre tout accès, toute utilisation ou toute divulgation non autorisés.",
+  "adapted": null
+ },
+ {
+  "id": 225,
+  "sources": [
+   "dict:legal.privacy.sections.changes.heading"
+  ],
+  "en": "8. Changes to this policy",
+  "fr": "8. Modifications de cette politique",
+  "adapted": null
+ },
+ {
+  "id": 226,
+  "sources": [
+   "dict:legal.privacy.sections.changes.paragraphs.1"
+  ],
+  "en": "We will post any change to this policy on this page and update the date at the top.",
+  "fr": "Nous publierons toute modification de la présente politique sur cette page et mettrons à jour la date figurant en haut de celle-ci.",
+  "adapted": null
+ },
+ {
+  "id": 227,
+  "sources": [
+   "dict:chrome.govBanner.text"
+  ],
+  "en": "An official website of the United States government",
+  "fr": "Un site web officiel du gouvernement des États-Unis",
+  "adapted": null
+ },
+ {
+  "id": 228,
+  "sources": [
+   "dict:chrome.govBanner.title"
+  ],
+  "en": "U.S. Government Websites",
+  "fr": "Sites web du gouvernement des États-Unis",
+  "adapted": null
+ },
+ {
+  "id": 229,
+  "sources": [
+   "dict:chrome.govBanner.about"
+  ],
+  "en": "About U.S. Government Websites",
+  "fr": "À propos des sites web du gouvernement des États-Unis",
+  "adapted": null
+ },
+ {
+  "id": 230,
+  "sources": [
+   "dict:chrome.govBanner.official.heading"
+  ],
+  "en": "Official websites use .gov",
+  "fr": "Les sites web officiels utilisent .gov",
+  "adapted": null
+ },
+ {
+  "id": 231,
+  "sources": [
+   "dict:chrome.govBanner.official.body"
+  ],
+  "en": "A .gov website belongs to an official government organization in the United States.",
+  "fr": "Un site web .gov appartient à une organisation gouvernementale officielle des États-Unis.",
+  "adapted": null
+ },
+ {
+  "id": 232,
+  "sources": [
+   "dict:chrome.govBanner.secure.heading"
+  ],
+  "en": "Secure .gov websites use HTTPS",
+  "fr": "Les sites web .gov sécurisés utilisent HTTPS",
+  "adapted": null
+ },
+ {
+  "id": 233,
+  "sources": [
+   "dict:chrome.govBanner.secure.body"
+  ],
+  "en": "A lock or https:// means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.",
+  "fr": "Un cadenas ou https:// signifie que vous êtes connecté en toute sécurité au site web .gov. Ne partagez des informations sensibles que sur des sites web officiels et sécurisés.",
+  "adapted": null
+ },
+ {
+  "id": 234,
+  "sources": [
+   "dict:privacyNotice.share.heading"
+  ],
+  "en": "Share only what’s needed",
+  "fr": "Ne partagez que le nécessaire",
+  "adapted": null
+ },
+ {
+  "id": 235,
+  "sources": [
+   "dict:privacyNotice.share.body"
+  ],
+  "en": "We try to detect sensitive details before sending your message and may block it so you can edit it. Review what you’ve typed before submitting; we may not catch everything.",
+  "fr": "Nous essayons de détecter les informations sensibles avant d’envoyer votre message et pouvons le bloquer pour que vous le modifiiez. Relisez ce que vous avez saisi avant d’envoyer ; nous ne détectons pas forcément tout.",
+  "adapted": null
+ },
+ {
+  "id": 236,
+  "sources": [
+   "dict:privacyNotice.location.body"
+  ],
+  "en": "To include results relevant to your area, we may send our AI provider a coarse location, such as your city or region, estimated from your network address. We do not use GPS or ask your browser for your precise location.",
+  "fr": "Pour inclure des résultats pertinents pour votre région, nous pouvons transmettre à notre fournisseur d’IA une localisation approximative, comme votre ville ou votre région, estimée à partir de votre adresse réseau. Nous n’utilisons pas le GPS et ne demandons pas votre position précise à votre navigateur.",
+  "adapted": null
+ },
+ {
+  "id": 237,
+  "sources": [
+   "dict:privacyNotice.retention.heading"
+  ],
+  "en": "Limited retention",
+  "fr": "Conservation limitée",
+  "adapted": null
+ },
+ {
+  "id": 238,
+  "sources": [
+   "dict:privacyNotice.retention.body"
+  ],
+  "en": "Our AI providers do not retain your prompts or responses. America.gov may cache responses for up to two hours, using a hash of the prompt rather than storing the prompt text.",
+  "fr": "Nos fournisseurs d’IA ne conservent ni vos requêtes ni les réponses. America.gov peut mettre en cache les réponses pendant une durée maximale de deux heures, en utilisant une empreinte de hachage de la requête plutôt qu’en conservant son texte.",
+  "adapted": null
+ },
+ {
+  "id": 239,
+  "sources": [
+   "dict:mistakes.body"
+  ],
+  "en": "This website uses AI to find and explain government agency information based on available official sources. AI may miss details or misinterpret guidance, and sources may be incomplete or out of date. Check the linked sources before making decisions.",
+  "fr": "Ce site web utilise l’IA pour trouver et expliquer les informations des agences gouvernementales à partir des sources officielles disponibles. L’IA peut omettre des détails ou mal interpréter des consignes, et les sources peuvent être incomplètes ou obsolètes. Consultez les sources liées avant de prendre une décision.",
+  "adapted": null
+ },
+ {
+  "id": 240,
+  "sources": [
+   "dict:feedback.positiveTitle"
+  ],
+  "en": "What was helpful?",
+  "fr": "Qu’est-ce qui vous a été utile ?",
+  "adapted": null
+ },
+ {
+  "id": 241,
+  "sources": [
+   "dict:feedback.feedbackNotice"
+  ],
+  "en": "This form is for website feedback only. We can’t respond to personal questions or requests for customer support.",
+  "fr": "Ce formulaire est réservé aux commentaires sur le site. Nous ne pouvons pas répondre aux questions personnelles ni aux demandes d’assistance.",
+  "adapted": null
+ },
+ {
+  "id": 242,
+  "sources": [
+   "dict:feedback.improveTitle"
+  ],
+  "en": "What could we improve?",
+  "fr": "Que pourrions-nous améliorer ?",
+  "adapted": null
+ },
+ {
+  "id": 243,
+  "sources": [
+   "dict:feedback.thankYou"
+  ],
+  "en": "Thank you",
+  "fr": "Merci",
+  "adapted": null
+ },
+ {
+  "id": 244,
+  "sources": [
+   "dict:feedback.thankYouBody"
+  ],
+  "en": "Your feedback helps us improve",
+  "fr": "Vos commentaires nous aident à nous améliorer",
+  "adapted": null
+ },
+ {
+  "id": 245,
+  "sources": [
+   "dict:feedback.shareMore"
+  ],
+  "en": "Share more feedback",
+  "fr": "Donner un autre avis",
+  "adapted": null
+ },
+ {
+  "id": 246,
+  "sources": [
+   "dict:feedback.details"
+  ],
+  "en": "Add details (optional)",
+  "fr": "Détails supplémentaires (facultatif)",
+  "adapted": null
+ },
+ {
+  "id": 247,
+  "sources": [
+   "dict:feedback.detailsRequired"
+  ],
+  "en": "Add details (required)",
+  "fr": "Détails supplémentaires (obligatoire)",
+  "adapted": null
+ },
+ {
+  "id": 248,
+  "sources": [
+   "dict:feedback.detailsPlain"
+  ],
+  "en": "Add details",
+  "fr": "Détails supplémentaires",
+  "adapted": null
+ },
+ {
+  "id": 249,
+  "sources": [
+   "dict:feedback.emptyDetails"
+  ],
+  "en": "Add details before submitting.",
+  "fr": "Ajoutez des détails avant d’envoyer.",
+  "adapted": null
+ },
+ {
+  "id": 250,
+  "sources": [
+   "dict:feedback.emptyWithReasons"
+  ],
+  "en": "Select a reason or add details before submitting.",
+  "fr": "Sélectionnez un motif ou ajoutez des détails avant d’envoyer.",
+  "adapted": null
+ },
+ {
+  "id": 251,
+  "sources": [
+   "dict:feedback.reason"
+  ],
+  "en": "Select a reason (optional)",
+  "fr": "Sélectionnez un motif (facultatif)",
+  "adapted": null
+ },
+ {
+  "id": 252,
+  "sources": [
+   "dict:feedback.failed",
+   "dict:chatErrors.send.failed",
+   "dict:chatErrors.send.interrupted"
+  ],
+  "en": "Something went wrong.",
+  "fr": "Un problème est survenu.",
+  "adapted": null
+ },
+ {
+  "id": 253,
+  "sources": [
+   "dict:feedback.close"
+  ],
+  "en": "Close feedback",
+  "fr": "Fermer le formulaire d’avis",
+  "adapted": null
+ },
+ {
+  "id": 254,
+  "sources": [
+   "dict:feedback.reasons.notCorrect"
+  ],
+  "en": "The information wasn’t correct",
+  "fr": "Informations incorrectes",
+  "adapted": null
+ },
+ {
+  "id": 255,
+  "sources": [
+   "dict:feedback.reasons.outOfDate"
+  ],
+  "en": "The information seems out of date",
+  "fr": "Les informations semblent obsolètes",
+  "adapted": null
+ },
+ {
+  "id": 256,
+  "sources": [
+   "dict:feedback.reasons.unanswered"
+  ],
+  "en": "It didn’t answer my question",
+  "fr": "La réponse ne répondait pas à ma question",
+  "adapted": null
+ },
+ {
+  "id": 257,
+  "sources": [
+   "dict:feedback.reasons.hardToUnderstand"
+  ],
+  "en": "It was hard to understand",
+  "fr": "Réponse difficile à comprendre",
+  "adapted": null
+ },
+ {
+  "id": 258,
+  "sources": [
+   "dict:feedback.reviewer.heading"
+  ],
+  "en": "Contact details (optional)",
+  "fr": "Coordonnées (facultatif)",
+  "adapted": null
+ },
+ {
+  "id": 259,
+  "sources": [
+   "dict:feedback.reviewer.help"
+  ],
+  "en": "Optionally share your contact details. We’ll remember them and they won’t be sent to the AI.",
+  "fr": "Vous pouvez indiquer vos coordonnées. Nous les mémoriserons sans les transmettre à l’IA.",
+  "adapted": null
+ },
+ {
+  "id": 260,
+  "sources": [
+   "dict:feedback.reviewer.name"
+  ],
+  "en": "First name (optional)",
+  "fr": "Prénom (facultatif)",
+  "adapted": null
+ },
+ {
+  "id": 261,
+  "sources": [
+   "dict:feedback.reviewer.title"
+  ],
+  "en": "Title (optional)",
+  "fr": "Fonction (facultative)",
+  "adapted": null
+ },
+ {
+  "id": 262,
+  "sources": [
+   "dict:feedback.reviewer.agency"
+  ],
+  "en": "Agency (optional)",
+  "fr": "Organisme (facultatif)",
+  "adapted": null
+ },
+ {
+  "id": 263,
+  "sources": [
+   "dict:feedback.reviewer.email"
+  ],
+  "en": "Email (optional)",
+  "fr": "Adresse e-mail (facultative)",
+  "adapted": null
+ },
+ {
+  "id": 264,
+  "sources": [
+   "dict:feedback.reviewer.invalid"
+  ],
+  "en": "Check your contact details and enter a valid email address.",
+  "fr": "Vérifiez vos coordonnées et saisissez une adresse e-mail valide.",
+  "adapted": null
+ },
+ {
+  "id": 265,
+  "sources": [
+   "dict:feedback.reviewer.rememberFailed"
+  ],
+  "en": "Your browser could not remember your details. You can still send feedback.",
+  "fr": "Votre navigateur n’a pas pu mémoriser vos coordonnées. Vous pouvez tout de même envoyer votre avis.",
+  "adapted": null
+ },
+ {
+  "id": 266,
+  "sources": [
+   "dict:feedback.reviewer.steps"
+  ],
+  "en": "Feedback steps",
+  "fr": "Étapes du formulaire d’avis",
+  "adapted": null
+ },
+ {
+  "id": 267,
+  "sources": [
+   "dict:feedback.reviewer.contactStep"
+  ],
+  "en": "Contact details",
+  "fr": "Coordonnées",
+  "adapted": null
+ },
+ {
+  "id": 268,
+  "sources": [
+   "dict:feedback.reviewer.skip"
+  ],
+  "en": "Skip for now",
+  "fr": "Passer cette étape",
+  "adapted": null
+ },
+ {
+  "id": 269,
+  "sources": [
+   "dict:chat.assistantResponse"
+  ],
+  "en": "Assistant response {number}",
+  "fr": "Réponse de l’assistant {number}",
+  "adapted": null
+ },
+ {
+  "id": 270,
+  "sources": [
+   "dict:chat.appMessage"
+  ],
+  "en": "Message from America",
+  "fr": "Message d’America",
+  "adapted": null
+ },
+ {
+  "id": 271,
+  "sources": [
+   "dict:chat.suggestedFollowUps"
+  ],
+  "en": "Suggested follow-ups",
+  "fr": "Questions suggérées",
+  "adapted": null
+ },
+ {
+  "id": 272,
+  "sources": [
+   "dict:chat.attachment"
+  ],
+  "en": "Attachment",
+  "fr": "Pièce jointe",
+  "adapted": null
+ },
+ {
+  "id": 273,
+  "sources": [
+   "dict:chat.attachedImage"
+  ],
+  "en": "Attached image",
+  "fr": "Image jointe",
+  "adapted": null
+ },
+ {
+  "id": 274,
+  "sources": [
+   "dict:chat.pdfPages"
+  ],
+  "en": "PDF · {count, plural, one {# page} other {# pages}}",
+  "fr": "PDF · {count, plural, one {# page} other {# pages}}",
+  "adapted": null
+ },
+ {
+  "id": 275,
+  "sources": [
+   "dict:chat.messageActions"
+  ],
+  "en": "Message actions",
+  "fr": "Actions du message",
+  "adapted": null
+ },
+ {
+  "id": 276,
+  "sources": [
+   "dict:chat.checkingMessage"
+  ],
+  "en": "Checking message",
+  "fr": "Vérification du message",
+  "adapted": null
+ },
+ {
+  "id": 277,
+  "sources": [
+   "dict:chat.quotedAskLead"
+  ],
+  "en": "Tell me more about",
+  "fr": "Dites-m’en plus sur",
+  "adapted": null
+ },
+ {
+  "id": 278,
+  "sources": [
+   "dict:chat.dropFile"
+  ],
+  "en": "Drop a file anywhere",
+  "fr": "Déposez un fichier n’importe où",
+  "adapted": null
+ },
+ {
+  "id": 279,
+  "sources": [
+   "dict:chat.pdfUploadedPrompt"
+  ],
+  "en": "Please help me with this PDF.",
+  "fr": "Aidez-moi avec ce PDF, s’il vous plaît.",
+  "adapted": null
+ },
+ {
+  "id": 280,
+  "sources": [
+   "dict:chat.modelEndedChat"
+  ],
+  "en": "America has ended this chat.",
+  "fr": "America a mis fin à cette discussion.",
+  "adapted": null
+ },
+ {
+  "id": 281,
+  "sources": [
+   "dict:chat.suicideSupportTitle"
+  ],
+  "en": "You can get support right now",
+  "fr": "Vous pouvez obtenir de l’aide maintenant",
+  "adapted": null
+ },
+ {
+  "id": 282,
+  "sources": [
+   "dict:chat.suicideSupportBody"
+  ],
+  "en": "If you or someone you know is thinking about suicide or self-harm, call or text 988 in the U.S. for free, confidential support, 24/7.",
+  "fr": "Si vous ou une personne de votre entourage avez des pensées suicidaires ou l’envie de vous faire du mal, appelez le 988 ou envoyez un SMS à ce numéro aux États-Unis. Un soutien gratuit et confidentiel est disponible 24 h/24, 7 j/7.",
+  "adapted": null
+ },
+ {
+  "id": 283,
+  "sources": [
+   "dict:chat.call988"
+  ],
+  "en": "Call 988",
+  "fr": "Appeler le 988",
+  "adapted": null
+ },
+ {
+  "id": 284,
+  "sources": [
+   "dict:chat.text988"
+  ],
+  "en": "Text 988",
+  "fr": "Envoyer un SMS au 988",
+  "adapted": null
+ },
+ {
+  "id": 285,
+  "sources": [
+   "dict:chat.crisisSupport"
+  ],
+  "en": "988 Lifeline",
+  "fr": "Ligne 988",
+  "adapted": null
+ },
+ {
+  "id": 286,
+  "sources": [
+   "dict:chat.veteransSupportTitle"
+  ],
+  "en": "Support is available right now.",
+  "fr": "Une aide est disponible dès maintenant.",
+  "adapted": null
+ },
+ {
+  "id": 287,
+  "sources": [
+   "dict:chat.veteransSupportBody"
+  ],
+  "en": "Trained responders at the Veterans Crisis Line are ready to help. It's free, confidential, and many responders are Veterans themselves. You don't need to be enrolled in VA benefits to reach out.",
+  "fr": "Les intervenants formés de la Veterans Crisis Line sont prêts à vous aider. Ce service est gratuit et confidentiel, et beaucoup d’intervenants sont eux-mêmes d’anciens militaires. Vous n’avez pas besoin d’être inscrit aux prestations du VA pour les contacter.",
+  "adapted": null
+ },
+ {
+  "id": 288,
+  "sources": [
+   "dict:chat.callVeteransCrisis"
+  ],
+  "en": "Call 988 and select 1",
+  "fr": "Appeler le 988, puis taper 1",
+  "adapted": null
+ },
+ {
+  "id": 289,
+  "sources": [
+   "dict:chat.textVeteransCrisis"
+  ],
+  "en": "Text 838255",
+  "fr": "Envoyer un SMS au 838255",
+  "adapted": null
+ },
+ {
+  "id": 290,
+  "sources": [
+   "dict:chat.chatVeteransCrisis"
+  ],
+  "en": "Chat at VeteransCrisisLine.net",
+  "fr": "Discuter sur VeteransCrisisLine.net",
+  "adapted": null
+ },
+ {
+  "id": 291,
+  "sources": [
+   "dict:chat.endedChatTitle"
+  ],
+  "en": "Let’s start over.",
+  "fr": "Reprenons depuis le début.",
+  "adapted": null
+ },
+ {
+  "id": 292,
+  "sources": [
+   "dict:chat.endedChatDescription"
+  ],
+  "en": "America.gov can’t continue this conversation. Start a new chat whenever you’d like to ask something else.",
+  "fr": "America.gov ne peut pas poursuivre cette conversation. Vous pouvez commencer une nouvelle discussion pour poser une autre question.",
+  "adapted": null
+ },
+ {
+  "id": 293,
+  "sources": [
+   "dict:chat.inputBlockedDescription"
+  ],
+  "en": "You can edit your message below and try asking a different way.",
+  "fr": "Vous pouvez modifier votre message ci-dessous et reformuler votre question.",
+  "adapted": null
+ },
+ {
+  "id": 294,
+  "sources": [
+   "dict:chat.chooseAnotherFile"
+  ],
+  "en": "Choose another file",
+  "fr": "Choisir un autre fichier",
+  "adapted": null
+ },
+ {
+  "id": 295,
+  "sources": [
+   "dict:chat.restorePrompt"
+  ],
+  "en": "Edit rejected prompt",
+  "fr": "Modifier le message refusé",
+  "adapted": null
+ },
+ {
+  "id": 296,
+  "sources": [
+   "dict:chat.firstGovEnabled"
+  ],
+  "en": "Hey there, 2001",
+  "fr": "Salut, 2001",
+  "adapted": null
+ },
+ {
+  "id": 297,
+  "sources": [
+   "dict:chat.retroEnabled"
+  ],
+  "en": "Hey there, 1983",
+  "fr": "Salut, 1983",
+  "adapted": null
+ },
+ {
+  "id": 298,
+  "sources": [
+   "dict:chat.returnToAmerica"
+  ],
+  "en": "Return to America.gov",
+  "fr": "Revenir à America.gov",
+  "adapted": null
+ },
+ {
+  "id": 299,
+  "sources": [
+   "dict:chat.startNewChat"
+  ],
+  "en": "Start new chat",
+  "fr": "Nouvelle discussion",
+  "adapted": null
+ },
+ {
+  "id": 300,
+  "sources": [
+   "dict:chat.retryTitle"
+  ],
+  "en": "Trying that again…",
+  "fr": "Nous réessayons…",
+  "adapted": null
+ },
+ {
+  "id": 301,
+  "sources": [
+   "dict:chat.retryBody"
+  ],
+  "en": "Preparing a new response…",
+  "fr": "Préparation d’une nouvelle réponse…",
+  "adapted": null
+ },
+ {
+  "id": 302,
+  "sources": [
+   "dict:chat.retryFailedTitle",
+   "dict:chatErrors.send.generationFailed"
+  ],
+  "en": "Sorry, we couldn’t generate a response right now.",
+  "fr": "Désolé, nous ne pouvons pas générer de réponse pour le moment.",
+  "adapted": null
+ },
+ {
+  "id": 303,
+  "sources": [
+   "dict:chat.statusThinking"
+  ],
+  "en": "Thinking…",
+  "fr": "Réflexion en cours…",
+  "adapted": null
+ },
+ {
+  "id": 304,
+  "sources": [
+   "dict:chat.statusWorking"
+  ],
+  "en": "Working through your request…",
+  "fr": "Traitement de votre demande…",
+  "adapted": null
+ },
+ {
+  "id": 305,
+  "sources": [
+   "dict:chat.statusThinkingLonger"
+  ],
+  "en": "Thinking a little longer…",
+  "fr": "Encore un peu de réflexion…",
+  "adapted": null
+ },
+ {
+  "id": 306,
+  "sources": [
+   "dict:chat.statusStillWorking"
+  ],
+  "en": "Still working through your request…",
+  "fr": "Traitement toujours en cours…",
+  "adapted": null
+ },
+ {
+  "id": 307,
+  "sources": [
+   "dict:chat.statusTakingMoreTime"
+  ],
+  "en": "Taking a little more time…",
+  "fr": "Encore un peu de temps…",
+  "adapted": null
+ },
+ {
+  "id": 308,
+  "sources": [
+   "dict:chat.statusReviewingSources"
+  ],
+  "en": "Reviewing sources…",
+  "fr": "Examen des sources…",
+  "adapted": null
+ },
+ {
+  "id": 309,
+  "sources": [
+   "dict:chat.statusPreparingAnswer"
+  ],
+  "en": "Preparing your answer…",
+  "fr": "Préparation de votre réponse…",
+  "adapted": null
+ },
+ {
+  "id": 310,
+  "sources": [
+   "dict:chat.statusLookingUp"
+  ],
+  "en": "Looking that up…",
+  "fr": "Recherche en cours…",
+  "adapted": null
+ },
+ {
+  "id": 311,
+  "sources": [
+   "dict:chat.statusWaitingResults"
+  ],
+  "en": "Waiting for results…",
+  "fr": "En attente des résultats…",
+  "adapted": null
+ },
+ {
+  "id": 312,
+  "sources": [
+   "dict:chat.statusCheckingSources"
+  ],
+  "en": "Checking official sources…",
+  "fr": "Consultation des sources officielles…",
+  "adapted": null
+ },
+ {
+  "id": 313,
+  "sources": [
+   "dict:chat.statusGatheringInformation"
+  ],
+  "en": "Gathering current agency information…",
+  "fr": "Recherche d’informations à jour auprès des agences…",
+  "adapted": null
+ },
+ {
+  "id": 314,
+  "sources": [
+   "dict:chat.statusLookingUpGuidance"
+  ],
+  "en": "Looking up the official guidance…",
+  "fr": "Recherche des consignes officielles…",
+  "adapted": null
+ },
+ {
+  "id": 315,
+  "sources": [
+   "dict:chat.responsePreparing"
+  ],
+  "en": "Preparing your response.",
+  "fr": "Préparation de votre réponse.",
+  "adapted": null
+ },
+ {
+  "id": 316,
+  "sources": [
+   "dict:chat.skipToLatestResponse"
+  ],
+  "en": "Skip to latest response",
+  "fr": "Aller à la dernière réponse",
+  "adapted": null
+ },
+ {
+  "id": 317,
+  "sources": [
+   "dict:chat.skipToMessageInput"
+  ],
+  "en": "Skip to message input",
+  "fr": "Aller au champ de message",
+  "adapted": null
+ },
+ {
+  "id": 318,
+  "sources": [
+   "dict:chat.responseReady"
+  ],
+  "en": "Response ready.{sources, select, yes { Sources are available.} other {}}{followUps, select, yes { Suggested follow-ups are available.} other {}} Use “Skip to latest response” to read it.",
+  "fr": "La réponse est prête.{sources, select, yes { Des sources sont disponibles.} other {}}{followUps, select, yes { Des questions complémentaires sont proposées.} other {}} Utilisez «Aller à la dernière réponse» pour la lire.",
+  "adapted": null
+ },
+ {
+  "id": 319,
+  "sources": [
+   "dict:attachments.readingPdf"
+  ],
+  "en": "Reading PDF…",
+  "fr": "Lecture du PDF…",
+  "adapted": null
+ },
+ {
+  "id": 320,
+  "sources": [
+   "dict:attachments.scrubbingPdf"
+  ],
+  "en": "Anonymizing...",
+  "fr": "Anonymisation…",
+  "adapted": null
+ },
+ {
+  "id": 321,
+  "sources": [
+   "dict:phoneDemo.previews.chooseCampground"
+  ],
+  "en": "Choose a campground near Greer, AZ",
+  "fr": "Choisissez un camping près de Greer (AZ)",
+  "adapted": null
+ },
+ {
+  "id": 322,
+  "sources": [
+   "dict:phoneDemo.previews.select"
+  ],
+  "en": "Select",
+  "fr": "Choisir",
+  "adapted": null
+ },
+ {
+  "id": 323,
+  "sources": [
+   "dict:phoneDemo.previews.selectCampground"
+  ],
+  "en": "Select {title}",
+  "fr": "Choisir {title}",
+  "adapted": null
+ },
+ {
+  "id": 324,
+  "sources": [
+   "dict:phoneDemo.previews.expandMap"
+  ],
+  "en": "Expand map",
+  "fr": "Agrandir la carte",
+  "adapted": null
+ },
+ {
+  "id": 325,
+  "sources": [
+   "dict:phoneDemo.previews.centerMap"
+  ],
+  "en": "Center map",
+  "fr": "Centrer la carte",
+  "adapted": null
+ },
+ {
+  "id": 326,
+  "sources": [
+   "dict:phoneDemo.previews.zoomIn"
+  ],
+  "en": "Zoom in",
+  "fr": "Zoom avant",
+  "adapted": null
+ },
+ {
+  "id": 327,
+  "sources": [
+   "dict:phoneDemo.previews.zoomOut"
+  ],
+  "en": "Zoom out",
+  "fr": "Zoom arrière",
+  "adapted": null
+ },
+ {
+  "id": 328,
+  "sources": [
+   "dict:phoneDemo.previews.updateName"
+  ],
+  "en": "Update your legal name across agencies",
+  "fr": "Mettez à jour votre nom officiel auprès des agences",
+  "adapted": null
+ },
+ {
+  "id": 329,
+  "sources": [
+   "dict:phoneDemo.previews.housingDescription"
+  ],
+  "en": "Mocksville Place, Multifamily housing development",
+  "fr": "Mocksville Place, ensemble de logements collectifs",
+  "adapted": null
+ },
+ {
+  "id": 330,
+  "sources": [
+   "dict:phoneDemo.previews.ratingLabel"
+  ],
+  "en": "Demo disability rating",
+  "fr": "Taux d’invalidité (démo)",
+  "adapted": null
+ },
+ {
+  "id": 331,
+  "sources": [
+   "dict:phoneDemo.previews.ratingValue"
+  ],
+  "en": "{count, number} percent",
+  "fr": "{count, number} pour cent",
+  "adapted": null
+ },
+ {
+  "id": 332,
+  "sources": [
+   "dict:phoneDemo.previews.compensationDisclaimer"
+  ],
+  "en": "Interactive preview only. This sample amount does not change with the slider and is not a benefits estimate.",
+  "fr": "Aperçu interactif uniquement. Le montant donné en exemple ne change pas avec le curseur et ne constitue pas une estimation de vos prestations.",
+  "adapted": null
+ },
+ {
+  "id": 333,
+  "sources": [
+   "dict:phoneDemo.previews.medicationForm"
+  ],
+  "en": "Form",
+  "fr": "Forme",
+  "adapted": null
+ },
+ {
+  "id": 334,
+  "sources": [
+   "dict:phoneDemo.previews.medicationStrength"
+  ],
+  "en": "Strength",
+  "fr": "Dosage",
+  "adapted": null
+ },
+ {
+  "id": 335,
+  "sources": [
+   "dict:phoneDemo.previews.medicationSize"
+  ],
+  "en": "Size",
+  "fr": "Contenance",
+  "adapted": null
+ },
+ {
+  "id": 336,
+  "sources": [
+   "dict:phoneDemo.previews.inhaler"
+  ],
+  "en": "HFA Inhaler",
+  "fr": "Inhalateur HFA",
+  "adapted": null
+ },
+ {
+  "id": 337,
+  "sources": [
+   "dict:phoneDemo.previews.tablet"
+  ],
+  "en": "Tablet",
+  "fr": "Comprimé",
+  "adapted": null
+ },
+ {
+  "id": 338,
+  "sources": [
+   "dict:phoneDemo.previews.estimatedRating"
+  ],
+  "en": "Estimated disability rating",
+  "fr": "Taux d’invalidité estimé",
+  "adapted": null
+ },
+ {
+  "id": 339,
+  "sources": [
+   "dict:phoneDemo.previews.ratingBreakdown"
+  ],
+  "en": "Right arm 40% · Left leg 10%",
+  "fr": "Bras droit 40 % · Jambe gauche 10 %",
+  "adapted": null
+ },
+ {
+  "id": 340,
+  "sources": [
+   "dict:phoneDemo.previews.fileClaim"
+  ],
+  "en": "File claim",
+  "fr": "Déposer une demande",
+  "adapted": null
+ },
+ {
+  "id": 341,
+  "sources": [
+   "dict:phoneDemo.previews.fileClaimAction"
+  ],
+  "en": "File a claim",
+  "fr": "Demander",
+  "adapted": null
+ },
+ {
+  "id": 342,
+  "sources": [
+   "dict:phoneDemo.previews.identityVerified"
+  ],
+  "en": "Identity verified",
+  "fr": "Identité vérifiée",
+  "adapted": null
+ },
+ {
+  "id": 343,
+  "sources": [
+   "dict:phoneDemo.previews.signedIn"
+  ],
+  "en": "Signed in to Login.gov",
+  "fr": "Connecté à Login.gov",
+  "adapted": null
+ },
+ {
+  "id": 344,
+  "sources": [
+   "dict:phoneDemo.previews.bookCampsite"
+  ],
+  "en": "Book campsite",
+  "fr": "Réserver",
+  "adapted": null
+ },
+ {
+  "id": 345,
+  "sources": [
+   "dict:phoneDemo.previews.submitPassport"
+  ],
+  "en": "Submit passport application",
+  "fr": "Envoyer la demande",
+  "adapted": null
+ },
+ {
+  "id": 346,
+  "sources": [
+   "dict:phoneDemo.label"
+  ],
+  "en": "Upcoming America chat features",
+  "fr": "Prochaines fonctionnalités de la discussion America",
+  "adapted": null
+ },
+ {
+  "id": 347,
+  "sources": [
+   "dict:phoneDemo.description"
+  ],
+  "en": "Preview of upcoming features: explore VA disability compensation, find camping, check prescription coverage, and update your name across agencies.",
+  "fr": "Aperçu des prochaines fonctionnalités : découvrir les indemnités d’invalidité du VA, trouver un camping, vérifier la prise en charge des médicaments sur ordonnance et mettre à jour votre nom auprès des agences.",
+  "adapted": null
+ },
+ {
+  "id": 348,
+  "sources": [
+   "dict:phoneDemo.play"
+  ],
+  "en": "Play demo",
+  "fr": "Lancer la démonstration",
+  "adapted": null
+ },
+ {
+  "id": 349,
+  "sources": [
+   "dict:phoneDemo.pause"
+  ],
+  "en": "Pause demo",
+  "fr": "Mettre la démonstration en pause",
+  "adapted": null
+ },
+ {
+  "id": 350,
+  "sources": [
+   "dict:phoneDemo.scenes.disability.prompt"
+  ],
+  "en": "What are my disability benefits?",
+  "fr": "À quelles prestations d’invalidité ai-je droit ?",
+  "adapted": null
+ },
+ {
+  "id": 351,
+  "sources": [
+   "dict:phoneDemo.scenes.disability.reply"
+  ],
+  "en": "Happy to help with that. Here’s what you’ve earned through your service.",
+  "fr": "Avec plaisir. Voici les droits que vous avez acquis grâce à votre service militaire.",
+  "adapted": null
+ },
+ {
+  "id": 352,
+  "sources": [
+   "dict:phoneDemo.scenes.camping.prompt"
+  ],
+  "en": "Help me find camping near Moab",
+  "fr": "Pouvez-vous m’aider à trouver un camping près de Moab ?",
+  "adapted": null
+ },
+ {
+  "id": 353,
+  "sources": [
+   "dict:phoneDemo.scenes.camping.reply"
+  ],
+  "en": "I can help with that.",
+  "fr": "Je peux vous aider.",
+  "adapted": null
+ },
+ {
+  "id": 354,
+  "sources": [
+   "dict:phoneDemo.scenes.medication.prompt"
+  ],
+  "en": "Does Medicare cover my prescriptions?",
+  "fr": "Medicare couvre-t-il mes médicaments sur ordonnance ?",
+  "adapted": null
+ },
+ {
+  "id": 355,
+  "sources": [
+   "dict:phoneDemo.scenes.medication.reply"
+  ],
+  "en": "Let’s add your medications to help you find coverage that fits.",
+  "fr": "Ajoutons vos médicaments pour trouver une couverture adaptée à vos besoins.",
+  "adapted": null
+ },
+ {
+  "id": 356,
+  "sources": [
+   "dict:phoneDemo.scenes.nameChange.prompt"
+  ],
+  "en": "How do I change my name?",
+  "fr": "Comment changer de nom ?",
+  "adapted": null
+ },
+ {
+  "id": 357,
+  "sources": [
+   "dict:phoneDemo.scenes.nameChange.reply"
+  ],
+  "en": "I can help you update your legal name across the agencies that need it—all from here. Social Security goes first, since the others verify against it and update automatically.",
+  "fr": "Je peux vous aider à mettre à jour votre nom officiel auprès des agences concernées, directement ici. Commençons par la Social Security : les autres agences s’appuient sur ses données pour vérifier votre nom et le mettre à jour automatiquement.",
+  "adapted": null
+ },
+ {
+  "id": 358,
+  "sources": [
+   "dict:phoneDemo.cards.addDisabilities"
+  ],
+  "en": "Add your disabilities and rating",
+  "fr": "Ajoutez vos handicaps et leur taux d’invalidité",
+  "adapted": null
+ },
+ {
+  "id": 359,
+  "sources": [
+   "dict:phoneDemo.cards.type"
+  ],
+  "en": "Type",
+  "fr": "Type",
+  "adapted": null
+ },
+ {
+  "id": 360,
+  "sources": [
+   "dict:phoneDemo.cards.rating"
+  ],
+  "en": "Rating",
+  "fr": "Taux",
+  "adapted": null
+ },
+ {
+  "id": 361,
+  "sources": [
+   "dict:phoneDemo.cards.seeResults"
+  ],
+  "en": "See my results",
+  "fr": "Voir mes résultats",
+  "adapted": null
+ },
+ {
+  "id": 362,
+  "sources": [
+   "dict:phoneDemo.cards.disabilityRating"
+  ],
+  "en": "Disability rating",
+  "fr": "Taux d’invalidité",
+  "adapted": null
+ },
+ {
+  "id": 363,
+  "sources": [
+   "dict:phoneDemo.cards.estimatedCompensation"
+  ],
+  "en": "Estimated compensation",
+  "fr": "Indemnisation estimée",
+  "adapted": null
+ },
+ {
+  "id": 364,
+  "sources": [
+   "dict:phoneDemo.cards.monthly"
+  ],
+  "en": "Monthly",
+  "fr": "Par mois",
+  "adapted": null
+ },
+ {
+  "id": 365,
+  "sources": [
+   "dict:phoneDemo.cards.annually"
+  ],
+  "en": "Annually",
+  "fr": "Par an",
+  "adapted": null
+ },
+ {
+  "id": 366,
+  "sources": [
+   "dict:phoneDemo.cards.estimateNote"
+  ],
+  "en": "This is an estimate based on the details you provided. VA makes the final decision.",
+  "fr": "Il s’agit d’une estimation fondée sur les informations fournies. Le VA prend la décision finale.",
+  "adapted": null
+ },
+ {
+  "id": 367,
+  "sources": [
+   "dict:phoneDemo.cards.apply",
+   "static-copy:"
+  ],
+  "en": "Apply",
+  "fr": "Faire une demande",
+  "adapted": null
+ },
+ {
+  "id": 368,
+  "sources": [
+   "dict:phoneDemo.cards.remove"
+  ],
+  "en": "Remove",
+  "fr": "Retirer",
+  "adapted": null
+ },
+ {
+  "id": 369,
+  "sources": [
+   "dict:phoneDemo.cards.strength"
+  ],
+  "en": "Strength (mg)",
+  "fr": "Dosage (mg)",
+  "adapted": null
+ },
+ {
+  "id": 370,
+  "sources": [
+   "dict:phoneDemo.cards.count"
+  ],
+  "en": "Count",
+  "fr": "Quantité",
+  "adapted": null
+ },
+ {
+  "id": 371,
+  "sources": [
+   "dict:phoneDemo.cards.commonExamples"
+  ],
+  "en": "Common examples",
+  "fr": "Exemples courants",
+  "adapted": null
+ },
+ {
+  "id": 372,
+  "sources": [
+   "dict:phoneDemo.cards.add"
+  ],
+  "en": "Add",
+  "fr": "Ajouter",
+  "adapted": null
+ },
+ {
+  "id": 373,
+  "sources": [
+   "dict:phoneDemo.cards.agenciesFound"
+  ],
+  "en": "We found 4 agencies to update",
+  "fr": "4 agences où mettre votre nom à jour",
+  "adapted": null
+ },
+ {
+  "id": 374,
+  "sources": [
+   "dict:chatErrors.emptyMessage"
+  ],
+  "en": "Enter a message before sending.",
+  "fr": "Saisissez un message avant de l’envoyer.",
+  "adapted": null
+ },
+ {
+  "id": 375,
+  "sources": [
+   "dict:chatErrors.attachments.unsupportedFile"
+  ],
+  "en": "Only PDF files are supported.",
+  "fr": "Seuls les fichiers PDF sont pris en charge.",
+  "adapted": null
+ },
+ {
+  "id": 376,
+  "sources": [
+   "dict:chatErrors.attachments.tooManyPdfs"
+  ],
+  "en": "Please attach only one PDF per message. Remove the current PDF to choose another.",
+  "fr": "Veuillez joindre un seul PDF par message. Retirez le PDF actuel pour en choisir un autre.",
+  "adapted": null
+ },
+ {
+  "id": 377,
+  "sources": [
+   "dict:chatErrors.attachments.pdfTooLarge"
+  ],
+  "en": "Please upload a PDF smaller than 10 MB.",
+  "fr": "Importez un PDF de moins de 10 Mo.",
+  "adapted": null
+ },
+ {
+  "id": 378,
+  "sources": [
+   "dict:chatErrors.attachments.pdfUnsupportedBrowser"
+  ],
+  "en": "This browser can’t read PDF attachments. Try a current version of Chrome, Edge, Firefox or Safari.",
+  "fr": "Ce navigateur ne peut pas lire les pièces jointes PDF. Essayez une version récente de Chrome, Edge, Firefox ou Safari.",
+  "adapted": null
+ },
+ {
+  "id": 379,
+  "sources": [
+   "dict:chatErrors.attachments.notPdf"
+  ],
+  "en": "Please upload a PDF.",
+  "fr": "Importez un fichier PDF.",
+  "adapted": null
+ },
+ {
+  "id": 380,
+  "sources": [
+   "dict:chatErrors.attachments.pdfUnreadable"
+  ],
+  "en": "Couldn’t read the PDF. Please try another file.",
+  "fr": "Impossible de lire le PDF. Veuillez essayer un autre fichier.",
+  "adapted": null
+ },
+ {
+  "id": 381,
+  "sources": [
+   "dict:chatErrors.attachments.pdfReaderUnavailable"
+  ],
+  "en": "Couldn’t load the PDF reader. Please try again.",
+  "fr": "Impossible de charger le lecteur PDF. Veuillez réessayer.",
+  "adapted": null
+ },
+ {
+  "id": 382,
+  "sources": [
+   "dict:chatErrors.attachments.pdfNoText"
+  ],
+  "en": "We couldn't read the text on this PDF",
+  "fr": "Impossible de lire le texte de ce PDF",
+  "adapted": null
+ },
+ {
+  "id": 383,
+  "sources": [
+   "dict:chatErrors.attachments.pdfTooMuchText"
+  ],
+  "en": "Please upload a shorter version",
+  "fr": "Importez une version plus courte",
+  "adapted": null
+ },
+ {
+  "id": 384,
+  "sources": [
+   "dict:chatErrors.attachments.pdfTimeout"
+  ],
+  "en": "Reading this PDF took too long. Please try a smaller or simpler PDF.",
+  "fr": "La lecture du PDF a pris trop de temps. Essayez un PDF plus petit ou plus simple.",
+  "adapted": null
+ },
+ {
+  "id": 385,
+  "sources": [
+   "dict:chatErrors.attachments.pdfScrubTimeout"
+  ],
+  "en": "Checking this PDF took too long. Please try a smaller excerpt.",
+  "fr": "La vérification de ce PDF a pris trop de temps. Essayez un extrait plus court.",
+  "adapted": null
+ },
+ {
+  "id": 386,
+  "sources": [
+   "dict:chatErrors.attachments.promptTooLong"
+  ],
+  "en": "Please keep your message to {max, number} characters or fewer.",
+  "fr": "Veuillez limiter votre message à {max, number} caractères.",
+  "adapted": null
+ },
+ {
+  "id": 387,
+  "sources": [
+   "dict:chatErrors.voice.permission"
+  ],
+  "en": "Allow microphone access in your browser settings, then try again.",
+  "fr": "Autorisez l’accès au microphone dans les paramètres de votre navigateur, puis réessayez.",
+  "adapted": null
+ },
+ {
+  "id": 388,
+  "sources": [
+   "dict:chatErrors.voice.microphone"
+  ],
+  "en": "No microphone found. Connect one, then try again.",
+  "fr": "Aucun microphone détecté. Branchez-en un, puis réessayez.",
+  "adapted": null
+ },
+ {
+  "id": 389,
+  "sources": [
+   "dict:chatErrors.voice.network"
+  ],
+  "en": "Check your internet connection, then try again.",
+  "fr": "Vérifiez votre connexion Internet, puis réessayez.",
+  "adapted": null
+ },
+ {
+  "id": 390,
+  "sources": [
+   "dict:chatErrors.voice.unavailable"
+  ],
+  "en": "Voice input is unavailable. Type your question instead.",
+  "fr": "La saisie vocale est indisponible. Écrivez votre question.",
+  "adapted": null
+ },
+ {
+  "id": 391,
+  "sources": [
+   "dict:chatErrors.send.inputBlocked"
+  ],
+  "en": "Sorry, America can't help with that",
+  "fr": "Désolé, America ne peut pas vous aider avec cela",
+  "adapted": null
+ },
+ {
+  "id": 392,
+  "sources": [
+   "dict:chatErrors.send.connection"
+  ],
+  "en": "We couldn’t connect. Check your internet connection.",
+  "fr": "Impossible de se connecter. Vérifiez votre connexion Internet.",
+  "adapted": null
+ },
+ {
+  "id": 393,
+  "sources": [
+   "dict:chatErrors.send.validation"
+  ],
+  "en": "We couldn’t send that message. Check your message.",
+  "fr": "Impossible d’envoyer ce message. Vérifiez son contenu.",
+  "adapted": null
+ },
+ {
+  "id": 394,
+  "sources": [
+   "dict:chatErrors.send.unauthorized"
+  ],
+  "en": "Your session has expired. Refresh the page.",
+  "fr": "Votre session a expiré. Actualisez la page.",
+  "adapted": null
+ },
+ {
+  "id": 395,
+  "sources": [
+   "dict:chatErrors.send.forbidden"
+  ],
+  "en": "We couldn’t send that message. Refresh the page.",
+  "fr": "Impossible d’envoyer ce message. Actualisez la page.",
+  "adapted": null
+ },
+ {
+  "id": 396,
+  "sources": [
+   "dict:chatErrors.send.notFound",
+   "dict:chatErrors.send.unavailable"
+  ],
+  "en": "Chat is unavailable right now.",
+  "fr": "La discussion est indisponible pour le moment.",
+  "adapted": null
+ },
+ {
+  "id": 397,
+  "sources": [
+   "dict:chatErrors.send.rateLimited"
+  ],
+  "en": "Please wait a moment before sending another message.",
+  "fr": "Veuillez patienter un instant avant d’envoyer un autre message.",
+  "adapted": null
+ },
+ {
+  "id": 398,
+  "sources": [
+   "dict:chatErrors.send.cancelled"
+  ],
+  "en": "Your message wasn’t sent.",
+  "fr": "Votre message n’a pas été envoyé.",
+  "adapted": null
+ },
+ {
+  "id": 399,
+  "sources": [
+   "dict:chatErrors.send.timeout"
+  ],
+  "en": "The response took too long.",
+  "fr": "La réponse a pris trop de temps.",
+  "adapted": null
+ },
+ {
+  "id": 400,
+  "sources": [
+   "dict:chatErrors.send.context"
+  ],
+  "en": "This request or the information gathered for it is too large to process. Start a new chat with a shorter, more specific question and a smaller PDF if attached.",
+  "fr": "Cette demande ou les informations recueillies pour y répondre sont trop volumineuses pour être traitées. Commencez une nouvelle conversation avec une question plus courte et précise et, si vous joignez un PDF, utilisez un document avec moins de pages.",
+  "adapted": null
+ },
+ {
+  "id": 401,
+  "sources": [
+   "dict:chatErrors.send.historyInvalid"
+  ],
+  "en": "This conversation can’t be continued. Start a new chat with your question.",
+  "fr": "Cette conversation ne peut pas être poursuivie. Commencez une nouvelle conversation avec votre question.",
+  "adapted": null
+ },
+ {
+  "id": 402,
+  "sources": [
+   "dict:chatErrors.send.promptBlocked"
+  ],
+  "en": "We couldn’t answer that question. Try rephrasing it.",
+  "fr": "Impossible de répondre à cette question. Essayez de la reformuler.",
+  "adapted": null
+ },
+ {
+  "id": 403,
+  "sources": [
+   "dict:chatErrors.send.responseBlocked"
+  ],
+  "en": "We couldn’t show that answer. Try rephrasing your question.",
+  "fr": "Impossible d’afficher cette réponse. Essayez de reformuler votre question.",
+  "adapted": null
+ },
+ {
+  "id": 404,
+  "sources": [
+   "dict:chatErrors.privacy.personal"
+  ],
+  "en": "Remove personal information before sending.",
+  "fr": "Retirez les informations personnelles avant l’envoi.",
+  "adapted": null
+ },
+ {
+  "id": 405,
+  "sources": [
+   "dict:chatErrors.privacy.address"
+  ],
+  "en": "Use your city, town or zip code.",
+  "fr": "Indiquez une ville et un code postal plutôt qu’une adresse complète.",
+  "adapted": null
+ },
+ {
+  "id": 406,
+  "sources": [
+   "dict:chatErrors.privacy.addressDescription"
+  ],
+  "en": "To preserve your privacy we do not allow a full address to be entered.",
+  "fr": "Pour protéger votre vie privée, nous n’autorisons pas la saisie d’une adresse complète.",
+  "adapted": null
+ },
+ {
+  "id": 407,
+  "sources": [
+   "dict:chatErrors.privacy.addressAndPersonal"
+  ],
+  "en": "Remove personal information and use a city or town and ZIP code instead of a full address.",
+  "fr": "Retirez les informations personnelles et indiquez une ville et un code postal plutôt qu’une adresse complète.",
+  "adapted": null
+ },
+ {
+  "id": 408,
+  "sources": [
+   "dict:chatErrors.privacy.preparing"
+  ],
+  "en": "Preparing the privacy check…",
+  "fr": "Préparation de la vérification de confidentialité…",
+  "adapted": null
+ },
+ {
+  "id": 409,
+  "sources": [
+   "dict:chatErrors.privacy.unavailable"
+  ],
+  "en": "The privacy check isn’t available in this browser. Try another browser.",
+  "fr": "La vérification de confidentialité n’est pas disponible dans ce navigateur. Essayez un autre navigateur.",
+  "adapted": null
+ },
+ {
+  "id": 410,
+  "sources": [
+   "dict:chatErrors.privacy.failed"
+  ],
+  "en": "The privacy check didn’t finish. Please try again.",
+  "fr": "La vérification de confidentialité n’a pas abouti. Veuillez réessayer.",
+  "adapted": null
+ },
+ {
+  "id": 411,
+  "sources": [
+   "dict:faq.gsa.question"
+  ],
+  "en": "What is the General Services Administration?",
+  "fr": "Qu’est-ce que la General Services Administration ?",
+  "adapted": null
+ },
+ {
+  "id": 412,
+  "sources": [
+   "dict:faq.gsa.answer"
+  ],
+  "en": "<p>The U.S. General Services Administration (GSA) is the federal agency that provides technology, workplaces, purchasing services, and shared tools for federal agencies. GSA operates America.gov. <agency>Learn more about GSA</agency></p>",
+  "fr": "<p>La General Services Administration (GSA) des États-Unis est l’agence fédérale qui fournit les technologies, les locaux, les services d’achat et les outils partagés aux agences fédérales. La GSA exploite America.gov. <agency>En savoir plus sur la GSA</agency></p>",
+  "adapted": null
+ },
+ {
+  "id": 413,
+  "sources": [
+   "dict:faq.studio.question"
+  ],
+  "en": "What is National Design Studio?",
+  "fr": "Qu’est-ce que le National Design Studio ?",
+  "adapted": null
+ },
+ {
+  "id": 414,
+  "sources": [
+   "dict:faq.studio.answer"
+  ],
+  "en": "<p>The National Design Studio is a White House team established by Executive Order 14338. It brings design and technology experts into public service to make government services clearer, simpler, and easier to use.</p>",
+  "fr": "<p>Le National Design Studio est une équipe de la Maison-Blanche créée par le décret 14338. Elle réunit des experts du design et de la technologie au service du public pour rendre les services gouvernementaux plus clairs, plus simples et plus faciles à utiliser.</p>",
+  "adapted": null
+ },
+ {
+  "id": 415,
+  "sources": [
+   "dict:faq.inaccurate.question"
+  ],
+  "en": "What if an answer is inaccurate?",
+  "fr": "Que faire si une réponse est inexacte ?",
+  "adapted": null
+ },
+ {
+  "id": 416,
+  "sources": [
+   "dict:faq.inaccurate.answer"
+  ],
+  "en": "<p>America.gov uses AI to find and explain information from official government sources. AI can make mistakes, so check the sources included with each answer before making an important decision. To report a problem, select the feedback button below the answer and describe what was incorrect or out of date.</p>",
+  "fr": "<p>America.gov utilise l’IA pour trouver et expliquer les informations provenant de sources officielles du gouvernement. L’IA peut faire des erreurs : vérifiez les sources incluses dans chaque réponse avant de prendre une décision importante. Pour signaler un problème, utilisez le bouton permettant de donner un avis sous la réponse et décrivez ce qui est incorrect ou obsolète.</p>",
+  "adapted": null
+ },
+ {
+  "id": 417,
+  "sources": [
+   "dict:faq.on-behalf.question"
+  ],
+  "en": "Can I ask questions on behalf of someone else?",
+  "fr": "Puis-je poser des questions pour quelqu’un d’autre ?",
+  "adapted": null
+ },
+ {
+  "id": 418,
+  "sources": [
+   "dict:faq.on-behalf.answer"
+  ],
+  "en": "<p>Yes. You can ask general questions for a family member, friend, or someone you support. Please do not share their personal or sensitive information.</p>",
+  "fr": "<p>Oui. Vous pouvez poser des questions générales pour un membre de votre famille, un ami ou une personne que vous accompagnez. Ne partagez pas ses informations personnelles ou sensibles.</p>",
+  "adapted": null
+ },
+ {
+  "id": 419,
+  "sources": [
+   "dict:faq.contact.question"
+  ],
+  "en": "How can I contact America.gov?",
+  "fr": "Comment contacter America.gov ?",
+  "adapted": null
+ },
+ {
+  "id": 420,
+  "sources": [
+   "dict:faq.contact.answer"
+  ],
+  "en": "<p>Select the thumbs-up or thumbs-down icon below any answer to tell us what worked or report a problem. America.gov does not currently offer phone support. For help with a specific government program or application, contact the agency responsible for it.</p>",
+  "fr": "<p>Sélectionnez l’icône de pouce vers le haut ou vers le bas sous une réponse pour nous dire ce qui a fonctionné ou signaler un problème. America.gov ne propose actuellement pas d’assistance téléphonique. Pour obtenir de l’aide concernant un programme ou une demande précise, contactez l’agence qui en est responsable.</p>",
+  "adapted": null
+ },
+ {
+  "id": 421,
+  "sources": [
+   "dict:faq.app.question"
+  ],
+  "en": "Will there be an America.gov app?",
+  "fr": "Y aura-t-il une application America.gov ?",
+  "adapted": null
+ },
+ {
+  "id": 422,
+  "sources": [
+   "dict:faq.app.answer"
+  ],
+  "en": "<p>There is no separate app today. America.gov works in a web browser on phones, tablets, and computers.</p>",
+  "fr": "<p>Il n’existe pas d’application distincte aujourd’hui. America.gov fonctionne dans un navigateur sur les téléphones, les tablettes et les ordinateurs.</p>",
+  "adapted": null
+ },
+ {
+  "id": 423,
+  "sources": [
+   "dict:faq.neutrality.question"
+  ],
+  "en": "Is America.gov politically neutral?",
+  "fr": "America.gov est-il politiquement neutre ?",
+  "adapted": null
+ },
+ {
+  "id": 424,
+  "sources": [
+   "dict:faq.neutrality.answer"
+  ],
+  "en": "<p>America.gov does not provide campaign or party information. Its answers are based on published government sources, and you can review those sources yourself.</p>",
+  "fr": "<p>America.gov ne fournit pas d’informations de campagne ou de parti. Ses réponses s’appuient sur des sources gouvernementales publiées, que vous pouvez consulter vous-même.</p>",
+  "adapted": null
+ },
+ {
+  "id": 425,
+  "sources": [
+   "dict:faq.account.question"
+  ],
+  "en": "Do I need an account?",
+  "fr": "Ai-je besoin d’un compte ?",
+  "adapted": null
+ },
+ {
+  "id": 426,
+  "sources": [
+   "dict:faq.account.answer"
+  ],
+  "en": "<p>No. You do not need an account to use America.gov or ask a question. It does not ask you to identify yourself, and you should avoid sharing personal information. See the <privacy>Privacy Policy</privacy> for more details.</p>",
+  "fr": "<p>Non. Vous n’avez pas besoin de compte pour utiliser America.gov ou poser une question. Le site ne vous demande pas de vous identifier et vous devez éviter de partager des informations personnelles. Consultez la <privacy>politique de confidentialité</privacy> pour en savoir plus.</p>",
+  "adapted": null
+ },
+ {
+  "id": 427,
+  "sources": [
+   "dict:faq.application-status.question"
+  ],
+  "en": "Can I check the status of an application?",
+  "fr": "Puis-je suivre l’avancement d’une demande ?",
+  "adapted": null
+ },
+ {
+  "id": 428,
+  "sources": [
+   "dict:faq.application-status.answer"
+  ],
+  "en": "<p>Not currently. America.gov cannot access agency records or see applications you have submitted. It can help you find the responsible agency’s official status-checking tool.</p>",
+  "fr": "<p>Pas actuellement. America.gov ne peut pas accéder aux dossiers des agences ni consulter les demandes que vous avez déposées. Il peut vous aider à trouver l’outil officiel de suivi de l’agence responsable.</p>",
+  "adapted": null
+ },
+ {
+  "id": 429,
+  "sources": [
+   "dict:faq.websites.question"
+  ],
+  "en": "What does “29,000 government websites” mean?",
+  "fr": "Que signifie « 29 000 sites du gouvernement » ?",
+  "adapted": null
+ },
+ {
+  "id": 430,
+  "sources": [
+   "dict:faq.websites.answer"
+  ],
+  "en": "<p>The government publishes information across thousands of websites managed by many different agencies and offices. America.gov helps you find and understand that information without needing to know which website to visit first.</p>",
+  "fr": "<p>Le gouvernement publie des informations sur des milliers de sites gérés par de nombreuses agences et administrations. America.gov vous aide à trouver et à comprendre ces informations sans avoir à savoir quel site consulter en premier.</p>",
+  "adapted": null
+ },
+ {
+  "id": 431,
+  "sources": [
+   "dict:faq.ask.placeholder"
+  ],
+  "en": "Ask anything else",
+  "fr": "Posez une autre question",
+  "adapted": null
+ },
+ {
+  "id": 432,
+  "sources": [
+   "dict:faq.ask.label"
+  ],
+  "en": "Ask another question",
+  "fr": "Posez une autre question",
+  "adapted": null
+ },
+ {
+  "id": 433,
+  "sources": [
+   "dict:faq.ask.error"
+  ],
+  "en": "We couldn’t open chat. Please try again.",
+  "fr": "Impossible d’ouvrir la conversation. Veuillez réessayer.",
+  "adapted": null
+ },
+ {
+  "id": 434,
+  "sources": [
+   "dict:video.open"
+  ],
+  "en": "Watch video",
+  "fr": "Regarder la vidéo",
+  "adapted": null
+ },
+ {
+  "id": 435,
+  "sources": [
+   "dict:video.close"
+  ],
+  "en": "Close video",
+  "fr": "Fermer la vidéo",
+  "adapted": null
+ },
+ {
+  "id": 436,
+  "sources": [
+   "dict:video.play"
+  ],
+  "en": "Play",
+  "fr": "Lire",
+  "adapted": null
+ },
+ {
+  "id": 437,
+  "sources": [
+   "dict:video.pause"
+  ],
+  "en": "Pause",
+  "fr": "Pause",
+  "adapted": null
+ },
+ {
+  "id": 438,
+  "sources": [
+   "dict:video.volume"
+  ],
+  "en": "Volume",
+  "fr": "Volume",
+  "adapted": null
+ },
+ {
+  "id": 439,
+  "sources": [
+   "dict:video.mute"
+  ],
+  "en": "Mute",
+  "fr": "Couper le son",
+  "adapted": null
+ },
+ {
+  "id": 440,
+  "sources": [
+   "dict:video.unmute"
+  ],
+  "en": "Unmute",
+  "fr": "Activer le son",
+  "adapted": null
+ },
+ {
+  "id": 441,
+  "sources": [
+   "dict:video.seek"
+  ],
+  "en": "Seek",
+  "fr": "Parcourir la vidéo",
+  "adapted": null
+ },
+ {
+  "id": 442,
+  "sources": [
+   "dict:video.elapsed"
+  ],
+  "en": "Elapsed time",
+  "fr": "Temps écoulé",
+  "adapted": null
+ },
+ {
+  "id": 443,
+  "sources": [
+   "dict:video.captions"
+  ],
+  "en": "Captions",
+  "fr": "Sous-titres",
+  "adapted": null
+ },
+ {
+  "id": 444,
+  "sources": [
+   "dict:video.captionsUnavailable"
+  ],
+  "en": "Captions are unavailable right now.",
+  "fr": "Les sous-titres sont indisponibles pour le moment.",
+  "adapted": null
+ },
+ {
+  "id": 445,
+  "sources": [
+   "dict:video.retryCaptions"
+  ],
+  "en": "Retry captions",
+  "fr": "Réessayer les sous-titres",
+  "adapted": null
+ },
+ {
+  "id": 446,
+  "sources": [
+   "dict:video.loading"
+  ],
+  "en": "Loading video",
+  "fr": "Chargement de la vidéo",
+  "adapted": null
+ },
+ {
+  "id": 447,
+  "sources": [
+   "dict:video.error"
+  ],
+  "en": "The video could not be played. Please try again.",
+  "fr": "La vidéo n’a pas pu être lue. Veuillez réessayer.",
+  "adapted": null
+ },
+ {
+  "id": 448,
+  "sources": [
+   "html:about/index.html",
+   "html:about/index.html",
+   "html:about/index.html",
+   "static-copy:"
+  ],
+  "en": "About | America.gov",
+  "fr": "À propos | America.gov",
+  "adapted": null
+ },
+ {
+  "id": 449,
+  "sources": [
+   "html:about/index.html",
+   "html:about/index.html",
+   "html:about/index.html",
+   "html:about/index.html",
+   "static-copy:"
+  ],
+  "en": "Despite 250 years of American progress, the citizen experience remains one of our nation’s greatest unrealized opportunities.",
+  "fr": "Malgré 250 ans de progrès aux États-Unis, simplifier les démarches des citoyens reste l’un des grands progrès que notre pays peut encore accomplir.",
+  "adapted": null
+ },
+ {
+  "id": 450,
+  "sources": [
+   "html:about/index.html",
+   "html:coming-soon/index.html",
+   "html:faq/index.html",
+   "html:how-it-works/index.html",
+   "html:index.html",
+   "html:privacy/index.html",
+   "html:privacy-policy/index.html",
+   "html:terms/index.html"
+  ],
+  "en": "en_US",
+  "fr": "fr_US",
+  "adapted": null
+ },
+ {
+  "id": 451,
+  "sources": [
+   "html:about/index.html",
+   "static-copy:"
+  ],
+  "en": "A solution",
+  "fr": "Une solution",
+  "adapted": null
+ },
+ {
+  "id": 452,
+  "sources": [
+   "html:about/index.html",
+   "html:about/index.html",
+   "static-copy:"
+  ],
+  "en": "for",
+  "fr": "pour",
+  "adapted": null
+ },
+ {
+  "id": 453,
+  "sources": [
+   "html:about/index.html",
+   "static-copy:"
+  ],
+  "en": "every",
+  "fr": "chaque",
+  "adapted": null
+ },
+ {
+  "id": 454,
+  "sources": [
+   "html:about/index.html",
+   "static-copy:"
+  ],
+  "en": "American.",
+  "fr": "Américain.",
+  "adapted": null
+ },
+ {
+  "id": 455,
+  "sources": [
+   "html:about/index.html",
+   "static-copy:"
+  ],
+  "en": "On August 21, 2025, the President signed",
+  "fr": "Le 21 août 2025, le président a signé",
+  "adapted": null
+ },
+ {
+  "id": 456,
+  "sources": [
+   "html:about/index.html",
+   "static-copy:"
+  ],
+  "en": "Executive Order 14338",
+  "fr": "le décret 14338",
+  "adapted": null
+ },
+ {
+  "id": 457,
+  "sources": [
+   "html:about/index.html",
+   "static-copy:"
+  ],
+  "en": ", Improving Our Nation Through Better Design. The order launched America by Design and established the National Design Studio with a clear vision: to make the public’s experience with government more useful, effective, and respectful of their time.",
+  "fr": ", Improving Our Nation Through Better Design. Ce décret a lancé America by Design et créé le National Design Studio avec une ambition claire : rendre les échanges avec les services publics plus utiles, plus efficaces et plus respectueux du temps de chacun.",
+  "adapted": null
+ },
+ {
+  "id": 458,
+  "sources": [
+   "html:about/index.html",
+   "static-copy:"
+  ],
+  "en": "Over the past year, National Design Studio has worked with the U.S. General Services Administration to turn that vision into a groundbreaking, first-of-its kind, modern interface worthy of the American people. Phase 1 launched on September 29, 2026, introducing the simplest and fastest way to access information from the government. Phase 2 begins in 2027, bringing the ability to apply, enroll, and track progress directly in chat. A level of convenience that has never been seen before at a nation’s scale.",
+  "fr": "Au cours de l’année écoulée, le National Design Studio a travaillé avec la General Services Administration des États-Unis pour concrétiser cette ambition : une interface moderne, novatrice et inédite, à la hauteur des attentes du peuple américain. La phase 1 a été lancée le 29 septembre 2026, offrant le moyen le plus simple et le plus rapide d’accéder aux informations du gouvernement. La phase 2 commence en 2027 et permettra de déposer des demandes, de s’inscrire et de suivre ses démarches directement dans la conversation. Une simplicité d’utilisation inédite à l’échelle d’un pays.",
+  "adapted": null
+ },
+ {
+  "id": 459,
+  "sources": [
+   "html:about/index.html",
+   "static-copy:"
+  ],
+  "en": "Press",
+  "fr": "Presse",
+  "adapted": null
+ },
+ {
+  "id": 460,
+  "sources": [
+   "html:about/index.html",
+   "static-copy:"
+  ],
+  "en": "Trump to usher in ‘golden age’ of American tech with DC bash showcasing powerful new tool",
+  "fr": "Trump inaugurera un « âge d’or » de la technologie américaine lors d’un événement à Washington présentant un nouvel outil puissant",
+  "adapted": null
+ },
+ {
+  "id": 461,
+  "sources": [
+   "html:about/index.html",
+   "static-copy:"
+  ],
+  "en": "Read the report",
+  "fr": "Lire le rapport",
+  "adapted": null
+ },
+ {
+  "id": 462,
+  "sources": [
+   "html:coming-soon/index.html",
+   "html:coming-soon/index.html",
+   "html:coming-soon/index.html",
+   "static-copy:"
+  ],
+  "en": "Coming soon | America.gov",
+  "fr": "À venir | America.gov",
+  "adapted": null
+ },
+ {
+  "id": 463,
+  "sources": [
+   "html:coming-soon/index.html",
+   "html:coming-soon/index.html",
+   "html:coming-soon/index.html",
+   "static-copy:"
+  ],
+  "en": "Coming in 2027 you’ll be able to complete the complicated tasks right here: forms, applications, and renewals. America.gov will integrate across government agencies so you can safely, securely, and confidently get it done so you can get back to the things that matter most.",
+  "fr": "Dès 2027, vous pourrez effectuer vos démarches complexes ici même : formulaires, demandes et renouvellements. America.gov réunira les services des agences gouvernementales pour vous permettre de tout faire en toute sécurité et en toute confiance, puis de vous consacrer à ce qui compte le plus.",
+  "adapted": null
+ },
+ {
+  "id": 464,
+  "sources": [
+   "html:coming-soon/index.html",
+   "static-copy:"
+  ],
+  "en": "Coming early 2027.",
+  "fr": "Disponible début 2027.",
+  "adapted": null
+ },
+ {
+  "id": 465,
+  "sources": [
+   "html:coming-soon/index.html",
+   "static-copy:"
+  ],
+  "en": "For the first time you’ll be able to complete forms, applications, renewals all in one place. America.gov will integrate across agencies so you can safely, securely, and quickly get it done and get back to what matters most.",
+  "fr": "Pour la première fois, vous pourrez remplir des formulaires, déposer des demandes et effectuer des renouvellements au même endroit. America.gov réunira les services des agences pour vous permettre d’accomplir vos démarches rapidement et en toute sécurité, puis de revenir à ce qui compte le plus.",
+  "adapted": null
+ },
+ {
+  "id": 466,
+  "sources": [
+   "html:coming-soon/index.html",
+   "static-copy:"
+  ],
+  "en": "Healthcare",
+  "fr": "Santé",
+  "adapted": null
+ },
+ {
+  "id": 467,
+  "sources": [
+   "html:coming-soon/index.html",
+   "static-copy:"
+  ],
+  "en": "Enroll in Medicare",
+  "fr": "S’inscrire à Medicare",
+  "adapted": null
+ },
+ {
+  "id": 468,
+  "sources": [
+   "html:coming-soon/index.html",
+   "static-copy:"
+  ],
+  "en": "Find coverage and enroll.",
+  "fr": "Trouvez une couverture et inscrivez-vous.",
+  "adapted": null
+ },
+ {
+  "id": 469,
+  "sources": [
+   "html:coming-soon/index.html",
+   "static-copy:"
+  ],
+  "en": "Animation preview: An applicant chooses to share records from the Social Security Administration, Veterans Affairs, and the Centers for Medicare & Medicaid Services, with an option to enter information manually. The records include work history, benefits, age, citizenship, military service, health coverage, medical claims, and prescriptions. After the records are retrieved, the applicant confirms their name, birth date, citizenship, work history, and military service. They answer no to questions about current health insurance and continuing to work. The Medicare application is submitted for review. A progress indicator shows enrollment processing, with the Medicare number and Part A hospital and Part B medical coverage pending.",
+  "fr": "Aperçu de l’animation : Une personne choisit de partager des dossiers de la Social Security Administration, de Veterans Affairs et des Centers for Medicare & Medicaid Services, avec la possibilité de saisir les informations manuellement. Ces dossiers comprennent les antécédents professionnels, les prestations, l’âge, la citoyenneté, le service militaire, la couverture santé, les demandes de remboursement médical et les ordonnances. Une fois les dossiers récupérés, la personne confirme son nom, sa date de naissance, sa citoyenneté, ses antécédents professionnels et son service militaire. Elle répond non aux questions sur sa couverture santé actuelle et la poursuite d’une activité professionnelle. La demande Medicare est transmise pour examen. Un indicateur montre le traitement de l’inscription, avec le numéro Medicare et les couvertures hospitalière Part A et médicale Part B en attente.",
+  "adapted": null
+ },
+ {
+  "id": 470,
+  "sources": [
+   "html:coming-soon/index.html",
+   "static-copy:"
+  ],
+  "en": "Travel",
+  "fr": "Voyages",
+  "adapted": null
+ },
+ {
+  "id": 471,
+  "sources": [
+   "html:coming-soon/index.html",
+   "static-copy:"
+  ],
+  "en": "Apply for a passport",
+  "fr": "Demander un passeport",
+  "adapted": null
+ },
+ {
+  "id": 472,
+  "sources": [
+   "html:coming-soon/index.html",
+   "static-copy:"
+  ],
+  "en": "For the first time ever, apply for your first passport online.",
+  "fr": "Pour la première fois, demandez votre premier passeport en ligne.",
+  "adapted": null
+ },
+ {
+  "id": 473,
+  "sources": [
+   "html:coming-soon/index.html",
+   "static-copy:"
+  ],
+  "en": "Animation preview: An applicant says they are not traveling within two weeks and are applying for themselves. They confirm their name, birth date, citizenship, address, and Social Security number, then enter their height, hair color, and eye color. They choose to upload an existing passport photo instead of taking one with a phone, drag it into the form, and receive a checkmark after it is checked. They select a passport book from book, card, or both options, then choose standard rather than expedited delivery. They review the example $165 payment, affirm that the application statements are true, and pay securely by card. The final screen shows the application under review, an estimated two to four weeks of processing, and a receipt with the confirmation number, amount, payment method, and U.S. Department of State as recipient.",
+  "fr": "Aperçu de l’animation : Une personne indique qu’elle ne voyage pas dans les deux prochaines semaines et fait une demande pour elle-même. Elle confirme son nom, sa date de naissance, sa citoyenneté, son adresse et son numéro de Social Security, puis saisit sa taille et la couleur de ses cheveux et de ses yeux. Elle choisit d’importer une photo de passeport existante plutôt que d’en prendre une avec un téléphone, la dépose dans le formulaire et obtient une coche après vérification. Elle sélectionne un livret de passeport parmi les options livret, carte ou les deux, puis la livraison standard plutôt qu’accélérée. Elle vérifie le paiement de 165 $ montré dans l’exemple, certifie l’exactitude des déclarations et paie par carte de manière sécurisée. L’écran final montre la demande en cours d’examen, un délai estimé de deux à quatre semaines et un reçu indiquant le numéro de confirmation, le montant, le mode de paiement et le département d’État des États-Unis comme bénéficiaire.",
+  "adapted": null
+ },
+ {
+  "id": 474,
+  "sources": [
+   "html:coming-soon/index.html",
+   "static-copy:"
+  ],
+  "en": "Employment",
+  "fr": "Emploi",
+  "adapted": null
+ },
+ {
+  "id": 475,
+  "sources": [
+   "html:coming-soon/index.html",
+   "static-copy:"
+  ],
+  "en": "Find a job in the federal government",
+  "fr": "Trouver un emploi fédéral",
+  "adapted": null
+ },
+ {
+  "id": 476,
+  "sources": [
+   "html:coming-soon/index.html",
+   "static-copy:"
+  ],
+  "en": "Drop your resume and get matched to roles that fit your experience.",
+  "fr": "Déposez votre CV et trouvez des postes adaptés à votre expérience.",
+  "adapted": null
+ },
+ {
+  "id": 477,
+  "sources": [
+   "html:coming-soon/index.html",
+   "static-copy:"
+  ],
+  "en": "Animation preview: A resume PDF is dragged into an upload area and checked. Three matching jobs appear based on the applicant’s eight years of management and program analysis experience. An expanded Software Developer listing at the Department of the Navy shows Dahlgren, Virginia; an annual salary of $101,401 to $156,755; and hybrid work with two remote days. The match explanation highlights the applicant’s field, years of experience, and grants management skills. The listing offers options to apply or see details, with two more matches collapsed below.",
+  "fr": "Aperçu de l’animation : Un CV au format PDF est déposé dans une zone d’importation et vérifié. Trois offres correspondantes s’affichent en fonction des huit années d’expérience en gestion et analyse de programmes de la personne. Une offre de développeur logiciel au département de la Marine est affichée en détail : Dahlgren, Virginie ; salaire annuel de 101 401 à 156 755 $ ; travail hybride avec deux jours de télétravail. L’explication met en avant le domaine professionnel, les années d’expérience et les compétences en gestion des subventions. L’offre propose de postuler ou de consulter les détails, et deux autres offres sont repliées en dessous.",
+  "adapted": null
+ },
+ {
+  "id": 478,
+  "sources": [
+   "html:coming-soon/index.html",
+   "static-copy:"
+  ],
+  "en": "And so much\nmore in development",
+  "fr": "Et bien plus encore\nen développement",
+  "adapted": null
+ },
+ {
+  "id": 479,
+  "sources": [
+   "html:faq/index.html",
+   "html:faq/index.html",
+   "html:faq/index.html"
+  ],
+  "en": "Frequently asked questions | America.gov",
+  "fr": "Questions fréquentes | America.gov",
+  "adapted": null
+ },
+ {
+  "id": 480,
+  "sources": [
+   "html:faq/index.html",
+   "html:faq/index.html",
+   "html:faq/index.html",
+   "static-copy:"
+  ],
+  "en": "Answers to common questions about America.gov, its sources, privacy, and government services.",
+  "fr": "Réponses aux questions fréquentes sur America.gov, ses sources, la confidentialité et les services gouvernementaux.",
+  "adapted": null
+ },
+ {
+  "id": 481,
+  "sources": [
+   "html:faq/index.html",
+   "static-copy:"
+  ],
+  "en": "Frequently asked questions.",
+  "fr": "Questions fréquentes.",
+  "adapted": null
+ },
+ {
+  "id": 482,
+  "sources": [
+   "html:how-it-works/index.html",
+   "html:how-it-works/index.html",
+   "html:how-it-works/index.html",
+   "static-copy:"
+  ],
+  "en": "How it works | America.gov",
+  "fr": "Comment ça marche | America.gov",
+  "adapted": null
+ },
+ {
+  "id": 483,
+  "sources": [
+   "html:how-it-works/index.html",
+   "html:how-it-works/index.html",
+   "html:how-it-works/index.html",
+   "static-copy:"
+  ],
+  "en": "Get clear, official answers, and know what’s next.",
+  "fr": "Obtenez des réponses officielles et claires, et sachez quoi faire ensuite.",
+  "adapted": null
+ },
+ {
+  "id": 484,
+  "sources": [
+   "html:how-it-works/index.html",
+   "static-copy:"
+  ],
+  "en": "America.gov starts\nas a conversation.",
+  "fr": "America.gov commence par une conversation.",
+  "adapted": null
+ },
+ {
+  "id": 485,
+  "sources": [
+   "html:how-it-works/index.html",
+   "static-copy:"
+  ],
+  "en": "Instead of navigating the maze of websites, you ask questions in your own words, and you get official answers back instantly. There are no menus to learn or forms to hunt down.",
+  "fr": "Au lieu de vous perdre dans un labyrinthe de sites, posez vos questions avec vos mots et obtenez immédiatement des réponses officielles. Aucun menu à maîtriser ni formulaire à chercher.",
+  "adapted": null
+ },
+ {
+  "id": 486,
+  "sources": [
+   "html:how-it-works/index.html",
+   "static-copy:"
+  ],
+  "en": "America.gov replaces the websites Americans spend",
+  "fr": "America.gov remplace les sites que les Américains passent",
+  "adapted": null
+ },
+ {
+  "id": 487,
+  "sources": [
+   "html:how-it-works/index.html",
+   "static-copy:"
+  ],
+  "en": "billions of hours",
+  "fr": "des milliards d’heures",
+  "adapted": null
+ },
+ {
+  "id": 488,
+  "sources": [
+   "html:how-it-works/index.html",
+   "static-copy:"
+  ],
+  "en": "searching, with a single experience that is effortless, fast, and organized around you. Just ask, and government answers.",
+  "fr": "à parcourir par un service simple, rapide et conçu pour vous. Posez votre question, le gouvernement répond.",
+  "adapted": null
+ },
+ {
+  "id": 489,
+  "sources": [
+   "html:how-it-works/index.html",
+   "static-copy:"
+  ],
+  "en": "Why you can trust",
+  "fr": "Pourquoi nous faire confiance",
+  "adapted": null
+ },
+ {
+  "id": 490,
+  "sources": [
+   "html:how-it-works/index.html",
+   "static-copy:"
+  ],
+  "en": "Straight from the source.",
+  "fr": "Directement à la source.",
+  "adapted": null
+ },
+ {
+  "id": 491,
+  "sources": [
+   "html:how-it-works/index.html",
+   "static-copy:"
+  ],
+  "en": "Every answer comes from official government websites with links to the original sources.",
+  "fr": "Chaque réponse provient de sites officiels du gouvernement, avec des liens vers les sources originales.",
+  "adapted": null
+ },
+ {
+  "id": 492,
+  "sources": [
+   "html:how-it-works/index.html",
+   "static-copy:"
+  ],
+  "en": "Free to use. No ads.",
+  "fr": "Gratuit. Sans publicité.",
+  "adapted": null
+ },
+ {
+  "id": 493,
+  "sources": [
+   "html:how-it-works/index.html",
+   "static-copy:"
+  ],
+  "en": "The accuracy of our answers is never influenced by third parties.",
+  "fr": "L’exactitude de nos réponses n’est jamais influencée par des tiers.",
+  "adapted": null
+ },
+ {
+  "id": 494,
+  "sources": [
+   "html:how-it-works/index.html",
+   "static-copy:"
+  ],
+  "en": "Run by the government.",
+  "fr": "Géré par le gouvernement",
+  "adapted": null
+ },
+ {
+  "id": 495,
+  "sources": [
+   "html:how-it-works/index.html",
+   "static-copy:"
+  ],
+  "en": "America.gov is operated by the General Services Administration, a U.S. federal agency that supplies technology that the government uses.",
+  "fr": "America.gov est exploité par la General Services Administration, une agence fédérale américaine qui fournit les technologies utilisées par le gouvernement.",
+  "adapted": null
+ },
+ {
+  "id": 496,
+  "sources": [
+   "html:how-it-works/index.html",
+   "html:privacy/index.html",
+   "static-copy:"
+  ],
+  "en": "No account required.",
+  "fr": "Aucun compte requis.",
+  "adapted": null
+ },
+ {
+  "id": 497,
+  "sources": [
+   "html:how-it-works/index.html",
+   "static-copy:"
+  ],
+  "en": "Finding answers does not require you to create an account or share your personal information.",
+  "fr": "Pour obtenir des réponses, vous n’avez pas besoin de créer un compte ni de partager vos informations personnelles.",
+  "adapted": null
+ },
+ {
+  "id": 498,
+  "sources": [
+   "html:how-it-works/index.html",
+   "static-copy:"
+  ],
+  "en": "What you can do",
+  "fr": "Ce que vous pouvez faire",
+  "adapted": null
+ },
+ {
+  "id": 499,
+  "sources": [
+   "html:how-it-works/index.html",
+   "static-copy:"
+  ],
+  "en": "Get step by step guidance.",
+  "fr": "Un accompagnement étape par étape",
+  "adapted": null
+ },
+ {
+  "id": 500,
+  "sources": [
+   "html:how-it-works/index.html",
+   "static-copy:"
+  ],
+  "en": "Know what to do, what to bring, and where to go next.",
+  "fr": "Sachez quoi faire, quoi apporter et où aller ensuite.",
+  "adapted": null
+ },
+ {
+  "id": 501,
+  "sources": [
+   "html:how-it-works/index.html",
+   "static-copy:"
+  ],
+  "en": "Make sense of government documents.",
+  "fr": "Comprendre les documents administratifs",
+  "adapted": null
+ },
+ {
+  "id": 502,
+  "sources": [
+   "html:how-it-works/index.html",
+   "static-copy:"
+  ],
+  "en": "Upload a PDF of a government form or letter you need help with. Personal information will be automatically removed.",
+  "fr": "Importez un formulaire ou un courrier administratif au format PDF pour mieux le comprendre. Les informations personnelles seront automatiquement supprimées.",
+  "adapted": null
+ },
+ {
+  "id": 503,
+  "sources": [
+   "html:how-it-works/index.html",
+   "static-copy:"
+  ],
+  "en": "Supports multiple languages.",
+  "fr": "Plusieurs langues prises en charge",
+  "adapted": null
+ },
+ {
+  "id": 504,
+  "sources": [
+   "html:how-it-works/index.html",
+   "static-copy:"
+  ],
+  "en": "Ask in English, Spanish, or French and get an answer in the same one.",
+  "fr": "Posez votre question en anglais, en espagnol ou en français et recevez une réponse dans la même langue.",
+  "adapted": null
+ },
+ {
+  "id": 505,
+  "sources": [
+   "html:how-it-works/index.html",
+   "static-copy:"
+  ],
+  "en": "Voice enabled.",
+  "fr": "Saisie vocale",
+  "adapted": null
+ },
+ {
+  "id": 506,
+  "sources": [
+   "html:how-it-works/index.html",
+   "static-copy:"
+  ],
+  "en": "Simply use the microphone icon in the search bar to capture your question.",
+  "fr": "Utilisez simplement l’icône du microphone dans la barre de recherche pour dicter votre question.",
+  "adapted": null
+ },
+ {
+  "id": 507,
+  "sources": [
+   "html:how-it-works/index.html",
+   "static-copy:"
+  ],
+  "en": "How to get the best answer",
+  "fr": "Pour une réponse plus utile",
+  "adapted": null
+ },
+ {
+  "id": 508,
+  "sources": [
+   "html:how-it-works/index.html",
+   "static-copy:"
+  ],
+  "en": "Be specific.",
+  "fr": "Soyez précis.",
+  "adapted": null
+ },
+ {
+  "id": 509,
+  "sources": [
+   "html:how-it-works/index.html",
+   "static-copy:"
+  ],
+  "en": "The more specific you get, the better we answer, right down to your dates, state, and circumstances.",
+  "fr": "Plus vous êtes précis, mieux nous pouvons vous répondre, en tenant compte de vos dates, de votre État et de votre situation.",
+  "adapted": null
+ },
+ {
+  "id": 510,
+  "sources": [
+   "html:how-it-works/index.html",
+   "static-copy:"
+  ],
+  "en": "Share your feedback.",
+  "fr": "Donnez votre avis",
+  "adapted": null
+ },
+ {
+  "id": 511,
+  "sources": [
+   "html:how-it-works/index.html",
+   "static-copy:"
+  ],
+  "en": "Every answer includes the ability to share your feedback about what worked and what didn’t. This helps improve your future experience.",
+  "fr": "Pour chaque réponse, vous pouvez nous dire ce qui vous a été utile ou non. Vos avis nous aident à améliorer le service.",
+  "adapted": null
+ },
+ {
+  "id": 512,
+  "sources": [
+   "html:index.html",
+   "html:index.html",
+   "html:index.html",
+   "static-copy:"
+  ],
+  "en": "Find answers from official government sources and clear next steps for the services you need with America.gov.",
+  "fr": "Trouvez des réponses de sources gouvernementales officielles et les étapes à suivre pour accéder aux services dont vous avez besoin avec America.gov.",
+  "adapted": null
+ },
+ {
+  "id": 513,
+  "sources": [
+   "html:privacy/index.html",
+   "html:privacy/index.html",
+   "html:privacy/index.html",
+   "static-copy:"
+  ],
+  "en": "Privacy | America.gov",
+  "fr": "Confidentialité | America.gov",
+  "adapted": null
+ },
+ {
+  "id": 514,
+  "sources": [
+   "html:privacy/index.html",
+   "html:privacy/index.html",
+   "html:privacy/index.html",
+   "static-copy:"
+  ],
+  "en": "Learn how America.gov protects your personal information, handles conversations, and gives you control over what you share.",
+  "fr": "Découvrez comment America.gov protège vos informations personnelles, traite vos conversations et vous permet de choisir ce que vous partagez.",
+  "adapted": null
+ },
+ {
+  "id": 515,
+  "sources": [
+   "html:privacy/index.html",
+   "static-copy:"
+  ],
+  "en": "Private by design.",
+  "fr": "La confidentialité dès la conception.",
+  "adapted": null
+ },
+ {
+  "id": 516,
+  "sources": [
+   "html:privacy/index.html",
+   "static-copy:"
+  ],
+  "en": "Privacy protections",
+  "fr": "Protection de la vie privée",
+  "adapted": null
+ },
+ {
+  "id": 517,
+  "sources": [
+   "html:privacy/index.html",
+   "static-copy:"
+  ],
+  "en": "No personal information.",
+  "fr": "Aucune information personnelle.",
+  "adapted": null
+ },
+ {
+  "id": 518,
+  "sources": [
+   "html:privacy/index.html",
+   "static-copy:"
+  ],
+  "en": "America.gov helps prevent you from sharing personal information before you send it.",
+  "fr": "America.gov bloque le partage d’informations personnelles avant leur envoi.",
+  "adapted": null
+ },
+ {
+  "id": 519,
+  "sources": [
+   "html:privacy/index.html",
+   "static-copy:"
+  ],
+  "en": "No tracking.",
+  "fr": "Aucun traçage.",
+  "adapted": null
+ },
+ {
+  "id": 520,
+  "sources": [
+   "html:privacy/index.html",
+   "static-copy:"
+  ],
+  "en": "America.gov doesn’t use invasive analytics or keep your search history.",
+  "fr": "America.gov n’utilise pas d’outils d’analyse intrusifs et ne conserve pas votre historique de recherche.",
+  "adapted": null
+ },
+ {
+  "id": 521,
+  "sources": [
+   "html:privacy/index.html",
+   "static-copy:"
+  ],
+  "en": "Use America.gov without creating an account or signing in. Your questions aren’t tied to a profile.",
+  "fr": "Utilisez America.gov sans créer de compte ni vous connecter. Vos questions ne sont liées à aucun profil.",
+  "adapted": null
+ },
+ {
+  "id": 522,
+  "sources": [
+   "html:privacy/index.html",
+   "static-copy:"
+  ],
+  "en": "No conversations kept.",
+  "fr": "Aucune conversation conservée.",
+  "adapted": null
+ },
+ {
+  "id": 523,
+  "sources": [
+   "html:privacy/index.html",
+   "static-copy:"
+  ],
+  "en": "Your messages aren’t saved by America.gov, and your chat disappears when you leave. Some answers may be cached for up to two hours.",
+  "fr": "America.gov ne conserve pas vos messages et votre conversation disparaît lorsque vous quittez le site. Certaines réponses peuvent être mises en cache pendant deux heures au maximum.",
+  "adapted": null
+ },
+ {
+  "id": 524,
+  "sources": [
+   "html:privacy/index.html",
+   "static-copy:"
+  ],
+  "en": "Not specific locations.",
+  "fr": "Aucune localisation précise.",
+  "adapted": null
+ },
+ {
+  "id": 525,
+  "sources": [
+   "html:privacy/index.html",
+   "static-copy:"
+  ],
+  "en": "America.gov only uses your approximate area to find resources near you, like a Veterans Affairs Medical Center or a Passport Agency. Your precise GPS location is never used.",
+  "fr": "America.gov utilise uniquement votre localisation approximative pour trouver des services à proximité, comme un centre médical du VA ou un service des passeports. Votre position GPS précise n’est jamais utilisée.",
+  "adapted": null
+ },
+ {
+  "id": 526,
+  "sources": [
+   "html:privacy/index.html",
+   "static-copy:"
+  ],
+  "en": "Feedback is anonymous.",
+  "fr": "Les avis sont anonymes.",
+  "adapted": null
+ },
+ {
+  "id": 527,
+  "sources": [
+   "html:privacy/index.html",
+   "static-copy:"
+  ],
+  "en": "When you share feedback, it remains anonymous. Your name and IP address are not saved.",
+  "fr": "Lorsque vous donnez votre avis, il reste anonyme. Votre nom et votre adresse IP ne sont pas conservés.",
+  "adapted": null
+ },
+ {
+  "id": 528,
+  "sources": [
+   "html:privacy-policy/index.html",
+   "html:privacy-policy/index.html",
+   "html:privacy-policy/index.html"
+  ],
+  "en": "Privacy policy | America.gov",
+  "fr": "Politique de confidentialité | America.gov",
+  "adapted": null
+ },
+ {
+  "id": 529,
+  "sources": [
+   "html:terms/index.html",
+   "html:terms/index.html",
+   "html:terms/index.html"
+  ],
+  "en": "Terms of use | America.gov",
+  "fr": "Conditions d’utilisation | America.gov",
+  "adapted": null
+ },
+ {
+  "id": 530,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Animation preview: An applicant selects the Social Security Administration, Internal Revenue Service, and U.S. Passport Services for a name update. They confirm a change from Emily Thompson to Emily Carter, Virginia residency, and marriage as the reason. They choose to upload a marriage certificate instead of scanning it with a phone, then drag the PDF into the form. A confirmation shows the previous and new names, each agency’s update in progress, and a notice that an email will arrive as each agency finishes. A separate Virginia checklist links to instructions for updating a driver’s license or state ID and voter registration. These state updates must be completed directly with the state; checking the boxes only tracks progress and does not submit an update.",
+  "fr": "Aperçu de l’animation : Une personne sélectionne la Social Security Administration, l’Internal Revenue Service et les services des passeports américains pour mettre à jour son nom. Elle confirme le changement d’Emily Thompson à Emily Carter, sa résidence en Virginie et le mariage comme motif. Elle choisit d’importer un acte de mariage plutôt que de le scanner avec un téléphone, puis dépose le PDF dans le formulaire. Une confirmation affiche l’ancien et le nouveau nom, la mise à jour en cours dans chaque agence et un avis indiquant qu’un e-mail sera envoyé à chaque mise à jour terminée. Une liste distincte de démarches en Virginie fournit des liens vers les instructions pour mettre à jour le permis de conduire ou la carte d’identité délivrée par l’État et l’inscription électorale. Ces démarches doivent être effectuées directement auprès de l’État ; cocher les cases sert uniquement à suivre la progression et ne transmet aucune demande.",
+  "adapted": null
+ },
+ {
+  "id": 531,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Show more",
+  "fr": "Afficher plus",
+  "adapted": null
+ },
+ {
+  "id": 532,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Show less",
+  "fr": "Afficher moins",
+  "adapted": null
+ },
+ {
+  "id": 533,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "View more",
+  "fr": "Voir plus",
+  "adapted": null
+ },
+ {
+  "id": 534,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Lines",
+  "fr": "Files d’attente",
+  "adapted": null
+ },
+ {
+  "id": 535,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Appointments",
+  "fr": "Rendez-vous",
+  "adapted": null
+ },
+ {
+  "id": 536,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Paperwork",
+  "fr": "Paperasse",
+  "adapted": null
+ },
+ {
+  "id": 537,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Scheduling",
+  "fr": "Planification",
+  "adapted": null
+ },
+ {
+  "id": 538,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Submit once and automatically update your name across every agency.",
+  "fr": "Envoyez une seule demande pour mettre automatiquement votre nom à jour auprès de toutes les agences.",
+  "adapted": null
+ },
+ {
+  "id": 539,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Share what you want to see next",
+  "fr": "Dites-nous ce que vous aimeriez voir ensuite",
+  "adapted": null
+ },
+ {
+  "id": 540,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Choose what you’d like to share below, or enter your information manually.",
+  "fr": "Choisissez les informations à partager ci-dessous ou saisissez-les manuellement.",
+  "adapted": null
+ },
+ {
+  "id": 541,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Great Seal of the United States",
+  "fr": "Grand sceau des États-Unis",
+  "adapted": null
+ },
+ {
+  "id": 542,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "One government.",
+  "fr": "Un seul gouvernement.",
+  "adapted": null
+ },
+ {
+  "id": 543,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "One place to ask.",
+  "fr": "Un seul endroit où poser vos questions.",
+  "adapted": null
+ },
+ {
+  "id": 544,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Somewhere in the maze of government websites is the answer you need, or the form you were supposed to fill out. America.gov is where you go instead.",
+  "fr": "La réponse qu’il vous faut ou le formulaire à remplir se trouve quelque part dans le labyrinthe des sites gouvernementaux. Rendez-vous plutôt sur America.gov.",
+  "adapted": null
+ },
+ {
+  "id": 545,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Every year, Americans lose more than 10,000,000,000 ",
+  "fr": "Chaque année, les Américains perdent plus de 10 milliards d’",
+  "adapted": null
+ },
+ {
+  "id": 546,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "hours",
+  "fr": "heures",
+  "adapted": null
+ },
+ {
+  "id": 547,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": " navigating their own government: waiting, searching, repeating, timing out, starting over.",
+  "fr": " dans leurs démarches administratives : attendre, chercher, répéter, voir leur session expirer et tout recommencer.",
+  "adapted": null
+ },
+ {
+  "id": 548,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "That isn’t just inefficient. It’s undignified. It’s time taken from families, businesses, dreams, and lives, and we’re here to give it back. Months reduced to minutes. Ninety clicks become nine. Complexity becomes clarity.",
+  "fr": "Ce n’est pas seulement inefficace. C’est indigne. C’est du temps volé aux familles, aux entreprises, aux rêves et à la vie. Nous sommes là pour vous le rendre. Des mois réduits à quelques minutes. Neuf clics au lieu de quatre-vingt-dix. La complexité fait place à la clarté.",
+  "adapted": null
+ },
+ {
+  "id": 549,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "This is a new standard for how a great nation serves its people: with speed, intelligence, dignity, and care...",
+  "fr": "Voici une nouvelle façon pour une grande nation de servir son peuple : avec rapidité, intelligence, dignité et attention…",
+  "adapted": null
+ },
+ {
+  "id": 550,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Origin Story",
+  "fr": "Notre histoire",
+  "adapted": null
+ },
+ {
+  "id": 551,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Skip letter",
+  "fr": "Passer la lettre",
+  "adapted": null
+ },
+ {
+  "id": 552,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "There has never been a country like this one.",
+  "fr": "Il n’y a jamais eu de pays comme celui-ci.",
+  "adapted": null
+ },
+ {
+  "id": 553,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "And never a people like you.",
+  "fr": "Ni de peuple comme le vôtre.",
+  "adapted": null
+ },
+ {
+  "id": 554,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Generation after generation who build, serve, invent, and take care of each other.",
+  "fr": "Des générations qui bâtissent, servent, inventent et prennent soin les unes des autres.",
+  "adapted": null
+ },
+ {
+  "id": 555,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "For all of that, your own government made you do the work. A different site for every agency. A different door for every question. No way to know where to start, no map, no answer. No end to it.",
+  "fr": "Malgré tout cela, votre propre gouvernement vous a laissé faire tout le travail. Un site différent pour chaque organisme. Une porte différente pour chaque question. Impossible de savoir par où commencer, sans repères, sans réponse. Sans fin.",
+  "adapted": null
+ },
+ {
+  "id": 556,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "We get it. And we’re fixing it.",
+  "fr": "Nous le comprenons. Et nous y remédions.",
+  "adapted": null
+ },
+ {
+  "id": 557,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "This is the new digital home of the United States government.",
+  "fr": "Voici le nouveau point d’accueil numérique du gouvernement des États-Unis.",
+  "adapted": null
+ },
+ {
+  "id": 558,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Home of getting answers. Home of taking action. Home of a government that finally works for its people, instead of the other way around.",
+  "fr": "Un lieu pour obtenir des réponses. Un lieu pour agir. Un lieu où le gouvernement travaille enfin pour son peuple, et non l’inverse.",
+  "adapted": null
+ },
+ {
+  "id": 559,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "This is a promise that the greatest chapter in American history is in front of us—and it will be written by you, the next generation of Americans.",
+  "fr": "C’est la promesse que le plus grand chapitre de l’histoire américaine est encore devant nous, et que c’est vous, la prochaine génération d’Américains, qui l’écrirez.",
+  "adapted": null
+ },
+ {
+  "id": 560,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "And perhaps most importantly, we want to hear from you. Tell us how to make America better.",
+  "fr": "Et surtout, nous voulons vous écouter. Dites-nous comment améliorer l’Amérique.",
+  "adapted": null
+ },
+ {
+  "id": 561,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Because this home is yours—it always was, and it always will be.",
+  "fr": "Car ce lieu est le vôtre : il l’a toujours été et le sera toujours.",
+  "adapted": null
+ },
+ {
+  "id": 562,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Built on trust",
+  "fr": "Fondé sur la confiance",
+  "adapted": null
+ },
+ {
+  "id": 563,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Authority to Operate by the General Services Administration",
+  "fr": "Autorisation d’exploitation délivrée par la General Services Administration",
+  "adapted": null
+ },
+ {
+  "id": 564,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Privacy Impact Assessment by General Services Administration",
+  "fr": "Évaluation de l’impact sur la vie privée par la General Services Administration",
+  "adapted": null
+ },
+ {
+  "id": 565,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Reviewed by the National Security Agency",
+  "fr": "Examiné par la National Security Agency (NSA)",
+  "adapted": null
+ },
+ {
+  "id": 566,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Reviewed by Cybersecurity and Infrastructure Security Agency",
+  "fr": "Examiné par la Cybersecurity and Infrastructure Security Agency (CISA)",
+  "adapted": null
+ },
+ {
+  "id": 567,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Security tested and protected.",
+  "fr": "Une sécurité testée et renforcée.",
+  "adapted": null
+ },
+ {
+  "id": 568,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Only your general area.",
+  "fr": "Une localisation approximative uniquement.",
+  "adapted": null
+ },
+ {
+  "id": 569,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "We may use your approximate area to show local results. We do not request your precise GPS location.",
+  "fr": "Nous pouvons utiliser votre localisation approximative pour afficher des résultats locaux. Nous ne demandons pas votre position GPS précise.",
+  "adapted": null
+ },
+ {
+  "id": 570,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Feedback is optional.",
+  "fr": "Votre avis est facultatif.",
+  "adapted": null
+ },
+ {
+  "id": 571,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Thumbs up, thumbs down, and written comments are optional. You choose whether to send feedback.",
+  "fr": "Les avis positifs ou négatifs et les commentaires écrits sont facultatifs. Vous choisissez de nous faire part de votre avis ou non.",
+  "adapted": null
+ },
+ {
+  "id": 572,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Privacy isn’t a setting.",
+  "fr": "La confidentialité n’est pas un réglage.",
+  "adapted": null
+ },
+ {
+  "id": 573,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "It’s always on.",
+  "fr": "Elle est toujours activée.",
+  "adapted": null
+ },
+ {
+  "id": 574,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "We believe trust starts with transparency.",
+  "fr": "Nous croyons que la confiance commence par la transparence.",
+  "adapted": null
+ },
+ {
+  "id": 575,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Fully encrypted",
+  "fr": "Entièrement chiffré",
+  "adapted": null
+ },
+ {
+  "id": 576,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Your questions are encrypted the whole way. No one can read them but you. Not a company, not a stranger, not us.",
+  "fr": "Vos questions sont chiffrées tout au long de leur parcours. Vous seul pouvez les lire. Ni une entreprise, ni un inconnu, ni nous.",
+  "adapted": null
+ },
+ {
+  "id": 577,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "On-device protection",
+  "fr": "Protection sur votre appareil",
+  "adapted": null
+ },
+ {
+  "id": 578,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Sensitive details like your name, phone number, and address are detected before they leave your device.",
+  "fr": "Les informations sensibles, comme votre nom, votre numéro de téléphone et votre adresse, sont détectées avant de quitter votre appareil.",
+  "adapted": null
+ },
+ {
+  "id": 579,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Never stored",
+  "fr": "Jamais conservé",
+  "adapted": null
+ },
+ {
+  "id": 580,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "When you’re done, it’s gone. Nothing is stored, nothing is logged, nothing traces back to you.",
+  "fr": "Quand vous avez terminé, tout disparaît. Rien n’est conservé, rien n’est enregistré, rien ne permet de remonter jusqu’à vous.",
+  "adapted": null
+ },
+ {
+  "id": 581,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Never sold",
+  "fr": "Jamais vendu",
+  "adapted": null
+ },
+ {
+  "id": 582,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Your data and information is never sold, never shared, never used for anything you did not ask for.",
+  "fr": "Vos données et informations ne sont jamais vendues, jamais partagées, ni utilisées à des fins que vous n’avez pas demandées.",
+  "adapted": null
+ },
+ {
+  "id": 583,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "What we collect",
+  "fr": "Ce que nous collectons",
+  "adapted": null
+ },
+ {
+  "id": 584,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "What we don’t collect",
+  "fr": "Ce que nous ne collectons pas",
+  "adapted": null
+ },
+ {
+  "id": 585,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Item 01",
+  "fr": "Élément 01",
+  "adapted": null
+ },
+ {
+  "id": 586,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Privacy isn’t a setting. It’s always on.",
+  "fr": "La confidentialité n’est pas un réglage. Elle est toujours activée.",
+  "adapted": null
+ },
+ {
+  "id": 587,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Find the right enrollment path, understand what you need, and complete the process in one place.",
+  "fr": "Trouvez la bonne façon de vous inscrire, comprenez ce qu’il vous faut et effectuez toutes les démarches au même endroit.",
+  "adapted": null
+ },
+ {
+  "id": 588,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Know what you need before you start, submit your application, and follow its progress.",
+  "fr": "Sachez ce qu’il vous faut avant de commencer, déposez votre demande et suivez son avancement.",
+  "adapted": null
+ },
+ {
+  "id": 589,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "America.gov can help you find the information you need and help you complete forms without bouncing between websites.",
+  "fr": "America.gov vous aide à trouver les informations nécessaires et à remplir vos formulaires sans passer d’un site à l’autre.",
+  "adapted": null
+ },
+ {
+  "id": 590,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Change your name",
+  "fr": "Changer de nom",
+  "adapted": null
+ },
+ {
+  "id": 591,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "See which government records need to be updated, then update them quickly and easily in one place.",
+  "fr": "Découvrez quels dossiers administratifs doivent être modifiés et mettez-les tous à jour facilement et rapidement au même endroit.",
+  "adapted": null
+ },
+ {
+  "id": 592,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Family",
+  "fr": "Famille",
+  "adapted": null
+ },
+ {
+  "id": 593,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Social Security Administration",
+  "fr": "Administration de la Social Security",
+  "adapted": null
+ },
+ {
+  "id": 594,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Work history, benefit status, proof of age and citizenship",
+  "fr": "Parcours professionnel, situation des prestations, justificatifs d’âge et de citoyenneté",
+  "adapted": null
+ },
+ {
+  "id": 595,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Veterans Affairs",
+  "fr": "Département des Anciens combattants (VA)",
+  "adapted": null
+ },
+ {
+  "id": 596,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Military service record and any health coverage",
+  "fr": "Dossier de service militaire et couverture santé éventuelle",
+  "adapted": null
+ },
+ {
+  "id": 597,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Centers for Medicare & Medicaid Services",
+  "fr": "Centres des services Medicare et Medicaid (CMS)",
+  "adapted": null
+ },
+ {
+  "id": 598,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Medical claims, prescriptions and benefits from the last 2 years",
+  "fr": "Demandes de remboursement, ordonnances et prestations des deux dernières années",
+  "adapted": null
+ },
+ {
+  "id": 599,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Internal Revenue Service",
+  "fr": "Service fédéral des impôts (IRS)",
+  "adapted": null
+ },
+ {
+  "id": 600,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "U.S. Passport Services",
+  "fr": "Services américains des passeports",
+  "adapted": null
+ },
+ {
+  "id": 601,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Passport book",
+  "fr": "Livret de passeport",
+  "adapted": null
+ },
+ {
+  "id": 602,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "For international travel to any country.",
+  "fr": "Pour les voyages internationaux vers tous les pays.",
+  "adapted": null
+ },
+ {
+  "id": 603,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Passport card",
+  "fr": "Carte de passeport",
+  "adapted": null
+ },
+ {
+  "id": 604,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Land or sea travel to Canada, Mexico, Caribbean, Bermuda.",
+  "fr": "Voyages terrestres ou maritimes vers le Canada, le Mexique, les Caraïbes et les Bermudes.",
+  "adapted": null
+ },
+ {
+  "id": 605,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Both",
+  "fr": "Les deux",
+  "adapted": null
+ },
+ {
+  "id": 606,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Includes Passport book and the card.",
+  "fr": "Comprend le livret et la carte de passeport.",
+  "adapted": null
+ },
+ {
+  "id": 607,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Share your information",
+  "fr": "Partagez vos informations",
+  "adapted": null
+ },
+ {
+  "id": 608,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "With your permission, I’ll use information from your connected agencies to fill in your Medicare application. Choose what you’d like to share below, or enter your information manually.",
+  "fr": "Avec votre accord, j’utiliserai les informations des agences auxquelles vous êtes connecté pour remplir votre demande Medicare. Choisissez ci-dessous ce que vous souhaitez partager ou saisissez vos informations vous-même.",
+  "adapted": null
+ },
+ {
+  "id": 609,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Choose where you want to update your name",
+  "fr": "Choisissez où mettre à jour votre nom",
+  "adapted": null
+ },
+ {
+  "id": 610,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "What type of passport document do you want?",
+  "fr": "Quel type de passeport souhaitez-vous ?",
+  "adapted": null
+ },
+ {
+  "id": 611,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Add your resume and we can match jobs to your experience.",
+  "fr": "Ajoutez votre CV pour trouver des emplois adaptés à votre expérience.",
+  "adapted": null
+ },
+ {
+  "id": 612,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Drop file anywhere",
+  "fr": "Déposez le fichier n’importe où",
+  "adapted": null
+ },
+ {
+  "id": 613,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Resume_2026.pdf",
+  "fr": "CV_2026.pdf",
+  "adapted": null
+ },
+ {
+  "id": 614,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Enter manually",
+  "fr": "Saisir manuellement",
+  "adapted": null
+ },
+ {
+  "id": 615,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "For the first time, you’ll be able to complete forms, applications, and renewals all in one place. America.gov will integrate across agencies so you can safely, securely, and quickly get it done and get back to what matters most.",
+  "fr": "Pour la première fois, vous pourrez remplir vos formulaires, déposer vos demandes et effectuer vos renouvellements au même endroit. America.gov reliera les organismes pour vous permettre de terminer vos démarches rapidement et en toute sécurité, puis de revenir à l’essentiel.",
+  "adapted": null
+ },
+ {
+  "id": 616,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Get it done, right here. Complete forms, applications, and renewals in one place. Coming in 2027.",
+  "fr": "Faites vos démarches ici même. Formulaires, demandes et renouvellements au même endroit. Disponible en 2027.",
+  "adapted": null
+ },
+ {
+  "id": 617,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Don’t search.",
+  "fr": "Ne cherchez plus.",
+  "adapted": null
+ },
+ {
+  "id": 618,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Just ask.",
+  "fr": "Posez votre question.",
+  "adapted": null
+ },
+ {
+  "id": 619,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Ask in your own words.",
+  "fr": "Posez votre question avec vos mots.",
+  "adapted": null
+ },
+ {
+  "id": 620,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Type what you need into the prompt bar, just like you’d ask a person.",
+  "fr": "Écrivez votre demande dans la barre de saisie, comme si vous vous adressiez à une personne.",
+  "adapted": null
+ },
+ {
+  "id": 621,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "We search all government websites.",
+  "fr": "Nous cherchons sur tous les sites gouvernementaux.",
+  "adapted": null
+ },
+ {
+  "id": 622,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "America.gov searches across all government information that applies to your question.",
+  "fr": "America.gov recherche toutes les informations gouvernementales pertinentes pour votre question.",
+  "adapted": null
+ },
+ {
+  "id": 623,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Get a guided answer.",
+  "fr": "Obtenez une réponse qui vous guide.",
+  "adapted": null
+ },
+ {
+  "id": 624,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Answers come with clear next steps, what to do, what to bring, and where to go.",
+  "fr": "Chaque réponse précise les étapes suivantes : quoi faire, quoi apporter et où aller.",
+  "adapted": null
+ },
+ {
+  "id": 625,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "There are no menus to learn, no forms to hunt down, no websites to search across. America.gov replaces the maze Americans spend billions of hours navigating with a single experience that is effortless, fast, and organized around you, just ask, and government answers.",
+  "fr": "Aucun menu à maîtriser, aucun formulaire à dénicher, aucun site à parcourir. America.gov remplace le labyrinthe où les Américains passent des milliards d’heures par un service unique, simple, rapide et conçu pour vous. Posez votre question, le gouvernement vous répond.",
+  "adapted": null
+ },
+ {
+  "id": 626,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Ask anything today",
+  "fr": "Posez toutes vos questions dès aujourd’hui",
+  "adapted": null
+ },
+ {
+  "id": 627,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Coming in 2027",
+  "fr": "Dès 2027",
+  "adapted": null
+ },
+ {
+  "id": 628,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Learn more",
+  "fr": "En savoir plus",
+  "adapted": null
+ },
+ {
+  "id": 629,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Government answers and services",
+  "fr": "Réponses et services gouvernementaux",
+  "adapted": null
+ },
+ {
+  "id": 630,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Page not found",
+  "fr": "Page introuvable",
+  "adapted": null
+ },
+ {
+  "id": 631,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "The page you asked for is not here.",
+  "fr": "La page demandée est introuvable.",
+  "adapted": null
+ },
+ {
+  "id": 632,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Full name",
+  "fr": "Nom complet",
+  "adapted": null
+ },
+ {
+  "id": 633,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Date of birth",
+  "fr": "Date de naissance",
+  "adapted": null
+ },
+ {
+  "id": 634,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "March 14, 1960",
+  "fr": "14 mars 1960",
+  "adapted": null
+ },
+ {
+  "id": 635,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "March 14, 1990",
+  "fr": "14 mars 1990",
+  "adapted": null
+ },
+ {
+  "id": 636,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Citizenship",
+  "fr": "Citoyenneté",
+  "adapted": null
+ },
+ {
+  "id": 637,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "U.S. Citizen",
+  "fr": "Citoyen des États-Unis",
+  "adapted": null
+ },
+ {
+  "id": 638,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Work history",
+  "fr": "Parcours professionnel",
+  "adapted": null
+ },
+ {
+  "id": 639,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "38 years, 152 quarters of coverage",
+  "fr": "38 ans, 152 trimestres de cotisation",
+  "adapted": null
+ },
+ {
+  "id": 640,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Military service",
+  "fr": "Service militaire",
+  "adapted": null
+ },
+ {
+  "id": 641,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "U.S. Army veteran",
+  "fr": "Ancien militaire de l’U.S. Army",
+  "adapted": null
+ },
+ {
+  "id": 642,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Name",
+  "fr": "Nom",
+  "adapted": null
+ },
+ {
+  "id": 643,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Medicare number",
+  "fr": "Numéro Medicare",
+  "adapted": null
+ },
+ {
+  "id": 644,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Pending",
+  "fr": "En attente",
+  "adapted": null
+ },
+ {
+  "id": 645,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Hospital (Part A) coverage",
+  "fr": "Couverture hospitalière (partie A)",
+  "adapted": null
+ },
+ {
+  "id": 646,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Medical (Part B) coverage",
+  "fr": "Couverture médicale (partie B)",
+  "adapted": null
+ },
+ {
+  "id": 647,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Do you currently have health insurance?",
+  "fr": "Avez-vous actuellement une assurance maladie ?",
+  "adapted": null
+ },
+ {
+  "id": 648,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Are you still working, or planning to keep working?",
+  "fr": "Travaillez-vous encore ou prévoyez-vous de continuer ?",
+  "adapted": null
+ },
+ {
+  "id": 649,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Is this information correct?",
+  "fr": "Ces informations sont-elles exactes ?",
+  "adapted": null
+ },
+ {
+  "id": 650,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "No, something is wrong",
+  "fr": "Non, il y a une erreur",
+  "adapted": null
+ },
+ {
+  "id": 651,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Yes, continue",
+  "fr": "Oui, continuer",
+  "adapted": null
+ },
+ {
+  "id": 652,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Yes",
+  "fr": "Oui",
+  "adapted": null
+ },
+ {
+  "id": 653,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "No",
+  "fr": "Non",
+  "adapted": null
+ },
+ {
+  "id": 654,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Your enrollment is processing",
+  "fr": "Votre inscription est en cours de traitement",
+  "adapted": null
+ },
+ {
+  "id": 655,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Your Medicare application has been submitted for review.",
+  "fr": "Votre demande Medicare a été transmise pour examen.",
+  "adapted": null
+ },
+ {
+  "id": 656,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Medicare health insurance",
+  "fr": "Assurance maladie Medicare",
+  "adapted": null
+ },
+ {
+  "id": 657,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Checking records",
+  "fr": "Vérification des dossiers",
+  "adapted": null
+ },
+ {
+  "id": 658,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Information retrieved",
+  "fr": "Informations récupérées",
+  "adapted": null
+ },
+ {
+  "id": 659,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Software Developer",
+  "fr": "Développeur logiciel",
+  "adapted": null
+ },
+ {
+  "id": 660,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Department of the Navy",
+  "fr": "Département de la Marine",
+  "adapted": null
+ },
+ {
+  "id": 661,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "$101,401 - $156,755 per year",
+  "fr": "101 401 à 156 755 $ par an",
+  "adapted": null
+ },
+ {
+  "id": 662,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Hybrid - 2 days remote",
+  "fr": "Hybride — 2 jours de télétravail",
+  "adapted": null
+ },
+ {
+  "id": 663,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Same field as your resume (management & program analysis)",
+  "fr": "Même domaine que votre CV (gestion et analyse de programmes)",
+  "adapted": null
+ },
+ {
+  "id": 664,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Your 8 years of experience clears the work experience requirements",
+  "fr": "Vos 8 ans d’expérience satisfont aux critères d’expérience requis",
+  "adapted": null
+ },
+ {
+  "id": 665,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Grants management is listed as a key requirement",
+  "fr": "La gestion des subventions figure parmi les exigences clés",
+  "adapted": null
+ },
+ {
+  "id": 666,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Top 3 matches for you",
+  "fr": "3 offres adaptées à votre profil",
+  "adapted": null
+ },
+ {
+  "id": 667,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "These jobs fit your 8 years in management and program analysis experience and skills.",
+  "fr": "Ces emplois correspondent à vos 8 ans d’expérience et à vos compétences en gestion et analyse de programmes.",
+  "adapted": null
+ },
+ {
+  "id": 668,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Why you are a good match",
+  "fr": "Pourquoi ce poste vous correspond",
+  "adapted": null
+ },
+ {
+  "id": 669,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "See details",
+  "fr": "Voir les détails",
+  "adapted": null
+ },
+ {
+  "id": 670,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Checking",
+  "fr": "Vérification",
+  "adapted": null
+ },
+ {
+  "id": 671,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Choose a file or drag and drop it here",
+  "fr": "Choisissez un fichier ou déposez-le ici",
+  "adapted": null
+ },
+ {
+  "id": 672,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "See requirements",
+  "fr": "Voir les exigences",
+  "adapted": null
+ },
+ {
+  "id": 673,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Current legal name",
+  "fr": "Nom officiel actuel",
+  "adapted": null
+ },
+ {
+  "id": 674,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "New legal name",
+  "fr": "Nouveau nom officiel",
+  "adapted": null
+ },
+ {
+  "id": 675,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "State of residence",
+  "fr": "État de résidence",
+  "adapted": null
+ },
+ {
+  "id": 676,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Reason for change",
+  "fr": "Motif du changement",
+  "adapted": null
+ },
+ {
+  "id": 677,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Marriage",
+  "fr": "Mariage",
+  "adapted": null
+ },
+ {
+  "id": 678,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "In progress",
+  "fr": "En cours",
+  "adapted": null
+ },
+ {
+  "id": 679,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Scan with your phone",
+  "fr": "Scannez avec votre téléphone",
+  "adapted": null
+ },
+ {
+  "id": 680,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Upload the file or a photo of the document",
+  "fr": "Importez le fichier ou une photo du document",
+  "adapted": null
+ },
+ {
+  "id": 681,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Drop the file anywhere",
+  "fr": "Déposez le fichier n’importe où",
+  "adapted": null
+ },
+ {
+  "id": 682,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Drop the image anywhere",
+  "fr": "Déposez l’image n’importe où",
+  "adapted": null
+ },
+ {
+  "id": 683,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Drop resume anywhere",
+  "fr": "Déposez votre CV n’importe où",
+  "adapted": null
+ },
+ {
+  "id": 684,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "resume.pdf",
+  "fr": "cv.pdf",
+  "adapted": null
+ },
+ {
+  "id": 685,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "marriage-certificate.pdf",
+  "fr": "acte-de-mariage.pdf",
+  "adapted": null
+ },
+ {
+  "id": 686,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Previous name",
+  "fr": "Ancien nom",
+  "adapted": null
+ },
+ {
+  "id": 687,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "New name",
+  "fr": "Nouveau nom",
+  "adapted": null
+ },
+ {
+  "id": 688,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Update your driver’s license or state ID",
+  "fr": "Mettez à jour votre permis de conduire ou votre carte d’identité délivrée par l’État",
+  "adapted": null
+ },
+ {
+  "id": 689,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Virginia DMV instructions",
+  "fr": "Instructions du DMV de Virginie",
+  "adapted": null
+ },
+ {
+  "id": 690,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Update your voter registration, if registered",
+  "fr": "Mettez à jour votre inscription électorale, le cas échéant",
+  "adapted": null
+ },
+ {
+  "id": 691,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Virginia voter registration instructions",
+  "fr": "Instructions d’inscription électorale en Virginie",
+  "adapted": null
+ },
+ {
+  "id": 692,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Your name change request has been submitted. You’ll receive an email as each agency completes its update.",
+  "fr": "Votre demande de changement de nom a été transmise. Vous recevrez un e-mail à chaque mise à jour effectuée par une agence.",
+  "adapted": null
+ },
+ {
+  "id": 693,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Complete these updates directly with your state, then check them off here. Checking a box only tracks your progress—it doesn’t submit an update.",
+  "fr": "Effectuez ces mises à jour auprès de votre État, puis cochez-les ici. Les cases servent uniquement à suivre votre progression, pas à transmettre une demande.",
+  "adapted": null
+ },
+ {
+  "id": 694,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Confirm your name changes",
+  "fr": "Confirmez votre changement de nom",
+  "adapted": null
+ },
+ {
+  "id": 695,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Add your marriage certificate",
+  "fr": "Ajoutez votre acte de mariage",
+  "adapted": null
+ },
+ {
+  "id": 696,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Name change submitted",
+  "fr": "Demande de changement de nom envoyée",
+  "adapted": null
+ },
+ {
+  "id": 697,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Your Virginia checklist",
+  "fr": "Votre liste de démarches en Virginie",
+  "adapted": null
+ },
+ {
+  "id": 698,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Address",
+  "fr": "Adresse",
+  "adapted": null
+ },
+ {
+  "id": 699,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Social Security Number",
+  "fr": "Numéro de Social Security",
+  "adapted": null
+ },
+ {
+  "id": 700,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Confirmation number",
+  "fr": "Numéro de confirmation",
+  "adapted": null
+ },
+ {
+  "id": 701,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Amount paid",
+  "fr": "Montant payé",
+  "adapted": null
+ },
+ {
+  "id": 702,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Paid with",
+  "fr": "Mode de paiement",
+  "adapted": null
+ },
+ {
+  "id": 703,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Paid to",
+  "fr": "Bénéficiaire",
+  "adapted": null
+ },
+ {
+  "id": 704,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "U.S. Department of State",
+  "fr": "Département d’État des États-Unis",
+  "adapted": null
+ },
+ {
+  "id": 705,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Myself",
+  "fr": "Moi-même",
+  "adapted": null
+ },
+ {
+  "id": 706,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "My child",
+  "fr": "Mon enfant",
+  "adapted": null
+ },
+ {
+  "id": 707,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Height (feet)",
+  "fr": "Taille (pieds)",
+  "adapted": null
+ },
+ {
+  "id": 708,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Height (inches)",
+  "fr": "Taille (pouces)",
+  "adapted": null
+ },
+ {
+  "id": 709,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Hair color",
+  "fr": "Couleur des cheveux",
+  "adapted": null
+ },
+ {
+  "id": 710,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Eye color",
+  "fr": "Couleur des yeux",
+  "adapted": null
+ },
+ {
+  "id": 711,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Black",
+  "fr": "Noirs",
+  "adapted": null
+ },
+ {
+  "id": 712,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Brown",
+  "fr": "Bruns",
+  "adapted": null
+ },
+ {
+  "id": 713,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Blue",
+  "fr": "Bleus",
+  "adapted": null
+ },
+ {
+  "id": 714,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Take the photo with your phone",
+  "fr": "Prenez la photo avec votre téléphone",
+  "adapted": null
+ },
+ {
+  "id": 715,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Upload a photo you have already",
+  "fr": "Importer une photo existante",
+  "adapted": null
+ },
+ {
+  "id": 716,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "passport-photo.jpg",
+  "fr": "photo-passeport.jpg",
+  "adapted": null
+ },
+ {
+  "id": 717,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Standard delivery",
+  "fr": "Livraison standard",
+  "adapted": null
+ },
+ {
+  "id": 718,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Arrives by October 12",
+  "fr": "Livraison d’ici le 12 octobre",
+  "adapted": null
+ },
+ {
+  "id": 719,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Expedited delivery",
+  "fr": "Livraison accélérée",
+  "adapted": null
+ },
+ {
+  "id": 720,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Arrives by September 25",
+  "fr": "Livraison d’ici le 25 septembre",
+  "adapted": null
+ },
+ {
+  "id": 721,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Change",
+  "fr": "Modifier",
+  "adapted": null
+ },
+ {
+  "id": 722,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "I swear and affirm the truth of all statements made on this application.",
+  "fr": "Je certifie sur l’honneur l’exactitude de toutes les déclarations de cette demande.",
+  "adapted": null
+ },
+ {
+  "id": 723,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Affirm application statements",
+  "fr": "Certifier les déclarations de la demande",
+  "adapted": null
+ },
+ {
+  "id": 724,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "A passport agency is reviewing your application and supporting documents. This typically takes 2 to 4 weeks.",
+  "fr": "Un service des passeports examine votre demande et vos justificatifs. Cela prend généralement 2 à 4 semaines.",
+  "adapted": null
+ },
+ {
+  "id": 725,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Payments are secure and encrypted.",
+  "fr": "Les paiements sont sécurisés et chiffrés.",
+  "adapted": null
+ },
+ {
+  "id": 726,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Are you traveling in the next 2 weeks",
+  "fr": "Voyagez-vous dans les 2 prochaines semaines ?",
+  "adapted": null
+ },
+ {
+  "id": 727,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Who is the passport for?",
+  "fr": "À qui est destiné le passeport ?",
+  "adapted": null
+ },
+ {
+  "id": 728,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Describe yourself",
+  "fr": "Décrivez votre apparence",
+  "adapted": null
+ },
+ {
+  "id": 729,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Add your passport photo",
+  "fr": "Ajoutez votre photo de passeport",
+  "adapted": null
+ },
+ {
+  "id": 730,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Choose your delivery",
+  "fr": "Choisissez votre mode de livraison",
+  "adapted": null
+ },
+ {
+  "id": 731,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Review and pay",
+  "fr": "Vérifier et payer",
+  "adapted": null
+ },
+ {
+  "id": 732,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Pay $165.00",
+  "fr": "Payer 165,00 $",
+  "adapted": null
+ },
+ {
+  "id": 733,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Your passport application being processed",
+  "fr": "Votre demande de passeport est en cours de traitement",
+  "adapted": null
+ },
+ {
+  "id": 734,
+  "sources": [
+   "rendered:about",
+   "rendered:coming-soon",
+   "rendered:faq",
+   "rendered:home",
+   "rendered:how-it-works",
+   "rendered:privacy-policy",
+   "rendered:privacy",
+   "rendered:terms"
+  ],
+  "en": "Skip to main content",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 735,
+  "sources": [
+   "rendered:about",
+   "rendered:coming-soon",
+   "rendered:faq",
+   "rendered:home",
+   "rendered:how-it-works",
+   "rendered:privacy-policy",
+   "rendered:privacy",
+   "rendered:terms"
+  ],
+  "en": "Français",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 736,
+  "sources": [
+   "rendered:about",
+   "rendered:coming-soon",
+   "rendered:faq",
+   "rendered:home",
+   "rendered:how-it-works",
+   "rendered:privacy-policy",
+   "rendered:privacy",
+   "rendered:terms"
+  ],
+  "en": "Español",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 737,
+  "sources": [
+   "rendered:about",
+   "rendered:coming-soon",
+   "rendered:faq",
+   "rendered:home",
+   "rendered:how-it-works",
+   "rendered:privacy-policy",
+   "rendered:privacy",
+   "rendered:terms"
+  ],
+  "en": "Notifications alt+T",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 738,
+  "sources": [
+   "rendered:coming-soon"
+  ],
+  "en": "James R. Whitfield",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 739,
+  "sources": [
+   "rendered:coming-soon"
+  ],
+  "en": "John McDonald",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 740,
+  "sources": [
+   "rendered:coming-soon"
+  ],
+  "en": "Jane R. Whitfield",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 741,
+  "sources": [
+   "rendered:coming-soon"
+  ],
+  "en": "2737 E Main St, Phoenix, AZ 85017",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 742,
+  "sources": [
+   "rendered:coming-soon",
+   "rendered:home"
+  ],
+  "en": "WILLOW",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 743,
+  "sources": [
+   "rendered:coming-soon",
+   "rendered:home"
+  ],
+  "en": "MCDONALD",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 744,
+  "sources": [
+   "rendered:coming-soon"
+  ],
+  "en": "US-1RXZPD",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 745,
+  "sources": [
+   "rendered:coming-soon"
+  ],
+  "en": "Visa ••••4242",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 746,
+  "sources": [
+   "rendered:coming-soon",
+   "rendered:home",
+   "rendered:how-it-works",
+   "rendered:privacy"
+  ],
+  "en": "Pause animation",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 747,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Example question: How do I register my new business?",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 748,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Example 1 of 11: How do I register my new business?",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 749,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "America.gov uses AI to get simple answers only from official government sources. It’s free to use, never includes ads, and keeps your privacy protected.",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 750,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Agency badges shown: DOI.gov, Department of State, and Department of Commerce.",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 751,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Senior AI Software Engineer",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 752,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Technical Fellow Software",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 753,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "National Aeronautics and Space Administration",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 754,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Add your preferred pharmacies",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 755,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Ridgeview Pharmacy",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 756,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "1124 Patton Ave, Reston, VA",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 757,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Town Center Pharmacy",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 758,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "1800 Old Reston Ave, Reston, VA",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 759,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Lakeside Drug",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 760,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "2200 Sunrise Valley Dr, Reston, VA",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 761,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Winn Campground",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 762,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "AZ-273, Greer, AZ 85927",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 763,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Rolfe C. Hoyer Campground",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 764,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "AZ-373, Greer, AZ 85927",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 765,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Apache Trout Campground",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 766,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Big Lake Rd, Greer, AZ 85927",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 767,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Brookchar Campground",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 768,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "50 1120, Greer, AZ 85927",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 769,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Add your medications to compare costs",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 770,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Search medications",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 771,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "90 mcg",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 772,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Get prescription",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 773,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Change name",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 774,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "401 N Main St,",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 775,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Mocksville, NC 27028",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 776,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Arrives by Nov 5, 2026",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 777,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Submitted",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 778,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Processing",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 779,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Confirm your photo",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 780,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Example 2 of 11: How do I update my address with USPS?",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 781,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Example 3 of 11: How do I get a passport for my child?",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 782,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Example 4 of 11: Which military service is best for me?",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 783,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Example 5 of 11: How can I invest in my child’s future?",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 784,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Example 6 of 11: How do I replace my social security card?",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 785,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Example 7 of 11: How do I book a campsite in a national park?",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 786,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Example 8 of 11: I’m a veteran. How do I get care?",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 787,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Example 9 of 11: I just got married. How do I change my last name?",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 788,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Example 10 of 11: When do I qualify for Medicare?",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 789,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Example 11 of 11: Help me find a new job",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 790,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Pause the example questions",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 791,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Make a shooting star",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 792,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Expand pharmacy map",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 793,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Pharmacy location",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 794,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Ridgeview Pharmacy selected",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 795,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Town Center Pharmacy selected",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 796,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Add Lakeside Drug",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 797,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Locate campground",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 798,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "Orient map",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 799,
+  "sources": [
+   "rendered:how-it-works"
+  ],
+  "en": "N-400 application",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 800,
+  "sources": [
+   "rendered:how-it-works"
+  ],
+  "en": "Help me with this PDF",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 801,
+  "sources": [
+   "rendered:how-it-works"
+  ],
+  "en": "Respuestas",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 802,
+  "sources": [
+   "rendered:how-it-works"
+  ],
+  "en": "Réponses",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 803,
+  "sources": [
+   "rendered:how-it-works"
+  ],
+  "en": "Ohio,",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 804,
+  "sources": [
+   "rendered:how-it-works"
+  ],
+  "en": "retiring",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 805,
+  "sources": [
+   "rendered:how-it-works"
+  ],
+  "en": "January.",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 806,
+  "sources": [
+   "rendered:how-it-works"
+  ],
+  "en": "husband",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 807,
+  "sources": [
+   "rendered:how-it-works"
+  ],
+  "en": "Medicare,",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 808,
+  "sources": [
+   "rendered:how-it-works"
+  ],
+  "en": "covered",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 809,
+  "sources": [
+   "rendered:how-it-works"
+  ],
+  "en": "enroll?",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 810,
+  "sources": [
+   "rendered:privacy-policy"
+  ],
+  "en": "Last updated: September 29, 2026",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 811,
+  "sources": [
+   "rendered:privacy"
+  ],
+  "en": "I can’t find my kid’s social security card!",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 812,
+  "sources": [
+   "rendered:privacy"
+  ],
+  "en": "Invite a butterfly",
+  "fr": null,
+  "adapted": null
+ },
+ {
+  "id": 813,
+  "sources": [
+   "rendered:terms"
+  ],
+  "en": "Last updated: September 8, 2026",
+  "fr": null,
+  "adapted": null
+ }
+]

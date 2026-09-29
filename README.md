@@ -1,36 +1,38 @@
-# Hello France
+# Bonjour, France
 
-**Site non officiel — projet indépendant, sans lien avec le gouvernement français ni le gouvernement américain.**
+**Site non officiel — projet indépendant, sans lien avec les gouvernements français ou américain.**
 
-Hello France imagine une porte d’entrée unique vers les démarches en France : vous posez votre question en français, un modèle **Mistral** exécuté dans votre navigateur vous répond simplement, et vous renvoie vers les pages officielles.
+Bonjour, France reprend à l’identique l’interface d’[america.gov](https://america.gov/) (design original : [National Design Studio](https://ndstudio.gov/)) et la réécrit pour la France : vous posez votre question en français, un modèle **Mistral** exécuté dans votre navigateur vous répond simplement et vous renvoie vers les sites publics officiels.
 
-- Site : https://connected-mate.github.io/hello-france/
-- Inspiré de [america.gov](https://america.gov/) — design original : [National Design Studio](https://ndstudio.gov/)
+- Site : https://connected-mate.github.io/bonjour-france/
 - Réalisé par [Alexandre Cormeraie](https://www.linkedin.com/in/alex-cormeraie/)
 
 **Votez pour que ça devienne officiel : ajoutez une étoile à ce dépôt.**
 
-## Comment ça marche
+## Comment c’est fait
 
 | Brique | Détail |
 | --- | --- |
-| IA | [WebLLM](https://github.com/mlc-ai/web-llm) 0.2.85 + Ministral 3B (par défaut) ou Mistral 7B v0.3, via WebGPU, dans un Web Worker. Aucun serveur, aucune clé. |
-| Sans WebGPU | Réponse issue de la fiche vérifiée correspondante (sans IA), avec les liens officiels. |
-| Fiches | `assets/data/kb.json` — 60 fiches, sources officielles vérifiées (septembre 2026). |
-| Données en direct | geo.api.gouv.fr, Annuaire de l’administration, Base Adresse Nationale, Annuaire des Entreprises, API Jours fériés, data.gouv.fr, Open-Meteo. |
-| Votes | Étoiles GitHub, lues via l’API publique (cache 10 min, repli si limite atteinte). |
+| Interface | Le vrai front-end d’america.gov (Astro + React), téléchargé tel quel puis adapté par `tools/build.py`. |
+| Textes | Tout le texte est en français, adapté à la France (`tools/i18n/`). |
+| IA | [WebLLM](https://github.com/mlc-ai/web-llm) 0.2.85 + Mistral 7B Instruct v0.3 (WebGPU), dans le navigateur. Le modèle est téléchargé une seule fois, après accord de la personne. Aucun serveur, aucune clé. |
+| Sans WebGPU | Réponse issue de fiches vérifiées (`tools/static/kb.json`), sans IA, avec les liens officiels. |
+| PDF | Lus dans le navigateur ([LiteParse](https://www.npmjs.com/package/@llamaindex/liteparse-wasm), Apache-2.0). |
+| Votes | Étoiles GitHub, lues via l’API publique (cache 10 min, repli si indisponible). |
+| Serveurs d’america.gov | Aucun appel : API, vérification Cloudflare, rapports d’erreurs et avis sont neutralisés (`tools/static/bonjour.js`). |
 
-Brancher plus tard une API Mistral : dans `assets/js/config.js`, `ai.provider = "api"` et `ai.api.endpoint` = l’URL d’un **proxy** compatible OpenAI (streaming SSE) qui garde la clé côté serveur. Ne jamais mettre de clé dans ce dépôt.
+## Ce qui a été remplacé
 
-## Développer
+- **Images** : sceaux, logos d’agences, photos et maquettes américaines remplacés par des images générées ou dessinées (voir `tools/overrides/IMAGE-CREDITS.md`). Aucun logo de l’État français, aucune Marianne.
+- **Polices** : Helvetica Now et Rhymes sont commerciales. Elles sont remplacées par [Geist](https://github.com/vercel/geist-font) et [Newsreader](https://github.com/productiontype/Newsreader) (SIL OFL 1.1).
 
-Site statique, sans dépendance. Les pages sont assemblées depuis `src/` :
+## Reconstruire
 
 ```sh
-python3 build.py              # régénère les pages .html à la racine
-python3 -m http.server 8000   # puis ouvrir http://localhost:8000/
+python3 tools/build.py        # _mirror/ + tools/ -> docs/ (source GitHub Pages)
+python3 tools/check_english.py
 ```
 
-## Licence
+`_mirror/` (copie brute d’america.gov, polices commerciales comprises) reste en local et n’est pas publié.
 
-Code sous licence MIT. Photos générées par IA pour ce projet (voir `assets/img/CREDITS.md`). Aucun fichier, image ni code d’america.gov n’est repris. Aucun emblème officiel de l’État n’est utilisé.
+Aperçu local : servir le dossier parent de `docs/` sous le chemin `/bonjour-france/`.

@@ -1,0 +1,1 @@
+import{i as e}from"./rolldown-runtime.Dd_uD5pT.js";import{Gt as t,Kt as n,Wt as r,Yn as i}from"./ui-primitives.gbQ-GTd_.js";var a=e(i(),1);function o(){!t.current&&r();let[e]=(0,a.useState)(n.current);return e}export{o as t};

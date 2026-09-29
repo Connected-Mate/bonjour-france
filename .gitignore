@@ -1,3 +1,16 @@
-recon/
 .DS_Store
+recon/
 failtest.html
+# pristine america.gov mirror (includes commercial fonts): local only
+_mirror/
+# build scratch
+.build-stage/
+.build-out/
+.build-prev/
+# heavy local artefacts
+compare/
+tools/imgtools/**/*.png
+tools/imgtools/**/*.webp
+tools/imgtools/**/*.jpg
+node_modules/
+__pycache__/
