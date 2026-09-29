@@ -1,0 +1,57 @@
+[
+  {
+    "numero": "15",
+    "label": "SAMU - urgence médicale",
+    "detail": "Pour un malaise, un problème cardiaque ou toute urgence de santé grave. Un médecin régule l'appel et envoie les secours. Appel gratuit, 24h/24."
+  },
+  {
+    "numero": "17",
+    "label": "Police secours",
+    "detail": "Pour signaler une infraction, un accident de la route ou un trouble à l'ordre public. Police ou gendarmerie se rend sur place."
+  },
+  {
+    "numero": "18",
+    "label": "Pompiers",
+    "detail": "Pour un incendie, un accident, une noyade ou toute situation de péril. Appel gratuit, 24h/24."
+  },
+  {
+    "numero": "112",
+    "label": "Numéro d'urgence européen",
+    "detail": "Fonctionne dans toute l'Europe, pour une urgence médicale, une infraction ou un péril. Utile aussi si vous ne savez pas quel numéro composer."
+  },
+  {
+    "numero": "114",
+    "label": "Urgence 114 - personnes sourdes ou malentendantes",
+    "detail": "Pour les personnes sourdes, malentendantes, sourdaveugles ou aphasiques : accès par SMS, application, tchat ou visio. Service ouvert 24h/24."
+  },
+  {
+    "numero": "115",
+    "label": "Samu social - personnes sans abri",
+    "detail": "Numéro d'urgence et d'accueil pour les personnes sans abri ou en grande difficulté de logement. Appel gratuit."
+  },
+  {
+    "numero": "119",
+    "label": "Enfance en danger",
+    "detail": "Pour tout enfant ou adolescent victime de violences, ou toute personne inquiète pour un enfant en danger. Appel gratuit et confidentiel, 24h/24."
+  },
+  {
+    "numero": "3919",
+    "label": "Violences Femmes Info",
+    "detail": "Écoute, informe et oriente les femmes victimes de violences et leurs témoins. Appel gratuit, anonyme. En danger immédiat, appelez le 17."
+  },
+  {
+    "numero": "196",
+    "label": "Sauvetage en mer (CROSS)",
+    "detail": "Depuis le littoral, appelez le 196 ou le 112. En mer, utilisez de préférence le canal 16 de la radio VHF."
+  },
+  {
+    "numero": "191",
+    "label": "Secours aéronautiques",
+    "detail": "Pour signaler un aéronef en difficulté ou disparu. Appelez aussi le 112 en cas de doute."
+  },
+  {
+    "numero": "197",
+    "label": "Alerte attentat",
+    "detail": "Numéro gratuit activé uniquement lors d'un plan d'alerte attentat, pour transmettre des informations utiles aux enquêteurs."
+  }
+]

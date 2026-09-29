@@ -1,0 +1,20 @@
+<form class="ask" action="{{root}}chat.html" method="get" data-ask aria-label="Poser une question">
+  <div class="ask-field">
+    <div class="ask-attach" data-attach hidden></div>
+    <label class="sr-only" for="{{id}}">Décrivez ce dont vous avez besoin</label>
+    <textarea id="{{id}}" name="q" rows="1" maxlength="2000" enterkeyhint="send" autocomplete="off" placeholder="{{placeholder}}"></textarea>
+    {{hint}}
+  </div>
+  <div class="ask-actions">
+    <input type="file" accept="application/pdf,.pdf" hidden data-file tabindex="-1" aria-hidden="true">
+    <button class="icon-btn" type="button" data-action="pdf" aria-label="Joindre un PDF (lu uniquement sur votre appareil)" title="Joindre un PDF">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M9 7v8a3 3 0 0 0 6 0V6a2 2 0 0 0-4 0v9a1 1 0 0 0 2 0V8"/></svg>
+    </button>
+    <button class="icon-btn" type="button" data-action="voice" aria-label="Dicter la question" aria-pressed="false" title="Dicter">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21M9 21h6"/></svg>
+    </button>
+    <button class="ask-send" type="submit" aria-label="Envoyer la question">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </button>
+  </div>
+</form>

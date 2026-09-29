@@ -1,0 +1,48 @@
+<!--
+title: Confidentialité — Hello France (site non officiel)
+description: Hello France n’a pas de serveur, pas de compte, pas de pisteur. L’IA Mistral tourne dans votre navigateur et vos conversations ne sont jamais enregistrées.
+options: dock vote footer
+body_class: has-dock
+scripts: common.js
+-->
+<main id="contenu">
+  <header class="page-hero">
+    <h1 class="display">Confidentialité</h1>
+    <p>Pas de compte, pas de publicité, pas de pisteur. Vos questions restent sur votre appareil.</p>
+  </header>
+  <div class="prose">
+    <h2>Ce que nous ne faisons pas</h2>
+    <ul>
+      <li>Aucune donnée personnelle collectée, aucun cookie, aucune mesure d’audience.</li>
+      <li>Vos questions ne sont envoyées à aucun serveur d’IA : Mistral tourne dans votre navigateur.</li>
+      <li>La conversation n’est pas enregistrée : elle disparaît quand vous fermez ou rechargez la page.</li>
+      <li>Les PDF joints sont lus sur votre appareil ; seul le texte est gardé, le temps de la question.</li>
+    </ul>
+
+    <h2>Ce qui est gardé sur votre appareil</h2>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Élément</th><th>Pourquoi</th><th>Comment l’effacer</th></tr></thead>
+      <tbody>
+        <tr><td>Le modèle Mistral (plusieurs Go)</td><td>Éviter de le retélécharger</td><td>Réglages de l’IA → « Supprimer le modèle téléchargé », ou effacer les données du site</td></tr>
+        <tr><td>Votre choix d’activer l’IA et le modèle préféré</td><td>Ne pas vous redemander</td><td>Effacer les données du site</td></tr>
+        <tr><td>Le thème choisi (clair / sombre)</td><td>Confort</td><td>Revenir sur « automatique »</td></tr>
+        <tr><td>Le nombre de votes GitHub (10 min)</td><td>Limiter les appels à GitHub</td><td>Automatique</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Les services contactés par votre navigateur</h2>
+    <p>Comme tout site, votre navigateur télécharge des ressources auprès de tiers, qui voient alors votre adresse IP :</p>
+    <ul>
+      <li><b>GitHub Pages</b> (hébergement du site) et <b>l’API GitHub</b> (compteur de votes).</li>
+      <li><b>Google Fonts</b> (polices EB Garamond et Hanken Grotesk).</li>
+      <li><b>jsDelivr</b> et <b>cdnjs</b> (bibliothèques WebLLM et pdf.js), <b>Hugging Face</b> et <b>GitHub</b> (fichiers du modèle Mistral).</li>
+      <li>Les <b>API publiques</b> listées dans <a href="./comment-ca-marche.html">Comment ça marche</a>, uniquement quand vous utilisez les outils correspondants. Seul le texte utile leur est envoyé (un nom de commune, une adresse…).</li>
+    </ul>
+    <div class="callout">
+      <p style="margin:0"><b>Dictée vocale :</b> le bouton micro utilise la reconnaissance vocale de votre navigateur. Dans Chrome et Edge, le son est transcrit par les serveurs de Google ou Microsoft. Si vous préférez, tapez simplement votre question.</p>
+    </div>
+
+    <h2>Vos droits</h2>
+    <p>Comme nous ne collectons aucune donnée personnelle, il n’y a rien à consulter ni à supprimer chez nous. Pour toute question : <a href="https://github.com/Connected-Mate/hello-france/issues/new" target="_blank" rel="noopener">ouvrir un ticket sur GitHub</a>.</p>
+  </div>
+</main>

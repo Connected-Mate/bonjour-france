@@ -1,0 +1,41 @@
+<a class="skip-link" href="#contenu">Aller au contenu</a>
+<div class="notice-bar" role="region" aria-label="Avertissement : site non officiel">
+  <button class="notice-toggle" type="button" aria-expanded="false" aria-controls="notice-panel">
+    <span><strong>Site non officiel</strong> — projet indépendant</span>
+    <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 8l5 5 5-5"/></svg>
+  </button>
+  <div class="notice-panel" id="notice-panel" hidden>
+    <p><strong>Hello France n’est pas un site du gouvernement.</strong> C’est un projet personnel et indépendant, sans lien avec le gouvernement français ni avec le gouvernement américain.</p>
+    <p>Les réponses renvoient toujours vers les sites officiels (service-public.gouv.fr, impots.gouv.fr, ameli.fr…) : ce sont eux qui font foi.</p>
+  </div>
+</div>
+<header class="site-header">
+  <a class="brand" href="{{root}}" aria-label="Hello France, accueil">
+    <span class="brand-flag" aria-hidden="true"><i></i><i></i><i></i></span>
+    <span class="brand-word" aria-hidden="true">Hello<b>France</b></span>
+  </a>
+  <button class="btn btn-primary menu-btn" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="site-menu">Menu</button>
+</header>
+<dialog class="menu" id="site-menu" aria-label="Menu principal">
+  <div class="menu-inner">
+    <button class="icon-btn menu-close" type="button" aria-label="Fermer le menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M7 7l10 10M17 7L7 17"/></svg>
+    </button>
+    <nav aria-label="Principal">
+      <ul>
+        <li><a href="{{root}}">Accueil</a></li>
+        <li><a href="{{root}}chat.html">Poser une question</a></li>
+        <li><a href="{{root}}comment-ca-marche.html">Comment ça marche</a></li>
+        <li><a href="{{root}}confidentialite.html">Confidentialité</a></li>
+        <li><a href="{{root}}a-propos.html">À propos</a></li>
+        <li><a href="{{root}}bientot.html">Bientôt</a></li>
+        <li><a href="{{root}}faq.html">FAQ</a></li>
+        <li><a href="https://github.com/Connected-Mate/hello-france/issues/new" rel="noopener" target="_blank">Donner votre avis<span class="sr-only"> (nouvel onglet)</span></a></li>
+      </ul>
+    </nav>
+    <div class="menu-note">
+      <span class="brand-flag" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span>Site non officiel — projet indépendant,<br>sans lien avec aucun gouvernement.</span>
+    </div>
+  </div>
+</dialog>

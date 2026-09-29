@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="fr" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hello France — toutes vos démarches, un seul point de départ (site non officiel)</title>
+<meta name="description" content="Posez votre question en français : Hello France vous répond simplement et vous renvoie vers les sites officiels. Projet indépendant et non officiel, IA Mistral dans votre navigateur.">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="theme-color" content="#fcfcfd" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#11151f" media="(prefers-color-scheme: dark)">
+<link rel="canonical" href="https://connected-mate.github.io/hello-france/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="Hello France (site non officiel)">
+<meta property="og:title" content="Hello France — toutes vos démarches, un seul point de départ (site non officiel)">
+<meta property="og:description" content="Posez votre question en français : Hello France vous répond simplement et vous renvoie vers les sites officiels. Projet indépendant et non officiel, IA Mistral dans votre navigateur.">
+<meta property="og:url" content="https://connected-mate.github.io/hello-france/">
+<meta property="og:image" content="https://connected-mate.github.io/hello-france/assets/img/og-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Hello France — projet indépendant, non officiel">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="./assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="./assets/img/apple-touch-icon.png">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="./assets/css/site.css?v=202609292047">
+<script>
+  document.documentElement.classList.remove("no-js");
+  try { var t = localStorage.getItem("hf.theme"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch (e) {}
+</script>
+
+</head>
+
+<body class="has-dock page-home">
+<a class="skip-link" href="#contenu">Aller au contenu</a>
+<div class="notice-bar" role="region" aria-label="Avertissement : site non officiel">
+  <button class="notice-toggle" type="button" aria-expanded="false" aria-controls="notice-panel">
+    <span><strong>Site non officiel</strong> — projet indépendant</span>
+    <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 8l5 5 5-5"/></svg>
+  </button>
+  <div class="notice-panel" id="notice-panel" hidden>
+    <p><strong>Hello France n’est pas un site du gouvernement.</strong> C’est un projet personnel et indépendant, sans lien avec le gouvernement français ni avec le gouvernement américain.</p>
+    <p>Les réponses renvoient toujours vers les sites officiels (service-public.gouv.fr, impots.gouv.fr, ameli.fr…) : ce sont eux qui font foi.</p>
+  </div>
+</div>
+<header class="site-header">
+  <a class="brand" href="./" aria-label="Hello France, accueil">
+    <span class="brand-flag" aria-hidden="true"><i></i><i></i><i></i></span>
+    <span class="brand-word" aria-hidden="true">Hello<b>France</b></span>
+  </a>
+  <button class="btn btn-primary menu-btn" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="site-menu">Menu</button>
+</header>
+<dialog class="menu" id="site-menu" aria-label="Menu principal">
+  <div class="menu-inner">
+    <button class="icon-btn menu-close" type="button" aria-label="Fermer le menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M7 7l10 10M17 7L7 17"/></svg>
+    </button>
+    <nav aria-label="Principal">
+      <ul>
+        <li><a href="./">Accueil</a></li>
+        <li><a href="./chat.html">Poser une question</a></li>
+        <li><a href="./comment-ca-marche.html">Comment ça marche</a></li>
+        <li><a href="./confidentialite.html">Confidentialité</a></li>
+        <li><a href="./a-propos.html">À propos</a></li>
+        <li><a href="./bientot.html">Bientôt</a></li>
+        <li><a href="./faq.html">FAQ</a></li>
+        <li><a href="https://github.com/Connected-Mate/hello-france/issues/new" rel="noopener" target="_blank">Donner votre avis<span class="sr-only"> (nouvel onglet)</span></a></li>
+      </ul>
+    </nav>
+    <div class="menu-note">
+      <span class="brand-flag" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span>Site non officiel — projet indépendant,<br>sans lien avec aucun gouvernement.</span>
+    </div>
+  </div>
+</dialog>
+
+<main id="contenu">
+  <section class="hero" aria-labelledby="hero-title">
+    <h1 id="hero-title" class="display">Hello, France</h1>
+    <p class="hero-sub">Toutes vos démarches, un seul point de départ.</p>
+    <div class="hero-stage">
+      <form class="ask" action="./chat.html" method="get" data-ask aria-label="Poser une question">
+  <div class="ask-field">
+    <div class="ask-attach" data-attach hidden></div>
+    <label class="sr-only" for="q-hero">Décrivez ce dont vous avez besoin</label>
+    <textarea id="q-hero" name="q" rows="1" maxlength="2000" enterkeyhint="send" autocomplete="off" placeholder=""></textarea>
+    <div class="ask-hint" aria-hidden="true" data-hint><span></span></div>
+  </div>
+  <div class="ask-actions">
+    <input type="file" accept="application/pdf,.pdf" hidden data-file tabindex="-1" aria-hidden="true">
+    <button class="icon-btn" type="button" data-action="pdf" aria-label="Joindre un PDF (lu uniquement sur votre appareil)" title="Joindre un PDF">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M9 7v8a3 3 0 0 0 6 0V6a2 2 0 0 0-4 0v9a1 1 0 0 0 2 0V8"/></svg>
+    </button>
+    <button class="icon-btn" type="button" data-action="voice" aria-label="Dicter la question" aria-pressed="false" title="Dicter">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21M9 21h6"/></svg>
+    </button>
+    <button class="ask-send" type="submit" aria-label="Envoyer la question">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </button>
+  </div>
+</form>
+
+      <div class="hero-card" role="region" aria-roledescription="carrousel" aria-label="Exemples de questions" data-carousel>
+        <figure class="hero-slide is-active" data-q="Comment faire une carte d’identité pour mon enfant ?">
+          <img src="./assets/img/hero-identite.jpg" alt="Un parent et son enfant en terrasse de café, à Paris" width="1400" height="933" fetchpriority="high">
+          <figcaption><button class="hero-ask-this" type="button"><span>Comment faire une carte d’identité pour mon enfant ?</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></figcaption>
+        </figure>
+        <figure class="hero-slide" data-q="À quel âge puis-je partir à la retraite ?">
+          <img src="./assets/img/hero-retraite.jpg" alt="Un couple âgé se promène sur un sentier côtier en Bretagne" width="1400" height="933" loading="lazy">
+          <figcaption><button class="hero-ask-this" type="button" tabindex="-1"><span>À quel âge puis-je partir à la retraite ?</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></figcaption>
+        </figure>
+        <figure class="hero-slide" data-q="Comment déclarer mes impôts en ligne ?">
+          <img src="./assets/img/hero-impots.jpg" alt="Une personne à la table de sa cuisine avec un ordinateur et un café" width="1400" height="933" loading="lazy">
+          <figcaption><button class="hero-ask-this" type="button" tabindex="-1"><span>Comment déclarer mes impôts en ligne ?</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></figcaption>
+        </figure>
+        <figure class="hero-slide" data-q="Je déménage : comment changer mon adresse partout ?">
+          <img src="./assets/img/hero-demenagement.jpg" alt="Un adulte et un enfant regardent une tablette au milieu de cartons de déménagement" width="1400" height="933" loading="lazy">
+          <figcaption><button class="hero-ask-this" type="button" tabindex="-1"><span>Je déménage : comment changer mon adresse partout ?</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></figcaption>
+        </figure>
+        <figure class="hero-slide" data-q="Comment créer ma micro-entreprise ?">
+          <img src="./assets/img/hero-entreprise.jpg" alt="Une jeune artisane ouvre sa boutique dans un village" width="1400" height="933" loading="lazy">
+          <figcaption><button class="hero-ask-this" type="button" tabindex="-1"><span>Comment créer ma micro-entreprise ?</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></figcaption>
+        </figure>
+        <figure class="hero-slide" data-q="Je cherche un emploi : par où commencer ?">
+          <img src="./assets/img/hero-emploi.jpg" alt="Une personne souriante prépare son CV dans un espace de travail partagé à Lyon" width="1400" height="933" loading="lazy">
+          <figcaption><button class="hero-ask-this" type="button" tabindex="-1"><span>Je cherche un emploi : par où commencer ?</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></figcaption>
+        </figure>
+        <figure class="hero-slide" data-q="Comment déclarer mon médecin traitant ?">
+          <img src="./assets/img/hero-sante.jpg" alt="Une famille patiente dans une salle d’attente lumineuse à la campagne" width="1400" height="933" loading="lazy">
+          <figcaption><button class="hero-ask-this" type="button" tabindex="-1"><span>Comment déclarer mon médecin traitant ?</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></figcaption>
+        </figure>
+        <figure class="hero-slide" data-q="Je viens de me marier : comment changer de nom ?">
+          <img src="./assets/img/hero-mariage.jpg" alt="Un couple de jeunes mariés sort d’un bâtiment en pierre sous les confettis" width="1400" height="933" loading="lazy">
+          <figcaption><button class="hero-ask-this" type="button" tabindex="-1"><span>Je viens de me marier : comment changer de nom ?</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></figcaption>
+        </figure>
+        <figure class="hero-slide" data-q="Ai-je droit à l’APL pour mon logement étudiant ?">
+          <img src="./assets/img/hero-logement.jpg" alt="Une étudiante sur le balcon de son appartement à Marseille, la mer au loin" width="1400" height="933" loading="lazy">
+          <figcaption><button class="hero-ask-this" type="button" tabindex="-1"><span>Ai-je droit à l’APL pour mon logement étudiant ?</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></figcaption>
+        </figure>
+        <figure class="hero-slide" data-q="Comment visiter un parc national en France ?">
+          <img src="./assets/img/hero-parcs.jpg" alt="Des randonneurs au bord d’un lac de montagne" width="1400" height="933" loading="lazy">
+          <figcaption><button class="hero-ask-this" type="button" tabindex="-1"><span>Comment visiter un parc national en France ?</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></figcaption>
+        </figure>
+        <figure class="hero-slide" data-q="Comment faire la carte grise d’une voiture d’occasion ?">
+          <img src="./assets/img/hero-voiture.jpg" alt="Une personne à côté d’une petite voiture sur une route de Provence bordée de lavande" width="1400" height="933" loading="lazy">
+          <figcaption><button class="hero-ask-this" type="button" tabindex="-1"><span>Comment faire la carte grise d’une voiture d’occasion ?</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></figcaption>
+        </figure>
+      </div>
+      <div class="hero-controls">
+        <button class="round-ctrl" type="button" data-prev aria-label="Exemple précédent"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg></button>
+        <button class="round-ctrl" type="button" data-pause aria-label="Mettre en pause les exemples"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-icon-pause><rect x="7" y="6" width="3.2" height="12" rx="1"/><rect x="13.8" y="6" width="3.2" height="12" rx="1"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-icon-play hidden><path d="M8 5.5v13l10.5-6.5z"/></svg></button>
+        <button class="round-ctrl" type="button" data-next aria-label="Exemple suivant"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button>
+      </div>
+      <p class="hero-count" aria-live="polite" data-count>Exemple 1 sur 11</p>
+    </div>
+  </section>
+
+  <section class="statement" aria-label="En bref" data-statement>
+    <p><span data-words>Hello France</span>
+      <button class="inline-token tok-go" type="button" aria-label="Faire flotter le drapeau" data-flag><span class="flag-wave" aria-hidden="true"><i></i><i></i><i></i></span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+      <span data-words>utilise l’IA pour donner des réponses simples, uniquement à partir de sources</span>
+      <button class="inline-token tok-seals" type="button" aria-label="Voir d’autres sources officielles" data-seals><span class="seal"></span><span class="seal"></span><span class="seal"></span></button>
+      <span data-words>officielles. C’est gratuit, sans publicité, et votre</span>
+      <button class="inline-token tok-print" type="button" aria-label="Animer l’empreinte digitale" data-print><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M6.5 5.5A8 8 0 0 1 20 11.5c0 1.5-.2 3-.6 4.3"/><path d="M4 9.5a8 8 0 0 0-.1 1.3c0 2 .4 3.8 1.2 5.4"/><path d="M8.2 19.5A11 11 0 0 1 7 13.5V11a5 5 0 0 1 10 0v2.2"/><path d="M12 11v2.5c0 2.8.8 5.3 2.2 7.2"/><path d="M9.6 11.3a2.4 2.4 0 0 1 4.8-.3v2.4c0 2 .4 3.8 1.2 5.3"/><path d="M16.8 16.5c-.2 1-.4 1.8-.8 2.7"/></svg></button>
+      <span data-words>vie privée reste protégée.</span>
+    </p>
+    <p class="sr-only" role="status" data-token-status></p>
+  </section>
+
+  <div class="features">
+    <article class="feature reveal">
+      <div class="feature-visual v-sites" data-sites aria-hidden="false">
+        <p class="sr-only">Une mosaïque animée d’aperçus de sites publics défile, pour illustrer des centaines de sites réunis en un seul endroit.</p>
+        <div class="wall" aria-hidden="true"></div>
+        <button class="visual-pause" type="button" data-visual-pause aria-label="Mettre en pause l’animation" aria-pressed="false"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="7" y="6" width="3.2" height="12" rx="1"/><rect x="13.8" y="6" width="3.2" height="12" rx="1"/></svg></button>
+      </div>
+      <div>
+        <h2>Des centaines de sites, en un seul.</h2>
+        <p>Fini de passer d’un site à l’autre. Hello France rassemble les démarches au même endroit, puis vous emmène directement à la bonne page officielle.</p>
+        <p class="live-fact"><span class="live-dot" data-live-dot aria-hidden="true"></span><span data-datagouv>En direct : data.gouv.fr publie des dizaines de milliers de jeux de données ouverts.</span></p>
+        <a class="text-link" href="./comment-ca-marche.html">Voir comment ça marche</a>
+      </div>
+    </article>
+
+    <article class="feature reveal">
+      <div class="feature-visual v-night" data-night>
+        <div class="stars" aria-hidden="true"></div>
+        <button class="lock" type="button" data-shoot aria-label="Faire une étoile filante">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2.5" fill="currentColor"/><path d="M8 11V7.5a4 4 0 0 1 8 0V11"/><circle cx="12" cy="16" r="1.4" fill="var(--bg-sunk)" stroke="none"/></svg>
+        </button>
+      </div>
+      <div>
+        <h2>Hello France garde vos données pour vous.</h2>
+        <p>L’IA tourne directement dans votre navigateur : vos questions ne partent vers aucun serveur, rien n’est enregistré, et la conversation disparaît quand vous fermez la page.</p>
+        <a class="text-link" href="./confidentialite.html">En savoir plus sur la confidentialité</a>
+      </div>
+    </article>
+
+    <article class="feature reveal">
+      <div class="feature-visual v-sources" data-sources-visual>
+        <div class="grid" aria-hidden="true"></div>
+        <button class="visual-pause" type="button" data-visual-pause aria-label="Mettre en pause l’animation" aria-pressed="false"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="7" y="6" width="3.2" height="12" rx="1"/><rect x="13.8" y="6" width="3.2" height="12" rx="1"/></svg></button>
+      </div>
+      <div>
+        <h2>Des réponses claires. Des sources officielles.</h2>
+        <p>Chaque réponse s’appuie sur des fiches vérifiées issues des sites publics — service-public.gouv.fr, impots.gouv.fr, ameli.fr, caf.fr… — et vous y renvoie en un clic.</p>
+        <a class="text-link" href="./comment-ca-marche.html#sources">Voir les sources</a>
+      </div>
+    </article>
+
+    <article class="feature reveal">
+      <div class="feature-visual v-devices" aria-hidden="true">
+        <div class="dock">
+          <span class="dev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><rect x="7" y="2.5" width="10" height="19" rx="2.5"/><path d="M11 18.5h2"/></svg></span>
+          <span class="dev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><rect x="4" y="3" width="16" height="18" rx="2.5"/><path d="M11 18h2"/></svg></span>
+          <span class="dev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><rect x="4" y="5" width="16" height="11" rx="1.5"/><path d="M2 19h20"/></svg></span>
+        </div>
+      </div>
+      <div>
+        <h2>Aucune application à télécharger.</h2>
+        <p>Ouvrez simplement Hello France dans votre navigateur, sur téléphone, tablette ou ordinateur.</p>
+        <button class="btn btn-ghost" type="button" data-focus-ask>Poser une question</button>
+      </div>
+    </article>
+  </div>
+
+  <section class="live" id="direct" aria-labelledby="live-title">
+    <div class="live-head reveal">
+      <h2 id="live-title" class="display">La France, en direct.</h2>
+      <p>Des données publiques ouvertes, interrogées en temps réel depuis votre navigateur. Sans compte, sans pisteur.</p>
+    </div>
+    <div class="bento">
+      <article class="tile tile-lg reveal" aria-labelledby="t-mairie">
+        <h3 id="t-mairie">Trouver ma mairie</h3>
+        <p class="desc">Adresse, horaires, téléphone et site de la mairie de n’importe quelle commune.</p>
+        <form class="field-row" data-mairie-form autocomplete="off" role="search" aria-label="Rechercher une commune">
+          <label class="sr-only" for="commune-input">Nom de la commune ou code postal</label>
+          <input class="input" id="commune-input" name="commune" type="text" inputmode="search" placeholder="Ex. : Lyon, 33000, Annecy…" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="commune-list" maxlength="80">
+          <button class="btn btn-primary" type="submit">Chercher</button>
+          <ul class="suggest" id="commune-list" role="listbox" aria-label="Communes proposées" hidden></ul>
+        </form>
+        <div class="quick" aria-label="Exemples de communes"><button type="button" data-commune="Lyon">Lyon</button><button type="button" data-commune="Bordeaux">Bordeaux</button><button type="button" data-commune="Annecy">Annecy</button><button type="button" data-commune="Brest">Brest</button><button type="button" data-commune="Ajaccio">Ajaccio</button></div>
+        <div data-mairie-out aria-live="polite"></div>
+        <p class="src">Sources : <a href="https://geo.api.gouv.fr/" target="_blank" rel="noopener">API Découpage administratif</a> · <a href="https://lannuaire.service-public.gouv.fr/" target="_blank" rel="noopener">Annuaire de l’administration</a></p>
+      </article>
+
+      <article class="tile tile-md tile-night reveal" aria-labelledby="t-meteo">
+        <h3 id="t-meteo">Météo maintenant</h3>
+        <ul class="weather" data-weather aria-live="polite">
+          <li><span class="skeleton" style="width:70%"></span></li>
+          <li><span class="skeleton" style="width:60%"></span></li>
+          <li><span class="skeleton" style="width:65%"></span></li>
+        </ul>
+        <p class="src">Source : <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a> (données Météo-France et autres)</p>
+      </article>
+
+      <article class="tile tile-md reveal" aria-labelledby="t-ferie">
+        <h3 id="t-ferie">Prochain jour férié</h3>
+        <div data-ferie aria-live="polite"><span class="skeleton" style="width:80%;height:48px"></span></div>
+        <p class="src">Source : <a href="https://api.gouv.fr/les-api/jours-feries" target="_blank" rel="noopener">API Jours fériés</a></p>
+      </article>
+
+      <article class="tile tile-half reveal" aria-labelledby="t-adresse">
+        <h3 id="t-adresse">Vérifier une adresse</h3>
+        <p class="desc">L’adresse officielle, telle que l’écrit la Base Adresse Nationale.</p>
+        <form class="field-row" data-adresse-form autocomplete="off">
+          <label class="sr-only" for="adresse-input">Adresse à vérifier</label>
+          <input class="input" id="adresse-input" type="text" placeholder="Ex. : 8 bd du port amiens" maxlength="160">
+          <button class="btn btn-primary" type="submit">Vérifier</button>
+        </form>
+        <div data-adresse-out aria-live="polite"></div>
+        <p class="src">Source : <a href="https://adresse.data.gouv.fr/" target="_blank" rel="noopener">Base Adresse Nationale</a></p>
+      </article>
+
+      <article class="tile tile-half reveal" aria-labelledby="t-entreprise">
+        <h3 id="t-entreprise">Trouver une entreprise</h3>
+        <p class="desc">Nom, SIREN, activité et adresse du siège, depuis le répertoire public.</p>
+        <form class="field-row" data-entreprise-form autocomplete="off">
+          <label class="sr-only" for="entreprise-input">Nom ou SIREN de l’entreprise</label>
+          <input class="input" id="entreprise-input" type="text" placeholder="Ex. : boulangerie, 552049447…" maxlength="120">
+          <button class="btn btn-primary" type="submit">Chercher</button>
+        </form>
+        <div data-entreprise-out aria-live="polite"></div>
+        <p class="src">Source : <a href="https://annuaire-entreprises.data.gouv.fr/" target="_blank" rel="noopener">Annuaire des Entreprises</a></p>
+      </article>
+
+      <article class="tile reveal" style="grid-column: 1 / -1" aria-labelledby="t-urgences">
+        <h3 id="t-urgences">Numéros d’urgence</h3>
+        <p class="desc">Gratuits, joignables 24 h/24 depuis un fixe ou un mobile. Touchez un numéro pour appeler.</p>
+        <ul class="urg" data-urgences></ul>
+        <p class="src">Source : <a href="https://www.service-public.gouv.fr/particuliers/vosdroits/F33954" target="_blank" rel="noopener">service-public.gouv.fr</a></p>
+      </article>
+    </div>
+  </section>
+
+  <section class="soon" aria-labelledby="soon-title" data-soon>
+    <div class="soon-head reveal">
+      <h2 id="soon-title" class="display">Et bientôt, bien plus.</h2>
+      <p>Au-delà des réponses : remplir vos formulaires, suivre vos démarches et tout retrouver au même endroit.</p>
+      <a class="btn btn-dark" href="./bientot.html">Voir la suite</a>
+    </div>
+    <div class="soon-rail" data-rail>
+      <div class="mock" role="group" aria-label="Aperçu : trouver un refuge">
+        <h3>Trouver un refuge près de Chamonix</h3>
+        <div class="row"><div class="grow"><b>Refuge du Lac Blanc</b><small>2 352 m · 34 places</small></div><span class="pill">Choisir</span></div>
+        <div class="row"><div class="grow"><b>Refuge de la Charlanon</b><small>1 812 m · 20 places</small></div><span class="pill">Choisir</span></div>
+        <div class="row"><div class="grow"><b>Refuge du Plan de l’Aiguille</b><small>2 207 m · 20 places</small></div><span class="pill">Choisir</span></div>
+      </div>
+      <div class="mock" role="group" aria-label="Aperçu : photo d’identité">
+        <h3>Confirmer votre photo</h3>
+        <div class="row"><span class="avatar" aria-hidden="true"></span><div class="grow"><b>MARTIN</b><small>Camille</small></div></div>
+        <span class="cta">Envoyer la demande</span>
+      </div>
+      <div class="mock" role="group" aria-label="Aperçu : comparer des médicaments">
+        <h3>Comparer vos médicaments</h3>
+        <div class="row"><div class="grow"><b>Paracétamol</b><small>Remboursé à 65 %</small></div><span class="pill">Retirer</span></div>
+        <div class="seg"><span class="on">Comprimé</span><span>Sirop</span></div>
+        <div class="seg"><span>500 mg</span><span class="on">1 g</span></div>
+        <span class="cta">Trouver une pharmacie</span>
+      </div>
+      <div class="mock" role="group" aria-label="Aperçu : changer de nom partout">
+        <h3>Mettre à jour votre nom partout</h3>
+        <div class="row"><span class="check" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg></span><b class="grow">Assurance maladie</b></div>
+        <div class="row"><span class="check" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg></span><b class="grow">Caisse d’allocations familiales</b></div>
+        <div class="row"><span class="check" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg></span><b class="grow">Impôts</b></div>
+        <span class="cta">Changer de nom</span>
+      </div>
+      <div class="mock" role="group" aria-label="Aperçu : suivi de passeport">
+        <h3>Passeport</h3>
+        <div class="row"><div class="grow"><b>Arrivée prévue</b><small>vers le 12 novembre</small></div></div>
+        <div class="track" aria-hidden="true"><i class="on"></i><i class="on"></i><i></i><i></i></div>
+        <div class="row" style="background:none;padding:0"><small class="grow">Déposé</small><small>En fabrication</small></div>
+      </div>
+      <div class="mock" role="group" aria-label="Aperçu : déposer un CV">
+        <h3>Offres qui vous correspondent</h3>
+        <div class="drop">Déposez votre CV ici</div>
+        <div class="row"><div class="grow"><b>Technicienne de maintenance</b><small>Rennes · CDI</small></div><span class="pill">92 %</span></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<section class="vote" aria-labelledby="vote-title">
+  <div class="vote-card reveal">
+    <h2 id="vote-title" class="display">Votez pour que ça devienne officiel.</h2>
+    <p>Une étoile sur GitHub = une voix. Plus il y en a, plus l’idée d’un vrai « Hello France » public pèse auprès de ceux qui décident.</p>
+    <div class="vote-row">
+      <a class="btn btn-star" href="https://github.com/Connected-Mate/hello-france" target="_blank" rel="noopener" data-star-link>
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.8l2.8 5.7 6.3.9-4.6 4.4 1.1 6.2L12 17l-5.6 3 1.1-6.2L2.9 9.4l6.3-.9z"/></svg>
+        Voter avec une étoile<span class="sr-only"> sur GitHub (nouvel onglet)</span>
+      </a>
+      <div class="vote-count" aria-live="polite">
+        <b data-star-count>—</b>
+        <span data-star-label>votes (étoiles GitHub)</span>
+      </div>
+    </div>
+    <p class="vote-note">Un compte GitHub gratuit est nécessaire pour voter. Le compteur est lu en direct sur GitHub et peut avoir quelques minutes de retard.</p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <nav class="foot-nav" aria-label="Pied de page">
+    <ul>
+      <li><a href="./comment-ca-marche.html">Comment ça marche</a></li>
+      <li><a href="./confidentialite.html">Confidentialité</a></li>
+      <li><a href="./a-propos.html">À propos</a></li>
+      <li><a href="./bientot.html">Bientôt</a></li>
+      <li><a href="./faq.html">Questions fréquentes</a></li>
+      <li><a href="https://github.com/Connected-Mate/hello-france/issues/new" target="_blank" rel="noopener">Donner votre avis<span class="sr-only"> (nouvel onglet)</span></a></li>
+    </ul>
+  </nav>
+  <p class="foot-mark" aria-hidden="true">HelloFrance<span class="dot">.</span></p>
+  <div class="foot-row">
+    <p>Inspiré de <a href="https://america.gov/" target="_blank" rel="noopener">america.gov<span class="sr-only"> (nouvel onglet)</span></a></p>
+    <p class="foot-motto">
+      <svg viewBox="0 0 30 78" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" aria-hidden="true"><path d="M24 74C10 62 6 40 12 6"/><path d="M13 16c-6-1-8-5-8-9 5 1 8 4 8 9zM12 28c-6 0-9-4-10-8 5 0 9 3 10 8zM13 40c-6 1-10-2-11-6 5-1 9 1 11 6zM15 52c-5 2-10 0-12-4 5-2 9 0 12 4zM19 63c-5 3-10 2-12-2 5-2 9-1 12 2z"/><path d="M13 16c4-4 8-4 11-3-2 4-6 5-11 3zM12 28c4-3 9-3 11-1-3 3-7 4-11 1zM13 40c4-3 9-2 11 0-3 3-8 3-11 0zM15 52c4-2 9-1 10 1-3 3-7 2-10-1z"/></svg>
+      <span>Toutes vos démarches,<br>enfin réunies</span>
+      <svg class="r" viewBox="0 0 30 78" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" aria-hidden="true"><path d="M24 74C10 62 6 40 12 6"/><path d="M13 16c-6-1-8-5-8-9 5 1 8 4 8 9zM12 28c-6 0-9-4-10-8 5 0 9 3 10 8zM13 40c-6 1-10-2-11-6 5-1 9 1 11 6zM15 52c-5 2-10 0-12-4 5-2 9 0 12 4zM19 63c-5 3-10 2-12-2 5-2 9-1 12 2z"/><path d="M13 16c4-4 8-4 11-3-2 4-6 5-11 3zM12 28c4-3 9-3 11-1-3 3-7 4-11 1zM13 40c4-3 9-2 11 0-3 3-8 3-11 0zM15 52c4-2 9-1 10 1-3 3-7 2-10-1z"/></svg>
+    </p>
+    <p>Design original d’america.gov : <a href="https://ndstudio.gov/" target="_blank" rel="noopener">National Design Studio<span class="sr-only"> (nouvel onglet)</span></a></p>
+  </div>
+  <div class="foot-legal">
+    <p class="disclaimer">Site non officiel — projet indépendant, sans lien avec le gouvernement français ni le gouvernement américain.</p>
+    <p>Réalisé par <a href="https://www.linkedin.com/in/alex-cormeraie/" target="_blank" rel="noopener">Alexandre Cormeraie<span class="sr-only"> (LinkedIn, nouvel onglet)</span></a>. Réponses de l’assistant générées par un modèle Mistral exécuté dans votre navigateur. Vérifiez toujours sur le site officiel indiqué.</p>
+    <div class="foot-links">
+      <a href="./mentions-legales.html">Mentions légales</a>
+      <a href="./confidentialite.html">Confidentialité</a>
+      <a href="https://github.com/Connected-Mate/hello-france" target="_blank" rel="noopener">Code source<span class="sr-only"> (nouvel onglet)</span></a>
+      <button class="theme-toggle" type="button" data-theme-toggle>Thème : automatique</button>
+      <label class="lang"><span class="sr-only">Langue</span>
+        <select disabled aria-label="Langue (seul le français est disponible)"><option>Français</option></select>
+      </label>
+    </div>
+  </div>
+</footer>
+
+<div class="ask-dock" data-dock data-hidden="true"><form class="ask" action="./chat.html" method="get" data-ask aria-label="Poser une question">
+  <div class="ask-field">
+    <div class="ask-attach" data-attach hidden></div>
+    <label class="sr-only" for="q-dock">Décrivez ce dont vous avez besoin</label>
+    <textarea id="q-dock" name="q" rows="1" maxlength="2000" enterkeyhint="send" autocomplete="off" placeholder="Posez votre question…"></textarea>
+    
+  </div>
+  <div class="ask-actions">
+    <input type="file" accept="application/pdf,.pdf" hidden data-file tabindex="-1" aria-hidden="true">
+    <button class="icon-btn" type="button" data-action="pdf" aria-label="Joindre un PDF (lu uniquement sur votre appareil)" title="Joindre un PDF">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M9 7v8a3 3 0 0 0 6 0V6a2 2 0 0 0-4 0v9a1 1 0 0 0 2 0V8"/></svg>
+    </button>
+    <button class="icon-btn" type="button" data-action="voice" aria-label="Dicter la question" aria-pressed="false" title="Dicter">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21M9 21h6"/></svg>
+    </button>
+    <button class="ask-send" type="submit" aria-label="Envoyer la question">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </button>
+  </div>
+</form>
+</div>
+<script type="module" src="./assets/js/home.js"></script>
+</body>
+</html>

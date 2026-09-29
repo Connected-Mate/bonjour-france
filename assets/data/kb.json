@@ -1,0 +1,1831 @@
+[
+  {
+    "id": "carte-identite",
+    "question": "Comment faire ou renouveler ma carte nationale d'identité ?",
+    "keywords": [
+      "carte identite",
+      "cni",
+      "carte nationale identite",
+      "renouveler carte identite",
+      "pre-demande",
+      "mairie",
+      "expiree",
+      "perimee"
+    ],
+    "answer": "Vous pouvez faire votre pré-demande en ligne sur le site de l'ANTS, puis vous rendre en mairie équipée d'un dispositif de recueil pour donner vos empreintes et déposer votre dossier. Prenez rendez-vous dans la mairie de votre choix, en France, sans être obligé de choisir celle de votre domicile. Les délais varient selon les mairies, pensez à vérifier la durée de validité de votre carte avant un voyage.",
+    "steps": [
+      "Faites une pré-demande en ligne (ou remplissez un formulaire papier en mairie).",
+      "Notez le numéro de pré-demande.",
+      "Prenez rendez-vous dans une mairie équipée.",
+      "Apportez photo d'identité, justificatif de domicile et ancienne carte.",
+      "Suivez l'avancement en ligne, puis retirez la carte en mairie."
+    ],
+    "sources": [
+      {
+        "title": "Carte d'identité - Service-public.gouv.fr",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N358"
+      },
+      {
+        "title": "Suivre une demande de carte d'identité",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34756"
+      },
+      {
+        "title": "ANTS - Agence nationale des titres sécurisés",
+        "url": "https://ants.gouv.fr/"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "carte-identite-urgence",
+    "question": "Puis-je obtenir une carte d'identité en urgence ?",
+    "keywords": [
+      "carte identite urgence",
+      "cni urgence",
+      "voyage urgent",
+      "delai carte identite",
+      "urgence carte identite"
+    ],
+    "answer": "Une procédure d'urgence existe si vous justifiez d'un motif comme un voyage imprévu, un décès ou un examen. Vous devez le prouver en mairie avec un document. Renseignez-vous auprès de la mairie où vous déposez votre dossier, car elle décide de la suite donnée.",
+    "steps": [
+      "Prenez rendez-vous en mairie en précisant l'urgence.",
+      "Préparez un justificatif du motif (billet, convocation, certificat...).",
+      "Déposez le dossier avec les pièces habituelles."
+    ],
+    "sources": [
+      {
+        "title": "Carte d'identité en urgence",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16872"
+      },
+      {
+        "title": "Carte d'identité - Service-public.gouv.fr",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N358"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "passeport",
+    "question": "Comment obtenir ou renouveler un passeport ?",
+    "keywords": [
+      "passeport",
+      "renouveler passeport",
+      "passeport biometrique",
+      "demande passeport",
+      "pre-demande passeport",
+      "timbre fiscal"
+    ],
+    "answer": "La demande se fait dans une mairie équipée, après une pré-demande en ligne. Un timbre fiscal est à acheter en ligne. Le prix et la durée de validité dépendent de votre âge, à vérifier sur la page officielle.",
+    "steps": [
+      "Faites la pré-demande en ligne sur le site de l'ANTS.",
+      "Achetez le timbre fiscal en ligne.",
+      "Prenez rendez-vous en mairie avec vos justificatifs et vos photos.",
+      "Suivez l'état de la demande puis retirez votre passeport en mairie."
+    ],
+    "sources": [
+      {
+        "title": "Passeport - Service-public.gouv.fr",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N360"
+      },
+      {
+        "title": "Combien coûte un passeport ?",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34752"
+      },
+      {
+        "title": "Suivre une demande de passeport",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34757"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "carte-identite-passeport-enfant",
+    "question": "Comment faire une carte d'identité ou un passeport pour mon enfant mineur ?",
+    "keywords": [
+      "carte identite enfant",
+      "passeport enfant",
+      "mineur",
+      "bebe",
+      "passeport mineur",
+      "cni mineur",
+      "autorisation parentale"
+    ],
+    "answer": "Pour un enfant, la demande est faite par un parent ou son représentant légal, qui doit se présenter avec l'enfant en mairie. La pré-demande en ligne est aussi possible. La durée de validité est plus courte que pour un adulte, à vérifier sur la page officielle.",
+    "steps": [
+      "Faites la pré-demande en ligne pour votre enfant.",
+      "Prenez rendez-vous en mairie avec l'enfant et un parent.",
+      "Apportez photo, justificatif de domicile, acte de naissance si demandé, et pièce d'identité du parent.",
+      "Pour un passeport, prévoyez le timbre fiscal."
+    ],
+    "sources": [
+      {
+        "title": "Carte d'identité - Service-public.gouv.fr",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N358"
+      },
+      {
+        "title": "Passeport - Service-public.gouv.fr",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N360"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "perte-vol-papiers-identite",
+    "question": "Que faire en cas de perte ou de vol de ma carte d'identité ou de mon passeport ?",
+    "keywords": [
+      "perte carte identite",
+      "vol carte identite",
+      "passeport perdu",
+      "passeport vole",
+      "declaration de perte",
+      "declaration de vol",
+      "papiers voles"
+    ],
+    "answer": "En cas de perte, une déclaration se fait en mairie ou en ligne lors de la demande d'un nouveau titre. En cas de vol, déposez plainte au commissariat ou à la gendarmerie. Vous pouvez ensuite demander un nouveau titre, avec un timbre fiscal pour le passeport.",
+    "steps": [
+      "Déclarez la perte (mairie) ou le vol (police ou gendarmerie).",
+      "Faites une pré-demande de nouveau titre.",
+      "Prenez rendez-vous en mairie avec les justificatifs.",
+      "Si vous retrouvez le titre, ne l'utilisez plus et rapportez-le."
+    ],
+    "sources": [
+      {
+        "title": "Perte de tous ses papiers d'identité",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31421"
+      },
+      {
+        "title": "Passeport perdu",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21244"
+      },
+      {
+        "title": "Passeport volé",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21245"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "acte-naissance",
+    "question": "Comment obtenir une copie ou un extrait d'acte de naissance ?",
+    "keywords": [
+      "acte de naissance",
+      "extrait naissance",
+      "copie integrale",
+      "etat civil",
+      "livret de famille",
+      "naissance"
+    ],
+    "answer": "La demande est gratuite auprès de la mairie du lieu de naissance, en ligne ou par courrier. Vous pouvez demander une copie intégrale ou un extrait. Pour un acte né à l'étranger, la demande se fait au service central d'état civil.",
+    "steps": [
+      "Repérez la commune de naissance.",
+      "Demandez l'acte en ligne, par courrier ou sur place.",
+      "Précisez copie intégrale ou extrait avec ou sans filiation.",
+      "Joignez les informations demandées (nom, prénoms, date et lieu de naissance)."
+    ],
+    "sources": [
+      {
+        "title": "Acte de naissance : copie intégrale ou extrait",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1427"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "declaration-naissance",
+    "question": "Comment déclarer la naissance de mon enfant ?",
+    "keywords": [
+      "declarer naissance",
+      "declaration de naissance",
+      "bebe",
+      "naissance enfant",
+      "reconnaissance",
+      "mairie naissance"
+    ],
+    "answer": "La naissance doit être déclarée à la mairie du lieu de naissance dans un délai fixé par la loi, généralement 5 jours. La maternité peut vous aider dans cette démarche. Ensuite pensez à prévenir la CAF et l'Assurance Maladie.",
+    "steps": [
+      "Rassemblez la pièce d'identité du parent et le certificat d'accouchement.",
+      "Déclarez la naissance à la mairie dans le délai.",
+      "Récupérez le livret de famille ou sa mise à jour.",
+      "Informez la CAF et l'Assurance Maladie."
+    ],
+    "sources": [
+      {
+        "title": "Déclaration de naissance",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F961"
+      },
+      {
+        "title": "Naissance et filiation",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N15660"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "mariage",
+    "question": "Comment se marier en France ?",
+    "keywords": [
+      "mariage",
+      "se marier",
+      "acte de mariage",
+      "dossier de mariage",
+      "mairie mariage",
+      "epoux"
+    ],
+    "answer": "Le mariage civil se célèbre en mairie. Vous déposez un dossier avec vos pièces d'identité et actes de naissance, puis une date est fixée. Les pièces exactes dépendent de la mairie, il faut donc la contacter.",
+    "steps": [
+      "Choisissez la mairie de l'un de vous ou d'un parent.",
+      "Retirez ou téléchargez le dossier de mariage.",
+      "Déposez vos pièces et fixez la date.",
+      "Obtenez ensuite une copie de l'acte de mariage."
+    ],
+    "sources": [
+      {
+        "title": "Acte de mariage",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1432"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "pacs",
+    "question": "Comment conclure un PACS ?",
+    "keywords": [
+      "pacs",
+      "pacte civil de solidarite",
+      "se pacser",
+      "pacser",
+      "conclure un pacs",
+      "dissolution pacs"
+    ],
+    "answer": "Le PACS s'enregistre en mairie ou chez un notaire. Vous préparez une convention et vos pièces d'identité. Vous pouvez aussi le modifier ou le dissoudre. Renseignez-vous sur la page officielle pour les pièces à fournir.",
+    "steps": [
+      "Rédigez la convention de PACS.",
+      "Rassemblez vos pièces (identité, acte de naissance, déclaration sur l'honneur).",
+      "Déposez le dossier en mairie ou chez un notaire.",
+      "Recevez l'attestation d'enregistrement."
+    ],
+    "sources": [
+      {
+        "title": "Pacte civil de solidarité (Pacs)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N144"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "nom-usage",
+    "question": "Comment utiliser ou changer mon nom d'usage ou mon nom de famille ?",
+    "keywords": [
+      "nom usage",
+      "nom d'usage",
+      "changer de nom",
+      "nom de famille",
+      "nom de naissance",
+      "changement de nom",
+      "prenom"
+    ],
+    "answer": "Le nom d'usage est celui que vous ajoutez ou substituez au vôtre dans la vie courante. Le changement du nom de famille lui-même est plus encadré et demande une procédure spéciale. Pour un prénom, une demande se fait en mairie.",
+    "steps": [
+      "Précisez si vous voulez un nom d'usage ou un changement légal.",
+      "Pour le nom d'usage, prévenez les administrations concernées.",
+      "Pour un changement de nom, consultez la procédure simplifiée ou par décret.",
+      "Pour un prénom, adressez-vous à votre mairie."
+    ],
+    "sources": [
+      {
+        "title": "Nom de famille et nom d'usage",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35060"
+      },
+      {
+        "title": "Procédure simplifiée de changement de nom de famille",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F36379"
+      },
+      {
+        "title": "Changement de prénom",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F885"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "deces-demarches",
+    "question": "Quelles démarches faire après le décès d'un proche ?",
+    "keywords": [
+      "deces",
+      "decede",
+      "mort",
+      "acte de deces",
+      "succession",
+      "obseques",
+      "demarches apres deces",
+      "perte d'un proche"
+    ],
+    "answer": "Le décès doit être déclaré à la mairie du lieu du décès, généralement par les pompes funèbres ou un proche. Un médecin établit un certificat de décès. Ensuite, il faut prévenir les organismes concernés : employeur, banque, impôts, caisse de retraite.",
+    "steps": [
+      "Faites constater le décès par un médecin.",
+      "Déclarez le décès à la mairie (ou faites-le par les pompes funèbres).",
+      "Demandez plusieurs copies de l'acte de décès.",
+      "Prévenez employeur, banque, caisses et impôts.",
+      "Contactez un notaire pour la succession si besoin."
+    ],
+    "sources": [
+      {
+        "title": "Décès d'un proche",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34545"
+      },
+      {
+        "title": "Acte de décès",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1444"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "age-retraite",
+    "question": "À quel âge puis-je partir à la retraite ?",
+    "keywords": [
+      "age retraite",
+      "age legal",
+      "depart retraite",
+      "retraite",
+      "64 ans",
+      "62 ans",
+      "suspension reforme",
+      "trimestres",
+      "reforme des retraites"
+    ],
+    "answer": "L'âge légal dépend de votre année de naissance. Depuis le 1er septembre 2026, la réforme de 2023 est suspendue : l'âge légal reste progressif, à 62 ans et 9 mois pour les personnes nées entre 1963 et début 1965, puis augmente par trimestres jusqu'à 64 ans pour les personnes nées à partir de 1969. Le nombre de trimestres requis dépend aussi de votre génération. Vérifiez votre cas sur info-retraite.fr, car ces règles peuvent encore évoluer.",
+    "steps": [
+      "Connectez-vous sur info-retraite.fr avec FranceConnect.",
+      "Consultez votre relevé de carrière et votre âge de départ.",
+      "Vérifiez si vous avez droit à un départ anticipé (carrière longue, handicap...).",
+      "Demandez votre retraite quelques mois avant la date choisie."
+    ],
+    "sources": [
+      {
+        "title": "Âge de départ à la retraite d'un salarié",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14043"
+      },
+      {
+        "title": "Info Retraite",
+        "url": "https://www.info-retraite.fr/portail-info/home.html"
+      },
+      {
+        "title": "L'Assurance retraite",
+        "url": "https://www.lassuranceretraite.fr/portail-info/home.html"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "demande-retraite",
+    "question": "Comment demander ma retraite ?",
+    "keywords": [
+      "demander retraite",
+      "demande de retraite",
+      "prendre sa retraite",
+      "dossier retraite",
+      "pension",
+      "info retraite"
+    ],
+    "answer": "Vous devez faire votre demande environ 4 à 6 mois avant la date de départ souhaitée, en ligne sur le site de votre régime. Le compte info-retraite.fr vous aide à repérer tous vos régimes. Vérifiez la page officielle pour connaître les délais et pièces exacts.",
+    "steps": [
+      "Vérifiez votre relevé de carrière sur info-retraite.fr.",
+      "Choisissez la date de départ.",
+      "Faites la demande en ligne sur le site de votre régime principal.",
+      "Envoyez les pièces demandées."
+    ],
+    "sources": [
+      {
+        "title": "Comment faire sa demande de retraite ?",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31541"
+      },
+      {
+        "title": "Info Retraite",
+        "url": "https://www.info-retraite.fr/portail-info/home.html"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "retraite-anticipee",
+    "question": "Puis-je partir plus tôt à la retraite (carrière longue, handicap) ?",
+    "keywords": [
+      "retraite anticipee",
+      "carriere longue",
+      "depart anticipe",
+      "commence a travailler jeune",
+      "retraite progressive"
+    ],
+    "answer": "Un départ avant l'âge légal est possible dans certains cas, notamment pour une carrière longue commencée jeune ou pour un handicap. Les conditions de durée et d'âge sont précises. Vérifiez votre situation sur la page officielle et sur info-retraite.fr.",
+    "steps": [
+      "Consultez votre relevé de carrière.",
+      "Vérifiez les conditions de la carrière longue ou du handicap.",
+      "Faites une simulation ou un rendez-vous retraite.",
+      "Déposez votre demande en ligne."
+    ],
+    "sources": [
+      {
+        "title": "Retraite anticipée pour carrière longue",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F13845"
+      },
+      {
+        "title": "Retraite progressive",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12842"
+      },
+      {
+        "title": "Info Retraite",
+        "url": "https://www.info-retraite.fr/portail-info/home.html"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "declaration-impots",
+    "question": "Comment faire ma déclaration de revenus en ligne ?",
+    "keywords": [
+      "declaration impots",
+      "declaration de revenus",
+      "impots en ligne",
+      "espace particulier",
+      "impot sur le revenu",
+      "declarer mes revenus",
+      "avis d'impot"
+    ],
+    "answer": "La déclaration se fait sur le site impots.gouv.fr depuis votre espace particulier. Les dates limites changent chaque année et dépendent de votre département. Consultez le calendrier fiscal officiel pour les connaître.",
+    "steps": [
+      "Connectez-vous à votre espace particulier avec FranceConnect ou vos identifiants.",
+      "Vérifiez les revenus préremplis.",
+      "Complétez ou corrigez ce qui manque.",
+      "Validez avant la date limite et gardez l'accusé de réception."
+    ],
+    "sources": [
+      {
+        "title": "impots.gouv.fr - Particulier",
+        "url": "https://www.impots.gouv.fr/particulier"
+      },
+      {
+        "title": "Calendrier fiscal",
+        "url": "https://www.impots.gouv.fr/particulier/calendrier-fiscal"
+      },
+      {
+        "title": "Avis d'impôt sur le revenu",
+        "url": "https://www.impots.gouv.fr/particulier/avis-dimpot-sur-le-revenu"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "prelevement-source",
+    "question": "Comment fonctionne le prélèvement à la source et comment changer mon taux ?",
+    "keywords": [
+      "prelevement a la source",
+      "taux d'imposition",
+      "pas",
+      "changer taux",
+      "taux personnalise",
+      "impot salaire"
+    ],
+    "answer": "L'impôt sur le revenu est prélevé chaque mois sur votre salaire ou vos revenus, selon un taux calculé par l'administration. Vous pouvez modifier ce taux dans votre espace particulier après un changement de situation. Un changement de situation doit être signalé dans les 60 jours.",
+    "steps": [
+      "Connectez-vous à votre espace particulier.",
+      "Allez dans la rubrique Gérer mon prélèvement à la source.",
+      "Modifiez le taux ou signalez le changement de situation.",
+      "Vérifiez sur votre prochaine fiche de paie."
+    ],
+    "sources": [
+      {
+        "title": "Prélèvement à la source",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34009"
+      },
+      {
+        "title": "Changer son taux de prélèvement à la source",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35894"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "taxe-fonciere",
+    "question": "Comment payer ou contester ma taxe foncière ?",
+    "keywords": [
+      "taxe fonciere",
+      "proprietaire",
+      "payer taxe fonciere",
+      "avis taxe fonciere",
+      "impots locaux",
+      "contester taxe"
+    ],
+    "answer": "La taxe foncière est due par les propriétaires d'un bien bâti. L'avis arrive en général à l'automne, et le paiement se fait en ligne ou par prélèvement. En cas d'erreur, vous pouvez faire une réclamation dans votre espace particulier.",
+    "steps": [
+      "Retrouvez l'avis dans votre espace particulier.",
+      "Payez en ligne ou par prélèvement avant la date limite.",
+      "En cas d'erreur, déposez une réclamation.",
+      "Vérifiez les exonérations possibles."
+    ],
+    "sources": [
+      {
+        "title": "Taxe foncière sur les propriétés bâties",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F59"
+      },
+      {
+        "title": "impots.gouv.fr - Particulier",
+        "url": "https://www.impots.gouv.fr/particulier"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "changement-adresse",
+    "question": "Comment signaler mon changement d'adresse aux administrations ?",
+    "keywords": [
+      "changement adresse",
+      "demenagement",
+      "nouvelle adresse",
+      "changer d'adresse",
+      "demenager",
+      "impots adresse"
+    ],
+    "answer": "Un service en ligne permet de prévenir en une seule fois plusieurs organismes publics comme les impôts, la CAF, France Travail ou l'assurance maladie. Pensez aussi à prévenir votre banque, votre employeur et vos assurances par vous-même.",
+    "steps": [
+      "Utilisez le service de changement d'adresse sur Service-public.",
+      "Prévenez votre bailleur, banque et assurances.",
+      "Mettez à jour votre carte grise.",
+      "Vérifiez vos impôts et vos prestations."
+    ],
+    "sources": [
+      {
+        "title": "Changement d'adresse",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12118"
+      },
+      {
+        "title": "Déménagement",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1881"
+      },
+      {
+        "title": "Je déménage - impots.gouv.fr",
+        "url": "https://www.impots.gouv.fr/particulier/je-demenage"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "carte-grise-adresse",
+    "question": "Comment changer l'adresse sur ma carte grise ?",
+    "keywords": [
+      "carte grise adresse",
+      "certificat d'immatriculation",
+      "changement adresse carte grise",
+      "demenagement voiture",
+      "ants immatriculation"
+    ],
+    "answer": "Le changement d'adresse sur la carte grise se fait en ligne sur le site de l'ANTS, dans le mois qui suit votre déménagement. La démarche est gratuite. Vous recevez alors un justificatif provisoire.",
+    "steps": [
+      "Rendez-vous sur le site ANTS Immatriculation.",
+      "Connectez-vous avec FranceConnect.",
+      "Renseignez vos informations et votre nouvelle adresse.",
+      "Conservez le justificatif fourni."
+    ],
+    "sources": [
+      {
+        "title": "Carte grise (certificat d'immatriculation)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N367"
+      },
+      {
+        "title": "ANTS - Immatriculation",
+        "url": "https://immatriculation.ants.gouv.fr/"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "carte-grise-achat",
+    "question": "Comment obtenir la carte grise d'un véhicule acheté ?",
+    "keywords": [
+      "carte grise",
+      "immatriculation",
+      "acheter voiture",
+      "certificat de cession",
+      "changement de titulaire",
+      "vehicule occasion"
+    ],
+    "answer": "Après l'achat, vous devez faire immatriculer le véhicule à votre nom en ligne sur le site de l'ANTS ou via un professionnel habilité. Il vous faut notamment le certificat de cession et l'ancienne carte grise. Vérifiez les délais sur la page officielle.",
+    "steps": [
+      "Rassemblez le certificat de cession et l'ancienne carte grise.",
+      "Connectez-vous sur l'ANTS avec FranceConnect.",
+      "Suivez la démarche et payez les taxes.",
+      "Conservez le certificat provisoire."
+    ],
+    "sources": [
+      {
+        "title": "Carte grise (certificat d'immatriculation)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N367"
+      },
+      {
+        "title": "ANTS - Immatriculation",
+        "url": "https://immatriculation.ants.gouv.fr/"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "carte-grise-perte",
+    "question": "Que faire si ma carte grise est perdue ou volée ?",
+    "keywords": [
+      "carte grise perdue",
+      "carte grise volee",
+      "duplicata carte grise",
+      "vol carte grise"
+    ],
+    "answer": "Vous devez faire une déclaration de perte ou de vol, puis demander un duplicata en ligne sur le site de l'ANTS. En cas de vol, une plainte est nécessaire. Un certificat provisoire vous est délivré.",
+    "steps": [
+      "Déposez plainte en cas de vol.",
+      "Faites la déclaration de perte ou de vol.",
+      "Demandez le duplicata sur l'ANTS.",
+      "Gardez le justificatif provisoire."
+    ],
+    "sources": [
+      {
+        "title": "Déclaration de perte ou vol d'une carte grise",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1417"
+      },
+      {
+        "title": "Carte grise (certificat d'immatriculation)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N367"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "apl-caf",
+    "question": "Comment demander l'APL ou une aide au logement à la CAF ?",
+    "keywords": [
+      "apl",
+      "aide logement",
+      "caf logement",
+      "als",
+      "alf",
+      "aide personnalisee logement",
+      "loyer aide",
+      "simulation apl"
+    ],
+    "answer": "Les aides au logement (APL, ALF, ALS) sont versées par la CAF selon vos ressources, votre loyer et votre situation. Vous faites la demande et la simulation sur caf.fr. Le montant dépend de vos revenus et de la composition du foyer.",
+    "steps": [
+      "Faites une simulation sur caf.fr.",
+      "Rassemblez vos ressources et votre bail.",
+      "Déposez la demande depuis votre espace personnel.",
+      "Signalez tout changement de situation."
+    ],
+    "sources": [
+      {
+        "title": "Aide personnalisée au logement (APL)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12006"
+      },
+      {
+        "title": "Différences entre APL, ALF et ALS",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31864"
+      },
+      {
+        "title": "Caf.fr",
+        "url": "https://www.caf.fr/"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "maprimerenov",
+    "question": "Comment obtenir MaPrimeRénov' pour mes travaux ?",
+    "keywords": [
+      "maprimerenov",
+      "prime renov",
+      "travaux renovation",
+      "isolation",
+      "aide travaux",
+      "anah",
+      "renovation energetique"
+    ],
+    "answer": "MaPrimeRénov' aide à financer des travaux de rénovation énergétique, sous conditions de logement et de ressources. La demande se fait avant de signer les devis, sur le site dédié. Les règles évoluent régulièrement, à vérifier sur la page officielle.",
+    "steps": [
+      "Vérifiez votre éligibilité sur le site MaPrimeRénov'.",
+      "Faites-vous accompagner par un conseiller.",
+      "Demandez les devis à des professionnels qualifiés.",
+      "Déposez le dossier avant de commencer les travaux."
+    ],
+    "sources": [
+      {
+        "title": "MaPrimeRénov'",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35083"
+      },
+      {
+        "title": "MaPrimeRénov'",
+        "url": "https://www.maprimerenov.gouv.fr/"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "logement-social",
+    "question": "Comment faire une demande de logement social ?",
+    "keywords": [
+      "logement social",
+      "hlm",
+      "demande hlm",
+      "numero unique",
+      "bailleur social",
+      "demande logement"
+    ],
+    "answer": "La demande se fait en ligne sur le site officiel ou en guichet, une seule fois pour tout le département. Vous recevez un numéro unique et une attestation. Vous devez la renouveler chaque année.",
+    "steps": [
+      "Créez votre dossier sur le site de demande de logement social.",
+      "Déposez vos pièces justificatives.",
+      "Conservez le numéro unique.",
+      "Renouvelez la demande chaque année."
+    ],
+    "sources": [
+      {
+        "title": "Demande d'un logement social",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10007"
+      },
+      {
+        "title": "Demande de logement social en ligne",
+        "url": "https://www.demande-logement-social.gouv.fr/index"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "inscription-france-travail",
+    "question": "Comment m'inscrire à France Travail ?",
+    "keywords": [
+      "france travail",
+      "pole emploi",
+      "inscription chomage",
+      "s'inscrire",
+      "demandeur d'emploi",
+      "perdu mon emploi",
+      "licencie"
+    ],
+    "answer": "L'inscription se fait en ligne sur le site de France Travail, dès la fin de votre contrat de travail. Faites-la rapidement pour ne pas perdre de droits. Vous aurez besoin de votre numéro de sécurité sociale et de vos documents de fin de contrat.",
+    "steps": [
+      "Rassemblez attestation employeur et pièce d'identité.",
+      "Créez votre compte sur francetravail.fr.",
+      "Complétez les rubriques d'inscription.",
+      "Suivez les rendez-vous proposés."
+    ],
+    "sources": [
+      {
+        "title": "Inscription à France Travail",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1636"
+      },
+      {
+        "title": "Chômage : démarches auprès de France Travail",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N549"
+      },
+      {
+        "title": "France Travail - vos services en ligne",
+        "url": "https://www.francetravail.fr/candidat/vos-services-en-ligne.html"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "allocation-chomage",
+    "question": "Comment savoir si j'ai droit au chômage (ARE) ?",
+    "keywords": [
+      "chomage",
+      "are",
+      "allocation retour emploi",
+      "indemnites chomage",
+      "droit au chomage",
+      "france travail allocation",
+      "montant chomage"
+    ],
+    "answer": "Vous devez être inscrit à France Travail et remplir des conditions de durée de travail et de motif de fin de contrat. Le montant et la durée dépendent de votre situation. Une simulation et le détail sont disponibles sur le site de France Travail.",
+    "steps": [
+      "Inscrivez-vous à France Travail.",
+      "Transmettez vos documents de fin de contrat.",
+      "Actualisez chaque mois votre situation.",
+      "Consultez les paiements sur votre espace."
+    ],
+    "sources": [
+      {
+        "title": "Chômage : démarches auprès de France Travail",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N549"
+      },
+      {
+        "title": "France Travail - mes droits et allocations",
+        "url": "https://www.francetravail.fr/candidat/mes-droits-aux-aides-et-allocati.html"
+      },
+      {
+        "title": "France Travail",
+        "url": "https://www.francetravail.fr/accueil/"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "faire-cv",
+    "question": "Comment rédiger un bon CV ?",
+    "keywords": [
+      "cv",
+      "curriculum vitae",
+      "lettre de motivation",
+      "modele cv",
+      "chercher emploi",
+      "candidature"
+    ],
+    "answer": "Un CV doit être clair, court et adapté au poste visé, sur une ou deux pages. Mettez en avant votre parcours, vos compétences et vos coordonnées. France Travail propose aussi des outils et des ateliers pour vous aider.",
+    "steps": [
+      "Listez vos expériences et compétences.",
+      "Adaptez le CV à chaque annonce.",
+      "Relisez-le pour éviter les fautes.",
+      "Enregistrez-le sur votre espace France Travail."
+    ],
+    "sources": [
+      {
+        "title": "Curriculum vitae (CV)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33336"
+      },
+      {
+        "title": "France Travail",
+        "url": "https://www.francetravail.fr/accueil/"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "apprentissage",
+    "question": "Comment devenir apprenti ?",
+    "keywords": [
+      "apprentissage",
+      "alternance",
+      "contrat apprentissage",
+      "apprenti",
+      "cfa",
+      "formation en alternance"
+    ],
+    "answer": "L'apprentissage combine formation en centre et travail en entreprise, avec un contrat et une rémunération. Vous cherchez un employeur et un centre de formation. Les règles et âges sont à vérifier sur la page officielle.",
+    "steps": [
+      "Choisissez le métier et la formation.",
+      "Cherchez une entreprise et un centre de formation.",
+      "Signez le contrat avec l'employeur.",
+      "Suivez l'alternance."
+    ],
+    "sources": [
+      {
+        "title": "Contrat d'apprentissage",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F219"
+      },
+      {
+        "title": "France Travail",
+        "url": "https://www.francetravail.fr/accueil/"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "formation-cpf",
+    "question": "Comment utiliser mon compte personnel de formation (CPF) ?",
+    "keywords": [
+      "cpf",
+      "compte formation",
+      "formation",
+      "mon compte formation",
+      "droits formation",
+      "financer formation"
+    ],
+    "answer": "Le compte personnel de formation permet de financer des formations avec des droits acquis en travaillant. Vous consultez vos droits et réservez la formation en ligne. Un reste à charge peut s'appliquer, vérifiez la page officielle.",
+    "steps": [
+      "Créez votre compte avec FranceConnect.",
+      "Consultez vos droits.",
+      "Choisissez une formation certifiée.",
+      "Inscrivez-vous en ligne."
+    ],
+    "sources": [
+      {
+        "title": "Compte personnel de formation (CPF)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10705"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "micro-entreprise",
+    "question": "Comment créer une micro-entreprise ?",
+    "keywords": [
+      "micro-entreprise",
+      "auto-entrepreneur",
+      "micro entrepreneur",
+      "creer entreprise",
+      "guichet unique",
+      "inpi",
+      "formalites",
+      "devenir independant"
+    ],
+    "answer": "Vous déclarez votre activité en ligne sur le guichet unique des formalités d'entreprises, opéré par l'INPI. Vous obtenez ensuite un numéro SIRET. Les cotisations sont calculées sur votre chiffre d'affaires.",
+    "steps": [
+      "Choisissez votre activité.",
+      "Faites la déclaration sur le guichet unique.",
+      "Attendez votre numéro SIRET.",
+      "Déclarez votre chiffre d'affaires à l'Urssaf."
+    ],
+    "sources": [
+      {
+        "title": "Comment devenir micro-entrepreneur ?",
+        "url": "https://entreprendre.service-public.gouv.fr/vosdroits/F23961"
+      },
+      {
+        "title": "Immatriculer votre micro-entreprise",
+        "url": "https://entreprendre.service-public.gouv.fr/vosdroits/F36746"
+      },
+      {
+        "title": "Guichet unique des formalités d'entreprises",
+        "url": "https://formalites.entreprises.gouv.fr/"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "carte-vitale",
+    "question": "Comment obtenir ou renouveler ma carte Vitale ?",
+    "keywords": [
+      "carte vitale",
+      "vitale",
+      "perdue",
+      "appli carte vitale",
+      "numero securite sociale",
+      "assurance maladie"
+    ],
+    "answer": "La carte Vitale est gratuite et se demande en ligne sur ameli.fr ou auprès de votre caisse. En cas de perte, vous pouvez demander une nouvelle carte. L'application Carte Vitale permet aussi de la dématérialiser.",
+    "steps": [
+      "Connectez-vous à votre compte ameli.",
+      "Demandez la carte ou son renouvellement.",
+      "Envoyez la photo demandée.",
+      "Activez l'application si vous le souhaitez."
+    ],
+    "sources": [
+      {
+        "title": "Carte Vitale",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F265"
+      },
+      {
+        "title": "ameli - carte Vitale et appli",
+        "url": "https://www.ameli.fr/assure/adresses-et-contacts/votre-carte-vitale-appli-carte-vitale-carte-europeenne-d-assurance-maladie-ceam"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "medecin-traitant",
+    "question": "Comment déclarer mon médecin traitant ?",
+    "keywords": [
+      "medecin traitant",
+      "declarer medecin",
+      "parcours de soins",
+      "medecin generaliste",
+      "rembourse"
+    ],
+    "answer": "Déclarer un médecin traitant vous permet d'être mieux remboursé. Le médecin choisi vous aide à coordonner vos soins. La déclaration se fait en ligne ou avec votre médecin.",
+    "steps": [
+      "Choisissez un médecin qui accepte.",
+      "Faites la déclaration avec lui ou sur ameli.fr.",
+      "Consultez-le en premier."
+    ],
+    "sources": [
+      {
+        "title": "Médecin traitant et parcours de soins coordonnés",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F163"
+      },
+      {
+        "title": "ameli.fr",
+        "url": "https://www.ameli.fr/"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "complementaire-sante-solidaire",
+    "question": "Qu'est-ce que la Complémentaire santé solidaire (C2S) ?",
+    "keywords": [
+      "c2s",
+      "complementaire sante",
+      "cmu",
+      "mutuelle gratuite",
+      "aide mutuelle",
+      "css"
+    ],
+    "answer": "La C2S est une complémentaire santé gratuite ou à faible coût selon vos ressources. Elle permet de ne pas avancer les frais chez le médecin. Vous pouvez la demander sur ameli.fr.",
+    "steps": [
+      "Vérifiez vos ressources.",
+      "Faites la demande sur ameli.fr.",
+      "Choisissez l'organisme.",
+      "Recevez l'attestation."
+    ],
+    "sources": [
+      {
+        "title": "Complémentaire santé solidaire (C2S)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10027"
+      },
+      {
+        "title": "ameli - Complémentaire santé solidaire",
+        "url": "https://www.ameli.fr/assure/adresses-et-contacts/l-aide-pour-une-complementaire-sante/obtenir-la-complementaire-sante-solidaire"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "mon-espace-sante",
+    "question": "À quoi sert Mon espace santé ?",
+    "keywords": [
+      "mon espace sante",
+      "dossier medical",
+      "carnet de sante",
+      "dmp",
+      "ordonnances",
+      "documents medicaux"
+    ],
+    "answer": "Mon espace santé est un espace personnel sécurisé pour conserver vos documents de santé. Vous choisissez qui peut y accéder. Il est ouvert gratuitement.",
+    "steps": [
+      "Activez le service sur monespacesante.fr.",
+      "Ajoutez vos documents.",
+      "Gérez les accès de vos soignants."
+    ],
+    "sources": [
+      {
+        "title": "Mon espace santé",
+        "url": "https://www.monespacesante.fr/"
+      },
+      {
+        "title": "Qu'est-ce que Mon espace santé ?",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F36151"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "allocations-familiales",
+    "question": "Ai-je droit aux allocations familiales ?",
+    "keywords": [
+      "allocations familiales",
+      "caf",
+      "enfants",
+      "famille",
+      "aide famille",
+      "prestations familiales"
+    ],
+    "answer": "Les allocations familiales sont versées par la CAF à partir de deux enfants à charge. Le montant dépend des ressources et du nombre d'enfants. Vérifiez votre cas sur le site de la CAF.",
+    "steps": [
+      "Créez votre compte sur caf.fr.",
+      "Déclarez vos enfants.",
+      "Vérifiez vos droits.",
+      "Signalez tout changement."
+    ],
+    "sources": [
+      {
+        "title": "Allocations familiales",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F13213"
+      },
+      {
+        "title": "Caf.fr",
+        "url": "https://www.caf.fr/"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "conge-parental",
+    "question": "Comment fonctionne le congé parental ?",
+    "keywords": [
+      "conge parental",
+      "prepare",
+      "conge parent",
+      "arret travail enfant",
+      "naissance conge"
+    ],
+    "answer": "Le congé parental permet de suspendre ou réduire votre activité pour élever votre enfant. Vous devez en informer votre employeur. Une aide, la PreParE, peut être versée par la CAF selon votre situation.",
+    "steps": [
+      "Prévenez votre employeur dans les délais.",
+      "Faites la demande de PreParE à la CAF.",
+      "Suivez votre situation."
+    ],
+    "sources": [
+      {
+        "title": "Congé parental",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F517"
+      },
+      {
+        "title": "Prestation partagée d'éducation de l'enfant (PreParE)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32485"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "creche-garde",
+    "question": "Comment trouver un mode de garde pour mon enfant ?",
+    "keywords": [
+      "creche",
+      "garde enfant",
+      "assistante maternelle",
+      "mode de garde",
+      "cmg",
+      "nounou"
+    ],
+    "answer": "Vous pouvez chercher une crèche ou une assistante maternelle sur monenfant.fr, le site de la CAF. Une aide, le complément de libre choix du mode de garde, peut vous être versée. Inscrivez-vous tôt en mairie ou auprès du relais.",
+    "steps": [
+      "Cherchez sur monenfant.fr.",
+      "Contactez les structures.",
+      "Demandez l'aide à la CAF."
+    ],
+    "sources": [
+      {
+        "title": "monenfant.fr",
+        "url": "https://www.monenfant.fr/"
+      },
+      {
+        "title": "Complément de libre choix de mode de garde (CMG)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F345"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "inscription-ecole",
+    "question": "Comment inscrire mon enfant à l'école ?",
+    "keywords": [
+      "inscription ecole",
+      "ecole maternelle",
+      "ecole primaire",
+      "rentree",
+      "mairie ecole",
+      "scolarisation"
+    ],
+    "answer": "L'inscription se fait d'abord en mairie, qui délivre un certificat, puis auprès de l'école. Vous devez présenter des documents comme le livret de famille. Renseignez-vous auprès de votre mairie.",
+    "steps": [
+      "Allez en mairie avec les pièces.",
+      "Récupérez le certificat d'inscription.",
+      "Présentez-le à l'école."
+    ],
+    "sources": [
+      {
+        "title": "À l'école maternelle",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1864"
+      },
+      {
+        "title": "Inscrire son enfant dans l'école d'une autre commune",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F598"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "permis-conduire",
+    "question": "Comment passer et obtenir le permis de conduire ?",
+    "keywords": [
+      "permis",
+      "permis b",
+      "passer permis",
+      "auto-ecole",
+      "candidat libre",
+      "examen"
+    ],
+    "answer": "Vous vous inscrivez dans une auto-école ou en candidat libre, avec une demande sur le site de l'ANTS. Vous passez l'examen théorique puis pratique. Pour les règles, vérifiez la page officielle.",
+    "steps": [
+      "Créez votre compte ANTS.",
+      "Inscrivez-vous à l'examen.",
+      "Passez le code puis la conduite.",
+      "Demandez la fabrication de votre permis."
+    ],
+    "sources": [
+      {
+        "title": "Permis de conduire",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N530"
+      },
+      {
+        "title": "Permis B : voiture ou camionnette",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2828"
+      },
+      {
+        "title": "ANTS - Permis de conduire",
+        "url": "https://permisdeconduire.ants.gouv.fr/"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "controle-technique",
+    "question": "Quand faire le contrôle technique de ma voiture ?",
+    "keywords": [
+      "controle technique",
+      "ct",
+      "voiture",
+      "vehicule",
+      "obligatoire",
+      "contre-visite"
+    ],
+    "answer": "Le contrôle technique est obligatoire pour les voitures de plus de quatre ans, puis renouvelé régulièrement. Il se fait dans un centre agréé. Vérifiez la périodicité sur la page officielle.",
+    "steps": [
+      "Prenez rendez-vous dans un centre agréé.",
+      "Apportez la carte grise.",
+      "Faites la contre-visite si besoin."
+    ],
+    "sources": [
+      {
+        "title": "Contrôle technique du véhicule",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2880"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "crit-air",
+    "question": "Comment obtenir la vignette Crit'Air ?",
+    "keywords": [
+      "crit air",
+      "vignette",
+      "zfe",
+      "pollution",
+      "zone faibles emissions"
+    ],
+    "answer": "La vignette Crit'Air indique la classe de pollution de votre véhicule. Elle se commande en ligne sur le site officiel et est nécessaire dans certaines zones à faibles émissions.",
+    "steps": [
+      "Ayez la carte grise à portée de main.",
+      "Commandez en ligne sur le site officiel.",
+      "Collez la vignette sur le pare-brise."
+    ],
+    "sources": [
+      {
+        "title": "Vignette Crit'Air",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33371"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "voyage-etranger",
+    "question": "Comment préparer un voyage à l'étranger en sécurité ?",
+    "keywords": [
+      "voyage",
+      "conseils aux voyageurs",
+      "ariane",
+      "etranger",
+      "securite voyage",
+      "alerte"
+    ],
+    "answer": "Le ministère des Affaires étrangères publie des conseils par pays sur France Diplomatie. Le service Ariane vous prévient en cas de crise. Vérifiez aussi les documents nécessaires.",
+    "steps": [
+      "Lisez les conseils du pays.",
+      "Inscrivez-vous à Ariane.",
+      "Vérifiez passeport et visa.",
+      "Notez les numéros utiles."
+    ],
+    "sources": [
+      {
+        "title": "Conseils aux voyageurs - France Diplomatie",
+        "url": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs"
+      },
+      {
+        "title": "Ariane : alertes en cas de crise à l'étranger",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R18974"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "parcs-nationaux",
+    "question": "Où découvrir les parcs nationaux de France ?",
+    "keywords": [
+      "parcs nationaux",
+      "nature",
+      "randonnee",
+      "parc",
+      "vacances nature"
+    ],
+    "answer": "Le portail des parcs nationaux présente les onze parcs français, leurs règles de visite et leurs activités. Respectez la réglementation propre à chaque parc.",
+    "steps": [
+      "Choisissez un parc.",
+      "Lisez la réglementation.",
+      "Préparez votre visite."
+    ],
+    "sources": [
+      {
+        "title": "Parcs nationaux de France",
+        "url": "https://www.parcsnationaux.fr/fr"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "inscription-listes-electorales",
+    "question": "Comment m'inscrire sur les listes électorales ?",
+    "keywords": [
+      "listes electorales",
+      "inscription electorale",
+      "voter",
+      "carte electorale",
+      "bureau de vote",
+      "election"
+    ],
+    "answer": "Vous pouvez vous inscrire en ligne ou en mairie. Les jeunes de 18 ans sont en principe inscrits automatiquement. Vérifiez ensuite votre bureau de vote en ligne.",
+    "steps": [
+      "Préparez justificatif d'identité et de domicile.",
+      "Faites la demande en ligne.",
+      "Vérifiez votre inscription."
+    ],
+    "sources": [
+      {
+        "title": "Inscription en ligne sur les listes électorales",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R16396"
+      },
+      {
+        "title": "Vérifier votre inscription électorale et votre bureau de vote",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R51788"
+      },
+      {
+        "title": "Carte électorale",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1962"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "procuration-vote",
+    "question": "Comment donner procuration pour voter ?",
+    "keywords": [
+      "procuration",
+      "voter procuration",
+      "mandataire",
+      "absent election",
+      "maprocuration"
+    ],
+    "answer": "Vous pouvez faire une procuration en ligne sur Maprocuration, puis la valider en gendarmerie, commissariat ou consulat. Votre mandataire vote à votre place. La personne doit être inscrite sur les listes.",
+    "steps": [
+      "Faites la demande sur Maprocuration.",
+      "Validez-la avec une pièce d'identité.",
+      "Prévenez votre mandataire."
+    ],
+    "sources": [
+      {
+        "title": "Maprocuration",
+        "url": "https://www.maprocuration.gouv.fr/"
+      },
+      {
+        "title": "Vérifier votre inscription électorale et votre bureau de vote",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R51788"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "aide-juridictionnelle",
+    "question": "Comment obtenir l'aide juridictionnelle ?",
+    "keywords": [
+      "aide juridictionnelle",
+      "avocat gratuit",
+      "frais de justice",
+      "aide juridique",
+      "ressources justice"
+    ],
+    "answer": "L'aide juridictionnelle prend en charge tout ou une partie de vos frais de justice selon vos ressources. Vous déposez un dossier auprès du tribunal. Vérifiez les plafonds sur la page officielle.",
+    "steps": [
+      "Rassemblez vos justificatifs.",
+      "Déposez la demande auprès du tribunal.",
+      "Attendez la décision."
+    ],
+    "sources": [
+      {
+        "title": "Aide juridictionnelle en France",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F18074"
+      },
+      {
+        "title": "Justice.fr",
+        "url": "https://www.justice.fr/"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "plainte-en-ligne",
+    "question": "Comment porter plainte, y compris en ligne ?",
+    "keywords": [
+      "plainte",
+      "porter plainte",
+      "depot de plainte",
+      "commissariat",
+      "gendarmerie",
+      "pre-plainte"
+    ],
+    "answer": "Vous pouvez déposer plainte au commissariat, à la gendarmerie ou envoyer un courrier au procureur. Certaines infractions permettent une plainte en ligne. En cas d'urgence, appelez le 17.",
+    "steps": [
+      "Rassemblez les preuves.",
+      "Faites la déclaration en ligne ou sur place.",
+      "Conservez le récépissé."
+    ],
+    "sources": [
+      {
+        "title": "Plainte simple",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1435"
+      },
+      {
+        "title": "Plainte en ligne - Ma Sécurité",
+        "url": "https://www.masecurite.interieur.gouv.fr/fr/demarches-en-ligne/plainte-en-ligne"
+      },
+      {
+        "title": "Ma Sécurité",
+        "url": "https://www.masecurite.interieur.gouv.fr/fr"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "mdph-handicap",
+    "question": "Comment faire une demande à la MDPH ?",
+    "keywords": [
+      "mdph",
+      "handicap",
+      "reconnaissance handicap",
+      "rqth",
+      "cmi",
+      "pch",
+      "aeeh"
+    ],
+    "answer": "La maison départementale des personnes handicapées étudie votre demande d'aide. Vous remplissez un dossier avec un certificat médical, en ligne ou sur papier. Le site Mon Parcours Handicap vous guide.",
+    "steps": [
+      "Demandez le dossier.",
+      "Faites remplir le certificat médical.",
+      "Déposez le dossier."
+    ],
+    "sources": [
+      {
+        "title": "Mon Parcours Handicap",
+        "url": "https://www.monparcourshandicap.gouv.fr/"
+      },
+      {
+        "title": "Demande de prestations Handicap (MDPH)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R19993"
+      },
+      {
+        "title": "RQTH",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1650"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "aah",
+    "question": "Comment obtenir l'allocation aux adultes handicapés (AAH) ?",
+    "keywords": [
+      "aah",
+      "allocation adulte handicape",
+      "aide handicap",
+      "revenu handicap"
+    ],
+    "answer": "L'AAH est versée sous conditions de handicap et de ressources. Elle est attribuée après une demande à la MDPH. Le montant dépend de votre situation.",
+    "steps": [
+      "Déposez un dossier à la MDPH.",
+      "Attendez la décision.",
+      "Signalez tout changement."
+    ],
+    "sources": [
+      {
+        "title": "Allocation aux adultes handicapés (AAH)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12242"
+      },
+      {
+        "title": "Mon Parcours Handicap",
+        "url": "https://www.monparcourshandicap.gouv.fr/"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "parcoursup",
+    "question": "Comment m'inscrire sur Parcoursup ?",
+    "keywords": [
+      "parcoursup",
+      "orientation",
+      "etudes superieures",
+      "voeux",
+      "bac",
+      "universite"
+    ],
+    "answer": "Parcoursup permet de formuler des vœux pour les formations de l'enseignement supérieur. Les dates changent chaque année, consultez le calendrier officiel.",
+    "steps": [
+      "Créez votre dossier.",
+      "Formulez vos vœux.",
+      "Confirmez vos choix."
+    ],
+    "sources": [
+      {
+        "title": "Parcoursup",
+        "url": "https://www.parcoursup.gouv.fr/"
+      },
+      {
+        "title": "Parcoursup",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F23476"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "bourses-crous",
+    "question": "Comment obtenir une bourse étudiante du CROUS ?",
+    "keywords": [
+      "bourse",
+      "crous",
+      "etudiant",
+      "bourse sur criteres sociaux",
+      "dse",
+      "logement etudiant"
+    ],
+    "answer": "La bourse sur critères sociaux est demandée via le dossier social étudiant sur le site du CROUS. Elle dépend des ressources de la famille. Faites la demande chaque année.",
+    "steps": [
+      "Ouvrez le dossier social étudiant.",
+      "Joignez les justificatifs.",
+      "Suivez la demande."
+    ],
+    "sources": [
+      {
+        "title": "Bourse sur critères sociaux",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12214"
+      },
+      {
+        "title": "Dossier social étudiant (bourse et logement)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12216"
+      },
+      {
+        "title": "Étudiant.gouv",
+        "url": "https://www.etudiant.gouv.fr/fr"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "signalconso",
+    "question": "Comment signaler un problème avec un commerçant ou un service ?",
+    "keywords": [
+      "signalconso",
+      "reclamation",
+      "litige consommation",
+      "arnaque commerce",
+      "probleme achat",
+      "dgccrf"
+    ],
+    "answer": "SignalConso permet de signaler un problème rencontré avec une entreprise. Le signalement est envoyé à l'entreprise et aux services de contrôle. Gardez vos justificatifs.",
+    "steps": [
+      "Décrivez le problème.",
+      "Ajoutez les preuves.",
+      "Envoyez le signalement."
+    ],
+    "sources": [
+      {
+        "title": "SignalConso",
+        "url": "https://signal.conso.gouv.fr/fr"
+      },
+      {
+        "title": "Arnaques sur internet",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N31138"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "franceconnect",
+    "question": "Qu'est-ce que FranceConnect ?",
+    "keywords": [
+      "franceconnect",
+      "connexion",
+      "identification",
+      "se connecter",
+      "compte impots",
+      "compte ameli"
+    ],
+    "answer": "FranceConnect permet de se connecter à de nombreux services publics avec un compte que vous avez déjà, sans créer de nouveaux identifiants. Vos données ne sont partagées qu'avec votre accord.",
+    "steps": [
+      "Choisissez FranceConnect sur le service.",
+      "Sélectionnez votre compte.",
+      "Validez."
+    ],
+    "sources": [
+      {
+        "title": "FranceConnect",
+        "url": "https://www.franceconnect.gouv.fr/"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "numeros-urgence",
+    "question": "Quels sont les numéros d'urgence à connaître ?",
+    "keywords": [
+      "urgence",
+      "15",
+      "17",
+      "18",
+      "112",
+      "114",
+      "119",
+      "3919",
+      "3919",
+      "samu",
+      "police",
+      "pompiers"
+    ],
+    "answer": "En cas d'urgence, appelez le 15 pour le SAMU, le 17 pour la police, le 18 pour les pompiers ou le 112 depuis toute l'Europe. Le 114 permet aux personnes sourdes de demander de l'aide par SMS. En cas de danger immédiat, appelez tout de suite.",
+    "steps": [
+      "Appelez le numéro adapté.",
+      "Donnez l'adresse précise.",
+      "Suivez les consignes."
+    ],
+    "sources": [
+      {
+        "title": "Numéros d'urgence et d'écoute",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33954"
+      },
+      {
+        "title": "Contacter la police ou la gendarmerie en cas d'urgence",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33953"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "violences-enfant-danger",
+    "question": "Que faire en cas de violences ou d'enfant en danger ?",
+    "keywords": [
+      "violences",
+      "enfant en danger",
+      "119",
+      "3919",
+      "maltraitance",
+      "violences conjugales"
+    ],
+    "answer": "Pour un enfant en danger, appelez le 119. Pour les violences faites aux femmes, contactez le numéro d'écoute dédié. En cas de danger immédiat, appelez le 17.",
+    "steps": [
+      "Mettez-vous en sécurité.",
+      "Appelez le bon numéro.",
+      "Signalez aux autorités."
+    ],
+    "sources": [
+      {
+        "title": "Signaler un enfant en danger",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F781"
+      },
+      {
+        "title": "Violences conjugales",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12544"
+      },
+      {
+        "title": "Numéros d'urgence et d'écoute",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33954"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "titre-sejour",
+    "question": "Comment demander un titre de séjour en ligne ?",
+    "keywords": [
+      "titre de sejour",
+      "anef",
+      "etranger",
+      "carte de sejour",
+      "prefecture",
+      "renouvellement titre"
+    ],
+    "answer": "Les demandes de titre de séjour se font en ligne sur la plateforme ANEF. Créez un compte, remplissez la demande et joignez les documents. Certaines situations demandent un rendez-vous en préfecture.",
+    "steps": [
+      "Créez votre compte ANEF.",
+      "Choisissez votre démarche.",
+      "Envoyez les pièces.",
+      "Suivez la demande."
+    ],
+    "sources": [
+      {
+        "title": "Administration numérique pour les étrangers en France (ANEF)",
+        "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/"
+      },
+      {
+        "title": "Difficulté lors d'une demande de titre de séjour",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31969"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "rsa",
+    "question": "Comment demander le RSA ?",
+    "keywords": [
+      "rsa",
+      "revenu de solidarite active",
+      "aide sociale",
+      "minimum social",
+      "caf rsa"
+    ],
+    "answer": "Le RSA est une aide financière pour les personnes aux faibles ressources. La demande se fait en ligne sur le site de la CAF ou de la MSA. Le montant dépend de votre situation, un simulateur est disponible.",
+    "steps": [
+      "Faites une simulation.",
+      "Déposez la demande en ligne.",
+      "Suivez votre dossier."
+    ],
+    "sources": [
+      {
+        "title": "Revenu de solidarité active (RSA)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19775"
+      },
+      {
+        "title": "Demande de RSA (Caf)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R50282"
+      },
+      {
+        "title": "Mes Droits Sociaux (simulateur)",
+        "url": "https://www.mesdroitssociaux.gouv.fr/accueil/"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "prime-activite",
+    "question": "Comment demander la prime d'activité ?",
+    "keywords": [
+      "prime d'activite",
+      "prime activite",
+      "complement salaire",
+      "travailleurs modestes"
+    ],
+    "answer": "La prime d'activité complète les revenus de certains travailleurs modestes. Elle se demande auprès de la CAF ou de la MSA. Le montant est recalculé chaque trimestre.",
+    "steps": [
+      "Simulez votre droit.",
+      "Faites la demande en ligne.",
+      "Déclarez vos ressources."
+    ],
+    "sources": [
+      {
+        "title": "Demander la prime d'activité",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R42726"
+      },
+      {
+        "title": "Mes Droits Sociaux (simulateur)",
+        "url": "https://www.mesdroitssociaux.gouv.fr/accueil/"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "dechets-encombrants",
+    "question": "Comment se débarrasser des encombrants et des déchets ?",
+    "keywords": [
+      "dechets",
+      "encombrants",
+      "dechetterie",
+      "tri",
+      "deee",
+      "recyclage"
+    ],
+    "answer": "Les encombrants et déchets électroniques ne vont pas dans la poubelle. Utilisez la déchetterie ou le service de collecte de votre commune. Renseignez-vous auprès de votre mairie.",
+    "steps": [
+      "Contactez votre mairie.",
+      "Apportez à la déchetterie.",
+      "Triez selon les consignes."
+    ],
+    "sources": [
+      {
+        "title": "Encombrants (déchets volumineux)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31954"
+      },
+      {
+        "title": "Déchets électriques et électroniques",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31955"
+      }
+    ],
+    "updated": "2026-09"
+  },
+  {
+    "id": "pass-culture",
+    "question": "Qu'est-ce que le pass Culture ?",
+    "keywords": [
+      "pass culture",
+      "culture",
+      "jeunes",
+      "18 ans",
+      "credit culture"
+    ],
+    "answer": "Le pass Culture est un dispositif qui permet à certains jeunes de financer des activités culturelles. Les conditions et le montant dépendent de l'âge. Vérifiez la page officielle.",
+    "steps": [
+      "Téléchargez l'application.",
+      "Créez votre compte.",
+      "Réservez vos activités."
+    ],
+    "sources": [
+      {
+        "title": "pass Culture",
+        "url": "https://pass.culture.fr/"
+      },
+      {
+        "title": "À quoi sert le pass Culture ?",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34959"
+      }
+    ],
+    "updated": "2026-09"
+  }
+]

@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="fr" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Poser une question — Hello France (site non officiel)</title>
+<meta name="description" content="Posez votre question sur une démarche en France. Réponse par un modèle Mistral exécuté dans votre navigateur, avec les liens officiels.">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="theme-color" content="#fcfcfd" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#11151f" media="(prefers-color-scheme: dark)">
+<link rel="canonical" href="https://connected-mate.github.io/hello-france/chat.html">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="Hello France (site non officiel)">
+<meta property="og:title" content="Poser une question — Hello France (site non officiel)">
+<meta property="og:description" content="Posez votre question sur une démarche en France. Réponse par un modèle Mistral exécuté dans votre navigateur, avec les liens officiels.">
+<meta property="og:url" content="https://connected-mate.github.io/hello-france/chat.html">
+<meta property="og:image" content="https://connected-mate.github.io/hello-france/assets/img/og-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Hello France — projet indépendant, non officiel">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="./assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="./assets/img/apple-touch-icon.png">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="./assets/css/site.css?v=202609292047">
+<script>
+  document.documentElement.classList.remove("no-js");
+  try { var t = localStorage.getItem("hf.theme"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch (e) {}
+</script>
+
+</head>
+
+<body class="chat-page">
+<a class="skip-link" href="#contenu">Aller au contenu</a>
+<div class="notice-bar" role="region" aria-label="Avertissement : site non officiel">
+  <button class="notice-toggle" type="button" aria-expanded="false" aria-controls="notice-panel">
+    <span><strong>Site non officiel</strong> — projet indépendant</span>
+    <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 8l5 5 5-5"/></svg>
+  </button>
+  <div class="notice-panel" id="notice-panel" hidden>
+    <p><strong>Hello France n’est pas un site du gouvernement.</strong> C’est un projet personnel et indépendant, sans lien avec le gouvernement français ni avec le gouvernement américain.</p>
+    <p>Les réponses renvoient toujours vers les sites officiels (service-public.gouv.fr, impots.gouv.fr, ameli.fr…) : ce sont eux qui font foi.</p>
+  </div>
+</div>
+<header class="site-header">
+  <a class="brand" href="./" aria-label="Hello France, accueil">
+    <span class="brand-flag" aria-hidden="true"><i></i><i></i><i></i></span>
+    <span class="brand-word" aria-hidden="true">Hello<b>France</b></span>
+  </a>
+  <button class="btn btn-primary menu-btn" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="site-menu">Menu</button>
+</header>
+<dialog class="menu" id="site-menu" aria-label="Menu principal">
+  <div class="menu-inner">
+    <button class="icon-btn menu-close" type="button" aria-label="Fermer le menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M7 7l10 10M17 7L7 17"/></svg>
+    </button>
+    <nav aria-label="Principal">
+      <ul>
+        <li><a href="./">Accueil</a></li>
+        <li><a href="./chat.html" aria-current="page">Poser une question</a></li>
+        <li><a href="./comment-ca-marche.html">Comment ça marche</a></li>
+        <li><a href="./confidentialite.html">Confidentialité</a></li>
+        <li><a href="./a-propos.html">À propos</a></li>
+        <li><a href="./bientot.html">Bientôt</a></li>
+        <li><a href="./faq.html">FAQ</a></li>
+        <li><a href="https://github.com/Connected-Mate/hello-france/issues/new" rel="noopener" target="_blank">Donner votre avis<span class="sr-only"> (nouvel onglet)</span></a></li>
+      </ul>
+    </nav>
+    <div class="menu-note">
+      <span class="brand-flag" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span>Site non officiel — projet indépendant,<br>sans lien avec aucun gouvernement.</span>
+    </div>
+  </div>
+</dialog>
+
+<main id="contenu" class="chat-main" aria-label="Conversation">
+  <section class="chat-empty" data-empty>
+    <h1 class="display">Que puis-je faire pour vous&#8239;?</h1>
+    <p>Posez votre question comme vous la diriez à quelqu’un. La réponse est rédigée par Mistral, directement dans votre navigateur, avec les liens officiels.</p>
+    <div class="suggestions" role="list">
+      <button type="button" role="listitem" data-suggest>Comment renouveler mon passeport ?</button>
+      <button type="button" role="listitem" data-suggest>Quels sont les horaires de la mairie de Lyon ?</button>
+      <button type="button" role="listitem" data-suggest>Quel temps fait-il à Marseille ?</button>
+      <button type="button" role="listitem" data-suggest>Comment m’inscrire sur les listes électorales ?</button>
+      <button type="button" role="listitem" data-suggest>J’ai perdu ma carte Vitale, que faire ?</button>
+      <button type="button" role="listitem" data-suggest>Quel est le prochain jour férié ?</button>
+    </div>
+  </section>
+  <div class="chat-log" data-log aria-live="polite" aria-relevant="additions" style="display:grid;gap:32px"></div>
+</main>
+<div class="chat-dock" data-chat-dock>
+  <div class="inner">
+    <form class="ask" action="./chat.html" method="get" data-ask aria-label="Poser une question">
+  <div class="ask-field">
+    <div class="ask-attach" data-attach hidden></div>
+    <label class="sr-only" for="q-chat">Décrivez ce dont vous avez besoin</label>
+    <textarea id="q-chat" name="q" rows="1" maxlength="2000" enterkeyhint="send" autocomplete="off" placeholder="Posez votre question…"></textarea>
+    
+  </div>
+  <div class="ask-actions">
+    <input type="file" accept="application/pdf,.pdf" hidden data-file tabindex="-1" aria-hidden="true">
+    <button class="icon-btn" type="button" data-action="pdf" aria-label="Joindre un PDF (lu uniquement sur votre appareil)" title="Joindre un PDF">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M9 7v8a3 3 0 0 0 6 0V6a2 2 0 0 0-4 0v9a1 1 0 0 0 2 0V8"/></svg>
+    </button>
+    <button class="icon-btn" type="button" data-action="voice" aria-label="Dicter la question" aria-pressed="false" title="Dicter">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21M9 21h6"/></svg>
+    </button>
+    <button class="ask-send" type="submit" aria-label="Envoyer la question">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </button>
+  </div>
+</form>
+
+    <p class="fine">
+      <strong>Site non officiel</strong> · Réponses de Mistral, calculées sur votre appareil — vérifiez toujours sur le site officiel ·
+      <button type="button" class="theme-toggle" style="font-size:inherit;color:inherit;text-decoration:underline" data-open-settings>Réglages de l’IA</button> ·
+      <a href="./a-propos.html">Réalisé par Alexandre Cormeraie</a>
+    </p>
+  </div>
+</div>
+<dialog class="menu" id="ai-settings" aria-labelledby="ai-settings-title" style="inset:auto;margin:auto;position:fixed">
+  <div class="menu-inner" style="gap:18px">
+    <button class="icon-btn menu-close" type="button" aria-label="Fermer les réglages" data-close-settings>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M7 7l10 10M17 7L7 17"/></svg>
+    </button>
+    <h2 id="ai-settings-title" style="margin:0;font-size:1.5rem;letter-spacing:-0.03em">Réglages de l’IA</h2>
+    <div class="settings" style="display:grid;gap:14px">
+      <label>Modèle Mistral
+        <select data-model-select></select>
+      </label>
+      <p class="msg-muted" style="margin:0" data-ai-status>Vérification de votre appareil…</p>
+      <div style="display:flex;flex-wrap:wrap;gap:8px">
+        <button class="btn btn-ghost" type="button" data-new-chat>Nouvelle conversation</button>
+        <button class="btn btn-ghost" type="button" data-clear-cache>Supprimer le modèle téléchargé</button>
+      </div>
+      <p class="msg-muted" style="margin:0;font-size:.8125rem">Le modèle est gardé dans le stockage de votre navigateur pour ne pas le retélécharger. Vos conversations, elles, ne sont jamais enregistrées.</p>
+    </div>
+  </div>
+</dialog>
+
+<script type="module" src="./assets/js/chat.js"></script>
+</body>
+</html>

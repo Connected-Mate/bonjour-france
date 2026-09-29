@@ -1,0 +1,51 @@
+<!--
+title: Poser une question — Hello France (site non officiel)
+description: Posez votre question sur une démarche en France. Réponse par un modèle Mistral exécuté dans votre navigateur, avec les liens officiels.
+options:
+body_class: chat-page
+scripts: chat.js
+-->
+<main id="contenu" class="chat-main" aria-label="Conversation">
+  <section class="chat-empty" data-empty>
+    <h1 class="display">Que puis-je faire pour vous&#8239;?</h1>
+    <p>Posez votre question comme vous la diriez à quelqu’un. La réponse est rédigée par Mistral, directement dans votre navigateur, avec les liens officiels.</p>
+    <div class="suggestions" role="list">
+      <button type="button" role="listitem" data-suggest>Comment renouveler mon passeport ?</button>
+      <button type="button" role="listitem" data-suggest>Quels sont les horaires de la mairie de Lyon ?</button>
+      <button type="button" role="listitem" data-suggest>Quel temps fait-il à Marseille ?</button>
+      <button type="button" role="listitem" data-suggest>Comment m’inscrire sur les listes électorales ?</button>
+      <button type="button" role="listitem" data-suggest>J’ai perdu ma carte Vitale, que faire ?</button>
+      <button type="button" role="listitem" data-suggest>Quel est le prochain jour férié ?</button>
+    </div>
+  </section>
+  <div class="chat-log" data-log aria-live="polite" aria-relevant="additions" style="display:grid;gap:32px"></div>
+</main>
+<div class="chat-dock" data-chat-dock>
+  <div class="inner">
+    {{ASK_CHAT}}
+    <p class="fine">
+      <strong>Site non officiel</strong> · Réponses de Mistral, calculées sur votre appareil — vérifiez toujours sur le site officiel ·
+      <button type="button" class="theme-toggle" style="font-size:inherit;color:inherit;text-decoration:underline" data-open-settings>Réglages de l’IA</button> ·
+      <a href="./a-propos.html">Réalisé par Alexandre Cormeraie</a>
+    </p>
+  </div>
+</div>
+<dialog class="menu" id="ai-settings" aria-labelledby="ai-settings-title" style="inset:auto;margin:auto;position:fixed">
+  <div class="menu-inner" style="gap:18px">
+    <button class="icon-btn menu-close" type="button" aria-label="Fermer les réglages" data-close-settings>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M7 7l10 10M17 7L7 17"/></svg>
+    </button>
+    <h2 id="ai-settings-title" style="margin:0;font-size:1.5rem;letter-spacing:-0.03em">Réglages de l’IA</h2>
+    <div class="settings" style="display:grid;gap:14px">
+      <label>Modèle Mistral
+        <select data-model-select></select>
+      </label>
+      <p class="msg-muted" style="margin:0" data-ai-status>Vérification de votre appareil…</p>
+      <div style="display:flex;flex-wrap:wrap;gap:8px">
+        <button class="btn btn-ghost" type="button" data-new-chat>Nouvelle conversation</button>
+        <button class="btn btn-ghost" type="button" data-clear-cache>Supprimer le modèle téléchargé</button>
+      </div>
+      <p class="msg-muted" style="margin:0;font-size:.8125rem">Le modèle est gardé dans le stockage de votre navigateur pour ne pas le retélécharger. Vos conversations, elles, ne sont jamais enregistrées.</p>
+    </div>
+  </div>
+</dialog>
