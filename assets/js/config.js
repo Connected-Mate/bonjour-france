@@ -12,25 +12,25 @@ export const CONFIG = {
     webllm: {
       // Pinned version: bump deliberately after testing.
       esm: "https://cdn.jsdelivr.net/npm/@mlc-ai/web-llm@0.2.85/+esm",
-      defaultModel: "ministral-3b",
+      defaultModel: "mistral-7b", // desktops; phones get "ministral-3b" (see ai.js autoModelKey)
       models: {
         "ministral-3b": {
-          label: "Ministral 3B",
+          label: "Ministral 3B (léger)",
           f16: "Ministral-3-3B-Instruct-2512-BF16-q4f16_1-MLC",
           f32: "Ministral-3-3B-Instruct-2512-BF16-q4f32_1-MLC",
-          sizeLabel: "≈ 2 à 3 Go",
+          sizeLabel: "≈ 2 Go",
           vramMB: 2900,
         },
         "mistral-7b": {
           label: "Mistral 7B Instruct v0.3",
           f16: "Mistral-7B-Instruct-v0.3-q4f16_1-MLC",
           f32: "Mistral-7B-Instruct-v0.3-q4f32_1-MLC",
-          sizeLabel: "≈ 4 à 5 Go",
+          sizeLabel: "≈ 4 Go",
           vramMB: 4600,
         },
       },
-      temperature: 0.3,
-      maxTokens: 700,
+      temperature: 0.2,
+      maxTokens: 450,
     },
 
     api: {

@@ -7,7 +7,7 @@
 
   --ink: oklch(0.2 0.045 262);
   --ink-soft: oklch(0.2 0.045 262 / 0.66);
-  --ink-faint: oklch(0.2 0.045 262 / 0.45);
+  --ink-faint: oklch(0.2 0.045 262 / 0.6);
   --bg: oklch(0.995 0.002 262);
   --bg-raised: oklch(1 0 0 / 0.98);
   --bg-sunk: oklch(0.967 0.004 262);
@@ -49,7 +49,7 @@
     color-scheme: dark;
     --ink: oklch(0.95 0.008 262);
     --ink-soft: oklch(0.95 0.008 262 / 0.7);
-    --ink-faint: oklch(0.95 0.008 262 / 0.5);
+    --ink-faint: oklch(0.95 0.008 262 / 0.6);
     --bg: oklch(0.17 0.02 262);
     --bg-raised: oklch(0.22 0.025 262);
     --bg-sunk: oklch(0.2 0.022 262);
@@ -70,7 +70,7 @@
   color-scheme: dark;
   --ink: oklch(0.95 0.008 262);
   --ink-soft: oklch(0.95 0.008 262 / 0.7);
-  --ink-faint: oklch(0.95 0.008 262 / 0.5);
+  --ink-faint: oklch(0.95 0.008 262 / 0.6);
   --bg: oklch(0.17 0.02 262);
   --bg-raised: oklch(0.22 0.025 262);
   --bg-sunk: oklch(0.2 0.022 262);
@@ -178,7 +178,7 @@ a:hover { text-decoration-thickness: 2px; }
   display: flex; align-items: center; justify-content: space-between;
   padding: clamp(16px, 3vw, 40px) var(--gutter) 0;
 }
-.brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
+.brand { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; text-decoration: none; color: var(--ink); }
 .brand-flag { width: 30px; height: 20px; border-radius: 3px; overflow: hidden; display: flex; flex: none; box-shadow: inset 0 0 0 1px oklch(0 0 0 / 0.08); }
 .brand-flag i { flex: 1; }
 .brand-flag i:nth-child(1) { background: oklch(0.42 0.17 262); }
@@ -680,3 +680,11 @@ a:hover { text-decoration-thickness: 2px; }
 @media print {
   .ask-dock, .chat-dock, .notice-toggle svg, .menu-btn, .soon, .vote { display: none !important; }
 }
+
+/* chat: grounding safeguards */
+.msg-warn { margin: 8px 0 12px; padding: 10px 14px; border-radius: 14px; background: var(--red-soft); font-size: .9375rem; }
+.verified { margin-top: 8px; border-radius: 18px; background: var(--bg-sunk); padding: 0 16px; font-size: .9375rem; }
+.verified summary { cursor: pointer; padding: 12px 0; font-weight: 600; }
+.verified[open] { padding-bottom: 12px; }
+.verified p, .verified ol { margin: 0 0 8px; }
+.msg-tools button { display: inline-flex; align-items: center; gap: 6px; }

@@ -25,9 +25,14 @@ export function isLikelyMobile() {
 
 export const MODEL_PREF_KEY = "hf.model";
 
-export function selectedModelKey() {
-  const k = store.get(MODEL_PREF_KEY, CONFIG.ai.webllm.defaultModel);
-  return CONFIG.ai.webllm.models[k] ? k : CONFIG.ai.webllm.defaultModel;
+/** User choice, else Mistral 7B on capable desktops and Ministral 3B on phones / GPUs without f16. */
+export function autoModelKey(gpu) {
+  return isLikelyMobile() || (gpu && !gpu.f16) ? "ministral-3b" : CONFIG.ai.webllm.defaultModel;
+}
+
+export function selectedModelKey(gpu) {
+  const k = store.get(MODEL_PREF_KEY, null);
+  return CONFIG.ai.webllm.models[k] ? k : autoModelKey(gpu);
 }
 
 class WebLLMEngine {
@@ -46,7 +51,7 @@ class WebLLMEngine {
   }
 
   resolveModel(gpu) {
-    const key = selectedModelKey();
+    const key = selectedModelKey(gpu);
     const m = CONFIG.ai.webllm.models[key];
     return { key, id: gpu?.f16 ? m.f16 : m.f32, label: m.label, sizeLabel: m.sizeLabel };
   }
