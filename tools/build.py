@@ -149,15 +149,14 @@ def stage() -> None:
         dst.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(src, dst)
         APPLIED.append(dst.relative_to(STAGE).as_posix())
+    # america.gov's in-browser PII model is never used here
+    if (STAGE / "models").exists():
+        shutil.rmtree(STAGE / "models")
     # the chat is a client-side state of the home page
     (STAGE / "chat").mkdir(exist_ok=True)
     shutil.copy2(STAGE / "index.html", STAGE / "chat" / "index.html")
     if STATIC.exists():
         shutil.copytree(STATIC, STAGE / "bonjour", dirs_exist_ok=True)
-    if os.environ.get("BONJOUR_PUTER_SCRIPT"):  # local tests with a stand-in
-        cfg = STAGE / "bonjour" / "config.js"
-        write(cfg, read(cfg).replace('script: "https://js.puter.com/v2/"', 'script: "' + os.environ["BONJOUR_PUTER_SCRIPT"] + '"'))
-        warn("puter script overridden by BONJOUR_PUTER_SCRIPT (local test build)")
     if os.environ.get("BONJOUR_RELAY_URL"):
         cfg = STAGE / "bonjour" / "config.js"
         write(cfg, re.sub(r'relayUrl:\s*"[^"]*"', 'relayUrl: "' + os.environ["BONJOUR_RELAY_URL"] + '"', read(cfg)))
@@ -261,10 +260,10 @@ def load_translations() -> tuple[dict, dict]:
     cards = [(r["en"], by_en[r["en"]]) for r in rows if any(src.startswith("dict:landing.home.frontDoor.cards.") and src.endswith(".prompt") for src in r["sources"])]
     total = len(cards)
     for i, (e, f) in enumerate(cards, 1):
-        by_en.setdefault(f"Try \u2018{e}\u2019", f"Essayez \u00ab\u00a0{f}\u00a0\u00bb")
-        by_en.setdefault(f"Example question: {e}", f"Exemple de question\u00a0: {f}")
+        by_en[f"Try \u2018{e}\u2019"] = f"Essayez \u00ab\u00a0{f}\u00a0\u00bb"
+        by_en[f"Example question: {e}"] = f"Exemple de question\u00a0: {f}"
         for n in range(1, total + 1):
-            by_en.setdefault(f"Example {n} of {total}: {e}", f"Exemple {n} sur {total}\u00a0: {f}")
+            by_en[f"Example {n} of {total}: {e}"] = f"Exemple {n} sur {total}\u00a0: {f}"
     if missing:
         raise SystemExit(f"[build] untranslated string ids: {missing[:20]}")
     return by_en, by_path
@@ -580,7 +579,7 @@ def render_legal_main(page) -> str:
     return ('<div data-site-hero-enter="0"><div class="mx-auto w-full max-w-site page-gutter pb-24 site-desktop:pb-43.5">'
             '<div class="stagger-entrance mx-auto flex w-full max-w-[958px] flex-col items-center gap-8 pt-20 text-center">'
             f'<h1 class="text-text-primary type-heading-l">{html.escape(page["title"])}</h1>'
-            f'<p class="type-body-m max-w-[540px] text-text-secondary"><time datetime="{LEGAL_UPDATED}">Dernière mise à jour : 30 septembre 2026</time></p></div>'
+            f'<p class="type-body-m max-w-[540px] text-text-secondary"><time datetime="{LEGAL_UPDATED}">Dernière mise à jour\u00a0: 30 septembre 2026</time></p></div>'
             f'<div class="mx-auto mt-20 flex w-full max-w-[660px] flex-col gap-20"><div class="flex flex-col gap-14">{secs}</div></div></div></div>')
 
 
@@ -598,9 +597,15 @@ def patch_footer_links() -> None:
     chrome = read(astro(r"home-chrome\..*\.js$"))
     if "key:`legalNotice`" not in chrome:
         raise SystemExit("[build] footer links array not patched")
+    # server-rendered footer row must list the same links, in the same order, as the island renders
+    row = re.compile(r'<span class="min-w-0 max-w-full"><a href="/(?:privacy-policy|confidentialite)" (class="[^"]*")>[^<]*</a></span>'
+                     r'<span class="min-w-0 max-w-full"><a href="/(?:terms|cgu)" class="[^"]*">[^<]*</a></span>')
+    links = [("/mentions-legales", "Mentions légales"), ("/cgu", "Conditions d’utilisation"), ("/confidentialite", "Politique de confidentialité"),
+             ("/credits", "Crédits"), ("/accessibilite", "Accessibilité")]
     for page in STAGE.rglob("*.html"):
         t = read(page)
         t2 = t.replace('href="/privacy-policy"', 'href="/confidentialite"').replace('href="/terms"', 'href="/cgu"')
+        t2 = row.sub(lambda m: "".join(f'<span class="min-w-0 max-w-full"><a href="{h}" {m.group(1)}>{html.escape(n, quote=False)}</a></span>' for h, n in links), t2)
         if t2 != t:
             write(page, t2)
 
@@ -760,10 +765,7 @@ def relay_origin() -> str:
 
 
 CSP_EXTRA = {
-    "connect-src": "https://api.github.com https://api.puter.com https://*.puter.com wss://*.puter.com https://js.puter.com",
-    "script-src": "https://js.puter.com",
-    "frame-src": "https://puter.com https://*.puter.com",
-    "img-src": "https://puter.com https://*.puter.com",
+    "connect-src": "https://api.github.com",
 }
 
 
@@ -834,6 +836,64 @@ def version_overridden_assets() -> None:
             write(f, t2)
 
 
+def home_island_markup() -> None:
+    """Parts of the home island animate sentences word by word (hero example questions, manifesto);
+    their server markup cannot be translated in place. Serve them exactly as the island renders them
+    on the client (captured by tools/capture_ssr.py) so hydration matches and the page renders once."""
+    cap = I18N / "ssr" / "home-fragments.json"
+    if not cap.exists():
+        warn("no captured home fragments: the home page will render twice on load (run tools/capture_ssr.py)")
+        return
+    data = json.loads(read(cap))
+    for page in (STAGE / "index.html", STAGE / "chat" / "index.html"):
+        h = read(page)
+        for key, open_re in data["selectors"].items():
+            frags = data["fragments"][key]
+            starts = list(re.finditer(open_re, h))
+            if len(starts) != len(frags):
+                warn(f"{page.parent.name or 'home'}: {len(starts)} '{key}' elements, {len(frags)} captured — recapture")
+                continue
+            out, pos = [], 0
+            for m, new in zip(starts, frags):
+                name = re.match(r"<([a-z0-9-]+)", m.group(0)).group(1)
+                depth, i = 1, m.end()
+                tag = re.compile(rf"<(/?){name}\b[^>]*?(/?)>")
+                while depth:
+                    t = tag.search(h, i)
+                    if not t.group(2):
+                        depth += -1 if t.group(1) else 1
+                    i = t.end()
+                out.append(h[pos:m.start()] + new)
+                pos = i
+            out.append(h[pos:])
+            h = "".join(out)
+        write(page, h)
+
+
+# The user asked for zero case-insensitive "puter" hits in the published site;
+# the only ones left are the substring of "computer" in bundled mermaid code
+# (file-local identifiers) and in unused English dictionary copy.
+PUTER_SCRUB = [
+    ("insertComputerIcon", "insertPcIcon"),
+    ("-computer`", "-pc`"),
+    ("computeRoundedCorner", "calcRoundedCorner"),
+    ("tablet, or computer.", "tablet, or laptop."),
+    ("tablets, and computers.", "tablets, and laptops."),
+]
+
+
+def scrub_puter() -> None:
+    for f in STAGE.rglob("*"):
+        if f.suffix not in {".js", ".html", ".json", ".css", ".txt", ".xml"}:
+            continue
+        text = f.read_text(errors="surrogateescape")
+        new = text
+        for a, b in PUTER_SCRUB:
+            new = new.replace(a, b)
+        if new != text:
+            f.write_text(new, errors="surrogateescape")
+
+
 def finalize() -> None:
     tmp = ROOT / ".build-out"
     if tmp.exists():
@@ -870,6 +930,8 @@ def main() -> None:
     rebase()
     photo_credit_assets()
     version_overridden_assets()
+    home_island_markup()
+    scrub_puter()
     finalize()
     for w in warnings:
         print("[warn]", w)
