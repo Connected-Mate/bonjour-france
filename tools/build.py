@@ -574,9 +574,11 @@ def csp(page_html: str, where: str) -> str:
 
 
 def inject() -> None:
-    head = (f'<link rel="stylesheet" href="{BASE}/bonjour/bonjour.css">'
-            f'<script src="{BASE}/bonjour/config.js"></script>'
-            f'<script src="{BASE}/bonjour/bonjour.js"></script>')
+    import hashlib
+    ver = lambda n: hashlib.sha256((STAGE / "bonjour" / n).read_bytes()).hexdigest()[:10]
+    head = (f'<link rel="stylesheet" href="{BASE}/bonjour/bonjour.css?v={ver("bonjour.css")}">'
+            f'<script src="{BASE}/bonjour/config.js?v={ver("config.js")}"></script>'
+            f'<script src="{BASE}/bonjour/bonjour.js?v={ver("bonjour.js")}"></script>')
     for page in STAGE.rglob("*.html"):
         s = read(page)
         s = must_replace(s, '<meta charset="utf-8">', '<meta charset="utf-8">' + head, str(page.relative_to(STAGE)), 1)
