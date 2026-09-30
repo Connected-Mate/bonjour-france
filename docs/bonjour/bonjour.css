@@ -100,6 +100,6 @@ svg[viewBox="0 0 1390 263.577"] > * { display: none; }
 .bf-mistral-privacy strong { font-weight: 600; }
 
 /* footer wink */
-.bf-wink { max-width: 34rem; margin: -.25rem auto 0; text-align: center; font-size: .9375rem; line-height: 1.45; opacity: .8; }
+.bf-wink { display: block; margin-top: .375rem; font-weight: 400; font-size: .875rem; line-height: 1.4; opacity: .75; }
 .bf-wink a { text-decoration: underline; text-underline-offset: 4px; }
 .bf-wink a:hover { opacity: .7; }

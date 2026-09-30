@@ -414,14 +414,14 @@
   function placeFooterWink() {
     if (document.getElementById("bf-wink")) return;
     var p = Array.prototype.find.call(document.querySelectorAll('[data-slot="site-footer"] p'), function (x) { return /^Site non officiel, sans lien/.test((x.textContent || "").trim()); });
-    var row = p && p.parentElement;
-    if (!row || !row.parentElement) return;
-    var w = document.createElement("p");
+    if (!p) return;
+    // inside the laurel line, as a second line, so it stays centred under the notice on every layout
+    var w = document.createElement("span");
     w.id = "bf-wink";
     w.className = "bf-wink";
     w.innerHTML = "… mais si seulement nos décideurs voyaient passer ce genre d’idées. 😉 " +
       '<a href="#bf-vote">Votez pour que ça existe</a>';
-    row.parentElement.insertBefore(w, row.nextSibling);
+    p.appendChild(w);
   }
 
   /* ------------------------------------------------------------------ boot */
