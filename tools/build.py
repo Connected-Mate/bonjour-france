@@ -894,6 +894,46 @@ def scrub_puter() -> None:
             f.write_text(new, errors="surrogateescape")
 
 
+def version_changed_chunks() -> None:
+    """Bundles keep america.gov's hashed names although we rewrite their content (dictionary, copy).
+    A returning visitor would pair fresh HTML with a cached old bundle, hydration would mismatch and
+    the page would render twice. Rename every changed bundle, and every bundle that references one,
+    with a hash of this build's content so browsers fetch the matching set."""
+    import hashlib
+    astro = STAGE / "_astro"
+    chunks = {f.name: f for f in astro.iterdir() if f.suffix in (".js", ".css")}
+
+    def changed(f: Path) -> bool:
+        orig = MIRROR / "_astro" / f.name
+        return not orig.exists() or orig.read_bytes() != f.read_bytes()
+
+    dirty = {n for n, f in chunks.items() if changed(f)}
+    texts = {n: read(f) for n, f in chunks.items()}
+    grew = True
+    while grew:
+        grew = False
+        for n, t in texts.items():
+            if n not in dirty and any(d in t for d in dirty):
+                dirty.add(n)
+                grew = True
+    if not dirty:
+        return
+    digest = hashlib.sha256()
+    for n in sorted(dirty):
+        digest.update(n.encode() + b"\0" + chunks[n].read_bytes())
+    tag = digest.hexdigest()[:8]
+    names = {n: f"{n.rsplit('.', 1)[0]}-{tag}.{n.rsplit('.', 1)[1]}" for n in dirty}
+    ref = re.compile("|".join(re.escape(n) for n in sorted(names, key=len, reverse=True)))
+    for f in STAGE.rglob("*"):
+        if f.is_file() and f.suffix in (".html", ".js", ".css", ".json", ".webmanifest"):
+            t = read(f)
+            t2 = ref.sub(lambda m: names[m.group(0)], t)
+            if t2 != t:
+                write(f, t2)
+    for n, new in names.items():
+        chunks[n].rename(astro / new)
+
+
 def finalize() -> None:
     tmp = ROOT / ".build-out"
     if tmp.exists():
@@ -932,6 +972,7 @@ def main() -> None:
     version_overridden_assets()
     home_island_markup()
     scrub_puter()
+    version_changed_chunks()
     finalize()
     for w in warnings:
         print("[warn]", w)

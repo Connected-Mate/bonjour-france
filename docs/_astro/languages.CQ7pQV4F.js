@@ -1,1 +1,0 @@
-import{f as e}from"./language-provider.DuW3K5tE.js";var t=e.options;export{t};

@@ -1,1 +1,0 @@
-import{ht as e}from"./MotionConfigContext.DuJgFv4V.js";function t(e,t){if(e===`first`)return 0;{let n=t-1;return e===`last`?n:n/2}}function n(n=.1,{startDelay:r=0,from:i=0,ease:a}={}){return(o,s)=>{let c=typeof i==`number`?i:t(i,s),l=n*Math.abs(c-o);if(a){let t=s*n;l=e(a)(l/t)*t}return r+l}}export{n as t};

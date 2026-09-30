@@ -174,7 +174,7 @@
 
   /** Default answer: send the visitor to Mistral's own chat, with our verified fiche when one matches. */
   function askMistralText(question, hits) {
-    var t = "Pour cette question, demandez directement à Mistral.\n\n[Poser la question à Mistral](" + lechatUrl(question) + ")";
+    var t = DEMO_TEXT + "\n\n[Poser la question à Mistral](" + lechatUrl(question) + ")";
     if (hits.length) t += "\n\n**Notre fiche vérifiée :** " + ficheText(hits).replace(/^\*\*([^*]+)\*\*\n\n/, "$1\n\n");
     return t;
   }
@@ -472,6 +472,38 @@
     tile.appendChild(b);
   }
 
+  /* ------------------------------------------------------------------ demo notice: under the home input, above the conversation */
+  var DEMO_TEXT = "Bonjour, France est une démonstration. Pour vos questions, demandez directement à Mistral, notre champion français.";
+  function demoNote(id, cls) {
+    var n = document.createElement("p");
+    n.id = id;
+    n.className = "bf-demo " + cls;
+    n.innerHTML = '<span class="bf-demo-pill">Démo</span><span class="bf-demo-text"></span>';
+    n.lastChild.textContent = DEMO_TEXT;
+    return n;
+  }
+  function placeDemo() {
+    var first = document.querySelector('#home-chat-main [class~="group/message"]');
+    var home = document.getElementById("bf-demo-home");
+    var conv = document.getElementById("bf-demo-chat");
+    if (first) {
+      if (home) home.remove();
+      var list = first.parentElement && first.parentElement.parentElement;
+      if (list && (!conv || conv.parentElement !== list)) {
+        if (conv) conv.remove();
+        list.insertBefore(demoNote("bf-demo-chat", "bf-demo-chat"), list.firstChild);
+      }
+      return;
+    }
+    if (conv) conv.remove();
+    var form = document.querySelector("textarea") && document.querySelector("textarea").closest("form");
+    var box = form && form.parentElement;
+    if (!box || (home && home.parentElement === box)) return;
+    if (home) home.remove();
+    if (getComputedStyle(box).position === "static") box.style.position = "relative";
+    box.appendChild(demoNote("bf-demo-home", "bf-demo-home"));
+  }
+
   function placeFooterWink() {
     if (document.getElementById("bf-wink")) return;
     var p = Array.prototype.find.call(document.querySelectorAll('[data-slot="site-footer"] p'), function (x) { return /^Site non officiel, sans lien/.test((x.textContent || "").trim()); });
@@ -688,6 +720,7 @@
     placeVote();
     tagAnswers();
     placeMistralPrivacy();
+    placeDemo();
     placeFooterWink();
     placeHeroSignature();
     scanCredits();
