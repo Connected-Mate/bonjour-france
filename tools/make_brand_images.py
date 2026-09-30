@@ -80,7 +80,7 @@ def share_card(name):
     out.paste(flag, (x0, cy - flag.height // 2))
     out.paste(text, (x0 + flag.width + gap, cy - int(text.height * 0.62)), text)
     small = ImageFont.truetype(static_font(0, 450, "geist-latin.woff2"), max(18, H // 28))
-    note = "Une idée d’Alexandre Cormeraie · site non officiel, projet indépendant"
+    note = "Une proposition d’Alexandre Cormeraie · site non officiel, projet indépendant"
     d = ImageDraw.Draw(out)
     d.text(((W - d.textlength(note, font=small)) / 2, H * 0.78), note, font=small, fill=(90, 100, 115))
     dst = O / "images/social" / name

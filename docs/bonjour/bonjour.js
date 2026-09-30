@@ -349,8 +349,7 @@
   var BTN = "inline-flex shrink-0 cursor-pointer items-center justify-center gap-2 transition-[color,background-color,border-color,box-shadow,scale,opacity] duration-200 ease-out-quint active:scale-press focus-visible:shadow-[0_0_0_2px_#fff,0_0_0_4px_var(--color-black-100)] focus-visible:outline-none h-14 min-h-14 rounded-40 px-6 pb-0.5 type-body-m shadow-elevation-1 active:shadow-none rounded-full bg-black font-sans-display text-base leading-none font-bold tracking-[-0.01em] text-primary-invert hover:bg-black/85 focus-visible:bg-black active:bg-black motion-reduce:transition-none";
   var SITE_URL = "https://connected-mate.github.io/bonjour-france/";
   var LINKEDIN = "https://www.linkedin.com/in/alex-cormeraie/";
-  var SHARE_TEXT = "Les États-Unis ont america.gov. Et si la France avait « Bonjour, France » : une seule porte d’entrée vers tous les services publics ? " +
-    "Une idée d’Alexandre Cormeraie (" + LINKEDIN + ")";
+  var SHARE_TEXT = "Bonjour, France — à quoi pourrait ressembler un america.gov à la française. Une proposition d’Alexandre Cormeraie : " + LINKEDIN;
   var BTN2 = BTN.replace("bg-black", "bg-transparent").replace("text-primary-invert", "text-text-primary").replace("hover:bg-black/85", "hover:bg-black/5").replace("focus-visible:bg-black active:bg-black", "") + " ring-1 ring-black/15 ring-inset";
 
   function voteSection() {
@@ -362,6 +361,7 @@
       '<div class="site-container relative z-10 flex justify-center max-mobile:px-8"><div class="flex w-full max-w-172 flex-col items-center gap-8 text-center">' +
       '<div class="flex w-full flex-col items-center gap-5 mobile:gap-6"><h2 id="bf-vote-title" class="type-site-3 text-text-primary">Les États-Unis l’ont fait. Pourquoi pas nous&nbsp;?</h2>' +
       '<p class="px-px type-site-7 text-text-primary/70">Bonjour, France est un projet apolitique. Français, pour les Français. Une seule porte d’entrée vers tous les services publics, une réponse claire en quelques secondes&nbsp;: ce n’est ni de droite ni de gauche, c’est simplement utile.</p>' +
+      '<p class="px-px type-site-7 text-text-primary/70">Une version inspirée d’america.gov&nbsp;: à quoi cela pourrait ressembler pour la France.</p>' +
       '<p class="px-px type-site-7 text-text-primary/70">Une bonne idée n’a pas de parti. Si celle-ci vous plaît, votez, puis envoyez-la à votre député, à votre parti, à qui vous voulez.</p></div>' +
       '<div class="bf-actions-row"><a class="' + BTN + '" href="' + REPO_URL + '" target="_blank" rel="noopener">' + STAR + '<span>Voter avec une étoile</span><span class="sr-only"> sur GitHub (nouvel onglet)</span></a>' +
       '<button type="button" class="' + BTN2 + '" data-bf-share>' + SHARE_ICON + '<span>Partager l’idée</span></button></div>' +
@@ -372,7 +372,7 @@
       '<button type="button" data-bf-copy>Copier le lien</button></p>' +
       '<p class="type-site-10 text-text-secondary" aria-live="polite"><strong class="bf-count" data-bf-count>—</strong> <span data-bf-label>votes pour l’instant</span></p>' +
       '<p class="type-site-10 text-text-secondary">Un compte GitHub gratuit est nécessaire pour voter. Le compteur est lu en direct sur GitHub.</p>' +
-      '<a class="bf-signature" href="' + LINKEDIN + '" target="_blank" rel="noopener">Une idée d’Alexandre Cormeraie <span aria-hidden="true">→</span><span class="sr-only"> (LinkedIn, nouvel onglet)</span></a>' +
+      '<a class="bf-signature" href="' + LINKEDIN + '" target="_blank" rel="noopener">Une proposition d’Alexandre Cormeraie <span aria-hidden="true">→</span><span class="sr-only"> (LinkedIn, nouvel onglet)</span></a>' +
       "</div></div>";
     return s;
   }
@@ -409,7 +409,7 @@
     a.id = "bf-hero-sig";
     a.className = "bf-signature bf-signature--hero";
     a.href = LINKEDIN; a.target = "_blank"; a.rel = "noopener";
-    a.innerHTML = 'Une idée d’Alexandre Cormeraie <span aria-hidden="true">→</span><span class="sr-only"> (LinkedIn, nouvel onglet)</span>';
+    a.innerHTML = 'Une proposition d’Alexandre Cormeraie <span aria-hidden="true">→</span><span class="sr-only"> (LinkedIn, nouvel onglet)</span>';
     hero.appendChild(a);
   }
 

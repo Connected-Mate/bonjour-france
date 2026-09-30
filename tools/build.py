@@ -669,8 +669,8 @@ def branding() -> None:
             # server-rendered footer credit, same markup the island renders
             s = re.sub(r'Designed &amp; Engineered in&nbsp;D\.C\. <span>by (<a [^>]*href=")https://ndstudio\.gov("[^>]*>)National Design Studio</a></span>',
                        lambda m: f'Réalisé par {m.group(1)}{LINKEDIN}{m.group(2)}Alexandre Cormeraie</a> · <span>Design original : {m.group(1)}https://ndstudio.gov{m.group(2)}National Design Studio</a></span>', s)
-            # every shared card credits the author of the idea
-            sig = " Une idée d’Alexandre Cormeraie."
+            # every shared card says what the site is and who proposes it
+            sig = " Une version inspirée d’america.gov\u00a0: à quoi cela pourrait ressembler pour la France. Une proposition d’Alexandre Cormeraie."
             s = re.sub(r'(<meta (?:name="description"|property="og:description"|name="twitter:description") content=")([^"]*)(")',
                        lambda m: m.group(1) + (m.group(2) if "Cormeraie" in m.group(2) else m.group(2).rstrip() + html.escape(sig)) + m.group(3), s)
         s = s.replace("America.gov", "Bonjour, France")
