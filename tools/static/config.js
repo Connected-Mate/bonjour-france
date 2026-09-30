@@ -13,6 +13,6 @@ window.BONJOUR_CONFIG = {
   puter: {
     script: "https://js.puter.com/v2/",
     // tried in order; the next one is used if Puter does not know a model id
-    models: ["mistral-medium-latest", "mistral-small-latest", "mistral-large-latest"],
+    models: ["mistral-medium-latest", "mistral-small-latest", "ministral-14b-latest"],
   },
 };
