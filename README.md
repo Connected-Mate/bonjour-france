@@ -15,12 +15,10 @@ Bonjour, France reprend à l’identique l’interface d’[america.gov](https:/
 | --- | --- |
 | Interface | Le vrai front-end d’america.gov (Astro + React), téléchargé tel quel puis adapté par `tools/build.py`. |
 | Textes | Tout le texte est en français, adapté à la France (`tools/i18n/`). |
-| IA | API Mistral (`mistral-small-latest`) via un relais Cloudflare Worker (`relay/`) qui garde la clé. Réponses en streaming, marquées du logo Mistral. |
-| Relais non branché | Fiche vérifiée (`tools/static/kb.json`) + lien « Demander à Mistral » qui ouvre la question dans le chat de Mistral. |
-| Configuration | Une seule valeur : `relayUrl` dans `tools/static/config.js` (voir `relay/README.md`). |
+| Assistant | Démonstration : aucun appel à une IA depuis le site. La réponse affiche le logo Mistral, un bouton « Poser la question à Mistral » (ouvre chat.mistral.ai avec la question) et la fiche vérifiée (`tools/static/kb.json`) quand un sujet correspond. |
 | PDF | Lus dans le navigateur ([LiteParse](https://www.npmjs.com/package/@llamaindex/liteparse-wasm), Apache-2.0). |
 | Votes | Étoiles GitHub, lues via l’API publique (cache 10 min, repli si indisponible). |
-| Serveurs d’america.gov | Aucun appel : API, vérification Cloudflare, rapports d’erreurs et avis sont neutralisés (`tools/static/bonjour.js`). |
+| Serveurs d’america.gov | Aucun appel : API, vérification anti-robot, rapports d’erreurs et avis sont neutralisés (`tools/static/bonjour.js`). |
 
 ## Ce qui a été remplacé
 

@@ -8,7 +8,7 @@ Pipeline (each step is idempotent and works on a fresh copy of _mirror/):
   2. drop commercial fonts, point @font-face at free fonts (Geist, Newsreader)
   3. French copy: patch the message dictionary, HTML text, JS literals
   4. branding, footer credits, links to /bonjour-france/
-  5. strip every call to america.gov servers (API, Cloudflare scripts)
+  5. strip every call to america.gov servers (API, bot-check scripts)
   6. inject bonjour.css / bonjour.js (local Mistral chat, vote counter)
 """
 from __future__ import annotations
@@ -157,10 +157,6 @@ def stage() -> None:
     shutil.copy2(STAGE / "index.html", STAGE / "chat" / "index.html")
     if STATIC.exists():
         shutil.copytree(STATIC, STAGE / "bonjour", dirs_exist_ok=True)
-    if os.environ.get("BONJOUR_RELAY_URL"):
-        cfg = STAGE / "bonjour" / "config.js"
-        write(cfg, re.sub(r'relayUrl:\s*"[^"]*"', 'relayUrl: "' + os.environ["BONJOUR_RELAY_URL"] + '"', read(cfg)))
-        warn("relayUrl overridden by BONJOUR_RELAY_URL (local test build)")
     constants = STAGE / "_astro" / "constants.C1DrMbu0.js"
     if not constants.exists():
         shutil.copy2(STATIC / "constants-fallback.js", constants)
@@ -719,13 +715,17 @@ def rebase() -> None:
 
 # --------------------------------------------------------------------------- 5. strip their servers
 def strip_remote() -> None:
+    import hashlib
     # america.gov scrubs personal data with an in-browser model before sending questions to its
     # servers. Here nothing is sent anywhere, so the (unmirrored) model is never loaded.
     fm = astro(r"field-message\..*\.js$")
     write(fm, must_replace(read(fm), "let e=await Promise.resolve().then(M);", "let e=await Promise.reject(Error(`not needed: answers are generated locally`));", fm.name, 1))
     rec = astro(r"chat-bot-recovery\..*\.js$")
     s = read(rec)
-    s = must_replace(s, "a.src=`/cdn-cgi/challenge-platform/scripts/jsd/api.js`", "a.src=`" + BASE + "/bonjour/jsd.js`", rec.name, 1)
+    s = must_replace(s, "a.src=`/cdn-cgi/challenge-platform/scripts/jsd/api.js`", "a.src=`" + BASE + "/bonjour/jsd.js?v=" + hashlib.sha256((STATIC / "jsd.js").read_bytes()).hexdigest()[:10] + "`", rec.name, 1)
+    # the local stub (bonjour/jsd.js) answers under its own global name
+    s = must_replace(s, "`cloudflare`in window", "`bfBotCheck`in window", rec.name, 1)
+    s = s.replace("window.cloudflare", "window.bfBotCheck")
     write(rec, s)
     shutil.copy2(STATIC / "gsa-mark.svg", STAGE / "images" / "home" / "footer" / "gsa.svg")
     for page in STAGE.rglob("*.html"):
@@ -753,17 +753,6 @@ def strip_remote() -> None:
 
 
 # --------------------------------------------------------------------------- 6. inject our layer
-def relay_origin() -> str:
-    """Origin of the Mistral relay declared in tools/static/config.js ("" when not switched on)."""
-    m = re.search(r'relayUrl:\s*"([^"]*)"', read(STATIC / "config.js"))
-    url = (os.environ.get("BONJOUR_RELAY_URL") or (m.group(1) if m else "")).strip()
-    if not url:
-        return ""
-    if not re.match(r"^https://[a-z0-9.-]+(:\d+)?(/.*)?$", url) and not url.startswith("http://127.0.0.1"):
-        raise SystemExit(f"[build] relayUrl must be an https URL: {url!r}")
-    return re.match(r"^(https?://[^/]+)", url).group(1)
-
-
 CSP_EXTRA = {
     "connect-src": "https://api.github.com",
 }
@@ -781,8 +770,6 @@ def csp(page_html: str, where: str) -> str:
         name = d.split(" ")[0]
         if name in CSP_EXTRA:
             d += " " + CSP_EXTRA[name]
-            if name == "connect-src" and relay_origin():
-                d += " " + relay_origin()
         parts.append(d)
     return page_html.replace(m.group(0), '<meta http-equiv="content-security-policy" content="' + "; ".join(parts) + '">')
 
@@ -791,7 +778,6 @@ def inject() -> None:
     import hashlib
     ver = lambda n: hashlib.sha256((STAGE / "bonjour" / n).read_bytes()).hexdigest()[:10]
     head = (f'<link rel="stylesheet" href="{BASE}/bonjour/bonjour.css?v={ver("bonjour.css")}">'
-            f'<script src="{BASE}/bonjour/config.js?v={ver("config.js")}"></script>'
             f'<script src="{BASE}/bonjour/bonjour.js?v={ver("bonjour.js")}"></script>')
     for page in STAGE.rglob("*.html"):
         s = read(page)

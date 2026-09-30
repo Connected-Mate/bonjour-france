@@ -1,1 +1,0 @@
-import{Jn as e,qn as t,vr as n}from"./ui-primitives.gbQ-GTd_-71465cf4.js";var r=t();function i({children:t,className:i,baseColor:a,highlightColor:o,style:s,...c}){let l={};a!==void 0&&(l[`--base-color`]=a),o!==void 0&&(l[`--base-gradient-color`]=o);let u=e(l,s);return(0,r.jsx)(`span`,{className:n(`text-shimmer`,i),style:u,...c,children:t})}export{i as t};

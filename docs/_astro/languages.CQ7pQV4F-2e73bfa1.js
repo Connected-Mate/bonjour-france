@@ -1,0 +1,1 @@
+import{f as e}from"./language-provider.DuW3K5tE-2e73bfa1.js";var t=e.options;export{t};

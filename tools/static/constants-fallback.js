@@ -1,4 +1,4 @@
-// Stand-in for america.gov's _astro/constants.C1DrMbu0.js, which Cloudflare never let us download.
+// Stand-in for america.gov's _astro/constants.C1DrMbu0.js, which the origin's bot protection never let us download.
 // `o` = media-chrome MediaUIEvents (used to pause videos), `p` = video manifest path schema (loose).
 // The archive video player itself is not part of Bonjour, France (no video files are mirrored).
 import{Yr as z}from"./ui-primitives.gbQ-GTd_.js";

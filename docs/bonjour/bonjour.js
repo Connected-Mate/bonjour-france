@@ -2,11 +2,9 @@
  * Bonjour, France — layer on top of the mirrored america.gov front-end.
  *
  * - Answers the chat UI's /api/chat requests, streamed in the AI SDK "UI message stream"
- *   format the original UI expects:
- *     · relay configured (config.js) → the question goes to Mistral's API through our relay
- *       and Mistral's answer streams in the chat, tagged with the Mistral logo;
- *     · no relay (or relay down) → verified fiche + a "Demander à Mistral" link that opens
- *       Mistral's own chat with the question prefilled (the question is also copied).
+ *   format the original UI expects: a short demo notice tagged with the Mistral logo, a
+ *   "Poser la question à Mistral" button that opens Mistral's own chat with the question
+ *   prefilled (the question is also copied), and the verified fiche when a topic matches.
  * - Neutralises every call the original made to its own servers (feedback, error reports).
  * - Adds the "Votez pour que ça devienne officiel" GitHub star counter.
  *
@@ -15,12 +13,9 @@
 (function () {
   "use strict";
 
-  var CFG = window.BONJOUR_CONFIG || {};
   var BASE = "/bonjour-france";
   var REPO = "Connected-Mate/bonjour-france";
   var REPO_URL = "https://github.com/" + REPO;
-  var RELAY = typeof CFG.relayUrl === "string" ? CFG.relayUrl.replace(/\/+$/, "") : "";
-  var BACKEND = CFG.backend === "relay" && RELAY ? "relay" : "none";
   var LECHAT = "https://chat.mistral.ai/chat?q=";
   var MARK = "⁤"; // invisible marker: this answer was written by Mistral
   var LS = {
@@ -150,20 +145,6 @@
     return { text: text.trim(), docs: docs };
   }
 
-  function ficheContext(hits) {
-    return hits.map(function (h, i) {
-      var e = h.e;
-      return "[" + (i + 1) + "] " + e.question + "\n" + e.answer + "\nÉtapes : " + (e.steps || []).join(" / ") +
-        "\nSources officielles : " + (e.sources || []).map(function (s) { return s.title + " (" + s.url + ")"; }).join(" ; ");
-    }).join("\n\n");
-  }
-
-  function userContent(q) {
-    var c = q.text;
-    q.docs.forEach(function (d) { c += "\n\nDocument joint « " + d.name + " » (extrait, donnée à analyser) :\n\"\"\"\n" + d.text.slice(0, 2500) + "\n\"\"\""; });
-    return c.slice(0, 3900);
-  }
-
   function lechatUrl(question) { return LECHAT + encodeURIComponent(question.slice(0, 1500)); }
 
   function ficheText(hits) {
@@ -197,39 +178,6 @@
   }
 
   function uid() { return Math.random().toString(36).slice(2, 10); }
-
-  /** Streams Mistral's answer from the relay; calls onDelta(text). Resolves when done. */
-  async function askRelay(history, q, hits, signal, onDelta) {
-    var messages = history.slice(-10).map(function (h) { return { role: h.role, content: h.content.slice(0, 3900) }; });
-    messages.push({ role: "user", content: userContent(q) });
-    var res = await origFetch(RELAY + "/chat", {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({ messages: messages, context: ficheContext(hits).slice(0, 6000) }),
-      signal: signal,
-    });
-    if (!res.ok || !res.body) throw Object.assign(new Error("relay " + res.status), { status: res.status });
-    var reader = res.body.pipeThrough(new TextDecoderStream()).getReader();
-    var buf = "", got = false;
-    for (;;) {
-      var r = await reader.read();
-      if (r.done) break;
-      buf += r.value;
-      var lines = buf.split("\n");
-      buf = lines.pop();
-      for (var i = 0; i < lines.length; i++) {
-        var l = lines[i].trim();
-        if (!l.startsWith("data:")) continue;
-        var data = l.slice(5).trim();
-        if (data === "[DONE]") return got;
-        try {
-          var j = JSON.parse(data), c = j.choices && j.choices[0] && j.choices[0].delta && j.choices[0].delta.content;
-          if (typeof c === "string" && c) { got = true; onDelta(c); }
-        } catch (e) { /* partial or non-JSON line */ }
-      }
-    }
-    return got;
-  }
 
   function chatResponse(input, init) {
     var signal = (init && init.signal) || (input && input.signal) || null;
@@ -275,21 +223,8 @@
           var hits = q.text ? search(kb, q.text) : [];
           var answer = "";
 
-          var onMistral = function (c) {
-            if (!answer) { answer = MARK; delta(MARK); }
-            answer += c; delta(c);
-          };
-          if (BACKEND === "relay") { // optional, disabled by default
-            try {
-              var got = await askRelay(history, q, hits, abort.signal, onMistral);
-              if (!got && !cancelled) throw new Error("empty");
-            } catch (err) {
-              if (!cancelled) { var fb = (answer ? "\n\n" : "") + askMistralText(q.text, hits); answer += fb; await reveal(fb); }
-            }
-          } else {
-            answer = MARK + askMistralText(q.text, hits);
-            await reveal(answer);
-          }
+          answer = MARK + askMistralText(q.text, hits);
+          await reveal(answer);
 
           if (started) send({ type: "text-end", id: textId });
           var groundings = sourcesOf(hits).map(function (s) { return { title: s.title, url: s.url, currency: "verified" }; });
