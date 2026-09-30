@@ -605,7 +605,16 @@
       b.className = "bf-credit-btn";
       b.setAttribute("aria-label", "Crédit photo : " + c[0].title + ", " + c[0].author);
       b.innerHTML = '<span aria-hidden="true">i</span>';
-      b.addEventListener("click", function (ev) { ev.preventDefault(); ev.stopPropagation(); openCredit(c, b); });
+      b.addEventListener("click", function (ev) {
+        ev.preventDefault(); ev.stopPropagation();
+        // the carousel may have moved on since focus: credit the photo actually on screen
+        var target = img;
+        if (!shown(img)) {
+          var scope = img.closest('[data-slot="carousel"]') || document;
+          target = Array.prototype.find.call(scope.querySelectorAll("img"), function (i) { return creditOf(i) && shown(i) && i.getBoundingClientRect().width >= 80; }) || img;
+        }
+        openCredit(creditOf(target), b);
+      });
       host.appendChild(b);
     });
   }
@@ -623,7 +632,7 @@
       if (queued) return;
       queued = true;
       requestAnimationFrame(function () { queued = false; placeVote(); tagAnswers(); placeMistralPrivacy(); placeFooterWink(); placeHeroSignature(); scanCredits(); });
-    }).observe(document.body, { childList: true, subtree: true, characterData: true });
+    }).observe(document.body, { childList: true, subtree: true, characterData: true, attributes: true, attributeFilter: ["aria-hidden", "inert"] });
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", boot); else boot();
 })();
