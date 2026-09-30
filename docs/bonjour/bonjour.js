@@ -496,6 +496,8 @@
       return;
     }
     if (conv) conv.remove();
+    // only the home hero input has room below it; other pages dock the input at the bottom edge
+    if (location.pathname.replace(/\/+$/, "") !== BASE) { if (home) home.remove(); return; }
     var form = document.querySelector("textarea") && document.querySelector("textarea").closest("form");
     var box = form && form.parentElement;
     if (!box || (home && home.parentElement === box)) return;
