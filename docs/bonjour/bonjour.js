@@ -472,39 +472,7 @@
     tile.appendChild(b);
   }
 
-  /* ------------------------------------------------------------------ demo notice: under the home input, above the conversation */
   var DEMO_TEXT = "Bonjour, France est une démonstration. Pour vos questions, demandez directement à Mistral, notre champion français.";
-  function demoNote(id, cls) {
-    var n = document.createElement("p");
-    n.id = id;
-    n.className = "bf-demo " + cls;
-    n.innerHTML = '<span class="bf-demo-pill">Démo</span><span class="bf-demo-text"></span>';
-    n.lastChild.textContent = DEMO_TEXT;
-    return n;
-  }
-  function placeDemo() {
-    var first = document.querySelector('#home-chat-main [class~="group/message"]');
-    var home = document.getElementById("bf-demo-home");
-    var conv = document.getElementById("bf-demo-chat");
-    if (first) {
-      if (home) home.remove();
-      var list = first.parentElement && first.parentElement.parentElement;
-      if (list && (!conv || conv.parentElement !== list)) {
-        if (conv) conv.remove();
-        list.insertBefore(demoNote("bf-demo-chat", "bf-demo-chat"), list.firstChild);
-      }
-      return;
-    }
-    if (conv) conv.remove();
-    // only the home hero input has room below it; other pages dock the input at the bottom edge
-    if (location.pathname.replace(/\/+$/, "") !== BASE) { if (home) home.remove(); return; }
-    var form = document.querySelector("textarea") && document.querySelector("textarea").closest("form");
-    var box = form && form.parentElement;
-    if (!box || (home && home.parentElement === box)) return;
-    if (home) home.remove();
-    if (getComputedStyle(box).position === "static") box.style.position = "relative";
-    box.appendChild(demoNote("bf-demo-home", "bf-demo-home"));
-  }
 
   function placeFooterWink() {
     if (document.getElementById("bf-wink")) return;
@@ -722,7 +690,6 @@
     placeVote();
     tagAnswers();
     placeMistralPrivacy();
-    placeDemo();
     placeFooterWink();
     placeHeroSignature();
     scanCredits();
