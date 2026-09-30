@@ -615,6 +615,9 @@ def branding() -> None:
             s = s.replace("https://america.gov/images/social/", SITE_URL + "/images/social/")
             s = s.replace('"url":"https://america.gov/"', '"url":"' + SITE_URL + '/"')
             s = s.replace('content="en_US"', 'content="fr_FR"')
+            # server-rendered footer credit, same markup the island renders
+            s = re.sub(r'Designed &amp; Engineered in&nbsp;D\.C\. <span>by (<a [^>]*href=")https://ndstudio\.gov("[^>]*>)National Design Studio</a></span>',
+                       lambda m: f'Réalisé par {m.group(1)}{LINKEDIN}{m.group(2)}Alexandre Cormeraie</a> · <span>Design original : {m.group(1)}https://ndstudio.gov{m.group(2)}National Design Studio</a></span>', s)
             # every shared card credits the author of the idea
             sig = " Une idée d’Alexandre Cormeraie."
             s = re.sub(r'(<meta (?:name="description"|property="og:description"|name="twitter:description") content=")([^"]*)(")',
