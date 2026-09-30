@@ -1,0 +1,21 @@
+# Bonjour, France — Mistral relay (Cloudflare Worker)
+# Holds the Mistral API key server-side so the static site never exposes it.
+#   npx wrangler secret put MISTRAL_API_KEY
+#   npx wrangler deploy
+name = "bonjour-france-relay"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+workers_dev = true
+
+[vars]
+# Comma-separated list of origins allowed to call the relay (CORS + origin check).
+ALLOWED_ORIGINS = "https://connected-mate.github.io"
+MISTRAL_MODEL = "mistral-small-latest"
+
+# Per-IP rate limit: 10 questions per minute per Cloudflare location.
+[[ratelimits]]
+name = "RATE_LIMITER"
+namespace_id = "7301"
+[ratelimits.simple]
+limit = 10
+period = 60

@@ -68,6 +68,54 @@ def astro(name_re: str) -> Path:
 
 
 # --------------------------------------------------------------------------- 1. staging
+SEAL_NAMES = re.compile(
+    r"^(seal-|fallback-)|great-seal|gsa-gold-seal|government-.*-seal|medicare-seal|veterans-crisis-line-seal|"
+    r"^(treasury|us-marshals|dea|faa|library-of-congress|labor|patent-and-trademark|forest-service|"
+    r"surface-transportation-board|transportation|state\.gov|ssa\.gov|cbp\.gov|social-security-older|"
+    r"name-change-(irs|ssa|state)|employment-navy|navy|sources-panel|passport-(cover|book|card|thumbnail|open|details|both))$")
+# names shared by agency website thumbnails (kept) and agency seals (replaced): decided by the file's shape
+SHARED_NAMES = re.compile(r"^(fbi|house|congress|energy|cbp|gsa|nasa|hud)$")
+BRAND_NAMES = re.compile(r"^(america-wordmark|america-og|america-twitter)$")
+
+
+def asset_base(rel: Path) -> str:
+    n = rel.name
+    if rel.parts[0] == "_astro":
+        n = re.sub(r"\.[A-Za-z0-9_-]{8}(_[A-Za-z0-9]+)?\.(webp|png|jpg|svg)$", "", n)
+    return re.sub(r"\.(webp|png|jpg|svg|ico)$", "", n)
+
+
+def looks_like_seal(path: Path) -> bool:
+    """Round emblem on a transparent background (seal), as opposed to a rectangular website screenshot."""
+    if path.suffix == ".svg":
+        return True
+    try:
+        from PIL import Image  # optional dependency, only needed for this check
+    except ImportError:
+        return True
+    im = Image.open(path).convert("RGBA")
+    w, h = im.size
+    a = im.getchannel("A")
+    corners = max(a.getpixel((1, 1)), a.getpixel((w - 2, 1)), a.getpixel((1, h - 2)), a.getpixel((w - 2, h - 2)))
+    return 0.85 < w / h < 1.18 and corners < 40
+
+
+def override_applies(rel: Path) -> bool:
+    """america.gov's own logos, icons, photos and illustrations stay as-is. Only US government seals and
+    emblems are replaced (18 U.S.C. 713), plus the name-bearing brand images and files the mirror lacks."""
+    original = MIRROR / rel
+    if not original.exists():
+        return True
+    if rel.parts[:2] in (("images", "agency-seals"), ("images", "seals")) or rel.parts[:3] == ("images", "home", "seals"):
+        return True
+    base = asset_base(rel)
+    if SEAL_NAMES.search(base) or BRAND_NAMES.match(base):
+        return True
+    if SHARED_NAMES.match(base):
+        return looks_like_seal(original)
+    return rel.suffix == ".wasm"
+
+
 def stage() -> None:
     if STAGE.exists():
         shutil.rmtree(STAGE)
@@ -76,6 +124,8 @@ def stage() -> None:
         if src.is_dir() or src.name.endswith(".md") or src.name == ".DS_Store":
             continue
         rel = src.relative_to(OVERRIDES)
+        if rel.parts[0] not in ("fonts",) and not override_applies(rel):
+            continue
         if rel.parts[0] == "fonts":
             dst = STAGE / "_astro" / "fonts" / rel.name
         else:
@@ -87,6 +137,10 @@ def stage() -> None:
     shutil.copy2(STAGE / "index.html", STAGE / "chat" / "index.html")
     if STATIC.exists():
         shutil.copytree(STATIC, STAGE / "bonjour", dirs_exist_ok=True)
+    if os.environ.get("BONJOUR_RELAY_URL"):
+        cfg = STAGE / "bonjour" / "config.js"
+        write(cfg, re.sub(r'relayUrl:\s*"[^"]*"', 'relayUrl: "' + os.environ["BONJOUR_RELAY_URL"] + '"', read(cfg)))
+        warn("relayUrl overridden by BONJOUR_RELAY_URL (local test build)")
     constants = STAGE / "_astro" / "constants.C1DrMbu0.js"
     if not constants.exists():
         shutil.copy2(STATIC / "constants-fallback.js", constants)
@@ -160,6 +214,18 @@ def load_translations() -> tuple[dict, dict]:
                 by_path[src[5:]] = v
     for k, v in overrides.items():
         by_en[k] = v
+    # corrected copy for the Mistral API data flow (by string id)
+    rewrite = {r["id"]: r["new"] for r in json.loads(read(I18N / "rewrite-dataflow.json")) if r.get("new") is not None}
+    for r in rows:
+        if r["id"] in rewrite:
+            by_en[r["en"]] = rewrite[r["id"]]
+            for src in r["sources"]:
+                if src.startswith("dict:"):
+                    by_path[src[5:]] = rewrite[r["id"]]
+    # the name is always written « Bonjour, France »
+    fix = lambda v: re.sub(r"Bonjour France", "Bonjour, France", v)
+    by_en = {k: fix(v) for k, v in by_en.items()}
+    by_path = {k: fix(v) for k, v in by_path.items()}
     # rich strings are rendered as several text nodes: pair their fragments too
     tag = re.compile(r"<[^>]+>")
     for k, v in list(by_en.items()):
@@ -317,6 +383,16 @@ def patch_flags() -> None:
         warn("US flag data URI not found — check the notice icon")
 
 
+def patch_link_allowlist() -> None:
+    """Chat answers only render links to allow-listed hosts (originally .gov/.mil): allow French public sites
+    and Mistral's chat (for the « Demander à Mistral » link)."""
+    ui = astro(r"ui-primitives\..*\.js$")
+    old = "return t.endsWith(`.gov`)||t.endsWith(`.mil`)||"
+    new = ("return t.endsWith(`.gouv.fr`)||/(^|\\.)(ameli|caf|francetravail|service-public|lassuranceretraite|info-retraite|justice|monenfant|"
+           "monespacesante|parcsnationaux|urssaf|msa|pass\\.culture)\\.fr$/.test(t)||t===`chat.mistral.ai`||t.endsWith(`.gov`)||t.endsWith(`.mil`)||")
+    write(ui, must_replace(read(ui), old, new, ui.name, 1))
+
+
 def patch_js_literals(by_en: dict) -> None:
     # replace exact template/quoted literals; longest first so fragments never clobber sentences
     items = sorted(((k, v) for k, v in by_en.items() if len(k) >= 2), key=lambda kv: len(kv[0]), reverse=True)
@@ -356,8 +432,6 @@ def branding() -> None:
         s = read(f)
         o = s
         s = s.replace("https://gsa.gov", "https://america.gov").replace("https://www.gsa.gov", "https://america.gov")
-        s = s.replace("https://www.foxnews.com/politics/trump-usher-golden-age-american-tech-dc-bash-showcasing-powerful-new-tool",
-                      "https://moncarnet.com/2026/09/29/america-gov-trump-mise-sur-lia-pour-reinventer-les-services-gouvernementaux-americains/")
         s = s.replace("https://www.whitehouse.gov/presidential-actions/2025/08/improving-our-nation-through-better-design", "https://america.gov")
         if f.suffix == ".html":
             s = s.replace('<html lang="en"', '<html lang="fr"')
@@ -366,7 +440,7 @@ def branding() -> None:
             s = s.replace("https://america.gov/images/social/", SITE_URL + "/images/social/")
             s = s.replace('"url":"https://america.gov/"', '"url":"' + SITE_URL + '/"')
             s = s.replace('content="en_US"', 'content="fr_FR"')
-        s = s.replace("America.gov", "Bonjour France")
+        s = s.replace("America.gov", "Bonjour, France")
         if s != o:
             write(f, s)
 
@@ -446,9 +520,19 @@ def strip_remote() -> None:
 
 
 # --------------------------------------------------------------------------- 6. inject our layer
+def relay_origin() -> str:
+    """Origin of the Mistral relay declared in tools/static/config.js ("" when not switched on)."""
+    m = re.search(r'relayUrl:\s*"([^"]*)"', read(STATIC / "config.js"))
+    url = (os.environ.get("BONJOUR_RELAY_URL") or (m.group(1) if m else "")).strip()
+    if not url:
+        return ""
+    if not re.match(r"^https://[a-z0-9.-]+(:\d+)?(/.*)?$", url) and not url.startswith("http://127.0.0.1"):
+        raise SystemExit(f"[build] relayUrl must be an https URL: {url!r}")
+    return re.match(r"^(https?://[^/]+)", url).group(1)
+
+
 CSP_EXTRA = {
-    "script-src": "https://cdn.jsdelivr.net",
-    "connect-src": "https://cdn.jsdelivr.net https://huggingface.co https://*.huggingface.co https://*.hf.co https://raw.githubusercontent.com https://api.github.com",
+    "connect-src": "https://api.github.com",
 }
 
 
@@ -464,12 +548,15 @@ def csp(page_html: str, where: str) -> str:
         name = d.split(" ")[0]
         if name in CSP_EXTRA:
             d += " " + CSP_EXTRA[name]
+            if name == "connect-src" and relay_origin():
+                d += " " + relay_origin()
         parts.append(d)
     return page_html.replace(m.group(0), '<meta http-equiv="content-security-policy" content="' + "; ".join(parts) + '">')
 
 
 def inject() -> None:
     head = (f'<link rel="stylesheet" href="{BASE}/bonjour/bonjour.css">'
+            f'<script src="{BASE}/bonjour/config.js"></script>'
             f'<script src="{BASE}/bonjour/bonjour.js"></script>')
     for page in STAGE.rglob("*.html"):
         s = read(page)
@@ -502,7 +589,7 @@ def main() -> None:
     patch_html_text(by_en)
     patch_react_copy()
     patch_sources()
-    patch_flags()
+    patch_link_allowlist()
     patch_js_literals(by_en)
     branding()
     strip_remote()

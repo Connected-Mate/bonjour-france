@@ -1,0 +1,302 @@
+[
+ {
+  "id": 62,
+  "sources": [
+   "dict:landing.home.features.privacy.body"
+  ],
+  "en": "Your personal information isn’t collected or stored, and your conversation disappears when you leave.",
+  "current": "Vos informations personnelles ne sont ni collectées ni conservées : la conversation reste dans votre navigateur et disparaît quand vous le fermez.",
+  "new": "Vos informations personnelles ne sont ni collectées ni conservées par Bonjour, France : la conversation reste dans votre onglet et disparaît quand vous le fermez."
+ },
+ {
+  "id": 235,
+  "sources": [
+   "dict:privacyNotice.share.body"
+  ],
+  "en": "We try to detect sensitive details before sending your message and may block it so you can edit it. Review what you’ve typed before submitting; we may not catch everything.",
+  "current": "Rien n’est envoyé à un serveur : l’IA s’exécute dans votre navigateur. Évitez tout de même de saisir des données sensibles, comme un numéro de sécurité sociale ; elles ne sont jamais nécessaires pour obtenir une réponse.",
+  "new": "Lorsque la réponse est générée par Mistral, votre question est transmise à Mistral AI par un relais qui ne conserve rien. Évitez tout de même de saisir des données sensibles, comme un numéro de sécurité sociale ; elles ne sont jamais nécessaires pour obtenir une réponse."
+ },
+ {
+  "id": 238,
+  "sources": [
+   "dict:privacyNotice.retention.body"
+  ],
+  "en": "Our AI providers do not retain your prompts or responses. America.gov may cache responses for up to two hours, using a hash of the prompt rather than storing the prompt text.",
+  "current": "Le modèle Mistral s’exécute dans votre navigateur : vos questions et les réponses ne sont ni transmises ni conservées. Elles restent dans l’onglet et disparaissent quand vous le fermez.",
+  "new": "Bonjour, France ne conserve ni vos questions ni les réponses : elles restent dans l’onglet et disparaissent quand vous le fermez. Lorsque la réponse est générée par Mistral, Mistral AI peut les conserver trente jours pour détecter les abus."
+ },
+ {
+  "id": 239,
+  "sources": [
+   "dict:mistakes.body"
+  ],
+  "en": "This website uses AI to find and explain government agency information based on available official sources. AI may miss details or misinterpret guidance, and sources may be incomplete or out of date. Check the linked sources before making decisions.",
+  "current": "Ce site utilise l’IA (Mistral, exécutée dans votre navigateur) pour trouver et expliquer les informations des services publics à partir des sources officielles disponibles. L’IA peut omettre des détails ou mal interpréter des consignes, et les sources peuvent être incomplètes ou obsolètes. Consultez les sources liées avant de prendre une décision.",
+  "new": "Ce site utilise l’IA de Mistral AI pour trouver et expliquer les informations des services publics à partir des sources officielles disponibles. L’IA peut omettre des détails ou mal interpréter des consignes, et les sources peuvent être incomplètes ou obsolètes. Consultez les sources liées avant de prendre une décision."
+ },
+ {
+  "id": 458,
+  "sources": [
+   "html:about/index.html",
+   "static-copy:"
+  ],
+  "en": "Over the past year, National Design Studio has worked with the U.S. General Services Administration to turn that vision into a groundbreaking, first-of-its kind, modern interface worthy of the American people. Phase 1 launched on September 29, 2026, introducing the simplest and fastest way to access information from the government. Phase 2 begins in 2027, bringing the ability to apply, enroll, and track progress directly in chat. A level of convenience that has never been seen before at a nation’s scale.",
+  "current": "Bonjour France reprend cette interface à l’identique et la réécrit pour la France, sans aucun lien avec l’État ni avec le gouvernement américain. Un modèle Mistral s’exécute directement dans votre navigateur : vous posez votre question en français, il vous répond simplement et vous renvoie vers les pages officielles où se font les démarches. Et demain ? Imaginez pouvoir déposer une demande, vous inscrire et suivre vos dossiers directement dans la conversation. Ce site n’en est pas la promesse : c’est une invitation à y réfléchir, et à voter pour que cela devienne un jour officiel.",
+  "new": "Bonjour, France reprend cette interface à l’identique et la réécrit pour la France, sans aucun lien avec l’État ni avec le gouvernement américain. Vous posez votre question en français ; l’IA de Mistral AI, entreprise française, vous répond simplement et vous renvoie vers les pages officielles où se font les démarches. Et demain ? Imaginez pouvoir déposer une demande, vous inscrire et suivre vos dossiers directement dans la conversation. Ce site n’en est pas la promesse : c’est une invitation à y réfléchir, et à voter pour que cela devienne un jour officiel."
+ },
+ {
+  "id": 502,
+  "sources": [
+   "html:how-it-works/index.html",
+   "static-copy:"
+  ],
+  "en": "Upload a PDF of a government form or letter you need help with. Personal information will be automatically removed.",
+  "current": "Importez un formulaire ou un courrier administratif au format PDF pour mieux le comprendre. Le document est lu dans votre navigateur et n’est envoyé nulle part.",
+  "new": "Importez un formulaire ou un courrier administratif au format PDF pour mieux le comprendre. Le fichier est lu dans votre navigateur ; seul un extrait de son texte est transmis à l’IA."
+ },
+ {
+  "id": 518,
+  "sources": [
+   "html:privacy/index.html",
+   "static-copy:"
+  ],
+  "en": "America.gov helps prevent you from sharing personal information before you send it.",
+  "current": "Bonjour France ne collecte aucune information personnelle : rien ne quitte votre navigateur.",
+  "new": "Bonjour, France ne collecte aucune information personnelle et ne conserve aucune de vos questions."
+ },
+ {
+  "id": 163,
+  "sources": [
+   "dict:legal.terms.sections.ai.paragraphs.1"
+  ],
+  "en": "Some answers on America.gov are generated with AI. They can be incomplete or wrong, and they can be out of date the moment a program changes.",
+  "current": "Les réponses de Bonjour France sont générées par une intelligence artificielle qui s’exécute dans votre navigateur. Elles peuvent être incomplètes ou erronées, et devenir obsolètes dès qu’une règle change.",
+  "new": "Les réponses de Bonjour, France sont générées par une intelligence artificielle (Mistral AI). Elles peuvent être incomplètes ou erronées, et devenir obsolètes dès qu’une règle change."
+ },
+ {
+  "id": 176,
+  "sources": [
+   "dict:legal.terms.sections.warranty.paragraphs.2"
+  ],
+  "en": "To the extent allowed by law, the United States government is not liable for any loss that results from your use of the site or from reliance on an answer it gives you.",
+  "current": "Dans la mesure permise par la loi, l’éditeur n’est pas responsable des pertes résultant de votre utilisation du site ou de la confiance accordée à une réponse générée par l’IA dans votre navigateur.",
+  "new": "Dans la mesure permise par la loi, l’éditeur n’est pas responsable des pertes résultant de votre utilisation du site ou de la confiance accordée à une réponse générée par l’IA."
+ },
+ {
+  "id": 188,
+  "sources": [
+   "dict:legal.privacy.sections.input.subsections.questions.paragraphs.1"
+  ],
+  "en": "When you ask a question, we process what you type so we can answer it. The application does not save chat history or include message text in its usage analytics unless you explicitly provide feedback using the thumbs up/thumbs down icons.",
+  "current": "Lorsque vous posez une question, le texte que vous saisissez est traité par un modèle d’IA qui s’exécute directement dans votre navigateur (WebLLM, via WebGPU). Il n’est envoyé à aucun serveur, ni à nous ni à un fournisseur d’IA. Aucun historique n’est conservé et aucun outil d’analyse d’utilisation n’existe.",
+  "new": "Lorsque la réponse est générée par Mistral, votre question passe par un petit relais exploité par l’éditeur chez Cloudflare (Cloudflare, Inc.), puis par l’API de Mistral AI (Paris). Sont envoyés : la question, les derniers messages de la conversation (douze au plus), le texte de la fiche vérifiée correspondante et, pour un PDF joint, un extrait de son texte. Le relais ne conserve rien et ne tient aucun journal. Aucun historique, aucun outil d’analyse d’utilisation."
+ },
+ {
+  "id": 189,
+  "sources": [
+   "dict:legal.privacy.sections.input.subsections.questions.paragraphs.2"
+  ],
+  "en": "Your conversation and pending questions are held in browser memory. America.gov does not save them as an account history. Your browser may preserve the page and its conversation when you navigate away and return using the Back button.",
+  "current": "Votre conversation reste dans la mémoire de l’onglet. Bonjour France ne l’enregistre pas, et elle est perdue dès que vous fermez l’onglet ou rechargez la page. Votre navigateur peut toutefois conserver brièvement la page lorsque vous la quittez puis y revenez avec le bouton Retour.",
+  "new": "Votre conversation reste dans la mémoire de l’onglet. Bonjour, France ne l’enregistre pas, et elle est perdue dès que vous fermez l’onglet ou rechargez la page. Votre navigateur peut toutefois conserver brièvement la page lorsque vous la quittez puis y revenez avec le bouton Retour."
+ },
+ {
+  "id": 190,
+  "sources": [
+   "dict:legal.privacy.sections.input.subsections.questions.paragraphs.3"
+  ],
+  "en": "When you ask a question to <america>America.gov</america>, our AI model performs searches across government websites in a secure, sandboxed version of the Internet.",
+  "current": "Lorsque vous posez une question à <america>Bonjour France</america>, le modèle Mistral s’exécute dans votre navigateur via WebGPU, sans recherche sur Internet. Sans WebGPU, aucune réponse n’est générée : un message renvoie vers les sites officiels.",
+  "new": "Lorsque vous posez une question à <america>Bonjour, France</america>, la réponse est générée par le modèle mistral-small-latest via l’API de Mistral AI, à partir de la fiche vérifiée correspondante, sans recherche sur Internet. Sinon, une fiche vérifiée répond, avec un lien « Demander à Mistral » qui ouvre le service de Mistral dans un nouvel onglet, selon ses propres conditions."
+ },
+ {
+  "id": 192,
+  "sources": [
+   "dict:legal.privacy.sections.input.subsections.attachments.paragraphs.1"
+  ],
+  "en": "If you attach a PDF, we extract its text in your browser. Avoid sending PDFs that contain personally identifiable information (PII).",
+  "current": "Si vous joignez un PDF, son texte est extrait dans votre navigateur et n’est jamais envoyé à un serveur. Évitez tout de même les PDF contenant des informations personnelles sensibles.",
+  "new": "Si vous joignez un PDF, son texte est extrait dans votre navigateur ; le fichier lui-même n’est jamais envoyé. Lorsque la réponse est générée par Mistral, seul un extrait de ce texte est transmis. Évitez tout de même les PDF contenant des informations personnelles sensibles."
+ },
+ {
+  "id": 198,
+  "sources": [
+   "dict:legal.privacy.sections.technical.subsections.requests.paragraphs.1"
+  ],
+  "en": "We receive technical information with requests, including the requested URL, network address, date and time, and headers your browser sends. Application metrics record request routes, response status, timing, and errors.",
+  "current": "Bonjour France est un site statique hébergé sur GitHub Pages ; nous n’exploitons aucun serveur. Comme tout hébergeur, GitHub, Inc. peut enregistrer des informations techniques à chaque requête (adresse IP, URL demandée, date et heure, en-têtes du navigateur) à des fins de sécurité, selon sa propre déclaration de confidentialité. Nous n’avons pas accès à ces journaux.",
+  "new": "Bonjour, France est un site statique hébergé sur GitHub Pages. Comme tout hébergeur, GitHub, Inc. peut enregistrer des informations techniques à chaque requête (adresse IP, URL demandée, date et heure, en-têtes du navigateur) à des fins de sécurité, selon sa propre déclaration de confidentialité. Le relais du chat, exploité chez Cloudflare (Cloudflare, Inc.), traite techniquement votre adresse IP, notamment pour limiter le débit (dix questions par minute) ; il ne conserve aucune question. Nous n’avons pas accès aux journaux de ces hébergeurs."
+ },
+ {
+  "id": 201,
+  "sources": [
+   "dict:legal.privacy.sections.technical.subsections.location.paragraphs.1"
+  ],
+  "en": "To include results relevant to your area, we may send our AI providers your general area (such as your city or region), estimated from your network address. This estimate is approximate; we do not use GPS or ask your browser for your precise location.",
+  "current": "Bonjour France n’estime pas votre position et ne demande pas votre localisation à votre navigateur, ni approximative ni précise. Les réponses sont générées sur votre appareil, sans connaître votre ville ni votre région. Pour un résultat local, précisez-le vous-même dans votre question ou consultez le site officiel concerné.",
+  "new": "Bonjour, France n’estime pas votre position et ne demande pas votre localisation à votre navigateur, ni approximative ni précise. Ni votre ville ni votre région ne sont transmises à l’IA. Pour un résultat local, précisez-le vous-même dans votre question ou consultez le site officiel concerné."
+ },
+ {
+  "id": 204,
+  "sources": [
+   "dict:legal.privacy.sections.storage.subsections.browser.paragraphs.1"
+  ],
+  "en": "The application does not save language preferences, questions, or diagnostic preferences to cookies, local storage, or session storage. Your language selection is included in the page URL and can persist when you reload, bookmark, or share that URL.",
+  "current": "Bonjour France n’utilise aucun cookie. Le stockage local de votre navigateur sert uniquement à mémoriser vos préférences (par exemple le modèle choisi) et à conserver le nombre d’étoiles GitHub affiché, afin d’éviter un appel inutile. Le modèle d’IA téléchargé est mis en cache par votre navigateur pour ne pas être retéléchargé.",
+  "new": "Bonjour, France n’utilise aucun cookie. Le stockage local de votre navigateur sert uniquement à conserver le nombre d’étoiles GitHub affiché, afin d’éviter un appel inutile à chaque visite. Aucun compte, aucun outil d’analyse d’utilisation, aucune publicité."
+ },
+ {
+  "id": 205,
+  "sources": [
+   "dict:legal.privacy.sections.storage.subsections.browser.paragraphs.2"
+  ],
+  "en": "The application removes legacy preferences and pending questions saved by earlier versions. You can also clear site data in your browser settings. Questions included in a page URL can appear in browser history.",
+  "current": "Aucune question ni conversation n’est enregistrée dans ce stockage. Vous pouvez à tout moment effacer les données du site (préférences et modèle mis en cache) dans les paramètres de votre navigateur ; le modèle sera alors simplement retéléchargé à la prochaine utilisation du chat.",
+  "new": "Aucune question ni conversation n’est enregistrée dans ce stockage. Vous pouvez à tout moment effacer les données du site dans les paramètres de votre navigateur ; le compteur d’étoiles sera alors simplement relu depuis GitHub à votre prochaine visite."
+ },
+ {
+  "id": 210,
+  "sources": [
+   "dict:legal.privacy.sections.retention.subsections.feedback.paragraphs.1"
+  ],
+  "en": "Our feedback form does not ask for your name, email address, or other personal information. When you choose to give us feedback, we store your rating and comments, along with the AI-generated response, sources, and metadata, for up to one year to improve our product. Please do not include personal information in your comments.",
+  "current": "Bonjour France ne propose aucun formulaire d’avis et ne conserve donc ni évaluation ni commentaire. Le seul « vote » possible est le bouton qui renvoie vers GitHub pour ajouter une étoile au dépôt : cette action se fait sur GitHub, avec votre compte GitHub et selon la politique de GitHub. Le compteur d’étoiles affiché est lu par votre navigateur depuis l’API publique de GitHub (api.github.com), sans aucun identifiant.",
+  "new": "Bonjour, France ne propose aucun formulaire d’avis, ni pouce levé ou baissé, et ne conserve donc ni évaluation ni commentaire. Le seul « vote » possible est le bouton qui renvoie vers GitHub pour ajouter une étoile au dépôt : cette action se fait sur GitHub, avec votre compte GitHub et selon la politique de GitHub. Le compteur d’étoiles affiché est lu par votre navigateur depuis l’API publique de GitHub (api.github.com), sans aucun identifiant."
+ },
+ {
+  "id": 214,
+  "sources": [
+   "dict:legal.privacy.sections.retention.subsections.cache.paragraphs.1"
+  ],
+  "en": "To improve performance, we store AI-generated responses in Cloudflare KV for up to two hours. We store only a hash of the prompt as the cache key, not the prompt text. The cached response itself is not hashed. We may store search results our AI performs for up to two hours and generated follow-up suggestions for up to 30 days for faster responses.",
+  "current": "Aucune réponse générée n’est mise en cache, ni chez nous ni chez un tiers : chaque réponse est calculée sur votre appareil et disparaît avec l’onglet. En revanche, les fichiers du modèle Mistral (téléchargés depuis huggingface.co) et le moteur WebLLM (chargé depuis cdn.jsdelivr.net et raw.githubusercontent.com) sont mis en cache par votre navigateur, sur votre appareil, pour éviter un nouveau téléchargement de plusieurs centaines de mégaoctets. Ces fichiers ne contiennent rien de vous. Vous pouvez les supprimer via les données de site de votre navigateur.",
+  "new": "Aucune réponse générée n’est mise en cache, ni chez nous ni chez un tiers : chaque réponse disparaît avec l’onglet, et le relais du chat ne conserve rien. Lorsque la réponse est générée par Mistral, Mistral AI indique conserver les questions et les réponses transmises par son API le temps de générer la réponse, puis pendant trente jours glissants pour détecter les abus, avant de les supprimer (politique de confidentialité de Mistral AI, legal.mistral.ai/terms/privacy-policy). Votre navigateur ne télécharge plus aucun modèle d’IA : rien n’est mis en cache sur votre appareil."
+ },
+ {
+  "id": 216,
+  "sources": [
+   "dict:legal.privacy.sections.retention.subsections.security.paragraphs.1"
+  ],
+  "en": "We retain Cloudflare security logs, which may include your IP address, for 12 months. Separately, Cloudflare’s published Enterprise retention limits are up to 30 days for its Security Events dataset and up to 90 days for its Security Analytics dataset.",
+  "current": "Bonjour France ne tient aucun journal de sécurité. L’hébergeur GitHub, Inc. indique enregistrer l’adresse IP des visiteurs d’un site GitHub Pages à des fins de sécurité, pour la durée fixée par sa propre déclaration de confidentialité. Les services tiers sollicités par votre navigateur (jsDelivr, Hugging Face, GitHub) peuvent faire de même.",
+  "new": "Bonjour, France ne tient aucun journal de sécurité. L’hébergeur GitHub, Inc. indique enregistrer l’adresse IP des visiteurs d’un site GitHub Pages à des fins de sécurité, pour la durée fixée par sa propre déclaration de confidentialité. Cloudflare, Inc., qui exécute le relais du chat, traite l’adresse IP des visiteurs en tant que sous-traitant et conserve ses journaux réseau pendant une durée limitée, selon sa propre politique de confidentialité. Les questions parviennent à Mistral AI par l’intermédiaire du relais."
+ },
+ {
+  "id": 220,
+  "sources": [
+   "dict:legal.privacy.sections.sharing.subsections.providers.paragraphs.2"
+  ],
+  "en": "Our AI providers are contractually prohibited from selling your information, building an advertising profile, or training their AI models with your data.",
+  "current": "Personne ne vend vos informations, ne crée de profil publicitaire ni n’entraîne un modèle d’IA avec vos données : elles ne quittent jamais votre appareil.",
+  "new": "Personne ne vend vos informations ni ne crée de profil publicitaire. Lorsque la réponse est générée par Mistral, vos échanges relèvent de la politique de confidentialité de Mistral AI, qui permet de refuser leur usage pour entraîner ses modèles."
+ },
+ {
+  "id": 221,
+  "sources": [
+   "dict:legal.privacy.sections.sharing.subsections.legal.heading"
+  ],
+  "en": "Legal requirements and security incidents",
+  "current": "Services tiers sollicités par votre navigateur",
+  "new": "Services tiers sollicités lors de votre visite"
+ },
+ {
+  "id": 222,
+  "sources": [
+   "dict:legal.privacy.sections.sharing.subsections.legal.paragraphs.1"
+  ],
+  "en": "We may also share information when we are required to by law, or when it is necessary to investigate a security incident or an attempt to misuse the service.",
+  "current": "Pour fonctionner, votre navigateur contacte directement cdn.jsdelivr.net, huggingface.co, raw.githubusercontent.com et api.github.com. Chacun de ces services voit alors votre adresse IP et applique sa propre politique de confidentialité.",
+  "new": "Pour fonctionner, votre navigateur contacte directement api.github.com (compteur d’étoiles) et, lorsque la réponse est générée par Mistral, le relais du chat chez Cloudflare, qui transmet la question à Mistral AI (api.mistral.ai). Chacun de ces services applique sa propre politique de confidentialité."
+ },
+ {
+  "id": 224,
+  "sources": [
+   "dict:legal.privacy.sections.security.paragraphs.1"
+  ],
+  "en": "The America.gov team implements industry-standard security measures in compliance with federal information security regulations; this includes encryption and access controls to protect and isolate user data from unauthorized access, use, or disclosure.",
+  "current": "Bonjour France est servi en HTTPS par GitHub Pages : les pages et les fichiers que vous téléchargez sont chiffrés en transit. L’architecture elle-même constitue la principale protection : sans serveur, sans compte et sans base de données, il n’existe aucune donnée d’utilisateur à protéger contre un accès, une utilisation ou une divulgation non autorisés.",
+  "new": "Bonjour, France est servi en HTTPS par GitHub Pages, et les échanges avec le relais du chat et l’API de Mistral AI sont eux aussi chiffrés en transit. L’architecture reste la principale protection : sans compte, sans base de données et sans journal des questions, l’éditeur ne conserve aucune donnée d’utilisateur à protéger contre un accès, une utilisation ou une divulgation non autorisés."
+ },
+ {
+  "id": 565,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Reviewed by the National Security Agency",
+  "current": "IA exécutée localement dans votre navigateur",
+  "new": "IA Mistral : sans compte, sans cookie"
+ },
+ {
+  "id": 576,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Your questions are encrypted the whole way. No one can read them but you. Not a company, not a stranger, not us.",
+  "current": "Vos questions ne quittent jamais votre appareil. Vous seul pouvez les lire. Ni une entreprise, ni un inconnu, ni nous.",
+  "new": "Bonjour, France ne conserve rien : ni vos questions, ni compte, ni cookie. La réponse arrive, puis disparaît avec l’onglet."
+ },
+ {
+  "id": 577,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "On-device protection",
+  "current": "Traitement sur votre appareil",
+  "new": "Aucune donnée conservée"
+ },
+ {
+  "id": 578,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "Sensitive details like your name, phone number, and address are detected before they leave your device.",
+  "current": "Vos questions, vos fichiers PDF et les réponses de l’IA sont traités dans votre navigateur et ne quittent jamais votre appareil.",
+  "new": "Vos PDF sont lus dans votre navigateur ; seul un extrait de texte part vers l’IA, jamais le fichier, et rien n’est conservé."
+ },
+ {
+  "id": 621,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "We search all government websites.",
+  "current": "L’IA répond directement dans votre navigateur.",
+  "new": "Une IA française répond, sans compte ni pistage."
+ },
+ {
+  "id": 622,
+  "sources": [
+   "static-copy:"
+  ],
+  "en": "America.gov searches across all government information that applies to your question.",
+  "current": "Bonjour France génère la réponse sur votre appareil, sans envoyer votre question à un serveur.",
+  "new": "Les réponses viennent de fiches vérifiées et de Mistral AI, entreprise française, sans compte ni pistage."
+ },
+ {
+  "id": 749,
+  "sources": [
+   "rendered:home"
+  ],
+  "en": "America.gov uses AI to get simple answers only from official government sources. It’s free to use, never includes ads, and keeps your privacy protected.",
+  "current": "Bonjour France utilise une IA dans votre navigateur pour donner des réponses simples et vous orienter vers les sites officiels. C’est gratuit, sans publicité, et vos données restent chez vous.",
+  "new": "Bonjour, France utilise l’IA de Mistral, entreprise française, pour donner des réponses simples et vous orienter vers les sites officiels. C’est gratuit, sans publicité, sans compte ni pistage."
+ },
+ {
+  "id": 409,
+  "sources": [
+   "dict:chatErrors.privacy.unavailable"
+  ],
+  "en": "The privacy check isn’t available in this browser. Try another browser.",
+  "current": "La vérification de confidentialité n’est pas disponible dans ce navigateur. Essayez un autre navigateur.",
+  "new": "La vérification de confidentialité n’est pas disponible dans ce navigateur. Essayez un autre navigateur."
+ },
+ {
+  "id": 259,
+  "sources": [
+   "dict:feedback.reviewer.help"
+  ],
+  "en": "Optionally share your contact details. We’ll remember them and they won’t be sent to the AI.",
+  "current": "Vous pouvez indiquer vos coordonnées. Elles restent dans votre navigateur et ne sont pas transmises à l’IA.",
+  "new": "Vous pouvez indiquer vos coordonnées. Elles restent dans votre navigateur et ne sont pas transmises à l’IA."
+ }
+]

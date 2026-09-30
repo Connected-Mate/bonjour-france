@@ -34,15 +34,22 @@ def text_path(text, opsz, wght=400, tracking=-0.02):
 
 
 def footer():
-    d, (x0, y0, x1, y1), _ = text_path("Bonjour France", 72, tracking=-0.03)
+    d, (x0, y0, x1, y1), _ = text_path("Bonjour, France", 72, wght=500, tracking=-0.03)
     w, h = x1 - x0, y1 - y0
     svg = f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{x0:.0f} {y0:.0f} {w:.0f} {h:.0f}"><path d="{d}"/></svg>'
     (OUT / "wordmark-footer.svg").write_text(svg)
     return w / h
 
 
+def header_text():
+    d, (x0, y0, x1, y1), upm = text_path("Bonjour, France", 24, wght=500, tracking=-0.01)
+    svg = f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{x0:.0f} {y0:.0f} {x1 - x0:.0f} {y1 - y0:.0f}"><path d="{d}"/></svg>'
+    (OUT / "wordmark-header.svg").write_text(svg)
+    return (x1 - x0) / (y1 - y0)
+
+
 def header():
-    d, (x0, y0, x1, y1), upm = text_path("Bonjour France", 24, tracking=-0.01)
+    d, (x0, y0, x1, y1), upm = text_path("Bonjour, France", 24, tracking=-0.01)
     h = y1 - y0
     s = 23 / h                        # fit the 23 px tall header slot
     icon_w = 20 / s                   # speech bubble mark, in font units
@@ -62,4 +69,4 @@ def header():
 
 
 if __name__ == "__main__":
-    print("footer ratio", round(footer(), 3), "header width px", round(header(), 1))
+    print("footer ratio", round(footer(), 3), "header text ratio", round(header_text(), 3))

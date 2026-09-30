@@ -2,7 +2,7 @@
 
 **Site non officiel — projet indépendant, sans lien avec les gouvernements français ou américain.**
 
-Bonjour, France reprend à l’identique l’interface d’[america.gov](https://america.gov/) (design original : [National Design Studio](https://ndstudio.gov/)) et la réécrit pour la France : vous posez votre question en français, un modèle **Mistral** exécuté dans votre navigateur vous répond simplement et vous renvoie vers les sites publics officiels.
+Bonjour, France reprend à l’identique l’interface d’[america.gov](https://america.gov/) (design original : [National Design Studio](https://ndstudio.gov/)) et la réécrit pour la France : vous posez votre question en français, **Mistral** vous répond dans le chat du site et vous renvoie vers les sites publics officiels.
 
 - Site : https://connected-mate.github.io/bonjour-france/
 - Réalisé par [Alexandre Cormeraie](https://www.linkedin.com/in/alex-cormeraie/)
@@ -15,15 +15,17 @@ Bonjour, France reprend à l’identique l’interface d’[america.gov](https:/
 | --- | --- |
 | Interface | Le vrai front-end d’america.gov (Astro + React), téléchargé tel quel puis adapté par `tools/build.py`. |
 | Textes | Tout le texte est en français, adapté à la France (`tools/i18n/`). |
-| IA | [WebLLM](https://github.com/mlc-ai/web-llm) 0.2.85 + Mistral 7B Instruct v0.3 (WebGPU), dans le navigateur. Le modèle est téléchargé une seule fois, après accord de la personne. Aucun serveur, aucune clé. |
-| Sans WebGPU | Réponse issue de fiches vérifiées (`tools/static/kb.json`), sans IA, avec les liens officiels. |
+| IA | API Mistral (`mistral-small-latest`) via un relais Cloudflare Worker (`relay/`) qui garde la clé. Réponses en streaming, marquées du logo Mistral. |
+| Relais non branché | Fiche vérifiée (`tools/static/kb.json`) + lien « Demander à Mistral » qui ouvre la question dans le chat de Mistral. |
+| Configuration | Une seule valeur : `relayUrl` dans `tools/static/config.js` (voir `relay/README.md`). |
 | PDF | Lus dans le navigateur ([LiteParse](https://www.npmjs.com/package/@llamaindex/liteparse-wasm), Apache-2.0). |
 | Votes | Étoiles GitHub, lues via l’API publique (cache 10 min, repli si indisponible). |
 | Serveurs d’america.gov | Aucun appel : API, vérification Cloudflare, rapports d’erreurs et avis sont neutralisés (`tools/static/bonjour.js`). |
 
 ## Ce qui a été remplacé
 
-- **Images** : sceaux, logos d’agences, photos et maquettes américaines remplacés par des images générées ou dessinées (voir `tools/overrides/IMAGE-CREDITS.md`). Aucun logo de l’État français, aucune Marianne.
+- **Images** : les logos, icônes, photos et illustrations d’america.gov sont conservés tels quels. Seuls les sceaux et emblèmes officiels du gouvernement américain (dont l’usage est encadré, 18 U.S.C. 713) sont remplacés par des médaillons neutres. Aucun logo de l’État français, aucune Marianne.
+- **Nom** : « America.gov » devient « Bonjour, France » (textes, logo, cartes de partage).
 - **Polices** : Helvetica Now et Rhymes sont commerciales. Elles sont remplacées par [Geist](https://github.com/vercel/geist-font) et [Newsreader](https://github.com/productiontype/Newsreader) (SIL OFL 1.1).
 
 ## Reconstruire

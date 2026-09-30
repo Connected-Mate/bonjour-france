@@ -14,3 +14,4 @@ tools/imgtools/**/*.webp
 tools/imgtools/**/*.jpg
 node_modules/
 __pycache__/
+.build-fonts/
