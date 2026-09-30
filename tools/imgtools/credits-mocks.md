@@ -4,9 +4,9 @@ Sources : `tools/imgtools/mocks/*.py` (rendu SVG → resvg, polices Geist / News
 
 base | généré | note
 ---|---|---
-passport-cover | PIL+SVG | cuir/bords/alpha d'origine gardés, décor or US effacé (inpainting) ; « PASSEPORT » + rosace géométrique + symbole puce OACI. Ni armoiries, ni nom de pays, ni emblème UE
-passport-book | PIL+SVG | illustration plate, même bleu/or ; « PASSEPORT » + rosace + puce
-passport-card (variantes livret sur fond bleu 906/640/384/256/128/64x42/32x21) | PIL+SVG | photo d'origine gardée (fond, ombre, cuir), décor remplacé comme ci-dessus
+passport-cover | PIL+SVG (rendu) | cuir/bords/alpha d'origine gardés, décor or US effacé (inpainting), cuir recoloré bordeaux générique (luminance conservée) ; seul le mot « PASSEPORT » + filet + symbole puce OACI. Ni armoiries, ni Marianne, ni nom de pays, ni emblème UE
+passport-book | PIL+SVG (rendu) | illustration plate bordeaux/or ; « PASSEPORT » + filets + puce
+passport-card (variantes livret sur fond bleu 906/640/384/256/128/64x42/32x21) | PIL+SVG | photo d'origine gardée (fond, ombre, cuir), décor effacé (inpainting + remplissage Coons), cuir recoloré bordeaux, « PASSEPORT » + puce
 passport-card (variantes carte 100x64/64x41/32x20) | SVG | = page de données passport-details réduite
 passport-both | SVG | = page de données réduite (alpha d'origine)
 passport-thumbnail | PIL | livret neuf réduit dans le cadre blanc d'origine
@@ -25,3 +25,5 @@ login | SVG | pastille blanche + ombre d'origine ; cadenas bleu marine à la pla
 trusted-traveler (+ images/home/roadmap/demo/trusted-traveler) | SVG | pastille d'origine ; écusson coché + arcs neutres à la place de l'étoile DHS
 
 Conservés (non modifiés) : medication (gélule générique), iphone (cadre vide), passport-cursor / resume-cursor (curseur standard), summary-papers (feuilles + trombone, sans texte).
+
+Round 2 (30/09/2026) : passeports passés au bordeaux, rosace retirée (`mocks/passport_covers.py`) ; autres maquettes réutilisées telles quelles (textes FR vérifiés sur planche `compare/round2-photos-mocks.png`). Libellés anglais restants de la section « Imaginez la suite » (Albuterol HFA, Login, Passport, MyTravelGov…) = texte HTML, pas des images.

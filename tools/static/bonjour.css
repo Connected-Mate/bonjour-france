@@ -86,3 +86,20 @@ svg[viewBox="0 0 1390 263.577"] > * { display: none; }
   font: 500 .875rem/1 "Helvetica Now Text", system-ui, sans-serif; color: rgb(11 26 51 / .72);
 }
 .bf-by img { width: 18px; height: 18px; flex: none; }
+
+/* Mistral on the privacy tile */
+.bf-mistral-privacy {
+  position: absolute; left: 50%; bottom: 8%; transform: translateX(-50%); z-index: 5;
+  display: inline-flex; align-items: center; gap: .5rem; white-space: nowrap;
+  padding: .5rem .875rem .5rem .625rem; border-radius: 999px;
+  background: rgb(255 255 255 / .94); color: #0b1a33;
+  box-shadow: 0 1px 2px rgb(0 0 0 / .12), 0 8px 24px rgb(0 0 0 / .25);
+  font: 400 .875rem/1 "Helvetica Now Text", system-ui, sans-serif; pointer-events: none;
+}
+.bf-mistral-privacy img { width: 22px; height: 22px; flex: none; }
+.bf-mistral-privacy strong { font-weight: 600; }
+
+/* footer wink */
+.bf-wink { max-width: 34rem; margin: -.25rem auto 0; text-align: center; font-size: .9375rem; line-height: 1.45; opacity: .8; }
+.bf-wink a { text-decoration: underline; text-underline-offset: 4px; }
+.bf-wink a:hover { opacity: .7; }

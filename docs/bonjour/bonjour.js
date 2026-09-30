@@ -395,16 +395,47 @@
   }, true);
 
 
+
+  /* ------------------------------------------------------------------ Mistral on the privacy tile, footer wink */
+  function placeMistralPrivacy() {
+    if (document.getElementById("bf-mistral-privacy")) return;
+    var h = Array.prototype.find.call(document.querySelectorAll("h2"), function (x) { return /confidentialité de vos données/.test(x.textContent || ""); });
+    var grid = h && h.closest(".site-grid");
+    var tile = grid && grid.querySelector(".squircle");
+    if (!tile) return;
+    var b = document.createElement("div");
+    b.id = "bf-mistral-privacy";
+    b.className = "bf-mistral-privacy";
+    b.innerHTML = '<img src="' + BASE + '/bonjour/mistral-icon.svg" alt="" width="28" height="28"><span>Réponses par <strong>Mistral AI</strong></span>';
+    if (getComputedStyle(tile).position === "static") tile.style.position = "relative";
+    tile.appendChild(b);
+  }
+
+  function placeFooterWink() {
+    if (document.getElementById("bf-wink")) return;
+    var p = Array.prototype.find.call(document.querySelectorAll('[data-slot="site-footer"] p'), function (x) { return /^Site non officiel, sans lien/.test((x.textContent || "").trim()); });
+    var row = p && p.parentElement;
+    if (!row || !row.parentElement) return;
+    var w = document.createElement("p");
+    w.id = "bf-wink";
+    w.className = "bf-wink";
+    w.innerHTML = "… mais si seulement nos décideurs voyaient passer ce genre d’idées. 😉 " +
+      '<a href="#bf-vote">Votez pour que ça existe</a>';
+    row.parentElement.insertBefore(w, row.nextSibling);
+  }
+
   /* ------------------------------------------------------------------ boot */
   function boot() {
     // islands hydrate after load; re-place the section / tags if React re-renders
     placeVote();
     tagAnswers();
+    placeMistralPrivacy();
+    placeFooterWink();
     var queued = false;
     new MutationObserver(function () {
       if (queued) return;
       queued = true;
-      requestAnimationFrame(function () { queued = false; placeVote(); tagAnswers(); });
+      requestAnimationFrame(function () { queued = false; placeVote(); tagAnswers(); placeMistralPrivacy(); placeFooterWink(); });
     }).observe(document.body, { childList: true, subtree: true, characterData: true });
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", boot); else boot();

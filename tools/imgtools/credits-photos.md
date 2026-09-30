@@ -6,15 +6,15 @@ Planche : `compare/images-photos.png`.
 
 base | source | résumé du prompt
 social-security | généré (gptimage) | homme âgé marchant pieds nus sur une plage des Landes, digue béton
-national-park | généré (gptimage) | amis sautant des rochers dans une rivière des Cévennes, forêt
-veteran-care | généré (gptimage) | homme âgé debout sur la benne d'un petit pick-up blanc sans marque, quai breton
+national-park | généré (gptimage) — round 2 | trois amis autour d'une petite citadine blanche sans marque (plaque floutée), belvédère au-dessus du lac turquoise, Gorges du Verdon (`photos/jobs-r2.json`)
+veteran-care | généré (gptimage) — round 2 | étudiante avec un vieux vélo sur le quai pavé du canal Saint-Martin, passerelle verte (`photos/jobs-r2b.json`)
 name-change | généré (gptimage) | mariée dans une voiture ancienne, vitre perlée de pluie, flash de nuit
 child-future | généré (gptimage) | mère serrant sa fille dans une écurie normande, cheval à côté
 medicare | généré (gptimage) | quatre retraités de dos sur les remparts de Saint-Malo (uniquement variantes DqRXMPkA)
 new-job | généré (gptimage) | jeune homme sur un escalator du métro parisien, béton
 address-change | généré (gptimage) | père et fils avec tablette parmi les cartons, appartement haussmannien
 child-passport | généré (gptimage) | enfant regardant un avion sans livrée depuis un terminal d'aéroport
-military-service | généré (gptimage) | jeune couple dans l'embrasure d'une maison de village, marinière, flash
+military-service | généré (gptimage) — round 2 | deux jeunes adultes devant la mairie d'un village (mot « MAIRIE » gravé, drapeau tricolore ; ni Marianne ni bloc-marque) (`photos/jobs-r2.json`)
 new-business | généré (gptimage) | atelier vélo à Lyon, Fourvière par la fenêtre (master approuvé)
 crowd (+ images/home/features/crowd) | généré (gptimage) | foule vue d'en haut sur une place pavée parisienne en automne
 privacy (+ images/home/features/privacy) | généré (gptimage) | gros plan grand-mère joue contre joue avec un bébé
@@ -46,3 +46,9 @@ hotdog-top / hotdog-dog / hotdog-bottom | généré (gptimage) | demi-baguette (
 ## Conservées (non remplacées)
 passport + images/home/features/passport | généré (gptimage) | versant d’herbes dorées au-dessus d’une mer de nuages, Cévennes (remplace photo de colline californienne)
 grandstaff + images/home/roadmap/demo/grandstaff | généré (gptimage) | ciste blanc en garrigue provençale
+
+## Round 2 (30/09/2026)
+Carrousel d'accueil (11 cartes) : nouvelles scènes pour military-service, national-park, veteran-care ; les 8 autres photos françaises déjà faites correspondaient aux nouvelles questions → réutilisées. Maîtres : `photos/masters/{military-service,national-park,r2-veteran-care}.png` (bruts dans `photos/gen/`, recadrés de 3 % pour ôter le vignettage des coins).
+Fonds flous 128w re-floutés (`photos/backdrop.py`) ; fonds 64w absents du miroir (référencés par la page) générés depuis le 128w (`photos/backdrop64.py`).
+Appliquées via `tools/overrides/APPLY.txt`. Vérif : `python3 tools/imgtools/verify_apply.py`. Planches : `compare/round2-photos-{carousel,other,mocks}.png`.
+Non appliquées (originaux conservés, choix) : eagle, photos presse (images/press, joe-gebbia-*, peter-arnell-*, rampart-tbpn, nds-*, design-in-the-white-house, improving-our-nation…).

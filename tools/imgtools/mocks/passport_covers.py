@@ -1,6 +1,6 @@
 """Passport covers: passport-cover, passport-book, passport-card (book-on-blue variants), passport-thumbnail.
 Method: keep original leather/background/edges/shadow/alpha; remove the US gold artwork by
-normalized-convolution inpainting; redraw neutral gold artwork: « PASSEPORT » + geometric rosette + ICAO chip symbol.
+normalized-convolution inpainting; redraw neutral gold artwork: « PASSEPORT » + ICAO chip symbol on generic burgundy leather (recoloured).
 No coat of arms, no country name, no EU emblem."""
 import math
 import numpy as np
@@ -50,6 +50,45 @@ def inpaint_gold(im, rb=12, rmin=45, grow=7, blur=22, grain=2.2):
     out[gold] = fill[gold]
     a[..., :3] = np.clip(out, 0, 255)
     return Image.fromarray(a.astype(np.uint8), 'RGBA')
+
+
+BURGUNDY = np.array([128, 30, 48], np.float32)  # generic burgundy leather
+
+
+def to_burgundy(im, lum_max=None, gain=1.0):
+    """Recolour the (navy) book to burgundy, keeping per-pixel luminance (texture, shading, edges).
+    lum_max: only pixels darker than this are recoloured (soft edge) - keeps a light background intact."""
+    a = np.array(im.convert('RGBA')).astype(np.float32)
+    rgb = a[..., :3]
+    L = rgb @ np.array([0.299, 0.587, 0.114], np.float32)
+    lb = float(BURGUNDY @ np.array([0.299, 0.587, 0.114], np.float32))
+    new = BURGUNDY[None, None, :] * (L[..., None] / lb) * gain
+    # keep highlights neutral-ish: blend toward grey where very bright
+    new = np.clip(new, 0, 255)
+    if lum_max is None:
+        m = np.ones_like(L)
+    else:
+        m = np.clip((lum_max - L) / 40.0, 0, 1)
+    # only recolour bluish / neutral pixels (not the gold art, which is redrawn anyway)
+    a[..., :3] = rgb * (1 - m[..., None]) + new * m[..., None]
+    return Image.fromarray(np.clip(a, 0, 255).astype(np.uint8), 'RGBA')
+
+
+def fill_region(im, box, grain=3.6):
+    """Coons-patch fill of a rectangle from its (smoothed) borders: removes leftover art the colour
+    threshold missed while keeping the leather's lighting gradient."""
+    a = np.array(im.convert('RGBA')).astype(np.float32)
+    x0, y0, x1, y1 = box
+    sm = np.stack([boxblur3(a[..., c], 3) for c in range(3)], -1)
+    L, R = sm[y0:y1, x0 - 2], sm[y0:y1, x1 + 1]          # (h,3)
+    T, B = sm[y0 - 2, x0:x1], sm[y1 + 1, x0:x1]          # (w,3)
+    h, w = y1 - y0, x1 - x0
+    u = np.linspace(0, 1, w)[None, :, None]; v = np.linspace(0, 1, h)[:, None, None]
+    c00, c10, c01, c11 = sm[y0 - 2, x0 - 2], sm[y0 - 2, x1 + 1], sm[y1 + 1, x0 - 2], sm[y1 + 1, x1 + 1]
+    patch = ((1 - u) * L[:, None] + u * R[:, None] + (1 - v) * T[None] + v * B[None]
+             - ((1 - u) * (1 - v) * c00 + u * (1 - v) * c10 + (1 - u) * v * c01 + u * v * c11))
+    a[y0:y1, x0:x1, :3] = patch + rng.normal(0, grain, patch.shape)
+    return Image.fromarray(np.clip(a, 0, 255).astype(np.uint8))
 
 
 def rosette(cx, cy, r, color, sw, n=12, rings=True):
@@ -104,15 +143,13 @@ def overlay(base, art_svg, scale=3):
 # ---------------- passport-cover 742x1052 (textured, metallic gold) -----------------
 def cover():
     o = Image.open(M + 'passport-cover.D1saJ3wC.png').convert('RGBA')
-    base = inpaint_gold(o, blur=26, grain=2.6)
-    BG = '#1b2029'
+    base = to_burgundy(inpaint_gold(o, blur=26, grain=2.6), gain=1.55)
+    BG = '#3a0d16'
     art = gold_defs('#8a7446', '#c7a867', '#7d6a42') + '<g filter="url(#grain)">'
     art += '<g fill="url(#g)">'
     art += '<text x="371" y="206" text-anchor="middle" font-family="Newsreader500" font-size="74" letter-spacing="9">PASSEPORT</text>'
     art += '</g>'
     art += f'<rect x="251" y="246" width="240" height="2.2" fill="url(#g)"/>'
-    art += rosette(371, 575, 172, 'url(#g)', 3.2, n=16)
-    art += rosette(371, 575, 80, 'url(#g)', 2.4, n=8, rings=False)
     art += chip(371, 972, 62, 'url(#g)').replace('BG', BG)
     art += '</g>'
     return overlay(base, art)
@@ -127,13 +164,13 @@ def book():
     inner = np.zeros(diff.shape, bool); inner[8:740, 8:512] = True
     m = diff & inner & (a[..., 3] == 255)
     a[m, :3] = [25, 27, 70]
+    navy = (np.abs(a[..., :3] - np.array([25, 27, 70])).sum(-1) < 40) & (a[..., 3] > 0)
+    a[navy, :3] = [110, 26, 42]
     base = Image.fromarray(a.astype(np.uint8))
     G = '#e3c197'
-    BG = '#191b46'
+    BG = '#6e1a2a'
     art = '<g>'
     art += f'<text x="262" y="126" text-anchor="middle" font-family="Newsreader600" font-size="68" letter-spacing="3" fill="{G}">PASSEPORT</text>'
-    art += rosette(262, 330, 118, G, 3.4, n=14)
-    art += rosette(262, 330, 54, G, 2.6, n=8, rings=False)
     art += f'<rect x="192" y="560" width="140" height="3" fill="{G}"/><rect x="212" y="572" width="100" height="2" fill="{G}"/>'
     art += chip(264, 667, 56, G).replace('BG', BG)
     art += '</g>'
@@ -143,14 +180,12 @@ def book():
 # ---------------- passport-card big 906x600 (photo-real book on light blue) -----------------
 def card_big():
     o = Image.open(M + 'passport-card.BTf4bABc.webp').convert('RGBA')
-    base = inpaint_gold(o, rb=22, rmin=70, blur=14, grain=1.6)
-    BG = '#10284a'
+    base = to_burgundy(fill_region(inpaint_gold(o, rb=22, rmin=70, blur=14, grain=1.6), (385, 150, 530, 420)), lum_max=150, gain=1.25)
+    BG = '#4a1220'
     art = gold_defs('#d8b26a', '#f3dc9a', '#c9a45d')
     art += '<g fill="url(#g)">'
     art += '<text x="455" y="172" text-anchor="middle" font-family="Newsreader600" font-size="31" letter-spacing="1.5">PASSEPORT</text>'
     art += '</g>'
-    art += rosette(455, 278, 56, 'url(#g)', 1.6, n=14)
-    art += rosette(455, 278, 26, 'url(#g)', 1.2, n=8, rings=False)
     art += '<rect x="410" y="383" width="90" height="1.6" fill="url(#g)"/><rect x="425" y="391" width="60" height="1.2" fill="url(#g)"/>'
     art += chip(458, 451, 34, 'url(#g)').replace('BG', BG)
     return overlay(base, art, scale=3)

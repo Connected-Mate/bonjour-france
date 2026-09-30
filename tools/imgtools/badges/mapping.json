@@ -1,0 +1,2209 @@
+{
+ "_note": "slot (inventory base name) -> French public body medallion. Names only + generic pictograms; no real logos.",
+ "bodies": {
+  "acpr": {
+   "ring_top": "AUTORITÉ DE CONTRÔLE PRUDENTIEL",
+   "ring_bottom": "ET DE RÉSOLUTION",
+   "pictogram": "monnaie",
+   "colour": "#2e3b4e",
+   "master": "masters/acpr.svg"
+  },
+  "ademe": {
+   "ring_top": "ADEME",
+   "ring_bottom": "TRANSITION ÉCOLOGIQUE",
+   "pictogram": "energie",
+   "colour": "#127a66",
+   "master": "masters/ademe.svg"
+  },
+  "afd": {
+   "ring_top": "AGENCE FRANÇAISE DE DÉVELOPPEMENT",
+   "ring_bottom": "AFD",
+   "pictogram": "globe",
+   "colour": "#0f5277",
+   "master": "masters/afd.svg"
+  },
+  "ameli": {
+   "ring_top": "L’ASSURANCE MALADIE",
+   "ring_bottom": "SÉCURITÉ SOCIALE",
+   "pictogram": "sante",
+   "colour": "#1f4e9c",
+   "master": "masters/ameli.svg"
+  },
+  "amf": {
+   "ring_top": "AUTORITÉ DES MARCHÉS FINANCIERS",
+   "ring_bottom": "AMF",
+   "pictogram": "stats",
+   "colour": "#1c4d6b",
+   "master": "masters/amf.svg"
+  },
+  "anil": {
+   "ring_top": "ANIL",
+   "ring_bottom": "INFORMATION LOGEMENT",
+   "pictogram": "logement",
+   "colour": "#1f4a78",
+   "master": "masters/anil.svg"
+  },
+  "anses": {
+   "ring_top": "ANSES",
+   "ring_bottom": "SÉCURITÉ SANITAIRE",
+   "pictogram": "securite",
+   "colour": "#2a6a4a",
+   "master": "masters/anses.svg"
+  },
+  "archives": {
+   "ring_top": "ARCHIVES NATIONALES",
+   "ring_bottom": "MÉMOIRE ET PATRIMOINE",
+   "pictogram": "archives",
+   "colour": "#2b2c36",
+   "master": "masters/archives.svg"
+  },
+  "armees": {
+   "ring_top": "MINISTÈRE DES ARMÉES",
+   "ring_bottom": "DÉFENSE",
+   "pictogram": "securite",
+   "colour": "#2d3a2e",
+   "master": "masters/armees.svg"
+  },
+  "ars": {
+   "ring_top": "AGENCE RÉGIONALE DE SANTÉ",
+   "ring_bottom": "ARS",
+   "pictogram": "sante",
+   "colour": "#2c5e8c",
+   "master": "masters/ars.svg"
+  },
+  "art": {
+   "ring_top": "AUTORITÉ DE RÉGULATION DES TRANSPORTS",
+   "ring_bottom": "ART",
+   "pictogram": "transport",
+   "colour": "#243f66",
+   "master": "masters/art.svg"
+  },
+  "asnr": {
+   "ring_top": "AUTORITÉ DE SÛRETÉ NUCLÉAIRE",
+   "ring_bottom": "ET DE RADIOPROTECTION",
+   "pictogram": "sciences",
+   "colour": "#1d2233",
+   "master": "masters/asnr.svg"
+  },
+  "asp": {
+   "ring_top": "AGENCE DE SERVICES ET DE PAIEMENT",
+   "ring_bottom": "ASP",
+   "pictogram": "euro",
+   "colour": "#1f6b52",
+   "master": "masters/asp.svg"
+  },
+  "assemblee": {
+   "ring_top": "ASSEMBLÉE NATIONALE",
+   "ring_bottom": "DÉBAT PARLEMENTAIRE",
+   "pictogram": "batiment",
+   "colour": "#1f3868",
+   "master": "masters/assemblee.svg"
+  },
+  "bdf": {
+   "ring_top": "BANQUE DE FRANCE",
+   "ring_bottom": "BANQUE CENTRALE",
+   "pictogram": "monnaie",
+   "colour": "#152f55",
+   "master": "masters/bdf.svg"
+  },
+  "bnf": {
+   "ring_top": "BIBLIOTHÈQUE NATIONALE DE FRANCE",
+   "ring_bottom": "BNF",
+   "pictogram": "culture",
+   "colour": "#1d1f2a",
+   "master": "masters/bnf.svg"
+  },
+  "bonjour": {
+   "ring_top": "BONJOUR, FRANCE",
+   "ring_bottom": "SITE NON OFFICIEL",
+   "pictogram": "bulle",
+   "colour": "#8a6320",
+   "master": "masters/bonjour.svg"
+  },
+  "brgm": {
+   "ring_top": "BUREAU DE RECHERCHES",
+   "ring_bottom": "GÉOLOGIQUES ET MINIÈRES",
+   "pictogram": "montagne",
+   "colour": "#3a3a3f",
+   "master": "masters/brgm.svg"
+  },
+  "cada": {
+   "ring_top": "COMMISSION D’ACCÈS AUX DOCUMENTS ADMINISTRATIFS",
+   "ring_bottom": "CADA",
+   "pictogram": "archives",
+   "colour": "#0f5c5a",
+   "master": "masters/cada.svg"
+  },
+  "caf": {
+   "ring_top": "CAISSE D’ALLOCATIONS FAMILIALES",
+   "ring_bottom": "CAF",
+   "pictogram": "famille",
+   "colour": "#16639f",
+   "master": "masters/caf.svg"
+  },
+  "cnes": {
+   "ring_top": "CNES",
+   "ring_bottom": "AGENCE SPATIALE",
+   "pictogram": "planete",
+   "colour": "#141a33",
+   "master": "masters/cnes.svg"
+  },
+  "cnil": {
+   "ring_top": "CNIL",
+   "ring_bottom": "DONNÉES PERSONNELLES",
+   "pictogram": "cadenas",
+   "colour": "#3a2f6b",
+   "master": "masters/cnil.svg"
+  },
+  "conseilconst": {
+   "ring_top": "CONSEIL CONSTITUTIONNEL",
+   "ring_bottom": "CONTRÔLE DES ÉLECTIONS",
+   "pictogram": "vote",
+   "colour": "#3a3150",
+   "master": "masters/conseilconst.svg"
+  },
+  "conseiletat": {
+   "ring_top": "CONSEIL D’ÉTAT",
+   "ring_bottom": "JUSTICE ADMINISTRATIVE",
+   "pictogram": "batiment",
+   "colour": "#2d3b4e",
+   "master": "masters/conseiletat.svg"
+  },
+  "crous": {
+   "ring_top": "CROUS",
+   "ring_bottom": "VIE ÉTUDIANTE",
+   "pictogram": "education",
+   "colour": "#a3222c",
+   "master": "masters/crous.svg"
+  },
+  "dae": {
+   "ring_top": "DIRECTION DES ACHATS DE L’ÉTAT",
+   "ring_bottom": "ACHATS PUBLICS",
+   "pictogram": "batiment",
+   "colour": "#8a6320",
+   "master": "masters/dae.svg"
+  },
+  "defenseur": {
+   "ring_top": "DÉFENSEUR DES DROITS",
+   "ring_bottom": "ACCÈS AU DROIT",
+   "pictogram": "justice",
+   "colour": "#4a2d72",
+   "master": "masters/defenseur.svg"
+  },
+  "dgac": {
+   "ring_top": "DIRECTION GÉNÉRALE DE L’AVIATION CIVILE",
+   "ring_bottom": "DGAC",
+   "pictogram": "voyage",
+   "colour": "#1d5a9e",
+   "master": "masters/dgac.svg"
+  },
+  "dge": {
+   "ring_top": "DIRECTION GÉNÉRALE DES ENTREPRISES",
+   "ring_bottom": "DGE",
+   "pictogram": "industrie",
+   "colour": "#24406b",
+   "master": "masters/dge.svg"
+  },
+  "dgfip": {
+   "ring_top": "DIRECTION GÉNÉRALE DES FINANCES PUBLIQUES",
+   "ring_bottom": "IMPÔTS",
+   "pictogram": "impots",
+   "colour": "#16505a",
+   "master": "masters/dgfip.svg"
+  },
+  "diplomatie": {
+   "ring_top": "FRANCE DIPLOMATIE",
+   "ring_bottom": "FRANÇAIS DE L’ÉTRANGER",
+   "pictogram": "globe",
+   "colour": "#1c3a6b",
+   "master": "masters/diplomatie.svg"
+  },
+  "douane": {
+   "ring_top": "LA DOUANE",
+   "ring_bottom": "VOYAGEURS ET MARCHANDISES",
+   "pictogram": "valise",
+   "colour": "#1a2d4f",
+   "master": "masters/douane.svg"
+  },
+  "enfance": {
+   "ring_top": "ENFANCE EN DANGER",
+   "ring_bottom": "ALLÔ 119",
+   "pictogram": "famille",
+   "colour": "#1a6a5c",
+   "master": "masters/enfance.svg"
+  },
+  "fonctionpub": {
+   "ring_top": "FONCTION PUBLIQUE",
+   "ring_bottom": "DGAFP",
+   "pictogram": "emploi",
+   "colour": "#1d3a6e",
+   "master": "masters/fonctionpub.svg"
+  },
+  "franceconnect": {
+   "ring_top": "FRANCECONNECT",
+   "ring_bottom": "IDENTIFICATION EN LIGNE",
+   "pictogram": "cadenas",
+   "colour": "#1f3f8f",
+   "master": "masters/franceconnect.svg"
+  },
+  "francetitres": {
+   "ring_top": "FRANCE TITRES",
+   "ring_bottom": "ANTS",
+   "pictogram": "identite",
+   "colour": "#2d5596",
+   "master": "masters/francetitres.svg"
+  },
+  "francetravail": {
+   "ring_top": "FRANCE TRAVAIL",
+   "ring_bottom": "EMPLOI ET FORMATION",
+   "pictogram": "emploi",
+   "colour": "#2a2f7e",
+   "master": "masters/francetravail.svg"
+  },
+  "georisques": {
+   "ring_top": "GÉORISQUES",
+   "ring_bottom": "RISQUES NATURELS",
+   "pictogram": "eau",
+   "colour": "#0b4f7c",
+   "master": "masters/georisques.svg"
+  },
+  "ign": {
+   "ring_top": "IGN",
+   "ring_bottom": "INFORMATION GÉOGRAPHIQUE",
+   "pictogram": "carte",
+   "colour": "#0f5a7c",
+   "master": "masters/ign.svg"
+  },
+  "inpi": {
+   "ring_top": "INPI",
+   "ring_bottom": "PROPRIÉTÉ INDUSTRIELLE",
+   "pictogram": "ampoule",
+   "colour": "#8a3a1c",
+   "master": "masters/inpi.svg"
+  },
+  "insee": {
+   "ring_top": "INSEE",
+   "ring_bottom": "STATISTIQUES PUBLIQUES",
+   "pictogram": "stats",
+   "colour": "#5a2a5e",
+   "master": "masters/insee.svg"
+  },
+  "interieur": {
+   "ring_top": "MINISTÈRE DE L’INTÉRIEUR",
+   "ring_bottom": "ÉLECTIONS",
+   "pictogram": "vote",
+   "colour": "#1f3460",
+   "master": "masters/interieur.svg"
+  },
+  "justice": {
+   "ring_top": "MINISTÈRE DE LA JUSTICE",
+   "ring_bottom": "TRIBUNAUX",
+   "pictogram": "justice",
+   "colour": "#0f5550",
+   "master": "masters/justice.svg"
+  },
+  "laposte": {
+   "ring_top": "LA POSTE",
+   "ring_bottom": "COURRIER ET COLIS",
+   "pictogram": "courrier",
+   "colour": "#e9b91c",
+   "master": "masters/laposte.svg"
+  },
+  "legifrance": {
+   "ring_top": "LÉGIFRANCE",
+   "ring_bottom": "LE DROIT FRANÇAIS",
+   "pictogram": "archives",
+   "colour": "#25405e",
+   "master": "masters/legifrance.svg"
+  },
+  "local:seal-local-arapahoe-county": {
+   "ring_top": "COMMUNAUTÉ DES VALLONS",
+   "ring_bottom": "INTERCOMMUNALITÉ",
+   "pictogram": "mairie",
+   "colour": "#1d3a6e",
+   "master": "masters/local-seal-local-arapahoe-county.svg"
+  },
+  "local:seal-local-arizona": {
+   "ring_top": "RÉGION DES CANYONS",
+   "ring_bottom": "TERRE DU SUD",
+   "pictogram": "montagne",
+   "colour": "#8c3b1f",
+   "master": "masters/local-seal-local-arizona.svg"
+  },
+  "local:seal-local-ashland-oregon": {
+   "ring_top": "VILLE DE BELLERIVE",
+   "ring_bottom": "MAIRIE",
+   "pictogram": "mairie",
+   "colour": "#285f35",
+   "master": "masters/local-seal-local-ashland-oregon.svg"
+  },
+  "local:seal-local-boston": {
+   "ring_top": "VILLE DE PORT-CLAIR",
+   "ring_bottom": "CITÉ MARITIME",
+   "pictogram": "mer",
+   "colour": "#1b2033",
+   "master": "masters/local-seal-local-boston.svg"
+  },
+  "local:seal-local-boulder-county": {
+   "ring_top": "PAYS DES CRÊTES",
+   "ring_bottom": "COMMUNAUTÉ",
+   "pictogram": "montagne",
+   "colour": "#285f35",
+   "master": "masters/local-seal-local-boulder-county.svg"
+  },
+  "local:seal-local-brookline-massachusetts": {
+   "ring_top": "VILLE DE VAL-FLEURI",
+   "ring_bottom": "MAIRIE",
+   "pictogram": "mairie",
+   "colour": "#6a1f2b",
+   "master": "masters/local-seal-local-brookline-massachusetts.svg"
+  },
+  "local:seal-local-colorado": {
+   "ring_top": "RÉGION DES CIMES",
+   "ring_bottom": "MONTAGNES",
+   "pictogram": "montagne",
+   "colour": "#1d5a9e",
+   "master": "masters/local-seal-local-colorado.svg"
+  },
+  "local:seal-local-columbia-county-oregon": {
+   "ring_top": "PAYS DES DEUX RIVES",
+   "ring_bottom": "COMMUNAUTÉ",
+   "pictogram": "eau",
+   "colour": "#0b4f7c",
+   "master": "masters/local-seal-local-columbia-county-oregon.svg"
+  },
+  "local:seal-local-cuyahoga-county": {
+   "ring_top": "PAYS DE LA RIVIÈRE",
+   "ring_bottom": "INTERCOMMUNALITÉ",
+   "pictogram": "mairie",
+   "colour": "#1d3a6e",
+   "master": "masters/local-seal-local-cuyahoga-county.svg"
+  },
+  "local:seal-local-florida": {
+   "ring_top": "RÉGION DU LITTORAL",
+   "ring_bottom": "TERRE DE SOLEIL",
+   "pictogram": "climat",
+   "colour": "#0b4f7c",
+   "master": "masters/local-seal-local-florida.svg"
+  },
+  "local:seal-local-henderson-county-north-carolina": {
+   "ring_top": "PAYS DES COLLINES",
+   "ring_bottom": "COMMUNAUTÉ DE COMMUNES",
+   "pictogram": "montagne",
+   "colour": "#285f35",
+   "master": "masters/local-seal-local-henderson-county-north-carolina.svg"
+  },
+  "local:seal-local-maricopa-county": {
+   "ring_top": "PAYS DU PLATEAU",
+   "ring_bottom": "COMMUNAUTÉ",
+   "pictogram": "climat",
+   "colour": "#8c3b1f",
+   "master": "masters/local-seal-local-maricopa-county.svg"
+  },
+  "local:seal-local-maryland": {
+   "ring_top": "RÉGION DES BAIES",
+   "ring_bottom": "LITTORAL",
+   "pictogram": "mer",
+   "colour": "#6a1f2b",
+   "master": "masters/local-seal-local-maryland.svg"
+  },
+  "local:seal-local-minnesota": {
+   "ring_top": "RÉGION DES LACS",
+   "ring_bottom": "TERRE D’EAU",
+   "pictogram": "eau",
+   "colour": "#1d5a9e",
+   "master": "masters/local-seal-local-minnesota.svg"
+  },
+  "local:seal-local-nebraska": {
+   "ring_top": "RÉGION DES PLAINES",
+   "ring_bottom": "TERRE AGRICOLE",
+   "pictogram": "agriculture",
+   "colour": "#8c3b1f",
+   "master": "masters/local-seal-local-nebraska.svg"
+  },
+  "local:seal-local-north-dakota": {
+   "ring_top": "RÉGION DU NORD",
+   "ring_bottom": "CHAMPS ET PRAIRIES",
+   "pictogram": "agriculture",
+   "colour": "#356a2a",
+   "master": "masters/local-seal-local-north-dakota.svg"
+  },
+  "local:seal-local-ohio": {
+   "ring_top": "RÉGION DES VALLÉES",
+   "ring_bottom": "COMMUNES UNIES",
+   "pictogram": "mairie",
+   "colour": "#1d3a6e",
+   "master": "masters/local-seal-local-ohio.svg"
+  },
+  "local:seal-local-oregon": {
+   "ring_top": "RÉGION DES FORÊTS",
+   "ring_bottom": "TERRE VERTE",
+   "pictogram": "nature",
+   "colour": "#285f35",
+   "master": "masters/local-seal-local-oregon.svg"
+  },
+  "local:seal-local-redmond-washington": {
+   "ring_top": "VILLE DE CLAIRMONT",
+   "ring_bottom": "MAIRIE",
+   "pictogram": "mairie",
+   "colour": "#0f5550",
+   "master": "masters/local-seal-local-redmond-washington.svg"
+  },
+  "local:seal-local-rialto-california": {
+   "ring_top": "VILLE DE SAINT-ARLET",
+   "ring_bottom": "MAIRIE",
+   "pictogram": "mairie",
+   "colour": "#8c3b1f",
+   "master": "masters/local-seal-local-rialto-california.svg"
+  },
+  "local:seal-local-texas": {
+   "ring_top": "RÉGION DU GRAND SUD",
+   "ring_bottom": "TERRE DE SOLEIL",
+   "pictogram": "climat",
+   "colour": "#1c2f59",
+   "master": "masters/local-seal-local-texas.svg"
+  },
+  "local:seal-local-washington": {
+   "ring_top": "RÉGION DES PINS",
+   "ring_bottom": "TERRE D’OUEST",
+   "pictogram": "nature",
+   "colour": "#0f5550",
+   "master": "masters/local-seal-local-washington.svg"
+  },
+  "mairie": {
+   "ring_top": "MAIRIE",
+   "ring_bottom": "LISTES ÉLECTORALES",
+   "pictogram": "mairie",
+   "colour": "#1d3a6e",
+   "master": "masters/mairie.svg"
+  },
+  "marine": {
+   "ring_top": "MARINE NATIONALE",
+   "ring_bottom": "DÉFENSE",
+   "pictogram": "mer",
+   "colour": "#16294f",
+   "master": "masters/marine.svg"
+  },
+  "mdph": {
+   "ring_top": "MAISON DÉPARTEMENTALE",
+   "ring_bottom": "DES PERSONNES HANDICAPÉES",
+   "pictogram": "accessibilite",
+   "colour": "#1d5a9e",
+   "master": "masters/mdph.svg"
+  },
+  "meteo": {
+   "ring_top": "MÉTÉO-FRANCE",
+   "ring_bottom": "PRÉVISIONS ET VIGILANCE",
+   "pictogram": "climat",
+   "colour": "#1b68ab",
+   "master": "masters/meteo.svg"
+  },
+  "msa": {
+   "ring_top": "MUTUALITÉ SOCIALE AGRICOLE",
+   "ring_bottom": "MSA",
+   "pictogram": "agriculture",
+   "colour": "#356a2a",
+   "master": "masters/msa.svg"
+  },
+  "onacvg": {
+   "ring_top": "OFFICE NATIONAL DES COMBATTANTS",
+   "ring_bottom": "ET DES VICTIMES DE GUERRE",
+   "pictogram": "ruban",
+   "colour": "#1c2f59",
+   "master": "masters/onacvg.svg"
+  },
+  "onf": {
+   "ring_top": "OFFICE NATIONAL DES FORÊTS",
+   "ring_bottom": "ONF",
+   "pictogram": "nature",
+   "colour": "#285f35",
+   "master": "masters/onf.svg"
+  },
+  "paf": {
+   "ring_top": "POLICE AUX FRONTIÈRES",
+   "ring_bottom": "AÉROPORTS ET PORTS",
+   "pictogram": "voyage",
+   "colour": "#24406b",
+   "master": "masters/paf.svg"
+  },
+  "parcs": {
+   "ring_top": "PARCS NATIONAUX DE FRANCE",
+   "ring_bottom": "NATURE PROTÉGÉE",
+   "pictogram": "montagne",
+   "colour": "#4a6a2c",
+   "master": "masters/parcs.svg"
+  },
+  "pharos": {
+   "ring_top": "PHAROS",
+   "ring_bottom": "SIGNALEMENTS EN LIGNE",
+   "pictogram": "numerique",
+   "colour": "#1b2033",
+   "master": "masters/pharos.svg"
+  },
+  "police": {
+   "ring_top": "POLICE NATIONALE",
+   "ring_bottom": "SÉCURITÉ PUBLIQUE",
+   "pictogram": "securite",
+   "colour": "#1b2f5b",
+   "master": "masters/police.svg"
+  },
+  "retraite": {
+   "ring_top": "L’ASSURANCE RETRAITE",
+   "ring_bottom": "SÉCURITÉ SOCIALE",
+   "pictogram": "sablier",
+   "colour": "#9c4a1c",
+   "master": "masters/retraite.svg"
+  },
+  "securitecivile": {
+   "ring_top": "SÉCURITÉ CIVILE",
+   "ring_bottom": "PROTECTION DES POPULATIONS",
+   "pictogram": "securite",
+   "colour": "#8c2a1f",
+   "master": "masters/securitecivile.svg"
+  },
+  "senat": {
+   "ring_top": "SÉNAT",
+   "ring_bottom": "PARLEMENT",
+   "pictogram": "batiment",
+   "colour": "#7a1f2b",
+   "master": "masters/senat.svg"
+  },
+  "servicepublic": {
+   "ring_top": "SERVICE-PUBLIC",
+   "ring_bottom": "VOS DROITS ET DÉMARCHES",
+   "pictogram": "info",
+   "colour": "#1f2a66",
+   "master": "masters/servicepublic.svg"
+  },
+  "sncf": {
+   "ring_top": "SNCF",
+   "ring_bottom": "TRANSPORT FERROVIAIRE",
+   "pictogram": "transport",
+   "colour": "#7a1c44",
+   "master": "masters/sncf.svg"
+  },
+  "spf": {
+   "ring_top": "SANTÉ PUBLIQUE FRANCE",
+   "ring_bottom": "PRÉVENTION",
+   "pictogram": "sante",
+   "colour": "#0f6360",
+   "master": "masters/spf.svg"
+  },
+  "travail": {
+   "ring_top": "INSPECTION DU TRAVAIL",
+   "ring_bottom": "SANTÉ ET SÉCURITÉ",
+   "pictogram": "emploi",
+   "colour": "#6b5220",
+   "master": "masters/travail.svg"
+  },
+  "urssaf": {
+   "ring_top": "URSSAF",
+   "ring_bottom": "COTISATIONS SOCIALES",
+   "pictogram": "euro",
+   "colour": "#1d3f72",
+   "master": "masters/urssaf.svg"
+  },
+  "viepublique": {
+   "ring_top": "VIE-PUBLIQUE",
+   "ring_bottom": "INSTITUTIONS ET DÉBATS",
+   "pictogram": "bulle_i",
+   "colour": "#34405a",
+   "master": "masters/viepublique.svg"
+  }
+ },
+ "slots": {
+  "cbp": {
+   "body": "douane",
+   "ring": [
+    "LA DOUANE",
+    "VOYAGEURS ET MARCHANDISES"
+   ],
+   "files": [
+    "_astro/cbp.BRJfxWm9.png"
+   ]
+  },
+  "cbp.gov": {
+   "body": "douane",
+   "ring": [
+    "LA DOUANE",
+    "VOYAGEURS ET MARCHANDISES"
+   ],
+   "files": [
+    "_astro/cbp.gov.BEckqu-F.webp",
+    "_astro/cbp.gov.BekIHV1k.webp",
+    "_astro/cbp.gov.Bqb7nrlR.webp",
+    "_astro/cbp.gov.CTPRA1Zv.webp",
+    "_astro/cbp.gov.Cqyfxjpd.webp",
+    "_astro/cbp.gov.PGNUzcN8.webp",
+    "_astro/cbp.gov.iLwQWN3z.webp",
+    "_astro/cbp.gov.kQ8-3wv2.webp",
+    "images/agency-seals/cbp.gov.webp"
+   ]
+  },
+  "congress": {
+   "body": "senat",
+   "ring": [
+    "SÉNAT",
+    "PARLEMENT"
+   ],
+   "files": [
+    "_astro/congress.DZsCdqMP.webp",
+    "_astro/congress.US2_ITtS.webp",
+    "_astro/congress.bU6Au-e7.webp",
+    "_astro/congress.h2_jaAhP.webp",
+    "images/home/seals/congress.webp"
+   ]
+  },
+  "dea": {
+   "body": "spf",
+   "ring": [
+    "SANTÉ PUBLIQUE FRANCE",
+    "PRÉVENTION"
+   ],
+   "files": [
+    "_astro/dea.CmeYcQyU.webp",
+    "_astro/dea.Cz594QVE.webp",
+    "_astro/dea.DQIDoAnB.webp",
+    "_astro/dea.oYy29BM-.webp",
+    "images/home/seals/dea.webp"
+   ]
+  },
+  "employment-navy": {
+   "body": "marine",
+   "ring": [
+    "MARINE NATIONALE",
+    "DÉFENSE"
+   ],
+   "files": [
+    "_astro/employment-navy.C5MVgyO_.webp",
+    "_astro/employment-navy.Di009D_k.webp",
+    "_astro/employment-navy.YJVbKONU.webp",
+    "_astro/employment-navy.viKCT3-t.webp"
+   ]
+  },
+  "energy": {
+   "body": "ademe",
+   "ring": [
+    "ADEME",
+    "TRANSITION ÉCOLOGIQUE"
+   ],
+   "files": [
+    "_astro/energy.B955_PBC.webp",
+    "_astro/energy.BPnWYQ1T.webp",
+    "_astro/energy.Cs9pQUTa.webp",
+    "_astro/energy.DdU62hIn.webp",
+    "images/home/seals/energy.webp"
+   ]
+  },
+  "faa": {
+   "body": "dgac",
+   "ring": [
+    "DIRECTION GÉNÉRALE DE L’AVIATION CIVILE",
+    "DGAC"
+   ],
+   "files": [
+    "_astro/faa.BQu6UgSF.webp",
+    "_astro/faa.ChSXuODM.webp",
+    "_astro/faa.D1pwszwp.webp",
+    "_astro/faa.hjn1nr7n.webp",
+    "images/home/seals/faa.webp"
+   ]
+  },
+  "fallback-ada.gov": {
+   "body": "mdph",
+   "ring": [
+    "MAISON DÉPARTEMENTALE",
+    "DES PERSONNES HANDICAPÉES"
+   ],
+   "files": [
+    "_astro/fallback-ada.gov.KEM6P8LS.webp",
+    "images/agency-seals/fallback-ada.gov.webp"
+   ]
+  },
+  "fallback-archives.gov": {
+   "body": "archives",
+   "ring": [
+    "ARCHIVES NATIONALES",
+    "MÉMOIRE ET PATRIMOINE"
+   ],
+   "files": [
+    "_astro/fallback-archives.gov.0MDdbVqo.webp",
+    "_astro/fallback-archives.gov.B4xluClp.webp",
+    "_astro/fallback-archives.gov.CHDNiYD4.webp",
+    "_astro/fallback-archives.gov.CYD5pTUK.webp",
+    "images/agency-seals/fallback-archives.gov.webp"
+   ]
+  },
+  "fallback-cbp.gov": {
+   "body": "douane",
+   "ring": [
+    "LA DOUANE",
+    "VOYAGEURS ET MARCHANDISES"
+   ],
+   "files": [
+    "_astro/fallback-cbp.gov.BPY-8wt0.webp",
+    "_astro/fallback-cbp.gov.DceNc2HT.webp",
+    "_astro/fallback-cbp.gov.pDzurB7W.webp",
+    "images/agency-seals/fallback-cbp.gov.webp"
+   ]
+  },
+  "fallback-census.gov": {
+   "body": "insee",
+   "ring": [
+    "INSEE",
+    "STATISTIQUES PUBLIQUES"
+   ],
+   "files": [
+    "_astro/fallback-census.gov.8kLCiPJh.webp",
+    "_astro/fallback-census.gov.C4RqG5iN.webp",
+    "_astro/fallback-census.gov.CY7tCh2f.webp",
+    "_astro/fallback-census.gov.DYq7Jf4c.webp",
+    "images/agency-seals/fallback-census.gov.webp"
+   ]
+  },
+  "fallback-childcare.gov": {
+   "body": "caf",
+   "ring": [
+    "CAISSE D’ALLOCATIONS FAMILIALES",
+    "CAF"
+   ],
+   "files": [
+    "_astro/fallback-childcare.gov.CLMcWtf0.webp",
+    "images/agency-seals/fallback-childcare.gov.webp"
+   ]
+  },
+  "fallback-childwelfare.gov": {
+   "body": "enfance",
+   "ring": [
+    "ENFANCE EN DANGER",
+    "ALLÔ 119"
+   ],
+   "files": [
+    "_astro/fallback-childwelfare.gov.BINtjuO2.webp",
+    "_astro/fallback-childwelfare.gov.CeV_e_ou.webp",
+    "_astro/fallback-childwelfare.gov.Ec48KdkU.webp",
+    "_astro/fallback-childwelfare.gov.lMySc2xC.webp",
+    "images/agency-seals/fallback-childwelfare.gov.webp"
+   ]
+  },
+  "fallback-congress.gov": {
+   "body": "assemblee",
+   "ring": [
+    "ASSEMBLÉE NATIONALE",
+    "DÉBAT PARLEMENTAIRE"
+   ],
+   "files": [
+    "_astro/fallback-congress.gov.oyXBqE6a.webp",
+    "images/agency-seals/fallback-congress.gov.webp"
+   ]
+  },
+  "fallback-copyright.gov": {
+   "body": "inpi",
+   "ring": [
+    "INPI",
+    "PROPRIÉTÉ INDUSTRIELLE"
+   ],
+   "files": [
+    "_astro/fallback-copyright.gov.92uC81Ld.webp",
+    "_astro/fallback-copyright.gov.CurDSu7O.webp",
+    "_astro/fallback-copyright.gov.RMAU49l2.webp",
+    "_astro/fallback-copyright.gov.XufAyi2b.webp",
+    "images/agency-seals/fallback-copyright.gov.webp"
+   ]
+  },
+  "fallback-data.census.gov": {
+   "body": "insee",
+   "ring": [
+    "INSEE",
+    "STATISTIQUES PUBLIQUES"
+   ],
+   "files": [
+    "_astro/fallback-data.census.gov.BJRpJoCa.webp",
+    "_astro/fallback-data.census.gov.CCT1BteD.webp",
+    "images/agency-seals/fallback-data.census.gov.webp"
+   ]
+  },
+  "fallback-disasterassistance.gov": {
+   "body": "securitecivile",
+   "ring": [
+    "SÉCURITÉ CIVILE",
+    "PROTECTION DES POPULATIONS"
+   ],
+   "files": [
+    "_astro/fallback-disasterassistance.gov.BRWmLDSN.webp",
+    "images/agency-seals/fallback-disasterassistance.gov.webp"
+   ]
+  },
+  "fallback-eac.gov": {
+   "body": "mairie",
+   "ring": [
+    "MAIRIE",
+    "LISTES ÉLECTORALES"
+   ],
+   "files": [
+    "_astro/fallback-eac.gov.CQQT5KkE.webp",
+    "_astro/fallback-eac.gov.THHtSby7.webp",
+    "images/agency-seals/fallback-eac.gov.webp"
+   ]
+  },
+  "fallback-fec.gov": {
+   "body": "conseilconst",
+   "ring": [
+    "CONSEIL CONSTITUTIONNEL",
+    "CONTRÔLE DES ÉLECTIONS"
+   ],
+   "files": [
+    "_astro/fallback-fec.gov._vUHq2ja.webp",
+    "images/agency-seals/fallback-fec.gov.webp"
+   ]
+  },
+  "fallback-federalregister.gov": {
+   "body": "legifrance",
+   "ring": [
+    "LÉGIFRANCE",
+    "LE DROIT FRANÇAIS"
+   ],
+   "files": [
+    "_astro/fallback-federalregister.gov.BtDO_RlE.webp",
+    "_astro/fallback-federalregister.gov.C1xfUTso.webp",
+    "_astro/fallback-federalregister.gov.CFan2ggL.webp",
+    "_astro/fallback-federalregister.gov.Ch46sjBZ.webp",
+    "images/agency-seals/fallback-federalregister.gov.webp"
+   ]
+  },
+  "fallback-floodsmart.gov": {
+   "body": "georisques",
+   "ring": [
+    "GÉORISQUES",
+    "RISQUES NATURELS"
+   ],
+   "files": [
+    "_astro/fallback-floodsmart.gov.BFxv7NEF.webp",
+    "_astro/fallback-floodsmart.gov.BTt8d-YM.webp",
+    "images/agency-seals/fallback-floodsmart.gov.webp"
+   ]
+  },
+  "fallback-foia.gov": {
+   "body": "cada",
+   "ring": [
+    "COMMISSION D’ACCÈS AUX DOCUMENTS ADMINISTRATIFS",
+    "CADA"
+   ],
+   "files": [
+    "_astro/fallback-foia.gov.B7WadDth.webp",
+    "_astro/fallback-foia.gov.D0Nq7awf.webp",
+    "_astro/fallback-foia.gov.DDEANwTp.webp",
+    "_astro/fallback-foia.gov.u1xmBtAJ.webp",
+    "images/agency-seals/fallback-foia.gov.webp"
+   ]
+  },
+  "fallback-fvap.gov": {
+   "body": "diplomatie",
+   "ring": [
+    "FRANCE DIPLOMATIE",
+    "FRANÇAIS DE L’ÉTRANGER"
+   ],
+   "files": [
+    "_astro/fallback-fvap.gov.CuwsHy1n.webp",
+    "images/agency-seals/fallback-fvap.gov.webp"
+   ]
+  },
+  "fallback-grants.gov": {
+   "body": "asp",
+   "ring": [
+    "AGENCE DE SERVICES ET DE PAIEMENT",
+    "ASP"
+   ],
+   "files": [
+    "_astro/fallback-grants.gov.C4qqf9EJ.webp",
+    "_astro/fallback-grants.gov._FJINvIj.webp",
+    "images/agency-seals/fallback-grants.gov.webp"
+   ]
+  },
+  "fallback-gsa.gov": {
+   "body": "dae",
+   "ring": [
+    "DIRECTION DES ACHATS DE L’ÉTAT",
+    "ACHATS PUBLICS"
+   ],
+   "files": [
+    "_astro/fallback-gsa.gov.D6Ox3zre.webp",
+    "_astro/fallback-gsa.gov.DNOOBnQt.webp",
+    "_astro/fallback-gsa.gov.XVgOJtjV.webp",
+    "images/agency-seals/fallback-gsa.gov.webp"
+   ]
+  },
+  "fallback-healthcare.gov": {
+   "body": "ameli",
+   "ring": [
+    "L’ASSURANCE MALADIE",
+    "SÉCURITÉ SOCIALE"
+   ],
+   "files": [
+    "_astro/fallback-healthcare.gov.BYbZp5MM.webp",
+    "images/agency-seals/fallback-healthcare.gov.webp"
+   ]
+  },
+  "fallback-house.gov": {
+   "body": "assemblee",
+   "ring": [
+    "ASSEMBLÉE NATIONALE",
+    "DÉBAT PARLEMENTAIRE"
+   ],
+   "files": [
+    "_astro/fallback-house.gov.CGZsIYCB.webp",
+    "images/agency-seals/fallback-house.gov.webp"
+   ]
+  },
+  "fallback-hrsa.gov": {
+   "body": "ars",
+   "ring": [
+    "AGENCE RÉGIONALE DE SANTÉ",
+    "ARS"
+   ],
+   "files": [
+    "_astro/fallback-hrsa.gov.BYWacT7q.webp",
+    "_astro/fallback-hrsa.gov.zdEwHdCH.webp",
+    "images/agency-seals/fallback-hrsa.gov.webp"
+   ]
+  },
+  "fallback-ic3.gov": {
+   "body": "pharos",
+   "ring": [
+    "PHAROS",
+    "SIGNALEMENTS EN LIGNE"
+   ],
+   "files": [
+    "_astro/fallback-ic3.gov.BbrFZ7OL.webp",
+    "_astro/fallback-ic3.gov.C_Pb-Rx6.webp",
+    "_astro/fallback-ic3.gov.DSYFYNGn.webp",
+    "_astro/fallback-ic3.gov.DrnxHHY0.webp",
+    "images/agency-seals/fallback-ic3.gov.webp"
+   ]
+  },
+  "fallback-identitytheft.gov": {
+   "body": "cnil",
+   "ring": [
+    "CNIL",
+    "DONNÉES PERSONNELLES"
+   ],
+   "files": [
+    "_astro/fallback-identitytheft.gov.D5h_2vaP.webp",
+    "_astro/fallback-identitytheft.gov.D5vp7qHS.webp",
+    "images/agency-seals/fallback-identitytheft.gov.webp"
+   ]
+  },
+  "fallback-ihs.gov": {
+   "body": "spf",
+   "ring": [
+    "SANTÉ PUBLIQUE FRANCE",
+    "PRÉVENTION"
+   ],
+   "files": [
+    "_astro/fallback-ihs.gov.B7km7iAQ.webp",
+    "_astro/fallback-ihs.gov.BVzOha3c.webp",
+    "_astro/fallback-ihs.gov.BgrIsrkC.webp",
+    "_astro/fallback-ihs.gov.BoNzkode.webp",
+    "images/agency-seals/fallback-ihs.gov.webp"
+   ]
+  },
+  "fallback-insurekidsnow.gov": {
+   "body": "ameli",
+   "ring": [
+    "L’ASSURANCE MALADIE",
+    "SÉCURITÉ SOCIALE"
+   ],
+   "files": [
+    "_astro/fallback-insurekidsnow.gov.BYbN7ykU.webp",
+    "images/agency-seals/fallback-insurekidsnow.gov.webp"
+   ]
+  },
+  "fallback-investor.gov": {
+   "body": "amf",
+   "ring": [
+    "AUTORITÉ DES MARCHÉS FINANCIERS",
+    "AMF"
+   ],
+   "files": [
+    "_astro/fallback-investor.gov.C7hi-uQ_.webp",
+    "_astro/fallback-investor.gov.CJwFl3Gx.webp",
+    "images/agency-seals/fallback-investor.gov.webp"
+   ]
+  },
+  "fallback-login.gov": {
+   "body": "franceconnect",
+   "ring": [
+    "FRANCECONNECT",
+    "IDENTIFICATION EN LIGNE"
+   ],
+   "files": [
+    "_astro/fallback-login.gov.BWHR_AKb.webp",
+    "_astro/fallback-login.gov.Bie3e5vN.webp",
+    "_astro/fallback-login.gov.CEY8zZSM.webp",
+    "_astro/fallback-login.gov.GDXc6HOA.webp",
+    "images/agency-seals/fallback-login.gov.webp"
+   ]
+  },
+  "fallback-medicaid.gov": {
+   "body": "ameli",
+   "ring": [
+    "L’ASSURANCE MALADIE",
+    "SÉCURITÉ SOCIALE"
+   ],
+   "files": [
+    "_astro/fallback-medicaid.gov.Bmy0Tllk.webp",
+    "images/agency-seals/fallback-medicaid.gov.webp"
+   ]
+  },
+  "fallback-medicare.gov": {
+   "body": "retraite",
+   "ring": [
+    "L’ASSURANCE RETRAITE",
+    "SÉCURITÉ SOCIALE"
+   ],
+   "files": [
+    "_astro/fallback-medicare.gov.B1gfghR_.webp",
+    "_astro/fallback-medicare.gov.CDmUTZYl.webp",
+    "_astro/fallback-medicare.gov.yMZfSdYP.webp",
+    "images/agency-seals/fallback-medicare.gov.webp"
+   ]
+  },
+  "fallback-milconnect.dmdc.osd.mil": {
+   "body": "armees",
+   "ring": [
+    "MINISTÈRE DES ARMÉES",
+    "DÉFENSE"
+   ],
+   "files": [
+    "_astro/fallback-milconnect.dmdc.osd.mil.CQhreHFi.webp",
+    "_astro/fallback-milconnect.dmdc.osd.mil.DEmguXLL.webp",
+    "images/agency-seals/fallback-milconnect.dmdc.osd.mil.webp"
+   ]
+  },
+  "fallback-ncua.gov": {
+   "body": "bdf",
+   "ring": [
+    "BANQUE DE FRANCE",
+    "BANQUE CENTRALE"
+   ],
+   "files": [
+    "_astro/fallback-ncua.gov.BNDBI9ti.webp",
+    "_astro/fallback-ncua.gov.BRkeLOc0.webp",
+    "_astro/fallback-ncua.gov.Blh-0wev.webp",
+    "_astro/fallback-ncua.gov.C2RsxoqN.webp",
+    "images/agency-seals/fallback-ncua.gov.webp"
+   ]
+  },
+  "fallback-occ.gov": {
+   "body": "acpr",
+   "ring": [
+    "AUTORITÉ DE CONTRÔLE PRUDENTIEL",
+    "ET DE RÉSOLUTION"
+   ],
+   "files": [
+    "_astro/fallback-occ.gov.DSrIHMQS.webp",
+    "images/agency-seals/fallback-occ.gov.webp"
+   ]
+  },
+  "fallback-opm.gov": {
+   "body": "fonctionpub",
+   "ring": [
+    "FONCTION PUBLIQUE",
+    "DGAFP"
+   ],
+   "files": [
+    "_astro/fallback-opm.gov.j0heChz_.webp",
+    "images/agency-seals/fallback-opm.gov.webp"
+   ]
+  },
+  "fallback-pbgc.gov": {
+   "body": "retraite",
+   "ring": [
+    "L’ASSURANCE RETRAITE",
+    "SÉCURITÉ SOCIALE"
+   ],
+   "files": [
+    "_astro/fallback-pbgc.gov.BQTWNsiw.webp",
+    "_astro/fallback-pbgc.gov.CuVjHkHd.webp",
+    "images/agency-seals/fallback-pbgc.gov.webp"
+   ]
+  },
+  "fallback-recreation.gov": {
+   "body": "parcs",
+   "ring": [
+    "PARCS NATIONAUX DE FRANCE",
+    "NATURE PROTÉGÉE"
+   ],
+   "files": [
+    "_astro/fallback-recreation.gov.BGH1_fqs.webp",
+    "images/agency-seals/fallback-recreation.gov.webp"
+   ]
+  },
+  "fallback-sam.gov": {
+   "body": "dae",
+   "ring": [
+    "DIRECTION DES ACHATS DE L’ÉTAT",
+    "ACHATS PUBLICS"
+   ],
+   "files": [
+    "_astro/fallback-sam.gov.DN_ObR4g.webp",
+    "images/agency-seals/fallback-sam.gov.webp"
+   ]
+  },
+  "fallback-sec.gov": {
+   "body": "amf",
+   "ring": [
+    "AUTORITÉ DES MARCHÉS FINANCIERS",
+    "AMF"
+   ],
+   "files": [
+    "_astro/fallback-sec.gov.CPzg-zJ3.webp",
+    "_astro/fallback-sec.gov.DQFKLRox.webp",
+    "images/agency-seals/fallback-sec.gov.webp"
+   ]
+  },
+  "fallback-senate.gov": {
+   "body": "senat",
+   "ring": [
+    "SÉNAT",
+    "PARLEMENT"
+   ],
+   "files": [
+    "_astro/fallback-senate.gov.BpZmqJMj.webp",
+    "_astro/fallback-senate.gov.Ds2t5q1J.webp",
+    "images/agency-seals/fallback-senate.gov.webp"
+   ]
+  },
+  "fallback-studentaid.gov": {
+   "body": "crous",
+   "ring": [
+    "CROUS",
+    "VIE ÉTUDIANTE"
+   ],
+   "files": [
+    "_astro/fallback-studentaid.gov.41tK8wPk.webp",
+    "_astro/fallback-studentaid.gov.B5z-KUt7.webp",
+    "_astro/fallback-studentaid.gov.Ddf0rLTe.webp",
+    "images/agency-seals/fallback-studentaid.gov.webp"
+   ]
+  },
+  "fallback-tsa.gov": {
+   "body": "paf",
+   "ring": [
+    "POLICE AUX FRONTIÈRES",
+    "AÉROPORTS ET PORTS"
+   ],
+   "files": [
+    "_astro/fallback-tsa.gov.BKo6orXy.webp",
+    "_astro/fallback-tsa.gov.CoEb1uZw.webp",
+    "images/agency-seals/fallback-tsa.gov.webp"
+   ]
+  },
+  "fallback-usa.gov": {
+   "body": "bonjour",
+   "ring": [
+    "BONJOUR, FRANCE",
+    "SITE NON OFFICIEL"
+   ],
+   "files": [
+    "_astro/fallback-usa.gov.C3Bg_5J2.webp",
+    "_astro/fallback-usa.gov.CF68YOMe.webp",
+    "_astro/fallback-usa.gov.D_Lr9PEs.webp",
+    "images/agency-seals/fallback-usa.gov.webp"
+   ]
+  },
+  "fallback-usajobs.gov": {
+   "body": "francetravail",
+   "ring": [
+    "FRANCE TRAVAIL",
+    "EMPLOI ET FORMATION"
+   ],
+   "files": [
+    "_astro/fallback-usajobs.gov.eYjLUHtp.webp",
+    "images/agency-seals/fallback-usajobs.gov.webp"
+   ]
+  },
+  "fallback-uscourts.gov": {
+   "body": "justice",
+   "ring": [
+    "MINISTÈRE DE LA JUSTICE",
+    "TRIBUNAUX"
+   ],
+   "files": [
+    "_astro/fallback-uscourts.gov.BX4jraIg.webp",
+    "images/agency-seals/fallback-uscourts.gov.webp"
+   ]
+  },
+  "fallback-uspto.gov": {
+   "body": "inpi",
+   "ring": [
+    "INPI",
+    "PROPRIÉTÉ INDUSTRIELLE"
+   ],
+   "files": [
+    "_astro/fallback-uspto.gov.Db-hl2uN.webp",
+    "images/agency-seals/fallback-uspto.gov.webp"
+   ]
+  },
+  "fallback-vote.gov": {
+   "body": "interieur",
+   "ring": [
+    "MINISTÈRE DE L’INTÉRIEUR",
+    "ÉLECTIONS"
+   ],
+   "files": [
+    "_astro/fallback-vote.gov.CNQYRY3U.webp",
+    "_astro/fallback-vote.gov.GvtYXhw6.webp",
+    "images/agency-seals/fallback-vote.gov.webp"
+   ]
+  },
+  "fallback-weather.gov": {
+   "body": "meteo",
+   "ring": [
+    "MÉTÉO-FRANCE",
+    "PRÉVISIONS ET VIGILANCE"
+   ],
+   "files": [
+    "_astro/fallback-weather.gov.C7XzHzDZ.webp",
+    "_astro/fallback-weather.gov.Ckp6pbur.webp",
+    "images/agency-seals/fallback-weather.gov.webp"
+   ]
+  },
+  "fallback-whitehouse.gov": {
+   "body": "viepublique",
+   "ring": [
+    "VIE-PUBLIQUE",
+    "INSTITUTIONS ET DÉBATS"
+   ],
+   "files": [
+    "_astro/fallback-whitehouse.gov.BAETRxHg.webp",
+    "_astro/fallback-whitehouse.gov.Bswnl_bD.webp",
+    "_astro/fallback-whitehouse.gov.C7xQBY7S.webp",
+    "_astro/fallback-whitehouse.gov.mWA1yaEG.webp",
+    "images/agency-seals/fallback-whitehouse.gov.webp"
+   ]
+  },
+  "fbi": {
+   "body": "police",
+   "ring": [
+    "POLICE NATIONALE",
+    "SÉCURITÉ PUBLIQUE"
+   ],
+   "files": [
+    "_astro/fbi.BYTZ517l.webp",
+    "_astro/fbi.CICDat66.webp",
+    "_astro/fbi.CugcAnVQ.webp",
+    "_astro/fbi.pSyfXBr7.webp",
+    "images/home/seals/fbi.webp"
+   ]
+  },
+  "forest-service": {
+   "body": "onf",
+   "ring": [
+    "OFFICE NATIONAL DES FORÊTS",
+    "ONF"
+   ],
+   "files": [
+    "_astro/forest-service.Ba5lEDr5.webp",
+    "_astro/forest-service.CoqvKvi7.webp",
+    "_astro/forest-service.WLraSmi3.webp",
+    "_astro/forest-service.mgBWKrNG.webp",
+    "images/home/seals/forest-service.webp"
+   ]
+  },
+  "government-social-security-seal": {
+   "body": "retraite",
+   "ring": [
+    "L’ASSURANCE RETRAITE",
+    "SÉCURITÉ SOCIALE"
+   ],
+   "files": [
+    "_astro/government-social-security-seal.Dpjif139.svg"
+   ]
+  },
+  "government-veterans-affairs-seal": {
+   "body": "onacvg",
+   "ring": [
+    "OFFICE NATIONAL DES COMBATTANTS",
+    "ET DES VICTIMES DE GUERRE"
+   ],
+   "files": [
+    "_astro/government-veterans-affairs-seal.BJedzMk5.webp",
+    "_astro/government-veterans-affairs-seal.C9OySFNL.webp",
+    "_astro/government-veterans-affairs-seal.Cw1FGhEo.webp",
+    "_astro/government-veterans-affairs-seal.DeBsAf2M.webp",
+    "_astro/government-veterans-affairs-seal.gTF0F4Ku.webp"
+   ]
+  },
+  "great-seal": {
+   "body": "bonjour",
+   "ring": [
+    "BONJOUR, FRANCE",
+    "SITE NON OFFICIEL"
+   ],
+   "files": [
+    "_astro/great-seal.Bb9LzwrX.webp",
+    "_astro/great-seal.DuhxJkNk.webp",
+    "_astro/great-seal.hzuBzK7_.webp",
+    "_astro/great-seal.s2wVha-X.webp",
+    "images/home/seals/great-seal.webp"
+   ]
+  },
+  "gsa-gold-seal": {
+   "body": "dae",
+   "ring": [
+    "DIRECTION DES ACHATS DE L’ÉTAT",
+    "ACHATS PUBLICS"
+   ],
+   "files": [
+    "_astro/gsa-gold-seal.CtNoxpjH.webp",
+    "_astro/gsa-gold-seal.CznenTUT.webp",
+    "_astro/gsa-gold-seal.DAoK2ZJr.webp",
+    "_astro/gsa-gold-seal.DMVaJDyl.webp",
+    "_astro/gsa-gold-seal.DSsVrVTq.webp",
+    "_astro/gsa-gold-seal.DzAL7-RX.webp",
+    "_astro/gsa-gold-seal.eR4H8aUc.webp",
+    "_astro/gsa-gold-seal.p_Kgmqyy.webp",
+    "_astro/gsa-gold-seal.sXif6eby.webp"
+   ]
+  },
+  "gsa": {
+   "body": "dae",
+   "ring": [
+    "DIRECTION DES ACHATS DE L’ÉTAT",
+    "ACHATS PUBLICS"
+   ],
+   "files": [
+    "_astro/gsa.M0-_aUhb.png"
+   ]
+  },
+  "house": {
+   "body": "assemblee",
+   "ring": [
+    "ASSEMBLÉE NATIONALE",
+    "DÉBAT PARLEMENTAIRE"
+   ],
+   "files": [
+    "_astro/house.BejDULLV.webp",
+    "_astro/house.CEA1QRmz.webp",
+    "_astro/house.Ci__0yGV.webp",
+    "_astro/house.DXCYz-06.webp",
+    "images/home/seals/house.webp"
+   ]
+  },
+  "hud": {
+   "body": "anil",
+   "ring": [
+    "ANIL",
+    "INFORMATION LOGEMENT"
+   ],
+   "files": [
+    "_astro/hud.9QBoOzlN.webp",
+    "_astro/hud.Bgye8JdV.webp",
+    "_astro/hud.CSw861Z7.webp",
+    "_astro/hud.Ca9qT7uc.webp",
+    "images/home/seals/hud.webp"
+   ]
+  },
+  "labor": {
+   "body": "francetravail",
+   "ring": [
+    "FRANCE TRAVAIL",
+    "EMPLOI ET FORMATION"
+   ],
+   "files": [
+    "_astro/labor.CTGUSz8H.webp",
+    "_astro/labor.FO2aBPfZ.webp",
+    "_astro/labor.KkEbuVL9.webp",
+    "_astro/labor.XaKl74zO.webp",
+    "images/home/seals/labor.svg",
+    "images/home/seals/labor.webp"
+   ]
+  },
+  "library-of-congress": {
+   "body": "bnf",
+   "ring": [
+    "BIBLIOTHÈQUE NATIONALE DE FRANCE",
+    "BNF"
+   ],
+   "files": [
+    "_astro/library-of-congress.BfIqrFGB.webp",
+    "_astro/library-of-congress.CjZBdb_R.webp",
+    "_astro/library-of-congress.Cm231aKv.webp",
+    "_astro/library-of-congress.UR3ySVBC.webp",
+    "images/home/seals/library-of-congress.webp"
+   ]
+  },
+  "medicare-seal": {
+   "body": "ameli",
+   "ring": [
+    "L’ASSURANCE MALADIE",
+    "SÉCURITÉ SOCIALE"
+   ],
+   "files": [
+    "_astro/medicare-seal.C0pp4AKM.webp",
+    "_astro/medicare-seal.COge1uVM.webp",
+    "_astro/medicare-seal.ClDFIJ84.webp",
+    "_astro/medicare-seal.CtLIXJyr.webp",
+    "_astro/medicare-seal.DDC-vfpt.webp",
+    "_astro/medicare-seal.qOm8rmFY.webp"
+   ]
+  },
+  "name-change-irs": {
+   "body": "dgfip",
+   "ring": [
+    "DIRECTION GÉNÉRALE DES FINANCES PUBLIQUES",
+    "IMPÔTS"
+   ],
+   "files": [
+    "_astro/name-change-irs.CUMZgREv.webp",
+    "_astro/name-change-irs.DVWssMI0.webp",
+    "_astro/name-change-irs.gucH0AIq.webp",
+    "_astro/name-change-irs.oycK3ASL.webp"
+   ]
+  },
+  "name-change-ssa": {
+   "body": "retraite",
+   "ring": [
+    "L’ASSURANCE RETRAITE",
+    "SÉCURITÉ SOCIALE"
+   ],
+   "files": [
+    "_astro/name-change-ssa.BLj2A8uT.webp",
+    "_astro/name-change-ssa.BcGhL01r.webp",
+    "_astro/name-change-ssa.Bh8mrwfv.webp",
+    "_astro/name-change-ssa.hGk7cdO0.webp"
+   ]
+  },
+  "name-change-state": {
+   "body": "francetitres",
+   "ring": [
+    "FRANCE TITRES",
+    "ANTS"
+   ],
+   "files": [
+    "_astro/name-change-state.BqbRsWjI.webp",
+    "_astro/name-change-state.CzZOP9W6.webp",
+    "_astro/name-change-state.Dy0h2p5c.webp",
+    "_astro/name-change-state.ULRoShiG.webp"
+   ]
+  },
+  "nasa": {
+   "body": "cnes",
+   "ring": [
+    "CNES",
+    "AGENCE SPATIALE"
+   ],
+   "files": [
+    "_astro/nasa.DIeN37cV.png"
+   ]
+  },
+  "navy": {
+   "body": "marine",
+   "ring": [
+    "MARINE NATIONALE",
+    "DÉFENSE"
+   ],
+   "files": [
+    "_astro/navy.C_nGW14m.png"
+   ]
+  },
+  "patent-and-trademark": {
+   "body": "inpi",
+   "ring": [
+    "INPI",
+    "PROPRIÉTÉ INDUSTRIELLE"
+   ],
+   "files": [
+    "_astro/patent-and-trademark.BeNWWQ2s.webp",
+    "_astro/patent-and-trademark.CXoh9jRf.webp",
+    "_astro/patent-and-trademark.DLYhKvKU.webp",
+    "_astro/patent-and-trademark.nThkeP5n.webp",
+    "images/home/seals/patent-and-trademark.webp"
+   ]
+  },
+  "seal-administrative-conference-of-the-united-states": {
+   "body": "conseiletat",
+   "ring": [
+    "CONSEIL D’ÉTAT",
+    "JUSTICE ADMINISTRATIVE"
+   ],
+   "files": [
+    "_astro/seal-administrative-conference-of-the-united-states.B1W4bXBu.webp",
+    "_astro/seal-administrative-conference-of-the-united-states.B4Sb5fss.webp",
+    "_astro/seal-administrative-conference-of-the-united-states.CUdLGlg_.webp",
+    "_astro/seal-administrative-conference-of-the-united-states.DsdNsWlo.webp",
+    "images/agency-seals/seal-administrative-conference-of-the-united-states.webp"
+   ]
+  },
+  "seal-customs-and-border-protection": {
+   "body": "douane",
+   "ring": [
+    "LA DOUANE",
+    "VOYAGEURS ET MARCHANDISES"
+   ],
+   "files": [
+    "_astro/seal-customs-and-border-protection.B_Z7ku3o.webp",
+    "_astro/seal-customs-and-border-protection.BkCOr655.webp",
+    "_astro/seal-customs-and-border-protection.CmAsEGNy.webp",
+    "_astro/seal-customs-and-border-protection.Oc9tpwX-.webp",
+    "images/agency-seals/seal-customs-and-border-protection.webp"
+   ]
+  },
+  "seal-development-finance-corporation": {
+   "body": "afd",
+   "ring": [
+    "AGENCE FRANÇAISE DE DÉVELOPPEMENT",
+    "AFD"
+   ],
+   "files": [
+    "_astro/seal-development-finance-corporation.DYhnIPoQ.webp",
+    "_astro/seal-development-finance-corporation.Do7Lz9B7.webp",
+    "_astro/seal-development-finance-corporation.DwYRqRxh.webp",
+    "_astro/seal-development-finance-corporation.Qce-TrbP.webp",
+    "images/agency-seals/seal-development-finance-corporation.webp"
+   ]
+  },
+  "seal-federal-mine-safety-and-health-review-commission": {
+   "body": "travail",
+   "ring": [
+    "INSPECTION DU TRAVAIL",
+    "SANTÉ ET SÉCURITÉ"
+   ],
+   "files": [
+    "_astro/seal-federal-mine-safety-and-health-review-commission.BckpTUTC.webp",
+    "_astro/seal-federal-mine-safety-and-health-review-commission.BkF4q3vD.webp",
+    "_astro/seal-federal-mine-safety-and-health-review-commission.BqumicDj.webp",
+    "_astro/seal-federal-mine-safety-and-health-review-commission.CF2HONer.webp",
+    "images/agency-seals/seal-federal-mine-safety-and-health-review-commission.webp"
+   ]
+  },
+  "seal-geographic-names-board": {
+   "body": "ign",
+   "ring": [
+    "IGN",
+    "INFORMATION GÉOGRAPHIQUE"
+   ],
+   "files": [
+    "_astro/seal-geographic-names-board.9PmBsBn3.webp",
+    "_astro/seal-geographic-names-board.B2taCvvB.webp",
+    "_astro/seal-geographic-names-board.BonmQsYT.webp",
+    "_astro/seal-geographic-names-board.DPARDrIt.webp",
+    "images/agency-seals/seal-geographic-names-board.webp"
+   ]
+  },
+  "seal-industry-and-security-bureau": {
+   "body": "dge",
+   "ring": [
+    "DIRECTION GÉNÉRALE DES ENTREPRISES",
+    "DGE"
+   ],
+   "files": [
+    "_astro/seal-industry-and-security-bureau.5NkPz5qz.webp",
+    "_astro/seal-industry-and-security-bureau.BddIIB70.webp",
+    "_astro/seal-industry-and-security-bureau.CMJ63OWT.webp",
+    "_astro/seal-industry-and-security-bureau.Dr6Brl6_.webp",
+    "images/agency-seals/seal-industry-and-security-bureau.webp"
+   ]
+  },
+  "seal-inter-american-foundation": {
+   "body": "afd",
+   "ring": [
+    "AGENCE FRANÇAISE DE DÉVELOPPEMENT",
+    "AFD"
+   ],
+   "files": [
+    "_astro/seal-inter-american-foundation.BGEFsnT3.webp",
+    "_astro/seal-inter-american-foundation.C4a4GbZm.webp",
+    "_astro/seal-inter-american-foundation.Cgk7t-bV.webp",
+    "_astro/seal-inter-american-foundation.DPPoPNAs.webp",
+    "images/agency-seals/seal-inter-american-foundation.webp"
+   ]
+  },
+  "seal-legal-services-corporation": {
+   "body": "defenseur",
+   "ring": [
+    "DÉFENSEUR DES DROITS",
+    "ACCÈS AU DROIT"
+   ],
+   "files": [
+    "_astro/seal-legal-services-corporation.B922vWhW.webp",
+    "_astro/seal-legal-services-corporation.DNMWCeiG.webp",
+    "_astro/seal-legal-services-corporation.FcEm7w2z.webp",
+    "_astro/seal-legal-services-corporation.TAj6ijgv.webp",
+    "images/agency-seals/seal-legal-services-corporation.webp"
+   ]
+  },
+  "seal-local-arapahoe-county": {
+   "body": "local:seal-local-arapahoe-county",
+   "ring": [
+    "COMMUNAUTÉ DES VALLONS",
+    "INTERCOMMUNALITÉ"
+   ],
+   "files": [
+    "_astro/seal-local-arapahoe-county.7Ib43ANL.webp",
+    "_astro/seal-local-arapahoe-county.C2ONBE-I.webp",
+    "_astro/seal-local-arapahoe-county.Cw-E7Ia3.webp",
+    "_astro/seal-local-arapahoe-county.SvtRlBj8.webp",
+    "images/agency-seals/seal-local-arapahoe-county.webp"
+   ]
+  },
+  "seal-local-arizona": {
+   "body": "local:seal-local-arizona",
+   "ring": [
+    "RÉGION DES CANYONS",
+    "TERRE DU SUD"
+   ],
+   "files": [
+    "_astro/seal-local-arizona.-XtJxzPP.webp",
+    "_astro/seal-local-arizona.BUnIOSV8.webp",
+    "_astro/seal-local-arizona.DctijlCu.webp",
+    "_astro/seal-local-arizona.FUvAcYW-.webp",
+    "images/agency-seals/seal-local-arizona.webp"
+   ]
+  },
+  "seal-local-ashland-oregon": {
+   "body": "local:seal-local-ashland-oregon",
+   "ring": [
+    "VILLE DE BELLERIVE",
+    "MAIRIE"
+   ],
+   "files": [
+    "_astro/seal-local-ashland-oregon.BY5lHeKl.webp",
+    "_astro/seal-local-ashland-oregon.BujPI6Qt.webp",
+    "_astro/seal-local-ashland-oregon.DbKGcKuD.webp",
+    "_astro/seal-local-ashland-oregon.DrhOlXxY.webp",
+    "images/agency-seals/seal-local-ashland-oregon.webp"
+   ]
+  },
+  "seal-local-boston": {
+   "body": "local:seal-local-boston",
+   "ring": [
+    "VILLE DE PORT-CLAIR",
+    "CITÉ MARITIME"
+   ],
+   "files": [
+    "_astro/seal-local-boston.BBxZFG6C.webp",
+    "_astro/seal-local-boston.BDETw_ku.webp",
+    "_astro/seal-local-boston.DCc9jjSA.webp",
+    "_astro/seal-local-boston.dxGxweZ8.webp",
+    "images/agency-seals/seal-local-boston.webp"
+   ]
+  },
+  "seal-local-boulder-county": {
+   "body": "local:seal-local-boulder-county",
+   "ring": [
+    "PAYS DES CRÊTES",
+    "COMMUNAUTÉ"
+   ],
+   "files": [
+    "_astro/seal-local-boulder-county.CDk0u4JW.webp",
+    "_astro/seal-local-boulder-county.C_EdIYLt.webp",
+    "_astro/seal-local-boulder-county.Couj7BEr.webp",
+    "_astro/seal-local-boulder-county.Tc3hwYHO.webp",
+    "images/agency-seals/seal-local-boulder-county.webp"
+   ]
+  },
+  "seal-local-brookline-massachusetts": {
+   "body": "local:seal-local-brookline-massachusetts",
+   "ring": [
+    "VILLE DE VAL-FLEURI",
+    "MAIRIE"
+   ],
+   "files": [
+    "_astro/seal-local-brookline-massachusetts.8vXG0VGR.webp",
+    "_astro/seal-local-brookline-massachusetts.BGyOXNu1.webp",
+    "_astro/seal-local-brookline-massachusetts.CqLu8X6O.webp",
+    "_astro/seal-local-brookline-massachusetts.jBhiQfOt.webp",
+    "images/agency-seals/seal-local-brookline-massachusetts.webp"
+   ]
+  },
+  "seal-local-colorado": {
+   "body": "local:seal-local-colorado",
+   "ring": [
+    "RÉGION DES CIMES",
+    "MONTAGNES"
+   ],
+   "files": [
+    "_astro/seal-local-colorado.AQeKZ5-I.webp",
+    "_astro/seal-local-colorado.BWb8Urp5.webp",
+    "_astro/seal-local-colorado.Br8GeFhy.webp",
+    "_astro/seal-local-colorado.QFcdqRyH.webp",
+    "images/agency-seals/seal-local-colorado.webp"
+   ]
+  },
+  "seal-local-columbia-county-oregon": {
+   "body": "local:seal-local-columbia-county-oregon",
+   "ring": [
+    "PAYS DES DEUX RIVES",
+    "COMMUNAUTÉ"
+   ],
+   "files": [
+    "_astro/seal-local-columbia-county-oregon.C2Z-DEgN.webp",
+    "_astro/seal-local-columbia-county-oregon.CTtzyqBh.webp",
+    "_astro/seal-local-columbia-county-oregon.Cu44j1TM.webp",
+    "_astro/seal-local-columbia-county-oregon.DXd23ae6.webp",
+    "images/agency-seals/seal-local-columbia-county-oregon.webp"
+   ]
+  },
+  "seal-local-cuyahoga-county": {
+   "body": "local:seal-local-cuyahoga-county",
+   "ring": [
+    "PAYS DE LA RIVIÈRE",
+    "INTERCOMMUNALITÉ"
+   ],
+   "files": [
+    "_astro/seal-local-cuyahoga-county.BcPUxQMz.webp",
+    "_astro/seal-local-cuyahoga-county.CQzXjc5U.webp",
+    "_astro/seal-local-cuyahoga-county.D6N2AKAc.webp",
+    "_astro/seal-local-cuyahoga-county.DoXctiAL.webp",
+    "images/agency-seals/seal-local-cuyahoga-county.webp"
+   ]
+  },
+  "seal-local-florida": {
+   "body": "local:seal-local-florida",
+   "ring": [
+    "RÉGION DU LITTORAL",
+    "TERRE DE SOLEIL"
+   ],
+   "files": [
+    "_astro/seal-local-florida.C3dgZoVs.webp",
+    "_astro/seal-local-florida.C5aNCMo1.webp",
+    "_astro/seal-local-florida.CklVPCwb.webp",
+    "_astro/seal-local-florida.DiBpBN6X.webp",
+    "images/agency-seals/seal-local-florida.webp"
+   ]
+  },
+  "seal-local-henderson-county-north-carolina": {
+   "body": "local:seal-local-henderson-county-north-carolina",
+   "ring": [
+    "PAYS DES COLLINES",
+    "COMMUNAUTÉ DE COMMUNES"
+   ],
+   "files": [
+    "_astro/seal-local-henderson-county-north-carolina.Bb0kEU0a.webp",
+    "_astro/seal-local-henderson-county-north-carolina.C0tCQluY.webp",
+    "_astro/seal-local-henderson-county-north-carolina.ClsRYsjR.webp",
+    "_astro/seal-local-henderson-county-north-carolina.CpjR03_C.webp",
+    "images/agency-seals/seal-local-henderson-county-north-carolina.webp"
+   ]
+  },
+  "seal-local-maricopa-county": {
+   "body": "local:seal-local-maricopa-county",
+   "ring": [
+    "PAYS DU PLATEAU",
+    "COMMUNAUTÉ"
+   ],
+   "files": [
+    "_astro/seal-local-maricopa-county.Dc3L_JlF.webp",
+    "_astro/seal-local-maricopa-county.DdP5Q5wD.webp",
+    "_astro/seal-local-maricopa-county.Dsz1rVsc.webp",
+    "_astro/seal-local-maricopa-county.wmKyZvjI.webp",
+    "images/agency-seals/seal-local-maricopa-county.webp"
+   ]
+  },
+  "seal-local-maryland": {
+   "body": "local:seal-local-maryland",
+   "ring": [
+    "RÉGION DES BAIES",
+    "LITTORAL"
+   ],
+   "files": [
+    "_astro/seal-local-maryland.6wKvKJbH.webp",
+    "_astro/seal-local-maryland.C9x3hhm2.webp",
+    "_astro/seal-local-maryland.CXDOeGzs.webp",
+    "_astro/seal-local-maryland.kHdqHI2W.webp",
+    "images/agency-seals/seal-local-maryland.webp"
+   ]
+  },
+  "seal-local-minnesota": {
+   "body": "local:seal-local-minnesota",
+   "ring": [
+    "RÉGION DES LACS",
+    "TERRE D’EAU"
+   ],
+   "files": [
+    "_astro/seal-local-minnesota.9R_MocAb.webp",
+    "_astro/seal-local-minnesota.BUl_WzVL.webp",
+    "_astro/seal-local-minnesota.BUygy0Wn.webp",
+    "_astro/seal-local-minnesota.mNyLbIhF.webp",
+    "images/agency-seals/seal-local-minnesota.webp"
+   ]
+  },
+  "seal-local-nebraska": {
+   "body": "local:seal-local-nebraska",
+   "ring": [
+    "RÉGION DES PLAINES",
+    "TERRE AGRICOLE"
+   ],
+   "files": [
+    "_astro/seal-local-nebraska.BYM8e9Gl.webp",
+    "_astro/seal-local-nebraska.DeWFbDwv.webp",
+    "_astro/seal-local-nebraska.KxBu_1mn.webp",
+    "_astro/seal-local-nebraska.uO8ILhVa.webp",
+    "images/agency-seals/seal-local-nebraska.webp"
+   ]
+  },
+  "seal-local-north-dakota": {
+   "body": "local:seal-local-north-dakota",
+   "ring": [
+    "RÉGION DU NORD",
+    "CHAMPS ET PRAIRIES"
+   ],
+   "files": [
+    "_astro/seal-local-north-dakota.C1KkoZoY.webp",
+    "_astro/seal-local-north-dakota.CtvBaoO0.webp",
+    "_astro/seal-local-north-dakota.DP3laNBG.webp",
+    "_astro/seal-local-north-dakota.uYXt3hS1.webp",
+    "images/agency-seals/seal-local-north-dakota.webp"
+   ]
+  },
+  "seal-local-ohio": {
+   "body": "local:seal-local-ohio",
+   "ring": [
+    "RÉGION DES VALLÉES",
+    "COMMUNES UNIES"
+   ],
+   "files": [
+    "_astro/seal-local-ohio.B6POV5-I.webp",
+    "_astro/seal-local-ohio.BF6Ok2AE.webp",
+    "_astro/seal-local-ohio.DtZtXNCA.webp",
+    "_astro/seal-local-ohio.PHvxaMOy.webp",
+    "images/agency-seals/seal-local-ohio.webp"
+   ]
+  },
+  "seal-local-oregon": {
+   "body": "local:seal-local-oregon",
+   "ring": [
+    "RÉGION DES FORÊTS",
+    "TERRE VERTE"
+   ],
+   "files": [
+    "_astro/seal-local-oregon.BAXu72gy.webp",
+    "_astro/seal-local-oregon.cF-9XTJI.webp",
+    "_astro/seal-local-oregon.je6qOALh.webp",
+    "_astro/seal-local-oregon.sUbZBhXE.webp",
+    "images/agency-seals/seal-local-oregon.webp"
+   ]
+  },
+  "seal-local-redmond-washington": {
+   "body": "local:seal-local-redmond-washington",
+   "ring": [
+    "VILLE DE CLAIRMONT",
+    "MAIRIE"
+   ],
+   "files": [
+    "_astro/seal-local-redmond-washington.8_Ezz8ot.webp",
+    "_astro/seal-local-redmond-washington.Bwc8_Th2.webp",
+    "_astro/seal-local-redmond-washington.HxX-P8a3.webp",
+    "_astro/seal-local-redmond-washington.Zr4NC6t9.webp",
+    "images/agency-seals/seal-local-redmond-washington.webp"
+   ]
+  },
+  "seal-local-rialto-california": {
+   "body": "local:seal-local-rialto-california",
+   "ring": [
+    "VILLE DE SAINT-ARLET",
+    "MAIRIE"
+   ],
+   "files": [
+    "_astro/seal-local-rialto-california.C96XDbzH.webp",
+    "_astro/seal-local-rialto-california.Dca_FhPG.webp",
+    "_astro/seal-local-rialto-california.eMzT_XNd.webp",
+    "_astro/seal-local-rialto-california.vNTRAtiA.webp",
+    "images/agency-seals/seal-local-rialto-california.webp"
+   ]
+  },
+  "seal-local-texas": {
+   "body": "local:seal-local-texas",
+   "ring": [
+    "RÉGION DU GRAND SUD",
+    "TERRE DE SOLEIL"
+   ],
+   "files": [
+    "_astro/seal-local-texas.BaAQ4IXc.webp",
+    "_astro/seal-local-texas.CXF8VXXN.webp",
+    "_astro/seal-local-texas.CXa193_n.webp",
+    "_astro/seal-local-texas.CrMwO8MC.webp",
+    "images/agency-seals/seal-local-texas.webp"
+   ]
+  },
+  "seal-local-washington": {
+   "body": "local:seal-local-washington",
+   "ring": [
+    "RÉGION DES PINS",
+    "TERRE D’OUEST"
+   ],
+   "files": [
+    "_astro/seal-local-washington.C6FybDgD.webp",
+    "_astro/seal-local-washington.CToxXPUS.webp",
+    "_astro/seal-local-washington.CxWYJjVu.webp",
+    "_astro/seal-local-washington.CxdwrJhB.webp",
+    "images/agency-seals/seal-local-washington.webp"
+   ]
+  },
+  "seal-national-credit-union-administration": {
+   "body": "bdf",
+   "ring": [
+    "BANQUE DE FRANCE",
+    "BANQUE CENTRALE"
+   ],
+   "files": [
+    "_astro/seal-national-credit-union-administration.BV-OiNG5.webp",
+    "_astro/seal-national-credit-union-administration.Bthm8N9L.webp",
+    "_astro/seal-national-credit-union-administration.C_i7OCI0.webp",
+    "_astro/seal-national-credit-union-administration.dwI70AqH.webp",
+    "images/agency-seals/seal-national-credit-union-administration.webp"
+   ]
+  },
+  "seal-nuclear-regulatory-commission": {
+   "body": "asnr",
+   "ring": [
+    "AUTORITÉ DE SÛRETÉ NUCLÉAIRE",
+    "ET DE RADIOPROTECTION"
+   ],
+   "files": [
+    "_astro/seal-nuclear-regulatory-commission.B2XXbPQc.webp",
+    "_astro/seal-nuclear-regulatory-commission.Coa80P1_.webp",
+    "_astro/seal-nuclear-regulatory-commission.D54TeqiW.webp",
+    "_astro/seal-nuclear-regulatory-commission.Dr0EVFXb.webp",
+    "images/agency-seals/seal-nuclear-regulatory-commission.webp"
+   ]
+  },
+  "seal-occupational-safety-and-health-review-commission": {
+   "body": "anses",
+   "ring": [
+    "ANSES",
+    "SÉCURITÉ SANITAIRE"
+   ],
+   "files": [
+    "_astro/seal-occupational-safety-and-health-review-commission.1hHG8m5J.webp",
+    "_astro/seal-occupational-safety-and-health-review-commission.BxaQmDmG.webp",
+    "_astro/seal-occupational-safety-and-health-review-commission.CRw1GfC4.webp",
+    "_astro/seal-occupational-safety-and-health-review-commission.DeZRjePq.webp",
+    "images/agency-seals/seal-occupational-safety-and-health-review-commission.webp"
+   ]
+  },
+  "seal-surface-mining-reclamation-and-enforcement-office": {
+   "body": "brgm",
+   "ring": [
+    "BUREAU DE RECHERCHES",
+    "GÉOLOGIQUES ET MINIÈRES"
+   ],
+   "files": [
+    "_astro/seal-surface-mining-reclamation-and-enforcement-office.4XG_SE8V.webp",
+    "_astro/seal-surface-mining-reclamation-and-enforcement-office.DqDv7qpJ.webp",
+    "_astro/seal-surface-mining-reclamation-and-enforcement-office.jVEUhQCg.webp",
+    "_astro/seal-surface-mining-reclamation-and-enforcement-office.xOIMrCRW.webp",
+    "images/agency-seals/seal-surface-mining-reclamation-and-enforcement-office.webp"
+   ]
+  },
+  "seal-united-states-courts": {
+   "body": "justice",
+   "ring": [
+    "MINISTÈRE DE LA JUSTICE",
+    "TRIBUNAUX"
+   ],
+   "files": [
+    "_astro/seal-united-states-courts.CXbhPApL.webp",
+    "_astro/seal-united-states-courts.CrD7Rezc.webp",
+    "_astro/seal-united-states-courts.yavPAuA6.webp",
+    "_astro/seal-united-states-courts.yyvWktj8.webp",
+    "images/agency-seals/seal-united-states-courts.webp"
+   ]
+  },
+  "ssa.gov": {
+   "body": "retraite",
+   "ring": [
+    "L’ASSURANCE RETRAITE",
+    "SÉCURITÉ SOCIALE"
+   ],
+   "files": [
+    "_astro/ssa.gov.B-cXURd0.webp",
+    "_astro/ssa.gov.CATDGZ5g.webp",
+    "_astro/ssa.gov.DapMC2zv.webp",
+    "_astro/ssa.gov.hneIzi1V.webp",
+    "images/home/roadmap/demo/ssa.gov.webp"
+   ]
+  },
+  "state.gov": {
+   "body": "francetitres",
+   "ring": [
+    "FRANCE TITRES",
+    "ANTS"
+   ],
+   "files": [
+    "_astro/state.gov.BTW2QrqM.webp",
+    "_astro/state.gov.B_rBgQJw.webp",
+    "_astro/state.gov.CWwY6ZCS.webp",
+    "_astro/state.gov.DjDK_OsT.webp",
+    "images/agency-seals/state.gov.svg",
+    "images/home/roadmap/demo/state.gov.webp"
+   ]
+  },
+  "surface-transportation-board": {
+   "body": "art",
+   "ring": [
+    "AUTORITÉ DE RÉGULATION DES TRANSPORTS",
+    "ART"
+   ],
+   "files": [
+    "_astro/surface-transportation-board.0-QfgMF1.webp",
+    "_astro/surface-transportation-board.CurGXE_H.webp",
+    "_astro/surface-transportation-board.DV6krwMs.webp",
+    "_astro/surface-transportation-board.e8-31DPU.webp",
+    "images/home/seals/surface-transportation-board.webp"
+   ]
+  },
+  "transportation": {
+   "body": "sncf",
+   "ring": [
+    "SNCF",
+    "TRANSPORT FERROVIAIRE"
+   ],
+   "files": [
+    "_astro/transportation.CluMB0o8.webp",
+    "_astro/transportation.DOdSU5EP.webp",
+    "_astro/transportation.DjkAFZd5.webp",
+    "_astro/transportation.MYGavzLN.webp",
+    "images/home/seals/transportation.svg",
+    "images/home/seals/transportation.webp"
+   ]
+  },
+  "treasury": {
+   "body": "dgfip",
+   "ring": [
+    "DIRECTION GÉNÉRALE DES FINANCES PUBLIQUES",
+    "IMPÔTS"
+   ],
+   "files": [
+    "_astro/treasury.BBxP8Ef3.webp",
+    "_astro/treasury.BO7M2pyt.webp",
+    "_astro/treasury.C0dhFXEw.webp",
+    "_astro/treasury.CbSu2ikx.webp",
+    "_astro/treasury.DIg1YzQ1.webp",
+    "_astro/treasury.DjZKvAEa.webp",
+    "_astro/treasury.XYBR_16L.webp",
+    "images/home/seals/treasury.webp",
+    "images/seals/treasury.webp"
+   ]
+  },
+  "us-marshals": {
+   "body": "justice",
+   "ring": [
+    "MINISTÈRE DE LA JUSTICE",
+    "TRIBUNAUX"
+   ],
+   "files": [
+    "_astro/us-marshals.2Wy4jHpP.webp",
+    "_astro/us-marshals.BSgGWmW-.webp",
+    "_astro/us-marshals.BUMXEF53.webp",
+    "_astro/us-marshals.CE8H9vyr.webp",
+    "images/home/seals/us-marshals.webp"
+   ]
+  },
+  "veterans-crisis-line-seal": {
+   "body": "onacvg",
+   "ring": [
+    "OFFICE NATIONAL DES COMBATTANTS",
+    "ET DES VICTIMES DE GUERRE"
+   ],
+   "files": [
+    "_astro/veterans-crisis-line-seal.B27te_bF.webp",
+    "_astro/veterans-crisis-line-seal.Cu9cW98J.webp",
+    "_astro/veterans-crisis-line-seal.D-F8WvWr.webp",
+    "_astro/veterans-crisis-line-seal.Dza8lUwd.webp"
+   ]
+  },
+  "seal-commerce": {
+   "body": "urssaf",
+   "ring": [
+    "URSSAF",
+    "COTISATIONS SOCIALES"
+   ],
+   "files": [
+    "images/agency-seals/seal-commerce.svg"
+   ]
+  },
+  "seal-energy": {
+   "body": "crous",
+   "ring": [
+    "CROUS",
+    "VIE ÉTUDIANTE"
+   ],
+   "files": [
+    "images/agency-seals/seal-energy.svg"
+   ]
+  },
+  "seal-interior": {
+   "body": "msa",
+   "ring": [
+    "MUTUALITÉ SOCIALE AGRICOLE",
+    "MSA"
+   ],
+   "files": [
+    "images/agency-seals/seal-interior.svg"
+   ]
+  },
+  "seal-patent-and-trademark-office": {
+   "body": "servicepublic",
+   "ring": [
+    "SERVICE-PUBLIC",
+    "VOS DROITS ET DÉMARCHES"
+   ],
+   "files": [
+    "images/agency-seals/seal-patent-and-trademark-office.svg"
+   ]
+  },
+  "seal-state": {
+   "body": "laposte",
+   "ring": [
+    "LA POSTE",
+    "COURRIER ET COLIS"
+   ],
+   "files": [
+    "images/agency-seals/seal-state.svg"
+   ]
+  },
+  "seal-treasury": {
+   "body": "dgfip",
+   "ring": [
+    "DIRECTION GÉNÉRALE DES FINANCES PUBLIQUES",
+    "IMPÔTS"
+   ],
+   "files": [
+    "images/agency-seals/seal-treasury.svg"
+   ]
+  },
+  "seal-tsa": {
+   "body": "paf",
+   "ring": [
+    "POLICE AUX FRONTIÈRES",
+    "AÉROPORTS ET PORTS"
+   ],
+   "files": [
+    "images/agency-seals/seal-tsa.svg"
+   ]
+  },
+  "seal-veterans-affairs": {
+   "body": "ameli",
+   "ring": [
+    "L’ASSURANCE MALADIE",
+    "SÉCURITÉ SOCIALE"
+   ],
+   "files": [
+    "images/agency-seals/seal-veterans-affairs.svg"
+   ]
+  },
+  "social-security-older": {
+   "body": "caf",
+   "ring": [
+    "CAISSE D’ALLOCATIONS FAMILIALES",
+    "CAF"
+   ],
+   "files": [
+    "images/home/seals/social-security-older.svg"
+   ]
+  }
+ }
+}

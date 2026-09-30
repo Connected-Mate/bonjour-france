@@ -100,6 +100,18 @@ def looks_like_seal(path: Path) -> bool:
     return 0.85 < w / h < 1.18 and corners < 40
 
 
+_FRENCH = None
+
+
+def french_bases() -> set:
+    """Images deliberately re-made as French scenes (tools/overrides/APPLY.txt, one base name per line)."""
+    global _FRENCH
+    if _FRENCH is None:
+        f = OVERRIDES / "APPLY.txt"
+        _FRENCH = {l.strip() for l in read(f).splitlines() if l.strip() and not l.startswith("#")} if f.exists() else set()
+    return _FRENCH
+
+
 def override_applies(rel: Path) -> bool:
     """america.gov's own logos, icons, photos and illustrations stay as-is. Only US government seals and
     emblems are replaced (18 U.S.C. 713), plus the name-bearing brand images and files the mirror lacks."""
@@ -109,7 +121,7 @@ def override_applies(rel: Path) -> bool:
     if rel.parts[:2] in (("images", "agency-seals"), ("images", "seals")) or rel.parts[:3] == ("images", "home", "seals"):
         return True
     base = asset_base(rel)
-    if SEAL_NAMES.search(base) or BRAND_NAMES.match(base):
+    if SEAL_NAMES.search(base) or BRAND_NAMES.match(base) or base in french_bases():
         return True
     if SHARED_NAMES.match(base):
         return looks_like_seal(original)
@@ -394,9 +406,10 @@ def patch_link_allowlist() -> None:
 
 
 FR_FLAG_MONO = ("data:image/svg+xml,%3csvg%20width='24'%20height='14'%20viewBox='0%200%2024%2014'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e"
-                "%3crect%20width='8'%20height='14'%20fill='%23000C1F'%20fill-opacity='0.65'/%3e"
-                "%3crect%20x='8.5'%20y='0.5'%20width='7'%20height='13'%20stroke='%23000C1F'%20stroke-opacity='0.35'/%3e"
-                "%3crect%20x='16'%20width='8'%20height='14'%20fill='%23000C1F'%20fill-opacity='0.35'/%3e%3c/svg%3e")
+                "%3crect%20width='8'%20height='14'%20fill='%231D49BB'/%3e"
+                "%3crect%20x='8'%20width='8'%20height='14'%20fill='%23FFFFFF'/%3e"
+                "%3crect%20x='16'%20width='8'%20height='14'%20fill='%23E64133'/%3e"
+                "%3crect%20x='0.25'%20y='0.25'%20width='23.5'%20height='13.5'%20stroke='%23000C1F'%20stroke-opacity='0.12'%20stroke-width='0.5'/%3e%3c/svg%3e")
 
 
 def patch_flags() -> None:
