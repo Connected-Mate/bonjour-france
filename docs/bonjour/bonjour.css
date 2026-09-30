@@ -6,6 +6,16 @@
   clip-path: inset(-2px 124px -2px 0);
   margin-right: -122px;
 }
+/* the flag mark keeps its size and place, painted as the French tricolour */
+[data-slot="header-flag"] g[clip-path] { display: none; }
+.site-home-link > svg {
+  background:
+    linear-gradient(#DDE0E5, #DDE0E5) 10.33px 1px / 10.34px 0.75px no-repeat,
+    linear-gradient(#DDE0E5, #DDE0E5) 10.33px 17.25px / 10.34px 0.75px no-repeat,
+    linear-gradient(90deg, #1D49BB 0 33.34%, #fff 33.34% 66.67%, #E64133 66.67% 100%) 0 1px / 31px 17px no-repeat;
+  box-shadow: none;
+}
+.site-home-link > svg [data-slot="header-flag"] > rect { fill: none; stroke: rgb(0 0 0 / .08); stroke-width: .5px; }
 .site-home-link::after {
   content: "";
   flex: none;

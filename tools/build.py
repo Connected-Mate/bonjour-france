@@ -75,7 +75,7 @@ SEAL_NAMES = re.compile(
     r"name-change-(irs|ssa|state)|employment-navy|navy|sources-panel|passport-(cover|book|card|thumbnail|open|details|both))$")
 # names shared by agency website thumbnails (kept) and agency seals (replaced): decided by the file's shape
 SHARED_NAMES = re.compile(r"^(fbi|house|congress|energy|cbp|gsa|nasa|hud)$")
-BRAND_NAMES = re.compile(r"^(america-wordmark|america-og|america-twitter)$")
+BRAND_NAMES = re.compile(r"^(america-wordmark|america-og|america-twitter|artwork|favicon|apple-touch-icon|webclip)$")
 
 
 def asset_base(rel: Path) -> str:
@@ -393,6 +393,25 @@ def patch_link_allowlist() -> None:
     write(ui, must_replace(read(ui), old, new, ui.name, 1))
 
 
+FR_FLAG_MONO = ("data:image/svg+xml,%3csvg%20width='24'%20height='14'%20viewBox='0%200%2024%2014'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e"
+                "%3crect%20width='8'%20height='14'%20fill='%23000C1F'%20fill-opacity='0.65'/%3e"
+                "%3crect%20x='8.5'%20y='0.5'%20width='7'%20height='13'%20stroke='%23000C1F'%20stroke-opacity='0.35'/%3e"
+                "%3crect%20x='16'%20width='8'%20height='14'%20fill='%23000C1F'%20fill-opacity='0.35'/%3e%3c/svg%3e")
+
+
+def patch_flags() -> None:
+    """The small monochrome US flag beside the notice becomes a monochrome French tricolour."""
+    n_total = 0
+    for f in list((STAGE / "_astro").glob("*.js")) + list(STAGE.rglob("*.html")):
+        s = read(f)
+        s2, n = re.subn(r"data:image/svg\+xml,%3csvg%20width='24'%20height='14'[^`\"]*?10\.5V1\.16667[^`\"]*", FR_FLAG_MONO, s)
+        if n:
+            write(f, s2)
+            n_total += n
+    if n_total == 0:
+        warn("notice flag data URI not found")
+
+
 def patch_js_literals(by_en: dict) -> None:
     # replace exact template/quoted literals; longest first so fragments never clobber sentences
     items = sorted(((k, v) for k, v in by_en.items() if len(k) >= 2), key=lambda kv: len(kv[0]), reverse=True)
@@ -590,6 +609,7 @@ def main() -> None:
     patch_react_copy()
     patch_sources()
     patch_link_allowlist()
+    patch_flags()
     patch_js_literals(by_en)
     branding()
     strip_remote()
