@@ -11,12 +11,12 @@ passport-card (variantes carte 100x64/64x41/32x20) | SVG | = page de données pa
 passport-both | SVG | = page de données réduite (alpha d'origine)
 passport-thumbnail | PIL | livret neuf réduit dans le cadre blanc d'origine
 passport-details | SVG | page de données fictive « PASSEPORT DE DÉMONSTRATION », SPÉCIMEN, nom/prénom et photo laissés vides (superposés en HTML par la page), MRZ P<FRASPECIMEN<<DEMONSTRATION, autorité « SERVICE FICTIF — DÉMONSTRATION », guilloché/rosace purement géométriques, aucun élément de sécurité réel
-passport-open | SVG + gptimage | idem + page mentions ; portrait d'un homme fictif (gptimage, `mocks/photos/portrait.png`, N&B) à la place d'une personnalité réelle ; MARTIN Louis-Marie ; mention « ACCESSOIRE DE DÉMONSTRATION — NON VALABLE POUR VOYAGER »
+passport-open | SVG | idem + page mentions ; round 3 : portrait = photo d'identité d'origine du site (`passport-portrait`, conservée, N&B) à la place d'une personnalité réelle — plus de portrait IA ; MARTIN Camille ; mention « ACCESSOIRE DE DÉMONSTRATION — NON VALABLE POUR VOYAGER »
 passport-visa | SVG | logo VISA (marque tierce) → mot neutre « CARTE », même bleu, même cadre transparent (étape paiement de l'animation coming-soon)
 camping-map (+ images/home/roadmap/demo/camping-map) | PIL (relief procédural) + SVG | vallée inventée « Chamonix / Argentière », N205/D506/D1506 ; mention HERE supprimée
 wichita-map | SVG | plan de ville inventé « Lyon » (deux rivières), même style gris/vert/bleu, alpha d'origine gardé
 pharmacy-map | PIL + SVG | carte inventée type agglomération lyonnaise, sans libellés (épingles superposées par la page)
-roadmap-desktop | SVG + gptimage | cadre fenêtre d'origine gardé ; « Bonjour, France » (sans drapeau), recherche de logement à Nantes (Résidence des Tilleuls…), carte inventée type Loire ; 5 photos de logements générées (`mocks/photos/house1-5.png`)
+roadmap-desktop | SVG + photos Commons | cadre fenêtre d'origine gardé ; « Bonjour, France » (sans drapeau), recherche de logement à Nantes (Résidence des Tilleuls…), carte inventée type Loire ; round 3 : 5 vraies photos de lotissements français (Commons, `photos/real/house1-5.jpg`, crédits `tools/overrides/PHOTO-CREDITS.md`) à la place des photos IA
 roadmap-phone | SVG | cadre iPhone d'origine gardé ; « Vérifiez vos informations », Camille Martin (fictive) à la place d'une personne réelle
 screen (+ images/home/roadmap/screen) | SVG | chat renouvellement passeport, Camille Martin, barre d'URL « bonjour-france » (pas de domaine .gouv.fr)
 sources-panel | SVG | « Service des passeports / 2 sources », liens génériques, pictogramme document neutre à la place du sceau

@@ -9,6 +9,7 @@ import maps
 
 M = '/Users/0104389S/Projects/hello-france/_mirror/_astro/'
 PH = MOCKS + 'photos/'
+REAL = '/Users/0104389S/Projects/hello-france/tools/imgtools/photos/real/'  # round 3 real photos (see tools/i18n/photo-credits.json)
 FONTFILES = {f'Geist{w}': f'{FONTDIR}/Geist{w}.ttf' for w in (400, 500, 600, 700)}
 FONTFILES['Newsreader500'] = f'{FONTDIR}/Newsreader500.ttf'
 
@@ -135,7 +136,7 @@ def roadmap_desktop():
         y = 656 + i * 184
         op = 1 if i < 4 else 0.35
         s += f'<g opacity="{op}">'
-        s += rounded_thumb(PH + ph_ + '.png', 477, y + 32, 120, 120, 18, f'th{i}')
+        s += rounded_thumb(REAL + ph_ + '.jpg', 477, y + 32, 120, 120, 18, f'th{i}')  # round 3: real Commons photos
         s += T(621, y + 64, ellip(t1, 'Geist600', 24.5, 282), 24.5, 'Geist600', '#111')
         s += T(621, y + 102, a1, 24.5, 'Geist400', '#5b5f68')
         s += T(621, y + 138, a2, 24.5, 'Geist400', '#5b5f68')

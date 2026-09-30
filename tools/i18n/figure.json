@@ -1,0 +1,13 @@
+{
+  "figure": "743",
+  "headline": "Plus de 700 sites de l’État. Et si tout était au même endroit ?",
+  "body": "743 sites et domaines de l’État recensés en août 2026 par le Service d’information du Gouvernement, sans compter les collectivités, hôpitaux et caisses.",
+  "source_label": "Observatoire de l’écosystème numérique de l’État (SIG), liste des sites, août 2026 — data.gouv.fr",
+  "source_url": "https://www.data.gouv.fr/datasets/observatoire-de-lecosysteme-numerique-de-letat-sites-internet",
+  "date": "1er septembre 2026",
+  "notes": {
+    "method": "Fichier audience-liste-sites-aout-2026.csv : 743 lignes uniques (label_site), 0 supprimée, 34 marquées « parked » (709 hors parkées) ; 267 sites à audience mesurée + 476 noms de domaine .gouv.fr ; 371 en .gouv.fr ; 232 classés sites de démarche/téléprocédure.",
+    "alternatives": "289 « sites publics les plus visibles » (SIG, Panorama des domaines, cité par sites.beta.gouv.fr, 4 nov. 2025) ; 250 démarches phares (Observatoire Vos démarches essentielles, DINUM, ~244 suivies T3 2025).",
+    "perimeter": "État uniquement (ministères, préfectures, opérateurs suivis par le SIG) ; ne couvre ni les collectivités, ni les hôpitaux, ni la sécurité sociale."
+  }
+}

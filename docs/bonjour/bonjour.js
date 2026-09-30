@@ -337,6 +337,12 @@
   /* ------------------------------------------------------------------ vote (GitHub stars) */
   var STAR = '<svg class="bf-star" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.8l2.8 5.7 6.3.9-4.6 4.4 1.1 6.2L12 17l-5.6 3 1.1-6.2L2.9 9.4l6.3-.9z"/></svg>';
   var BTN = "inline-flex shrink-0 cursor-pointer items-center justify-center gap-2 transition-[color,background-color,border-color,box-shadow,scale,opacity] duration-200 ease-out-quint active:scale-press focus-visible:shadow-[0_0_0_2px_#fff,0_0_0_4px_var(--color-black-100)] focus-visible:outline-none h-14 min-h-14 rounded-40 px-6 pb-0.5 type-body-m shadow-elevation-1 active:shadow-none rounded-full bg-black font-sans-display text-base leading-none font-bold tracking-[-0.01em] text-primary-invert hover:bg-black/85 focus-visible:bg-black active:bg-black motion-reduce:transition-none";
+  var SITE_URL = "https://connected-mate.github.io/bonjour-france/";
+  var LINKEDIN = "https://www.linkedin.com/in/alex-cormeraie/";
+  var SHARE_TEXT = "Les États-Unis ont america.gov. Et si la France avait « Bonjour, France » : une seule porte d’entrée vers tous les services publics ? " +
+    "Une idée d’Alexandre Cormeraie (" + LINKEDIN + ")";
+  var BTN2 = BTN.replace("bg-black", "bg-transparent").replace("text-primary-invert", "text-text-primary").replace("hover:bg-black/85", "hover:bg-black/5").replace("focus-visible:bg-black active:bg-black", "") + " ring-1 ring-black/15 ring-inset";
+
   function voteSection() {
     var s = document.createElement("section");
     s.id = "bf-vote";
@@ -344,14 +350,59 @@
     s.className = "relative z-10 bg-surface-neutral pt-30 mobile:pt-24 site-desktop:pt-43.5";
     s.innerHTML =
       '<div class="site-container relative z-10 flex justify-center max-mobile:px-8"><div class="flex w-full max-w-172 flex-col items-center gap-8 text-center">' +
-      '<div class="flex w-full flex-col items-center gap-5 mobile:gap-6"><h2 id="bf-vote-title" class="type-site-3 text-text-primary">Votez pour que ça devienne officiel.</h2>' +
-      '<p class="px-px type-site-7 text-text-primary/70">Une étoile sur GitHub = une voix. Plus il y en a, plus l’idée d’un vrai « Bonjour, France » public pèse auprès de ceux qui décident.</p></div>' +
-      '<a class="' + BTN + '" href="' + REPO_URL + '" target="_blank" rel="noopener">' + STAR + '<span>Voter avec une étoile</span><span class="sr-only"> sur GitHub (nouvel onglet)</span></a>' +
+      '<div class="flex w-full flex-col items-center gap-5 mobile:gap-6"><h2 id="bf-vote-title" class="type-site-3 text-text-primary">Les États-Unis l’ont fait. Pourquoi pas nous&nbsp;?</h2>' +
+      '<p class="px-px type-site-7 text-text-primary/70">Bonjour, France est un projet apolitique. Français, pour les Français. Une seule porte d’entrée vers tous les services publics, une réponse claire en quelques secondes&nbsp;: ce n’est ni de droite ni de gauche, c’est simplement utile.</p>' +
+      '<p class="px-px type-site-7 text-text-primary/70">Une bonne idée n’a pas de parti. Si celle-ci vous plaît, votez, puis envoyez-la à votre député, à votre parti, à qui vous voulez.</p></div>' +
+      '<div class="bf-actions-row"><a class="' + BTN + '" href="' + REPO_URL + '" target="_blank" rel="noopener">' + STAR + '<span>Voter avec une étoile</span><span class="sr-only"> sur GitHub (nouvel onglet)</span></a>' +
+      '<button type="button" class="' + BTN2 + '" data-bf-share>' + SHARE_ICON + '<span>Partager l’idée</span></button></div>' +
+      '<p class="bf-share-links" aria-label="Partager sur">Partager sur ' +
+      '<a target="_blank" rel="noopener" href="https://x.com/intent/post?text=' + encodeURIComponent(SHARE_TEXT) + '&url=' + encodeURIComponent(SITE_URL) + '">X</a> · ' +
+      '<a target="_blank" rel="noopener" href="https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(SITE_URL) + '">LinkedIn</a> · ' +
+      '<a target="_blank" rel="noopener" href="https://wa.me/?text=' + encodeURIComponent(SHARE_TEXT + " " + SITE_URL) + '">WhatsApp</a> · ' +
+      '<button type="button" data-bf-copy>Copier le lien</button></p>' +
       '<p class="type-site-10 text-text-secondary" aria-live="polite"><strong class="bf-count" data-bf-count>—</strong> <span data-bf-label>votes pour l’instant</span></p>' +
       '<p class="type-site-10 text-text-secondary">Un compte GitHub gratuit est nécessaire pour voter. Le compteur est lu en direct sur GitHub.</p>' +
+      '<a class="bf-signature" href="' + LINKEDIN + '" target="_blank" rel="noopener">Une idée d’Alexandre Cormeraie <span aria-hidden="true">→</span><span class="sr-only"> (LinkedIn, nouvel onglet)</span></a>' +
       "</div></div>";
     return s;
   }
+
+  var SHARE_ICON = '<svg class="bf-star" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7"/><path d="M12 3v12"/><path d="m7 8 5-5 5 5"/></svg>';
+
+  function copyLink(btn) {
+    var done = function () { var t = btn.textContent; btn.textContent = "Lien copié"; setTimeout(function () { btn.textContent = t; }, 2000); };
+    var text = SHARE_TEXT + " " + SITE_URL;
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(done, function () { prompt("Copiez ce texte :", text); });
+    else prompt("Copiez ce texte :", text);
+  }
+  document.addEventListener("click", function (e) {
+    var sh = e.target && e.target.closest && e.target.closest("[data-bf-share]");
+    if (sh) {
+      e.preventDefault();
+      if (navigator.share) {
+        navigator.share({ title: "Bonjour, France", text: SHARE_TEXT, url: SITE_URL }).catch(function () { /* dismissed */ });
+      } else {
+        var links = document.querySelector(".bf-share-links");
+        if (links) { links.classList.add("bf-share-links--open"); var first = links.querySelector("a"); if (first) first.focus(); }
+      }
+      return;
+    }
+    var cp = e.target && e.target.closest && e.target.closest("[data-bf-copy]");
+    if (cp) { e.preventDefault(); copyLink(cp); }
+  });
+
+  function placeHeroSignature() {
+    if (document.getElementById("bf-hero-sig")) return;
+    var hero = document.querySelector('[data-slot="carousel"]');
+    if (!hero || !/\/bonjour-france\/?$/.test(location.pathname)) return;
+    var a = document.createElement("a");
+    a.id = "bf-hero-sig";
+    a.className = "bf-signature bf-signature--hero";
+    a.href = LINKEDIN; a.target = "_blank"; a.rel = "noopener";
+    a.innerHTML = 'Une idée d’Alexandre Cormeraie <span aria-hidden="true">→</span><span class="sr-only"> (LinkedIn, nouvel onglet)</span>';
+    hero.appendChild(a);
+  }
+
   function renderCount(n) {
     document.querySelectorAll("[data-bf-count]").forEach(function (b) { b.textContent = new Intl.NumberFormat("fr-FR").format(n); });
     document.querySelectorAll("[data-bf-label]").forEach(function (b) { b.textContent = n > 1 ? "votes pour l’instant" : "vote pour l’instant"; });
@@ -431,11 +482,12 @@
     tagAnswers();
     placeMistralPrivacy();
     placeFooterWink();
+    placeHeroSignature();
     var queued = false;
     new MutationObserver(function () {
       if (queued) return;
       queued = true;
-      requestAnimationFrame(function () { queued = false; placeVote(); tagAnswers(); placeMistralPrivacy(); placeFooterWink(); });
+      requestAnimationFrame(function () { queued = false; placeVote(); tagAnswers(); placeMistralPrivacy(); placeFooterWink(); placeHeroSignature(); });
     }).observe(document.body, { childList: true, subtree: true, characterData: true });
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", boot); else boot();

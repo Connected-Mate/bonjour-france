@@ -33,7 +33,8 @@ BASE = "/bonjour-france"
 SITE_URL = "https://connected-mate.github.io/bonjour-france"
 REPO_URL = "https://github.com/Connected-Mate/bonjour-france"
 LINKEDIN = "https://www.linkedin.com/in/alex-cormeraie/"
-PAGES = ["how-it-works", "privacy-policy", "privacy", "about", "coming-soon", "faq", "terms", "chat"]
+PAGES = ["how-it-works", "privacy-policy", "privacy", "about", "coming-soon", "faq", "terms", "chat",
+         "mentions-legales", "cgu", "confidentialite", "credits", "accessibilite"]
 COMMERCIAL_FONTS = re.compile(r"^(helvetica-now-|rhymes-)")
 
 warnings: list[str] = []
@@ -133,7 +134,7 @@ def stage() -> None:
         shutil.rmtree(STAGE)
     shutil.copytree(MIRROR, STAGE)
     for src in OVERRIDES.rglob("*"):
-        if src.is_dir() or src.name.endswith(".md") or src.name == ".DS_Store":
+        if src.is_dir() or src.name.endswith((".md", ".txt")) or src.name == ".DS_Store":
             continue
         rel = src.relative_to(OVERRIDES)
         if rel.parts[0] not in ("fonts",) and not override_applies(rel):
@@ -286,7 +287,16 @@ def js_literal(s: str) -> str:
 def patch_dictionary(by_path: dict) -> None:
     lp = astro(r"language-provider\..*\.js$")
     s = read(lp)
-    data = json.dumps(adapted_dict(by_path), ensure_ascii=False)
+    merged = adapted_dict(by_path)
+
+    def deep(a, b):
+        for k, v in b.items():
+            if isinstance(v, dict):
+                deep(a.setdefault(k, {}), v)
+            else:
+                a[k] = v
+    deep(merged, extra_dictionary())
+    data = json.dumps(merged, ensure_ascii=False)
     s = must_replace(s, ",x=ue,", ",x=(function(u,a){function w(o,p){for(const k in p){typeof p[k]==`string`?o[k]=p[k]:w(o[k]||(o[k]={}),p[k])}}w(u,a);return u})(ue," + data + "),", lp.name, 1)
     s = must_replace(s, "en:{label:`English`,locale:`en`,speech:`en-US`", "en:{label:`Français`,locale:`fr`,speech:`fr-FR`", lp.name, 1)
     # one language only: the French copy lives in the default catalogue
@@ -443,6 +453,139 @@ def patch_js_literals(by_en: dict) -> None:
             write(js, s)
 
 
+
+# --------------------------------------------------------------------------- legal & info pages
+LEGAL_PAGES = {  # slug -> dictionary document key
+    "mentions-legales": "mentions",
+    "cgu": "cgu",
+    "confidentialite": "confidentialite",
+    "credits": "credits",
+    "accessibilite": "accessibilite",
+}
+LEGAL_UPDATED = "2026-09-30"
+_legal_cache = None
+
+
+def legal_documents():
+    """legal-pages.json -> dictionary documents + island props per page (paragraphs with <lN> link tags)."""
+    global _legal_cache
+    if _legal_cache is not None:
+        return _legal_cache
+    pages = json.loads(read(I18N / "legal-pages.json"))
+    photos = json.loads(read(I18N / "photo-credits.json")) if (I18N / "photo-credits.json").exists() else []
+    out = {}
+    for slug, doc in LEGAL_PAGES.items():
+        page = pages[slug]
+        links, sections_dict, sections_props = {}, {}, []
+
+        def rich(text):
+            text = text.replace("**", "")
+            def link(m):
+                label, url = m.group(1), m.group(2)
+                if not re.match(r"^(https?:|mailto:|#)", url):
+                    url = f"{BASE}/{url.strip('/')}/"
+                tag = f"l{len(links) + 1}"
+                links[tag] = url
+                return f"<{tag}>{label}</{tag}>"
+            return re.sub(r"\[([^\]]+)\]\(([^)\s]+)\)", link, text)
+
+        for i, sec in enumerate(page["sections"], 1):
+            paras = []
+            for b in sec["blocks"]:
+                if b == "{{PHOTOS}}":
+                    for ph in photos:  # URLs may contain parentheses: tag them directly, no markdown
+                        a, b = f"l{len(links) + 1}", f"l{len(links) + 2}"
+                        links[a], links[b] = ph["licence_url"], ph["source_url"]
+                        paras.append(f"« {ph['title']} » — {ph['author']}, <{a}>{ph['licence']}</{a}>, "
+                                     f"<{b}>source</{b}> ({ph.get('changes') or 'recadrée'}).")
+                elif isinstance(b, dict) and "list" in b:
+                    paras += [rich("— " + it) for it in b["list"]]
+                else:
+                    paras.append(rich(b))
+            key = f"s{i}"
+            sections_dict[key] = {"heading": sec["heading"], "paragraphs": {str(n): t for n, t in enumerate(paras, 1)}}
+            sections_props.append({"key": key, "paragraphCount": len(paras), "paragraphs": paras, "heading": sec["heading"]})
+        out[slug] = {"doc": doc, "title": page["title"], "description": page["description"],
+                     "dict": {"title": page["title"], "description": page["description"], "sections": sections_dict},
+                     "sections": sections_props, "links": links}
+    _legal_cache = out
+    return out
+
+
+def extra_dictionary() -> dict:
+    """Entries the original catalogue does not have (new pages, new footer links)."""
+    legal = {v["doc"]: v["dict"] for v in legal_documents().values()}
+    return {"legal": legal, "landing": {"home": {"footer": {"links": {
+        "legalNotice": "Mentions légales", "credits": "Crédits", "accessibility": "Accessibilité"}}}},
+        "footer": {"links": {"legalNotice": "Mentions légales", "credits": "Crédits", "accessibility": "Accessibilité"}}}
+
+
+def render_legal_main(page) -> str:
+    """Server-rendered markup identical to LegalPageIsland's output (so hydration matches)."""
+    def para(t):
+        def tag(m):
+            return f'<a href="{html.escape(page["links"][m.group(1)])}" class="underline underline-offset-4">{m.group(2)}</a>'
+        t = html.escape(t, quote=False)
+        t = re.sub(r"&lt;(l\d+)&gt;(.*?)&lt;/\1&gt;", tag, t)
+        return f'<p class="type-body-m text-text-secondary">{t}</p>'
+    secs = "".join(
+        f'<section class="flex flex-col gap-4"><h2 class="type-heading-s font-normal text-text-primary">{html.escape(s["heading"])}</h2>'
+        + "".join(para(p) for p in s["paragraphs"]) + "</section>" for s in page["sections"])
+    return ('<div data-site-hero-enter="0"><div class="mx-auto w-full max-w-site page-gutter pb-24 site-desktop:pb-43.5">'
+            '<div class="stagger-entrance mx-auto flex w-full max-w-[958px] flex-col items-center gap-8 pt-20 text-center">'
+            f'<h1 class="text-text-primary type-heading-l">{html.escape(page["title"])}</h1>'
+            f'<p class="type-body-m max-w-[540px] text-text-secondary"><time datetime="{LEGAL_UPDATED}">Dernière mise à jour : 30 septembre 2026</time></p></div>'
+            f'<div class="mx-auto mt-20 flex w-full max-w-[660px] flex-col gap-20"><div class="flex flex-col gap-14">{secs}</div></div></div></div>')
+
+
+def patch_footer_links() -> None:
+    """Footer: CGU and confidentialité under their French slugs, plus mentions légales, crédits, accessibilité."""
+    for f in (STAGE / "_astro").glob("*.js"):
+        t = read(f)
+        o = t
+        t = t.replace("privacyPolicy:`/privacy-policy`", "privacyPolicy:`/confidentialite`").replace("terms:`/terms`", "terms:`/cgu`")
+        t = t.replace("un=[{key:`privacyPolicy`,href:R.privacyPolicy},{key:`terms`,href:R.terms}]",
+                      "un=[{key:`legalNotice`,href:`/mentions-legales`},{key:`terms`,href:R.terms},{key:`privacyPolicy`,href:R.privacyPolicy},"
+                      "{key:`credits`,href:`/credits`},{key:`accessibility`,href:`/accessibilite`}]")
+        if t != o:
+            write(f, t)
+    chrome = read(astro(r"home-chrome\..*\.js$"))
+    if "key:`legalNotice`" not in chrome:
+        raise SystemExit("[build] footer links array not patched")
+    for page in STAGE.rglob("*.html"):
+        t = read(page)
+        t2 = t.replace('href="/privacy-policy"', 'href="/confidentialite"').replace('href="/terms"', 'href="/cgu"')
+        if t2 != t:
+            write(page, t2)
+
+
+def make_legal_pages() -> None:
+    template = read(STAGE / "terms" / "index.html")
+    for slug, page in legal_documents().items():
+        props = {"article": [0, {"document": [0, page["doc"]], "path": [0, f"/{slug}"], "updated": [0, LEGAL_UPDATED],
+                                 "sections": [1, [[0, {"key": [0, s["key"]], "paragraphCount": [0, s["paragraphCount"]], "subsections": [0]}] for s in page["sections"]]],
+                                 "links": [0, {k: [0, v] for k, v in page["links"].items()}]}],
+                 "pathname": [0, f"/{slug}/"], "search": [0, ""]}
+        h = re.sub(r'(<astro-island[^>]*component-url="[^"]*legal-page[^"]*"[^>]*props=")[^"]*(")',
+                   lambda m: m.group(1) + html.escape(json.dumps(props, ensure_ascii=False)) + m.group(2), template, count=1)
+        h = re.sub(r'(<main[^>]*>).*?(</main>)', lambda m: m.group(1) + render_legal_main(page) + m.group(2), h, count=1, flags=re.S)
+        title = f"{page['title']} | Bonjour, France"
+        h = re.sub(r"<title[^>]*>.*?</title>", f"<title>{html.escape(title)}</title>", h, count=1, flags=re.S)
+        for prop in ("og:title", "twitter:title"):
+            h = re.sub(rf'(<meta (?:property|name)="{prop}" content=")[^"]*(")', lambda m: m.group(1) + html.escape(title) + m.group(2), h)
+        for prop in ('name="description"', 'property="og:description"', 'name="twitter:description"'):
+            h = re.sub(rf'(<meta {prop} content=")[^"]*(")', lambda m: m.group(1) + html.escape(page["description"]) + m.group(2), h)
+        h = re.sub(r'data-site-(en|fr|es)="[^"]*"', "", h)
+        d = STAGE / slug
+        d.mkdir(exist_ok=True)
+        write(d / "index.html", h)
+    # old english slugs now point to the french pages
+    for old, new in (("terms", "cgu"), ("privacy-policy", "confidentialite")):
+        write(STAGE / old / "index.html",
+              f'<!doctype html><meta charset="utf-8"><title>Bonjour, France</title><link rel="canonical" href="{BASE}/{new}/">'
+              f'<meta http-equiv="refresh" content="0; url={BASE}/{new}/"><a href="{BASE}/{new}/">Continuer</a>')
+
+
 # --------------------------------------------------------------------------- 4. branding + links
 def branding() -> None:
     seo = astro(r"seo\..*\.js$")
@@ -472,6 +615,10 @@ def branding() -> None:
             s = s.replace("https://america.gov/images/social/", SITE_URL + "/images/social/")
             s = s.replace('"url":"https://america.gov/"', '"url":"' + SITE_URL + '/"')
             s = s.replace('content="en_US"', 'content="fr_FR"')
+            # every shared card credits the author of the idea
+            sig = " Une idée d’Alexandre Cormeraie."
+            s = re.sub(r'(<meta (?:name="description"|property="og:description"|name="twitter:description") content=")([^"]*)(")',
+                       lambda m: m.group(1) + (m.group(2) if "Cormeraie" in m.group(2) else m.group(2).rstrip() + html.escape(sig)) + m.group(3), s)
         s = s.replace("America.gov", "Bonjour, France")
         if s != o:
             write(f, s)
@@ -594,6 +741,8 @@ def inject() -> None:
             f'<script src="{BASE}/bonjour/bonjour.js?v={ver("bonjour.js")}"></script>')
     for page in STAGE.rglob("*.html"):
         s = read(page)
+        if 'http-equiv="refresh"' in s:
+            continue
         s = must_replace(s, '<meta charset="utf-8">', '<meta charset="utf-8">' + head, str(page.relative_to(STAGE)), 1)
         s = csp(s, str(page.relative_to(STAGE)))
         write(page, s)
@@ -626,6 +775,8 @@ def main() -> None:
     patch_link_allowlist()
     patch_flags()
     patch_js_literals(by_en)
+    make_legal_pages()
+    patch_footer_links()
     branding()
     strip_remote()
     inject()

@@ -163,7 +163,11 @@ def with_alpha_of(im, orig_path):
 
 
 def gray_portrait(maxw=600):
-    im = Image.open(PHOTOS + 'portrait.png').convert('L')
+    # round 3: no AI portrait; reuse the site's own original ID portrait (passport-portrait, kept unmodified
+    # on the page) flattened on the photo-booth grey, so the mock and the page show the same person.
+    src = Image.open(M + 'passport-portrait.BiAHC5QK.webp').convert('RGBA')
+    bg = Image.new('RGBA', src.size, (232, 232, 232, 255)); bg.alpha_composite(src)
+    im = bg.convert('L')
     im = Image.merge('RGB', [im, im, im])
     p = MOCKS + 'out/portrait_gray.jpg'
     im.save(p, quality=92)
@@ -203,7 +207,7 @@ def opened():
     s += '<clipPath id="c2"><rect x="1" y="437" width="627" height="426" rx="14"/></clipPath><g clip-path="url(#c2)">'
     s += '<rect x="0" y="437" width="629" height="427" fill="#dfe5f3"/>'
     s += f'<g transform="translate(0 437) scale({629 / 638})">'
-    s += datapage(names=('MARTIN', 'LOUIS-MARIE'), photo=ph, ghost=ph, dob='05 02 1981', sex='M', place='LYON (69)')
+    s += datapage(names=('MARTIN', 'CAMILLE'), photo=ph, ghost=ph, dob='05 02 1991', sex='F', place='LYON (69)')
     s += '</g>'
     s += txt(314, 853, 'ACCESSOIRE DE DÉMONSTRATION — NON VALABLE POUR VOYAGER', 7.6, 'Geist500', LAB, 'middle')
     s += '</g>'

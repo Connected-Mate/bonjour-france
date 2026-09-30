@@ -1,0 +1,469 @@
+{
+  "mentions-legales": {
+    "title": "Mentions légales",
+    "description": "Qui édite « Bonjour, France », qui l’héberge et comment nous contacter.",
+    "updated": "30 septembre 2026",
+    "sections": [
+      {
+        "heading": "Un site indépendant, non officiel",
+        "blocks": [
+          "« Bonjour, France » est un projet personnel, indépendant, non commercial et sans affiliation politique. Il n’est ni édité, ni approuvé, ni soutenu par l’État français, une administration, une collectivité ou un organisme public. Les seules sources officielles restent les sites de l’administration, en premier lieu [service-public.gouv.fr](https://www.service-public.gouv.fr/).",
+          "Le site reprend, à titre d’hommage et d’expérimentation, l’organisation visuelle du site america.gov, conçu par le National Design Studio (États-Unis). Cette réutilisation est détaillée sur la page [Crédits](credits)."
+        ]
+      },
+      {
+        "heading": "Éditeur du site",
+        "blocks": [
+          "Le site est édité par **Alexandre Cormeraie**, personne physique, à titre non professionnel, sans but lucratif et sans aucune activité commerciale.",
+          "Conformément à l’article 1-1, II de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l’économie numérique (dans sa rédaction issue de la loi n° 2024-449 du 21 mai 2024), l’éditeur d’un service en ligne à titre non professionnel peut ne rendre publics que le nom et l’adresse de son hébergeur, dès lors qu’il a communiqué à celui-ci ses éléments d’identification personnelle. C’est le cas ici : l’éditeur choisit de se nommer, mais ses coordonnées personnelles (domicile, téléphone) ne sont pas publiées ; elles sont connues de l’hébergeur, qui est tenu au secret professionnel à leur sujet et ne peut les communiquer qu’à l’autorité judiciaire.",
+          "**Directeur de la publication :** Alexandre Cormeraie."
+        ]
+      },
+      {
+        "heading": "Nous contacter",
+        "blocks": [
+          "Pour toute question, remarque, demande de retrait ou signalement d’erreur, deux canaux sont à votre disposition :",
+          {
+            "list": [
+              "[Écrire à l’éditeur sur LinkedIn](https://www.linkedin.com/in/alex-cormeraie/) — pour un échange privé.",
+              "[Ouvrir un ticket sur GitHub](https://github.com/Connected-Mate/bonjour-france/issues) — pour signaler un problème ou proposer une amélioration. Attention : les tickets GitHub sont publics, n’y écrivez aucune information personnelle."
+            ]
+          },
+          "Aucune adresse postale ni aucun numéro de téléphone n’est communiqué au public, conformément à l’option décrite ci-dessus."
+        ]
+      },
+      {
+        "heading": "Hébergeur",
+        "blocks": [
+          "Le site est hébergé par le service GitHub Pages, fourni par **GitHub, Inc.**, 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis — [github.com](https://github.com/).",
+          "GitHub est le prestataire d’hébergement au sens de l’article 6 de la loi n° 2004-575 précitée. Le code source du site est publié à l’adresse [github.com/Connected-Mate/bonjour-france](https://github.com/Connected-Mate/bonjour-france).",
+          "L’assistant de conversation s’appuie, lorsqu’il est activé, sur un relais technique exécuté sur l’infrastructure de **Cloudflare, Inc.**, 101 Townsend Street, San Francisco, CA 94107, États-Unis, et sur l’interface de programmation de **Mistral AI SAS**, 15 rue des Halles, 75001 Paris, France. Le détail des données échangées figure dans la [politique de confidentialité](confidentialite)."
+        ]
+      },
+      {
+        "heading": "Propriété intellectuelle",
+        "blocks": [
+          "Le code source original de « Bonjour, France » est publié sous licence libre sur GitHub ; les conditions précises figurent dans le dépôt. Les textes rédigés pour ce site sont la propriété de l’éditeur ; vous pouvez les citer en indiquant la source.",
+          "Les photographies, polices de caractères, logiciels libres, éléments graphiques et sources d’inspiration appartiennent à leurs auteurs respectifs et sont réutilisés dans les conditions de leurs licences. La liste complète figure sur la page [Crédits](credits).",
+          "Les noms, marques et logos cités (notamment Mistral AI) restent la propriété de leurs titulaires ; leur mention n’implique aucun partenariat ni aucune approbation.",
+          "Si vous estimez qu’un contenu porte atteinte à vos droits, contactez l’éditeur par l’un des canaux ci-dessus : le contenu concerné sera retiré ou corrigé dans les meilleurs délais."
+        ]
+      },
+      {
+        "heading": "Liens vers d’autres sites",
+        "blocks": [
+          "« Bonjour, France » renvoie vers des sites tiers, en particulier les sites officiels de l’administration française. L’éditeur n’exerce aucun contrôle sur ces sites et ne saurait être tenu responsable de leur contenu, de leur disponibilité ni de leurs pratiques en matière de données personnelles.",
+          "Vous pouvez librement créer un lien vers « Bonjour, France », sans autorisation préalable, à condition de ne pas laisser croire à un caractère officiel du site."
+        ]
+      },
+      {
+        "heading": "Droit applicable",
+        "blocks": [
+          "Les présentes mentions légales sont soumises au droit français. Les [conditions d’utilisation](cgu) et la [politique de confidentialité](confidentialite) complètent cette page."
+        ]
+      }
+    ]
+  },
+  "cgu": {
+    "title": "Conditions d’utilisation",
+    "description": "Ce que « Bonjour, France » vous propose, ses limites, et ce que nous attendons de vous.",
+    "updated": "30 septembre 2026",
+    "sections": [
+      {
+        "heading": "Objet",
+        "blocks": [
+          "Les présentes conditions encadrent l’utilisation du site « Bonjour, France », accessible à l’adresse [connected-mate.github.io/bonjour-france](https://connected-mate.github.io/bonjour-france/), et de son assistant de conversation. En consultant le site, vous acceptez ces conditions. Si vous ne les acceptez pas, merci de ne pas utiliser le site.",
+          "Le service est gratuit, accessible sans inscription et proposé « en l’état », dans le cadre d’un projet personnel sans but lucratif."
+        ]
+      },
+      {
+        "heading": "Un service non officiel",
+        "blocks": [
+          "« Bonjour, France » n’est pas un site de l’administration française. Il n’a aucun lien avec l’État, ses ministères, ses opérateurs ou les collectivités territoriales, et n’est pas hébergé sous un nom de domaine en .gouv.fr.",
+          "Le site propose une autre manière de découvrir des informations publiques et de trouver la bonne démarche. Il ne remplace ni les sites officiels, ni les téléservices, ni les guichets de l’administration. **Aucune démarche ne peut être accomplie sur « Bonjour, France »** : le site vous oriente vers le service officiel compétent.",
+          "Avant toute décision, vérifiez l’information sur la source officielle indiquée, notamment [service-public.gouv.fr](https://www.service-public.gouv.fr/), [legifrance.gouv.fr](https://www.legifrance.gouv.fr/) ou le site de l’organisme concerné."
+        ]
+      },
+      {
+        "heading": "L’assistant peut se tromper",
+        "blocks": [
+          "L’assistant de conversation s’appuie sur des « fiches » vérifiées par l’éditeur et, lorsque le relais est activé, sur un modèle de langage fourni par Mistral AI. Un modèle de langage produit un texte plausible, pas un texte garanti exact : il peut être incomplet, obsolète, imprécis, voire inventer une information (« hallucination »).",
+          {
+            "list": [
+              "Les réponses sont fournies à titre d’information générale et ne tiennent pas compte de votre situation particulière.",
+              "Elles ne constituent **ni un conseil juridique, ni un conseil fiscal, ni un conseil médical ou financier**, et n’engagent ni l’administration ni l’éditeur.",
+              "Une réponse de l’assistant ne vaut jamais décision, attestation, accord ou refus de l’administration.",
+              "Les délais, montants, conditions et formulaires évoluent : la seule version qui fait foi est celle publiée par l’organisme compétent à la date de votre démarche."
+            ]
+          },
+          "Tant que le relais n’est pas activé, l’assistant affiche uniquement une fiche vérifiée et vous propose un lien « Demander à Mistral » qui ouvre le service de conversation de Mistral AI ([chat.mistral.ai](https://chat.mistral.ai/)) avec votre question préremplie. Vous y êtes alors soumis aux conditions et à la politique de confidentialité de Mistral AI, indépendantes de « Bonjour, France »."
+        ]
+      },
+      {
+        "heading": "Votre usage du service",
+        "blocks": [
+          "Vous vous engagez à utiliser le site de bonne foi et dans le respect de la loi. Il est notamment interdit :",
+          {
+            "list": [
+              "de tenter d’accéder à des fonctions ou données non prévues, de perturber ou de surcharger le service (par exemple par des envois automatisés massifs) ;",
+              "d’utiliser l’assistant pour produire ou diffuser des contenus illicites, trompeurs, injurieux ou discriminatoires ;",
+              "de faire passer « Bonjour, France » pour un service officiel, ou d’en réutiliser le nom et l’apparence dans ce but ;",
+              "de contourner la limite d’usage (10 questions par minute et par adresse IP) mise en place pour protéger le service."
+            ]
+          },
+          "Ne transmettez à l’assistant aucune donnée dont vous ne souhaitez pas qu’elle soit traitée par un modèle d’intelligence artificielle : numéro de sécurité sociale, identifiants, mots de passe, données bancaires, données de santé, documents confidentiels. Si vous joignez un document PDF, vérifiez d’abord qu’il ne contient aucune information sensible ; seul le texte extrait dans votre navigateur est transmis, le fichier lui-même ne quitte pas votre appareil.",
+          "L’éditeur peut, sans préavis, suspendre, restreindre ou faire évoluer le service, en particulier pour des raisons techniques, de sécurité ou de coût."
+        ]
+      },
+      {
+        "heading": "Responsabilités",
+        "blocks": [
+          "Le service est fourni gratuitement, à titre bénévole. L’éditeur met tout en œuvre pour proposer des informations exactes et un service disponible, mais ne peut le garantir. Dans les limites permises par la loi, l’éditeur ne saurait être tenu responsable :",
+          {
+            "list": [
+              "des conséquences d’une décision prise sur la foi d’une information ou d’une réponse de l’assistant sans vérification auprès de la source officielle ;",
+              "d’une indisponibilité, d’un ralentissement, d’une interruption ou d’une évolution du service ;",
+              "du contenu, du fonctionnement ou des pratiques des sites tiers vers lesquels le site renvoie ;",
+              "des traitements réalisés par les prestataires techniques (GitHub, Cloudflare, Mistral AI) dans le cadre de leurs propres conditions, décrits dans la [politique de confidentialité](confidentialite)."
+            ]
+          },
+          "Rien dans ces conditions n’exclut la responsabilité de l’éditeur en cas de faute lourde ou dolosive, ni ne limite les droits que la loi vous reconnaît."
+        ]
+      },
+      {
+        "heading": "Signaler une erreur ou un contenu",
+        "blocks": [
+          "Vous avez repéré une information fausse, obsolète ou un contenu qui vous semble illicite ? Signalez-le [sur GitHub](https://github.com/Connected-Mate/bonjour-france/issues) (public) ou [sur LinkedIn](https://www.linkedin.com/in/alex-cormeraie/) (privé). Le contenu sera vérifié et, le cas échéant, corrigé ou retiré rapidement."
+        ]
+      },
+      {
+        "heading": "Propriété intellectuelle",
+        "blocks": [
+          "Les droits sur le code, les textes et les éléments graphiques sont décrits dans les [mentions légales](mentions-legales) et sur la page [Crédits](credits). Aucun droit d’usage ne vous est cédé sur les marques, logos et contenus de tiers cités sur le site."
+        ]
+      },
+      {
+        "heading": "Modification des conditions",
+        "blocks": [
+          "L’éditeur peut modifier les présentes conditions à tout moment. La date de dernière mise à jour figure en tête de page ; la version en ligne au moment de votre visite est celle qui s’applique."
+        ]
+      },
+      {
+        "heading": "Droit applicable et juridiction",
+        "blocks": [
+          "Les présentes conditions sont régies par le droit français. En cas de litige et à défaut de solution amiable, les tribunaux français sont compétents, selon les règles de compétence en vigueur. L’éditeur n’étant pas un professionnel, le dispositif de médiation de la consommation ne s’applique pas."
+        ]
+      }
+    ]
+  },
+  "confidentialite": {
+    "title": "Politique de confidentialité",
+    "description": "Quelles données circulent quand vous utilisez « Bonjour, France », pourquoi, vers qui, et quels sont vos droits.",
+    "updated": "30 septembre 2026",
+    "sections": [
+      {
+        "heading": "L’essentiel en quelques lignes",
+        "blocks": [
+          {
+            "list": [
+              "**Aucun cookie, aucun traceur, aucune mesure d’audience, aucune publicité, aucun compte.** Le site ne vous identifie pas et ne vous suit pas.",
+              "L’éditeur **ne conserve aucune donnée** : pas de base de données, pas de journaux, pas d’historique de vos questions.",
+              "Quand vous posez une question à l’assistant (relais activé), votre question et le contexte utile sont transmis à Mistral AI, entreprise française dont l’API héberge les données dans l’Union européenne par défaut ([source](https://help.mistral.ai/en/articles/347629-where-do-you-store-my-data-or-my-organization-s-data)), via un relais technique sur Cloudflare. Rien n’est envoyé tant que vous n’avez pas cliqué.",
+              "Le site est hébergé par GitHub (États-Unis), qui enregistre l’adresse IP des visiteurs pour des raisons de sécurité, comme tout hébergeur."
+            ]
+          },
+          "Le reste de cette page détaille ces points, conformément aux articles 12 à 14 du règlement général sur la protection des données (RGPD)."
+        ]
+      },
+      {
+        "heading": "Responsable du traitement",
+        "blocks": [
+          "Le responsable des traitements mis en œuvre par le site (assistant de conversation, compteur d’étoiles, stockage local) est **Alexandre Cormeraie**, particulier, éditeur de « Bonjour, France ». Contact : [LinkedIn](https://www.linkedin.com/in/alex-cormeraie/) (échange privé) ou [GitHub](https://github.com/Connected-Mate/bonjour-france/issues) (public, n’y écrivez pas de données personnelles). Il n’y a pas de délégué à la protection des données, cette désignation n’étant pas obligatoire pour un particulier.",
+          "Les prestataires techniques (GitHub, Cloudflare, Mistral AI) traitent certaines données pour leur propre compte, selon leurs politiques respectives, ou pour le compte de l’éditeur, comme indiqué ci-dessous."
+        ]
+      },
+      {
+        "heading": "Ce qui ne se passe pas sur ce site",
+        "blocks": [
+          "Pour lever tout doute :",
+          {
+            "list": [
+              "aucun cookie n’est déposé, ni par le site ni par un tiers ;",
+              "aucun outil de mesure d’audience (statistiques de visite) n’est utilisé ;",
+              "aucune régie publicitaire, aucun bouton de partage traçant, aucune police ou script chargé depuis un service de suivi ;",
+              "aucune inscription, aucun compte, aucune adresse e-mail demandée ;",
+              "aucune donnée n’est vendue, louée ni transmise à des fins commerciales."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "1. Consultation du site (hébergement GitHub Pages)",
+        "blocks": [
+          "Le site est un ensemble de pages statiques servies par GitHub Pages. Lorsque vous le consultez, votre navigateur envoie à GitHub les informations techniques habituelles de toute connexion (adresse IP, pages demandées, type de navigateur, date et heure).",
+          {
+            "list": [
+              "**Données :** adresse IP, journaux techniques de connexion.",
+              "**Qui traite :** GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis, pour son propre compte. GitHub indique que « l’adresse IP du visiteur est enregistrée et conservée à des fins de sécurité, que le visiteur soit connecté à GitHub ou non ». L’éditeur n’a pas accès à ces journaux.",
+              "**Finalité et base légale :** sécurité et bon fonctionnement de l’hébergement — intérêt légitime de GitHub (art. 6, § 1, f RGPD).",
+              "**Durée :** définie par GitHub selon sa [déclaration de confidentialité](https://docs.github.com/fr/site-policy/privacy-policies/github-general-privacy-statement).",
+              "**Transfert hors UE :** États-Unis ; GitHub déclare être certifié au titre du cadre de protection des données UE–États-Unis (voir la section « Transferts »)."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "2. Assistant de conversation (relais et Mistral AI)",
+        "blocks": [
+          "L’assistant fonctionne en deux modes.",
+          "**Mode fiche seule (relais désactivé).** L’assistant recherche dans votre navigateur la fiche vérifiée qui correspond à votre question et l’affiche. Rien n’est transmis à un serveur. Un lien « Demander à Mistral » ouvre, si vous le souhaitez, le service [chat.mistral.ai](https://chat.mistral.ai/) avec votre question préremplie : à partir de là, c’est Mistral AI qui traite vos données, selon ses propres conditions et sa [politique de confidentialité](https://legal.mistral.ai/terms/privacy-policy), sans intervention de « Bonjour, France ».",
+          "**Mode relais (lorsqu’il est activé).** Quand vous envoyez une question, votre navigateur transmet à un relais géré par l’éditeur, exécuté sur Cloudflare Workers, puis à l’interface de programmation de Mistral AI :",
+          {
+            "list": [
+              "votre question ;",
+              "les derniers messages de la conversation en cours (au maximum 12), pour garder le fil ;",
+              "le texte de la fiche vérifiée correspondante ;",
+              "si vous avez joint un document PDF : un extrait de son texte. Le PDF est lu **dans votre navigateur** ; le fichier lui-même n’est jamais envoyé, seul le texte extrait l’est."
+            ]
+          },
+          "Ces contenus peuvent comporter des données personnelles si vous en écrivez dans votre question ou dans le document joint. Nous vous recommandons de ne pas en indiquer, et surtout aucune donnée sensible (santé, numéro de sécurité sociale, données bancaires). Si vous choisissez néanmoins d’en transmettre, ce traitement repose sur votre démarche volontaire et explicite.",
+          {
+            "list": [
+              "**Finalité :** produire la réponse que vous demandez.",
+              "**Base légale :** l’intérêt légitime de l’éditeur à répondre à la question que vous lui posez (art. 6, § 1, f RGPD), traitement déclenché uniquement par votre action et limité au strict nécessaire ; pour d’éventuelles données sensibles que vous décideriez d’inclure, votre consentement explicite manifesté par cet envoi (art. 9, § 2, a).",
+              "**Relais (Cloudflare Workers) :** Cloudflare, Inc., 101 Townsend Street, San Francisco, CA 94107, États-Unis, sous-traitant de l’éditeur. Le relais **ne conserve rien** : aucune base de données, aucun journal du contenu des questions ou des réponses. Cloudflare traite l’adresse IP pour acheminer la requête et appliquer une limite de 10 questions par minute et par adresse IP (protection contre les abus), ainsi que ses journaux techniques selon son [accord de traitement des données](https://www.cloudflare.com/cloudflare-customer-dpa/).",
+              "**Modèle de langage (Mistral AI) :** Mistral AI SAS, 15 rue des Halles, 75001 Paris, France, sous-traitant de l’éditeur au titre de son [addendum de traitement des données](https://legal.mistral.ai/terms/data-processing-addendum). Modèle utilisé : mistral-small-latest. Mistral indique conserver les entrées et sorties le temps nécessaire à produire la réponse, puis **30 jours glissants** à des fins de surveillance des abus, et ne pas les utiliser pour entraîner ses modèles dans ce cadre. Voir sa [politique de confidentialité](https://legal.mistral.ai/terms/privacy-policy) et la liste de ses [sous-traitants ultérieurs](https://trust.mistral.ai/subprocessors).",
+              "**Durée côté éditeur :** aucune conservation. La conversation n’existe que dans la mémoire de votre navigateur et disparaît quand vous quittez ou rechargez la page.",
+              "**Transfert hors UE :** Mistral AI est établie en France. Le relais Cloudflare peut faire transiter les requêtes par des infrastructures situées hors de l’Union européenne (voir « Transferts »)."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "3. Saisie vocale",
+        "blocks": [
+          "Le bouton micro utilise la reconnaissance vocale intégrée à votre navigateur (interface Web Speech). Selon le navigateur, l’audio peut être envoyé aux serveurs de son éditeur (par exemple Google pour Chrome, Apple pour Safari) pour être transcrit ; « Bonjour, France » ne reçoit que le texte final et n’enregistre aucun son. Ce traitement relève de la politique de confidentialité de votre navigateur. Le micro ne s’active qu’après votre autorisation et vous pouvez toujours taper votre question à la place."
+        ]
+      },
+      {
+        "heading": "4. Compteur d’étoiles GitHub",
+        "blocks": [
+          "Le site affiche le nombre d’« étoiles » de son dépôt. Pour cela, votre navigateur interroge directement l’interface publique de GitHub (api.github.com), qui voit donc votre adresse IP, comme pour la consultation du site (section 1). Aucun identifiant ne vous est associé. Le résultat est mémorisé dans le stockage local de votre navigateur pendant 10 minutes pour éviter des appels répétés. Base légale : intérêt légitime de l’éditeur à afficher une information publique sans surcharger GitHub (art. 6, § 1, f RGPD). Si l’appel échoue (hors ligne, limite atteinte), le site fonctionne normalement sans le compteur."
+        ]
+      },
+      {
+        "heading": "5. Stockage local du navigateur",
+        "blocks": [
+          "Le site utilise le stockage local (« localStorage ») de votre navigateur, jamais de cookies, pour :",
+          {
+            "list": [
+              "mémoriser le compteur d’étoiles pendant 10 minutes ;",
+              "mémoriser, le cas échéant, des préférences d’affichage (par exemple le thème choisi)."
+            ]
+          },
+          "Ces informations restent sur votre appareil, ne sont jamais envoyées à l’éditeur ni à un tiers, ne contiennent aucun identifiant et servent uniquement au fonctionnement du service que vous demandez. Conformément à l’article 82 de la loi Informatique et Libertés, ces accès strictement nécessaires au service ne requièrent pas votre consentement. Vous pouvez les effacer à tout moment depuis les réglages de votre navigateur ; si le stockage est indisponible ou bloqué, le site continue de fonctionner."
+        ]
+      },
+      {
+        "heading": "Destinataires",
+        "blocks": [
+          "Les seules entités susceptibles de traiter des données dans le cadre décrit ci-dessus sont : GitHub, Inc. (hébergement, interface publique), Cloudflare, Inc. (relais de l’assistant), Mistral AI SAS (modèle de langage) et, pour la saisie vocale, l’éditeur de votre navigateur. L’éditeur ne transmet aucune donnée à quiconque d’autre, sauf obligation légale."
+        ]
+      },
+      {
+        "heading": "Transferts hors de l’Union européenne",
+        "blocks": [
+          "GitHub, Inc. et Cloudflare, Inc. sont des sociétés américaines. Les données techniques traitées par ces prestataires peuvent donc être transférées vers les États-Unis. Ces transferts s’appuient sur la décision d’adéquation de la Commission européenne du 10 juillet 2023 relative au cadre de protection des données UE–États-Unis (« Data Privacy Framework »), auquel GitHub et Cloudflare déclarent avoir adhéré, et, à titre complémentaire, sur les clauses contractuelles types intégrées à leurs accords de traitement.",
+          "Pour information : la validité de cette décision d’adéquation a été confirmée par le Tribunal de l’Union européenne le 3 septembre 2025 ; un pourvoi est en cours devant la Cour de justice. En cas d’évolution, cette page sera mise à jour.",
+          "Mistral AI SAS est établie en France ; le traitement de vos questions par le modèle de langage n’implique pas de transfert par l’éditeur. Les éventuels sous-traitants ultérieurs de Mistral figurent dans son centre de confiance."
+        ]
+      },
+      {
+        "heading": "Durées de conservation",
+        "blocks": [
+          {
+            "list": [
+              "**Par l’éditeur :** aucune donnée conservée.",
+              "**Relais Cloudflare :** aucune conservation du contenu ; compteur de limite d’usage éphémère (une minute) ; journaux techniques de Cloudflare selon sa politique.",
+              "**Mistral AI :** entrées et sorties conservées le temps de produire la réponse, puis 30 jours glissants pour la surveillance des abus (selon Mistral).",
+              "**GitHub :** journaux de connexion selon sa politique de confidentialité.",
+              "**Votre navigateur :** stockage local jusqu’à effacement par vous ; le cache du compteur d’étoiles expire après 10 minutes."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Vos droits",
+        "blocks": [
+          "Conformément aux articles 15 à 22 du RGPD, vous disposez d’un droit d’accès, de rectification, d’effacement, de limitation, d’opposition et, le cas échéant, de portabilité de vos données, ainsi que du droit de définir des directives relatives au sort de vos données après votre décès (article 85 de la loi Informatique et Libertés).",
+          "Point important : l’éditeur ne conserve aucune donnée et n’est pas en mesure de vous identifier (article 11 du RGPD). Pour la plupart des demandes, il ne pourra donc que vous confirmer cette absence de données et vous orienter vers le prestataire concerné : [GitHub](https://docs.github.com/fr/site-policy/privacy-policies/github-general-privacy-statement), [Cloudflare](https://www.cloudflare.com/privacypolicy/) ou [Mistral AI](https://legal.mistral.ai/terms/privacy-policy), qui disposent chacun de leur propre procédure.",
+          "Pour exercer vos droits auprès de l’éditeur, écrivez-lui [sur LinkedIn](https://www.linkedin.com/in/alex-cormeraie/) (canal privé recommandé). Une réponse vous sera apportée dans un délai d’un mois, prolongeable de deux mois si la demande est complexe, conformément à l’article 12 du RGPD.",
+          "Si vous estimez, après nous avoir contactés, que vos droits ne sont pas respectés, vous pouvez adresser une réclamation à la **CNIL** (Commission nationale de l’informatique et des libertés), 3 place de Fontenoy, TSA 80715, 75334 Paris Cedex 07, ou en ligne sur [cnil.fr/fr/plaintes](https://www.cnil.fr/fr/plaintes)."
+        ]
+      },
+      {
+        "heading": "Sécurité",
+        "blocks": [
+          "Le site est servi exclusivement en HTTPS. Le relais n’accepte que les requêtes de l’assistant, limite le volume par adresse IP et ne stocke rien, ce qui réduit à la source les risques de fuite. Le code du site est public et peut être audité par quiconque sur [GitHub](https://github.com/Connected-Mate/bonjour-france)."
+        ]
+      },
+      {
+        "heading": "Mineurs",
+        "blocks": [
+          "Le site ne s’adresse pas spécifiquement aux mineurs et ne collecte aucune donnée permettant d’en identifier. Les recommandations ci-dessus (ne pas saisir de données personnelles dans l’assistant) valent tout particulièrement pour les plus jeunes."
+        ]
+      },
+      {
+        "heading": "Modifications",
+        "blocks": [
+          "Cette politique peut évoluer, notamment à l’activation du relais, à l’ajout d’une fonctionnalité ou en cas de changement de prestataire. La date de mise à jour figure en tête de page et l’historique des modifications est consultable dans le dépôt GitHub du site."
+        ]
+      }
+    ]
+  },
+  "credits": {
+    "title": "Crédits",
+    "description": "Les photographies, polices, logiciels libres et sources d’inspiration qui font « Bonjour, France ».",
+    "updated": "30 septembre 2026",
+    "sections": [
+      {
+        "heading": "Merci",
+        "blocks": [
+          "« Bonjour, France » n’existerait pas sans le travail de photographes, de dessinateurs de caractères, de développeurs et de designers qui ont choisi de partager leurs créations sous licence libre. Cette page les nomme et précise, pour chaque ressource, la licence dans laquelle elle est réutilisée. Si vous constatez une erreur d’attribution ou souhaitez qu’un élément soit retiré, [contactez l’éditeur](mentions-legales) : la demande sera honorée sans discussion."
+        ]
+      },
+      {
+        "heading": "Photographies",
+        "blocks": [
+          "Toutes les photographies du site sont de vraies images, publiées par leurs auteurs sous licence libre (Creative Commons, domaine public ou licence équivalente). Chaque image est créditée ci-dessous avec son auteur, sa source et sa licence. Aucune image n’a été générée artificiellement.",
+          "{{PHOTOS}}"
+        ]
+      },
+      {
+        "heading": "Polices de caractères",
+        "blocks": [
+          {
+            "list": [
+              "**Geist** (Geist Sans et Geist Mono) — dessinée par Vercel, publiée sous [SIL Open Font License 1.1](https://openfontlicense.org/) ; source : [github.com/vercel/geist-font](https://github.com/vercel/geist-font).",
+              "**Newsreader** — dessinée par Production Type, publiée sous [SIL Open Font License 1.1](https://openfontlicense.org/) ; source : [github.com/productiontype/Newsreader](https://github.com/productiontype/Newsreader)."
+            ]
+          },
+          "Les polices sont servies depuis le site lui-même, sans appel à un service tiers."
+        ]
+      },
+      {
+        "heading": "Logo Mistral",
+        "blocks": [
+          "Le logo de Mistral AI est reproduit à partir du [kit de marque officiel](https://mistral.ai/brand) de Mistral AI, dans le respect de ses conditions d’usage, pour indiquer la technologie utilisée par l’assistant. Mistral AI est une marque de Mistral AI SAS. Cette mention n’implique ni partenariat, ni parrainage, ni approbation de « Bonjour, France » par Mistral AI."
+        ]
+      },
+      {
+        "heading": "Inspiration et design d’origine",
+        "blocks": [
+          "L’organisation des pages, la grille et le vocabulaire visuel de « Bonjour, France » reprennent l’interface du site [america.gov](https://america.gov/), conçue par le [National Design Studio](https://ndstudio.gov/), un service de la Maison-Blanche (États-Unis). Le code d’interface d’america.gov a été adapté pour la France : contenus, langue, couleurs, illustrations et fonctionnalités ont été refaits.",
+          "Statut de cette réutilisation : aux États-Unis, les œuvres réalisées par des agents du gouvernement fédéral dans l’exercice de leurs fonctions ne sont pas protégées par le droit d’auteur (17 U.S.C. § 105). Le gouvernement américain précise toutefois que cette absence de protection ne vaut pas nécessairement en dehors des États-Unis, et que certains éléments publiés sur ses sites peuvent appartenir à des tiers. Aucune licence explicite n’est affichée sur america.gov ni sur ndstudio.gov à la date de cette page. La réutilisation est donc faite de bonne foi, à titre non commercial, pour un projet indépendant, avec cette attribution ; toute demande de retrait ou de modification émanant des auteurs sera appliquée sans délai.",
+          "Cette inspiration ne crée aucun lien entre « Bonjour, France » et le gouvernement des États-Unis, ni avec le gouvernement français."
+        ]
+      },
+      {
+        "heading": "Logiciels libres",
+        "blocks": [
+          {
+            "list": [
+              "**LiteParse** (lecture des PDF dans le navigateur, WebAssembly) — licence [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).",
+              "Les autres bibliothèques utilisées, avec leur licence, sont listées dans le fichier de dépendances du [dépôt GitHub](https://github.com/Connected-Mate/bonjour-france)."
+            ]
+          },
+          "Le code source de « Bonjour, France » est lui-même publié sous licence libre ; les conditions figurent dans le dépôt."
+        ]
+      },
+      {
+        "heading": "Médaillons et badges",
+        "blocks": [
+          "Les médaillons, badges et pictogrammes décoratifs du site sont des dessins originaux réalisés pour « Bonjour, France ». Ils ne reproduisent aucun logo, emblème, sceau ou marque existants — en particulier aucun symbole officiel de la République française ni d’une administration — et ne doivent pas être compris comme tels."
+        ]
+      }
+    ]
+  },
+  "accessibilite": {
+    "title": "Accessibilité",
+    "description": "Où en est « Bonjour, France » en matière d’accessibilité, en toute transparence.",
+    "updated": "30 septembre 2026",
+    "sections": [
+      {
+        "heading": "Notre engagement",
+        "blocks": [
+          "« Bonjour, France » est édité par un particulier, à titre non professionnel. Il n’est donc pas soumis à l’obligation légale d’accessibilité prévue à l’article 47 de la loi n° 2005-102 du 11 février 2005, qui vise les organismes publics et certaines entreprises. Nous publions néanmoins cette page, sur le modèle des déclarations d’accessibilité, parce qu’un site qui parle de services publics doit pouvoir être utilisé par tout le monde, et parce que la transparence vaut mieux qu’une promesse."
+        ]
+      },
+      {
+        "heading": "État de conformité",
+        "blocks": [
+          "**« Bonjour, France » est non conforme avec le Référentiel général d’amélioration de l’accessibilité (RGAA), version 4.**",
+          "Ce statut ne signifie pas que le site est inutilisable : il signifie qu’**aucun audit de conformité n’a encore été réalisé**. Selon les règles du RGAA, en l’absence d’un audit en cours de validité permettant de mesurer le respect des critères, un site doit se déclarer non conforme. Nous préférons ce mot exact à une estimation flatteuse.",
+          "Le site a été conçu avec l’accessibilité en tête (structure des titres, contrastes, navigation au clavier, textes alternatifs, respect des préférences de réduction des animations), mais ces choix n’ont pas été vérifiés critère par critère par un audit indépendant."
+        ]
+      },
+      {
+        "heading": "Ce que nous savons déjà",
+        "blocks": [
+          "Sans audit, nous ne pouvons pas dresser une liste exhaustive des non-conformités. Voici les limites déjà identifiées ou probables :",
+          {
+            "list": [
+              "les réponses de l’assistant sont générées à la volée : leur structure (titres, listes) n’est pas toujours annoncée de façon optimale aux lecteurs d’écran ;",
+              "la saisie vocale dépend de votre navigateur et n’est pas disponible partout ;",
+              "certaines animations et transitions décoratives peuvent ne pas être totalement désactivées si votre système ne signale pas de préférence de mouvement réduit ;",
+              "les documents PDF que vous joignez ne sont pas rendus accessibles par le site : seul leur texte est lu ;",
+              "certaines photographies portent une description alternative encore perfectible."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Technologies et environnements",
+        "blocks": [
+          "Le site est construit en HTML, CSS et JavaScript, sans cadre d’application lourd. Il est prévu pour fonctionner avec les versions récentes de Firefox, Chrome, Edge et Safari, sur ordinateur et sur mobile, y compris avec un zoom à 200 % et en navigation au clavier. Il n’a pas été testé de manière systématique avec des lecteurs d’écran (NVDA, JAWS, VoiceOver, TalkBack) ; les retours d’utilisateurs sont les bienvenus."
+        ]
+      },
+      {
+        "heading": "Ce qui est prévu",
+        "blocks": [
+          {
+            "list": [
+              "réaliser un autodiagnostic sur la base des critères du RGAA 4 et publier ses résultats sur cette page ;",
+              "corriger en priorité les points qui bloquent l’accès à l’information (navigation, formulaire de l’assistant, contrastes) ;",
+              "mettre à jour l’état de conformité dès qu’un audit permettra de le mesurer honnêtement."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Retour d’information et contact",
+        "blocks": [
+          "Si vous rencontrez une difficulté pour accéder à un contenu ou une fonctionnalité du site, dites-le-nous : nous vous proposerons une alternative accessible ou corrigerons le problème.",
+          {
+            "list": [
+              "[Signaler un problème d’accessibilité sur GitHub](https://github.com/Connected-Mate/bonjour-france/issues) (ticket public, ne mentionnez pas de données personnelles) ;",
+              "[Écrire à l’éditeur sur LinkedIn](https://www.linkedin.com/in/alex-cormeraie/) (échange privé)."
+            ]
+          },
+          "Nous nous efforçons de répondre sous une semaine."
+        ]
+      },
+      {
+        "heading": "Voies de recours",
+        "blocks": [
+          "Si vous avez signalé un défaut d’accessibilité qui vous empêche d’accéder à un contenu et que vous n’avez pas obtenu de réponse satisfaisante, vous pouvez :",
+          {
+            "list": [
+              "[écrire au Défenseur des droits](https://formulaire.defenseurdesdroits.fr/) via son formulaire en ligne ;",
+              "contacter le [délégué du Défenseur des droits de votre région](https://www.defenseurdesdroits.fr/carte-des-delegues) ;",
+              "envoyer un courrier (gratuit, sans affranchissement) à : Défenseur des droits, Libre réponse 71120, 75342 Paris CEDEX 07."
+            ]
+          },
+          "Le Défenseur des droits est compétent pour les discriminations liées au handicap ; s’agissant d’un site édité par un particulier hors obligation légale, sa saisine relève de ce cadre général."
+        ]
+      }
+    ]
+  }
+}
