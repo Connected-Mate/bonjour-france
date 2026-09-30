@@ -300,6 +300,23 @@ def patch_sources() -> None:
     shutil.copy2(STATIC / "source-fr.svg", STAGE / "images" / "agency-seals" / "source-fr.svg")
 
 
+NEUTRAL_MARK = ("data:image/svg+xml,%3csvg%20width='24'%20height='14'%20viewBox='0%200%2024%2014'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e"
+                "%3cpath%20d='M6.5%201.5A1.5%201.5%200%200%201%208%200h8a1.5%201.5%200%200%201%201.5%201.5v7A1.5%201.5%200%200%201%2016%2010h-5.2L8%2013v-3a1.5%201.5%200%200%201-1.5-1.5z'%20fill='%23000C1F'%20fill-opacity='0.65'/%3e%3c/svg%3e")
+
+
+def patch_flags() -> None:
+    """The small US flag shown next to the (now unofficial) notice becomes a neutral speech-bubble mark."""
+    n_total = 0
+    for f in list((STAGE / "_astro").glob("*.js")) + list(STAGE.rglob("*.html")):
+        s = read(f)
+        s2, n = re.subn(r"data:image/svg\+xml,%3csvg%20width='24'%20height='14'[^`\"]*?10\.5V1\.16667[^`\"]*", NEUTRAL_MARK, s)
+        if n:
+            write(f, s2)
+            n_total += n
+    if n_total == 0:
+        warn("US flag data URI not found — check the notice icon")
+
+
 def patch_js_literals(by_en: dict) -> None:
     # replace exact template/quoted literals; longest first so fragments never clobber sentences
     items = sorted(((k, v) for k, v in by_en.items() if len(k) >= 2), key=lambda kv: len(kv[0]), reverse=True)
@@ -485,6 +502,7 @@ def main() -> None:
     patch_html_text(by_en)
     patch_react_copy()
     patch_sources()
+    patch_flags()
     patch_js_literals(by_en)
     branding()
     strip_remote()

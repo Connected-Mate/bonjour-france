@@ -445,10 +445,10 @@
     loadStars();
   }
 
-  /* ------------------------------------------------------------------ footer "Donner un avis" -> GitHub */
+  /* ------------------------------------------------------------------ "Donner un avis" (footer, menu) -> GitHub */
   document.addEventListener("click", function (e) {
-    var b = e.target && e.target.closest && e.target.closest('[data-slot="site-footer"] button');
-    if (b && /Donner un avis/.test(b.textContent || "")) {
+    var b = e.target && e.target.closest && e.target.closest("button, a");
+    if (b && /^\s*Donner un avis\s*$/.test(b.textContent || "")) {
       e.preventDefault(); e.stopImmediatePropagation();
       window.open(REPO_URL + "/issues/new", "_blank", "noopener");
     }
