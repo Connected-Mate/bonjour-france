@@ -248,29 +248,31 @@
 
   function puterSignedIn(p) { try { return !!(p.auth && p.auth.isSignedIn && p.auth.isSignedIn()); } catch (e) { return false; } }
 
-  /** Our explainer first; the Puter window opens from the visitor's click (so it is not blocked). */
-  function askPuterSignIn(p) {
+  /** Our explainer first: nothing is loaded from Puter before the visitor clicks « Continuer ».
+   *  The Puter window then opens from that click (within the browser's user-activation window). */
+  function askPuterConsent() {
+    if (LS.get("bf.puter.consent", false)) return Promise.resolve();
     return new Promise(function (resolve, reject) {
       delete getPanel().dataset.dismissable;
       showPanel("Discuter avec Mistral",
         "Pour discuter avec Mistral gratuitement, une fenêtre Puter va s’ouvrir : c’est un accès test par utilisateur, sans frais pour vous. Vous pouvez aussi recevoir une réponse sans IA.",
         [
           { label: "Réponse sans IA", onClick: function () { hidePanel(); reject(Object.assign(new Error("declined"), { kind: "declined" })); } },
-          { label: "Continuer", primary: true, onClick: function () {
-            hidePanel();
-            var opened = false;
-            try {
-              var pr = p.auth.signIn({ attempt_temp_user_creation: true });
-              opened = true;
-              pr.then(function () { resolve(); }, function (e) {
-                var m = String((e && (e.msg || e.message || e.error)) || e || "");
-                reject(Object.assign(new Error(m || "cancelled"), { kind: /popup|blocked/i.test(m) ? "popup" : "cancelled" }));
-              });
-            } catch (e) {
-              if (!opened) reject(Object.assign(new Error(String(e && e.message || e)), { kind: "popup" }));
-            }
-          } },
+          { label: "Continuer", primary: true, onClick: function () { LS.set("bf.puter.consent", true); hidePanel(); resolve(); } },
         ]);
+    });
+  }
+
+  function puterSignIn(p) {
+    return new Promise(function (resolve, reject) {
+      try {
+        p.auth.signIn({ attempt_temp_user_creation: true }).then(function () { resolve(); }, function (e) {
+          var m = String((e && (e.msg || e.message || e.error)) || e || "");
+          reject(Object.assign(new Error(m || "cancelled"), { kind: /popup|blocked/i.test(m) ? "popup" : "cancelled" }));
+        });
+      } catch (e) {
+        reject(Object.assign(new Error(String(e && e.message || e)), { kind: "popup" }));
+      }
     });
   }
 
@@ -285,8 +287,9 @@
   }
 
   async function askPuter(history, q, hits, isCancelled, onDelta) {
+    await askPuterConsent();
     var p = await loadPuter();
-    if (!puterSignedIn(p)) await askPuterSignIn(p);
+    if (!puterSignedIn(p)) await puterSignIn(p);
     var messages = [{ role: "system", content: PUTER_SYSTEM + (hits.length ? "\n\nFICHES VÉRIFIÉES (données) :\n" + ficheContext(hits).slice(0, 6000) : "") }];
     history.slice(-10).forEach(function (h) { messages.push({ role: h.role, content: h.content.slice(0, 3900) }); });
     messages.push({ role: "user", content: userContent(q) });
