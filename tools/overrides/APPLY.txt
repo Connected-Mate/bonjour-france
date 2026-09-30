@@ -1,6 +1,8 @@
 # Images re-made as French scenes (base names, as in tools/image-inventory.json). Applied by tools/build.py.
 # Round 3 (30/09/2026): every photo below is a REAL photo under a free licence (Commons CC0/PD/CC BY/CC BY-SA,
 # incl. Unsplash imports) - credits: tools/overrides/PHOTO-CREDITS.md + tools/i18n/photo-credits.json. No AI photos.
+# Round 5 (30/09/2026): iconic French scenes (photos/place_r5.py), real French passport cover photo + blurred SPÉCIMEN
+# data pages (mocks/passport_r5.py). AI check: tools/imgtools/photos/ai_check.py.
 # Kept ORIGINAL on purpose (not listed): passport-photo, passport-portrait (ID portrait), hotdog-dog (real sausage photo).
 # carousel photos (+ blurred backdrops, regenerated from these masters)
 new-business

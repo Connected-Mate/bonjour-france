@@ -129,6 +129,9 @@ def override_applies(rel: Path) -> bool:
     return rel.suffix == ".wasm"
 
 
+APPLIED: list = []
+
+
 def stage() -> None:
     if STAGE.exists():
         shutil.rmtree(STAGE)
@@ -145,6 +148,7 @@ def stage() -> None:
             dst = STAGE / rel
         dst.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(src, dst)
+        APPLIED.append(dst.relative_to(STAGE).as_posix())
     # the chat is a client-side state of the home page
     (STAGE / "chat").mkdir(exist_ok=True)
     shutil.copy2(STAGE / "index.html", STAGE / "chat" / "index.html")
@@ -522,6 +526,14 @@ def legal_documents():
                         links[a], links[b] = ph["licence_url"], ph["source_url"]
                         paras.append(f"« {ph['title']} » — {ph['author']}, <{a}>{ph['licence']}</{a}>, "
                                      f"<{b}>source</{b}> ({ph.get('changes') or 'recadrée'}).")
+                elif b == "{{ORBIT}}":
+                    shots = json.loads(read(I18N / "orbit-credits.json")) if (I18N / "orbit-credits.json").exists() else []
+                    caps = sorted({x["domain"] for x in shots if x.get("status") == "capture"})
+                    cards = sorted({x["domain"] for x in shots if x.get("status") != "capture"})
+                    if caps:
+                        paras.append("Captures : " + ", ".join(caps) + ".")
+                    if cards:
+                        paras.append("Ces sites n’ont pas pu être capturés et sont représentés par une simple carte portant leur nom : " + ", ".join(cards) + ".")
                 elif b == "{{LOGOS}}":
                     logos = json.loads(read(I18N / "logo-credits.json")) if (I18N / "logo-credits.json").exists() else []
                     for lg in sorted(logos, key=lambda x: x["name"].lower()):
@@ -781,6 +793,40 @@ def inject() -> None:
         write(page, s)
 
 
+def photo_credit_assets() -> None:
+    """bonjour/photo-credits.json (base -> credits) for the long-press / right-click popup,
+    and CSS that disables the iOS image callout on credited photos only."""
+    rows = json.loads(read(I18N / "photo-credits.json")) if (I18N / "photo-credits.json").exists() else []
+    by_base = {}
+    for r in rows:
+        by_base.setdefault(r["base"], []).append({k: r.get(k) for k in ("title", "author", "licence", "licence_url", "source_url")})
+    write(STAGE / "bonjour" / "photo-credits.json", json.dumps(by_base, ensure_ascii=False))
+    sel = ",".join(f'img[src*="/{b}."]' for b in sorted(by_base))
+    css = STAGE / "bonjour" / "bonjour.css"
+    write(css, read(css) + f"\n/* credited photos: no native callout, long-press shows the credit */\n{sel}{{-webkit-touch-callout:none;-webkit-user-select:none;user-select:none}}\n")
+
+
+def version_overridden_assets() -> None:
+    """Replaced images keep america.gov's file names: add ?v=<content hash> to every literal reference
+    so returning visitors fetch the new files instead of a cached original."""
+    import hashlib
+    ver = {}
+    for rel in APPLIED:
+        f = STAGE / rel
+        if f.exists() and f.suffix in (".webp", ".png", ".jpg", ".jpeg", ".svg", ".ico", ".wasm"):
+            ver[f"{BASE}/{rel}"] = hashlib.sha256(f.read_bytes()).hexdigest()[:8]
+    if not ver:
+        return
+    ref = re.compile(re.escape(BASE) + r"/(?:_astro|images)/[^\"'`\s),?]+\.(?:webp|png|jpe?g|svg|ico|wasm)(?![?\w])")
+    for f in STAGE.rglob("*"):
+        if not f.is_file() or f.suffix not in (".html", ".js", ".css") or f.relative_to(STAGE).parts[0] == "bonjour":
+            continue
+        t = read(f)
+        t2 = ref.sub(lambda m: m.group(0) + ("?v=" + ver[m.group(0)] if m.group(0) in ver else ""), t)
+        if t2 != t:
+            write(f, t2)
+
+
 def finalize() -> None:
     tmp = ROOT / ".build-out"
     if tmp.exists():
@@ -815,6 +861,8 @@ def main() -> None:
     strip_remote()
     inject()
     rebase()
+    photo_credit_assets()
+    version_overridden_assets()
     finalize()
     for w in warnings:
         print("[warn]", w)

@@ -1,0 +1,345 @@
+[
+ {
+  "slot": "archives",
+  "domain": "legifrance.gouv.fr",
+  "url": "https://legifrance.gouv.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "bea",
+  "domain": "inpi.fr",
+  "url": "https://inpi.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "blm",
+  "domain": "geoportail.gouv.fr",
+  "url": "https://geoportail.gouv.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "cbp",
+  "domain": "douane.gouv.fr",
+  "url": "https://douane.gouv.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "cdc",
+  "domain": "sante.fr",
+  "url": "https://sante.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "census",
+  "domain": "insee.fr",
+  "url": "https://insee.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "cfpb",
+  "domain": "economie.gouv.fr",
+  "url": "https://economie.gouv.fr/",
+  "captured": "2026-09-30",
+  "status": "carte"
+ },
+ {
+  "slot": "commerce",
+  "domain": "entreprendre.service-public.gouv.fr",
+  "url": "https://entreprendre.service-public.gouv.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "congress",
+  "domain": "elections.interieur.gouv.fr",
+  "url": "https://elections.interieur.gouv.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "dhs",
+  "domain": "masecurite.interieur.gouv.fr",
+  "url": "https://masecurite.interieur.gouv.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "disaster",
+  "domain": "georisques.gouv.fr",
+  "url": "https://georisques.gouv.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "doi",
+  "domain": "parcsnationaux.fr",
+  "url": "https://parcsnationaux.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "dol",
+  "domain": "francetravail.fr",
+  "url": "https://francetravail.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "energy",
+  "domain": "ademe.fr",
+  "url": "https://ademe.fr/",
+  "captured": "2026-09-30",
+  "status": "carte"
+ },
+ {
+  "slot": "epa",
+  "domain": "maprimerenov.gouv.fr",
+  "url": "https://maprimerenov.gouv.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "fbi",
+  "domain": "cnil.fr",
+  "url": "https://cnil.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "fda",
+  "domain": "vaccination-info-service.fr",
+  "url": "https://vaccination-info-service.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "fema",
+  "domain": "demande-logement-social.gouv.fr",
+  "url": "https://demande-logement-social.gouv.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "forest",
+  "domain": "onf.fr",
+  "url": "https://onf.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "fueleconomy",
+  "domain": "francemobilites.fr",
+  "url": "https://francemobilites.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "fws",
+  "domain": "anah.gouv.fr",
+  "url": "https://anah.gouv.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "gao",
+  "domain": "data.gouv.fr",
+  "url": "https://data.gouv.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "gsa",
+  "domain": "formalites.entreprises.gouv.fr",
+  "url": "https://formalites.entreprises.gouv.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "healthcare",
+  "domain": "ameli.fr",
+  "url": "https://ameli.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "hud",
+  "domain": "monparcourshandicap.gouv.fr",
+  "url": "https://monparcourshandicap.gouv.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "irs",
+  "domain": "impots.gouv.fr",
+  "url": "https://impots.gouv.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "justice",
+  "domain": "justice.fr",
+  "url": "https://justice.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "loc",
+  "domain": "education.gouv.fr",
+  "url": "https://education.gouv.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "medicare",
+  "domain": "mesdroitssociaux.gouv.fr",
+  "url": "https://mesdroitssociaux.gouv.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "medlineplus",
+  "domain": "monespacesante.fr",
+  "url": "https://monespacesante.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "nasa",
+  "domain": "securite-routiere.gouv.fr",
+  "url": "https://securite-routiere.gouv.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "nih",
+  "domain": "caf.fr",
+  "url": "https://caf.fr/",
+  "captured": "2026-09-30",
+  "status": "carte"
+ },
+ {
+  "slot": "noaa",
+  "domain": "meteofrance.com",
+  "url": "https://meteofrance.com/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "nps",
+  "domain": "pass.culture.fr",
+  "url": "https://pass.culture.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "nsf",
+  "domain": "parcoursup.gouv.fr",
+  "url": "https://parcoursup.gouv.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "ocean",
+  "domain": "diplomatie.gouv.fr",
+  "url": "https://diplomatie.gouv.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "ready",
+  "domain": "ants.gouv.fr",
+  "url": "https://ants.gouv.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "recreation",
+  "domain": "permisdeconduire.ants.gouv.fr",
+  "url": "https://permisdeconduire.ants.gouv.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "sba",
+  "domain": "bpifrance.fr",
+  "url": "https://bpifrance.fr/",
+  "captured": "2026-09-30",
+  "status": "carte"
+ },
+ {
+  "slot": "si",
+  "domain": "etudiant.gouv.fr",
+  "url": "https://etudiant.gouv.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "ssa",
+  "domain": "info-retraite.fr",
+  "url": "https://info-retraite.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "tsa",
+  "domain": "franceconnect.gouv.fr",
+  "url": "https://franceconnect.gouv.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "usa",
+  "domain": "service-public.gouv.fr",
+  "url": "https://service-public.gouv.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "usajobs",
+  "domain": "choisirleservicepublic.gouv.fr",
+  "url": "https://choisirleservicepublic.gouv.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "uscis",
+  "domain": "lassuranceretraite.fr",
+  "url": "https://lassuranceretraite.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "uspto",
+  "domain": "urssaf.fr",
+  "url": "https://urssaf.fr/",
+  "captured": "2026-09-30",
+  "status": "carte"
+ },
+ {
+  "slot": "va",
+  "domain": "msa.fr",
+  "url": "https://msa.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "vote",
+  "domain": "maprocuration.gouv.fr",
+  "url": "https://maprocuration.gouv.fr/",
+  "captured": "2026-09-30",
+  "status": "capture"
+ },
+ {
+  "slot": "weather",
+  "domain": "monenfant.fr",
+  "url": "https://monenfant.fr/",
+  "captured": "2026-09-30",
+  "status": "carte"
+ }
+]

@@ -136,7 +136,7 @@ def roadmap_desktop():
         y = 656 + i * 184
         op = 1 if i < 4 else 0.35
         s += f'<g opacity="{op}">'
-        s += rounded_thumb(REAL + ph_ + '.jpg', 477, y + 32, 120, 120, 18, f'th{i}')  # round 3: real Commons photos
+        s += rounded_thumb(REAL + 'r5-' + ph_ + '.jpg', 477, y + 32, 120, 120, 18, f'th{i}')  # round 5: real Commons photos of Nantes buildings
         s += T(621, y + 64, ellip(t1, 'Geist600', 24.5, 282), 24.5, 'Geist600', '#111')
         s += T(621, y + 102, a1, 24.5, 'Geist400', '#5b5f68')
         s += T(621, y + 138, a2, 24.5, 'Geist400', '#5b5f68')

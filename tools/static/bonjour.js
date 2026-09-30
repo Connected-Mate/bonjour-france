@@ -466,13 +466,148 @@
     if (document.getElementById("bf-wink")) return;
     var p = Array.prototype.find.call(document.querySelectorAll('[data-slot="site-footer"] p'), function (x) { return /^Site non officiel, sans lien/.test((x.textContent || "").trim()); });
     if (!p) return;
-    // inside the laurel line, as a second line, so it stays centred under the notice on every layout
+    // second and third lines under the laurel notice, same typography
     var w = document.createElement("span");
     w.id = "bf-wink";
     w.className = "bf-wink";
-    w.innerHTML = "… mais si seulement nos décideurs voyaient passer ce genre d’idées. 😉 " +
-      '<a href="#bf-vote">Votez pour que ça existe</a>';
+    w.innerHTML = "Pensé par un Français qui croit que nous méritons tous un meilleur espace numérique, fourni par l’État." +
+      '<span class="bf-wink-cta">Vous partagez l’idée ? <a href="' + LINKEDIN + '" target="_blank" rel="noopener">Contactez-moi</a></span>';
     p.appendChild(w);
+  }
+
+
+  /* ------------------------------------------------------------------ photo credits: long-press, right-click, (i) button */
+  var credits = null;
+  function loadCredits() {
+    if (credits) return credits;
+    credits = origFetch(BASE + "/bonjour/photo-credits.json").then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; });
+    return credits;
+  }
+  var creditMap = {};
+  loadCredits().then(function (m) { creditMap = m || {}; scanCredits(); });
+  function baseOf(url) {
+    var f = String(url || "").split("?")[0].split("/").pop() || "";
+    return f.replace(/\.[A-Za-z0-9_-]{8}(_[A-Za-z0-9]+)?\.(webp|png|jpe?g|avif)$/, "").replace(/\.(webp|png|jpe?g|avif)$/, "");
+  }
+  function creditOf(img) {
+    if (!img || img.tagName !== "IMG") return null;
+    var c = creditMap[baseOf(img.currentSrc || img.src)];
+    return c && c.length ? c : null;
+  }
+  function shown(el) { // not an inactive slide / decorative layer
+    if (el.closest('[aria-hidden="true"], [inert]')) return false;
+    for (var e = el, op = 1; e && e.nodeType === 1; e = e.parentElement) {
+      var cs = getComputedStyle(e);
+      if (cs.visibility === "hidden" || cs.display === "none") return false;
+      op *= parseFloat(cs.opacity);
+    }
+    return op > 0.05;
+  }
+  function creditedImgAt(x, y) {
+    var els = document.elementsFromPoint ? document.elementsFromPoint(x, y) : [];
+    for (var i = 0; i < els.length; i++) {
+      if (els[i].tagName === "IMG" && creditOf(els[i]) && shown(els[i])) return els[i];
+      if (els[i].closest && els[i].closest(".bf-credit-pop")) return null;
+    }
+    return null;
+  }
+
+  var pop = null, popReturn = null;
+  function closeCredit() {
+    if (!pop || pop.hidden) return;
+    pop.hidden = true;
+    if (popReturn && popReturn.focus) popReturn.focus({ preventScroll: true });
+    popReturn = null;
+  }
+  function openCredit(list, returnTo) {
+    if (!pop) {
+      pop = document.createElement("div");
+      pop.className = "bf-credit-pop";
+      pop.setAttribute("role", "dialog");
+      pop.setAttribute("aria-modal", "true");
+      pop.setAttribute("aria-labelledby", "bf-credit-title");
+      pop.hidden = true;
+      document.body.appendChild(pop);
+      pop.addEventListener("click", function (e) { if (e.target.closest("[data-bf-close]")) closeCredit(); });
+    }
+    popReturn = returnTo || document.activeElement;
+    var esc = function (t) { var d = document.createElement("div"); d.textContent = t == null ? "" : String(t); return d.innerHTML; };
+    pop.innerHTML = '<div class="bf-credit-card"><h2 id="bf-credit-title">Crédit photo</h2>' + list.map(function (c) {
+      return '<div class="bf-credit-item"><p class="bf-credit-name">' + esc(c.title) + "</p>" +
+        "<p>Auteur : " + esc(c.author) + "</p>" +
+        '<p>Licence : <a href="' + esc(c.licence_url) + '" target="_blank" rel="noopener">' + esc(c.licence) + "</a>" +
+        ' · <a href="' + esc(c.source_url) + '" target="_blank" rel="noopener">Voir la source</a></p></div>';
+    }).join("") + '<div class="bf-credit-foot"><a href="' + BASE + '/credits/">Tous les crédits</a>' +
+      '<button type="button" data-bf-close class="bf-credit-close">Fermer</button></div></div>';
+    pop.hidden = false;
+    var btn = pop.querySelector(".bf-credit-close");
+    if (btn) btn.focus({ preventScroll: true });
+  }
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && pop && !pop.hidden) { e.preventDefault(); closeCredit(); }
+    if (e.key === "Tab" && pop && !pop.hidden) { // keep focus inside the dialog
+      var f = pop.querySelectorAll("a, button");
+      if (!f.length) return;
+      var first = f[0], last = f[f.length - 1];
+      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+    }
+  });
+  document.addEventListener("pointerdown", function (e) {
+    if (pop && !pop.hidden && !e.target.closest(".bf-credit-pop")) closeCredit();
+  }, true);
+
+  // desktop: right-click on a photo opens its credit instead of the native menu
+  document.addEventListener("contextmenu", function (e) {
+    var img = creditedImgAt(e.clientX, e.clientY);
+    if (!img) return;
+    e.preventDefault();
+    openCredit(creditOf(img), img);
+  });
+
+  // touch: long-press (500 ms) without moving
+  var lp = null, suppressClick = false;
+  function cancelLp() { if (lp) { clearTimeout(lp.t); lp = null; } }
+  document.addEventListener("pointerdown", function (e) {
+    if (e.pointerType === "mouse") return;
+    var img = creditedImgAt(e.clientX, e.clientY);
+    if (!img) return;
+    cancelLp();
+    lp = { x: e.clientX, y: e.clientY, t: setTimeout(function () { lp = null; suppressClick = true; openCredit(creditOf(img), img); }, 500) };
+  }, { passive: true });
+  document.addEventListener("pointermove", function (e) { if (lp && Math.hypot(e.clientX - lp.x, e.clientY - lp.y) > 10) cancelLp(); }, { passive: true });
+  ["pointerup", "pointercancel"].forEach(function (t) { document.addEventListener(t, cancelLp, { passive: true }); });
+  window.addEventListener("scroll", cancelLp, { passive: true, capture: true });
+  document.addEventListener("click", function (e) { if (suppressClick) { suppressClick = false; e.preventDefault(); e.stopPropagation(); } }, true);
+
+  // keyboard & mouse: a discreet (i) button on each credited photo, visible on hover / focus
+  function scanCredits() {
+    if (!Object.keys(creditMap).length) return;
+    // buttons of slides that are currently hidden leave the tab order
+    document.querySelectorAll(".bf-credit-btn").forEach(function (b) {
+      var hidden = !!b.parentElement.closest('[aria-hidden="true"], [inert]');
+      b.tabIndex = hidden ? -1 : 0;
+    });
+    document.querySelectorAll("img").forEach(function (img) {
+      if (img.dataset.bfCredit) return;
+      var c = creditOf(img);
+      if (!c) return;
+      var r = img.getBoundingClientRect();
+      if (r.width && r.width < 80) return; // blurred backdrops, tiny thumbnails
+      if (img.closest('[aria-hidden="true"]') && !img.closest("[data-slot]")) return;
+      img.dataset.bfCredit = "1";
+      var host = img.parentElement && img.parentElement.tagName === "PICTURE" ? img.parentElement.parentElement : img.parentElement;
+      if (!host || host.querySelector(":scope > .bf-credit-btn")) return;
+      if (getComputedStyle(host).position === "static") host.style.position = "relative";
+      host.classList.add("bf-credit-host");
+      var b = document.createElement("button");
+      b.type = "button";
+      b.className = "bf-credit-btn";
+      b.setAttribute("aria-label", "Crédit photo : " + c[0].title + ", " + c[0].author);
+      b.innerHTML = '<span aria-hidden="true">i</span>';
+      b.addEventListener("click", function (ev) { ev.preventDefault(); ev.stopPropagation(); openCredit(c, b); });
+      host.appendChild(b);
+    });
   }
 
   /* ------------------------------------------------------------------ boot */
@@ -487,7 +622,7 @@
     new MutationObserver(function () {
       if (queued) return;
       queued = true;
-      requestAnimationFrame(function () { queued = false; placeVote(); tagAnswers(); placeMistralPrivacy(); placeFooterWink(); placeHeroSignature(); });
+      requestAnimationFrame(function () { queued = false; placeVote(); tagAnswers(); placeMistralPrivacy(); placeFooterWink(); placeHeroSignature(); scanCredits(); });
     }).observe(document.body, { childList: true, subtree: true, characterData: true });
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", boot); else boot();

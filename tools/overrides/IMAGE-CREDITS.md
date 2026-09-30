@@ -1,3 +1,7 @@
+# Crédits des images — voir PHOTO-CREDITS.md (photos réelles sous licence libre), tools/i18n/logo-credits.json (logos) et tools/i18n/orbit-credits.json (captures d’écran).
+
+Aucune image générée par IA n’est publiée sur le site. L’historique ci-dessous (round 1) est obsolète et conservé pour mémoire.
+
 # Bonjour France — crédits des images
 
 Site non officiel, projet de fans indépendant. **Aucune photo tierce n'est utilisée : toutes les images remplacées sont « généré ».**
