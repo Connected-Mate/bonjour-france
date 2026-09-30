@@ -235,12 +235,12 @@
       var s = document.createElement("script");
       s.src = PUTER.script || "https://js.puter.com/v2/";
       s.async = true;
-      var t = setTimeout(function () { reject(Object.assign(new Error("puter-timeout"), { kind: "network" })); }, 20000);
+      var t = setTimeout(function () { reject(Object.assign(new Error("puter-timeout"), { kind: "unreachable" })); }, 20000);
       s.onload = function () {
         clearTimeout(t);
-        window.puter && window.puter.ai ? resolve(window.puter) : reject(Object.assign(new Error("puter-missing"), { kind: "network" }));
+        window.puter && window.puter.ai ? resolve(window.puter) : reject(Object.assign(new Error("puter-missing"), { kind: "unreachable" }));
       };
-      s.onerror = function () { clearTimeout(t); reject(Object.assign(new Error("puter-load"), { kind: "network" })); };
+      s.onerror = function () { clearTimeout(t); reject(Object.assign(new Error("puter-load"), { kind: "unreachable" })); };
       document.head.appendChild(s);
     }).catch(function (e) { puterLoading = null; throw e; });
     return puterLoading;
@@ -336,6 +336,7 @@
     cancelled: "La fenêtre Puter a été fermée : Mistral n’a donc pas pu répondre. Vous pouvez réessayer en reposant la question.",
     popup: "La fenêtre Puter n’a pas pu s’ouvrir (fenêtres bloquées par le navigateur ?). Autorisez les fenêtres pour ce site, puis réessayez.",
     quota: "Votre accès test Puter à Mistral est épuisé pour le moment. Réessayez plus tard, ou continuez directement chez Mistral.",
+    unreachable: "Mistral indisponible depuis ce réseau (le service Puter ne répond pas ou est filtré ici). Voici notre fiche, et vous pouvez poser la question directement à Mistral.",
     network: "Impossible de joindre Puter pour interroger Mistral (connexion ou réseau filtré). Réessayez dans un instant.",
     slow: "Mistral met trop de temps à répondre. Réessayez dans un instant.",
     error: "Mistral n’a pas pu répondre cette fois-ci. Réessayez dans un instant.",
