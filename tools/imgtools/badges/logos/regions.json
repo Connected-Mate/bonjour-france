@@ -1,0 +1,119 @@
+[
+ {
+  "body": "bretagne",
+  "name": "Région Bretagne",
+  "file": "logos/bretagne.svg",
+  "source_url": "https://fr.wikipedia.org/wiki/Fichier:Région-bretagne-logo.svg",
+  "status": "logo institutionnel, marque déposée (fr.wikipedia, usage d'identification)",
+  "retrieved": "2026-09-30",
+  "notes": "Official bretagne.bzh blocked by Cloudflare (403); same black-square hermine logotype matches Charte graphique 2025 description and Commons TIFF; white-on-black by design, E flush to edge by design"
+ },
+ {
+  "body": "occitanie",
+  "name": "Région Occitanie",
+  "file": "logos/occitanie.png",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Logo_Occitanie.png",
+  "status": "Commons: Public domain (threshold of originality); logo institutionnel",
+  "retrieved": "2026-09-30",
+  "notes": "1772px, upload 2026-08; red square with yellow cross = current \"La Région Occitanie\"; not cross-checked on laregion.fr (page shows no logo img)"
+ },
+ {
+  "body": "nouvelleaquitaine",
+  "name": "Région Nouvelle-Aquitaine",
+  "file": "logos/nouvelleaquitaine.png",
+  "source_url": "https://fr.wikipedia.org/wiki/Fichier:Logo_Région_Nouvelle_Aquitaine_2026.jpg",
+  "status": "logo institutionnel, marque de la Région — usage d'identification",
+  "retrieved": "2026-09-30",
+  "notes": "2026 version (fr.wikipedia upload 2026-06-28), JPG->PNG lossless, white bg, 2490x1282; official site header logo.svg is white-on-red variant (same shield)"
+ },
+ {
+  "body": "hdf",
+  "name": "Région Hauts-de-France",
+  "file": "logos/hdf.svg",
+  "source_url": "https://www.hautsdefrance.fr/app/themes/hautsdefrance-1.5.202310/img/logo_HDF.svg",
+  "status": "logo institutionnel, marque de la Région — usage d'identification",
+  "retrieved": "2026-09-30",
+  "notes": "Header SVG of hautsdefrance.fr fetched 2026-09-30; colour version"
+ },
+ {
+  "body": "grandest",
+  "name": "Région Grand Est",
+  "file": "logos/grandest.png",
+  "source_url": "https://www.grandest.fr/wp-content/uploads/2024/05/logo-hd.png",
+  "status": "logo institutionnel, marque de la Région — usage d'identification",
+  "retrieved": "2026-09-30",
+  "notes": "Official site PNG 700x128 (uploaded 2024-05, only hi-res colour found; below 512 tall, above 512 wide); blue box design is the brand"
+ },
+ {
+  "body": "aura",
+  "name": "Région Auvergne-Rhône-Alpes",
+  "file": "logos/aura.svg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Auvergne-Rhône-Alpes.svg",
+  "status": "Commons: Public domain; logo institutionnel (Graphéine 2017)",
+  "retrieved": "2026-09-30",
+  "notes": "Commons upload 2025-06; official site fetch blocked (1.5KB stub) so not cross-checked on site"
+ },
+ {
+  "body": "paca",
+  "name": "Région Sud (Provence-Alpes-Côte d'Azur)",
+  "file": "logos/paca.svg",
+  "source_url": "https://www.maregionsud.fr/typo3conf/ext/e_magineurs/region_sud/Resources/Public/Images/Logo.svg",
+  "status": "logo institutionnel, marque de la Région — usage d'identification",
+  "retrieved": "2026-09-30",
+  "notes": "Official site SVG fetched 2026-09-30; brand \"Région Sud\""
+ },
+ {
+  "body": "normandie",
+  "name": "Région Normandie",
+  "file": "logos/normandie.png",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Logo-region-normandie-rvb.jpg",
+  "status": "Commons: CC BY 4.0; logo institutionnel",
+  "retrieved": "2026-09-30",
+  "notes": "1200x1135 JPG->PNG; fr.wikipedia SVG was clipped at edges so JPG used; official site blocked (403), same 2016 logo not cross-checked live"
+ },
+ {
+  "body": "corse",
+  "name": "Collectivité de Corse",
+  "file": "logos/corse.svg",
+  "source_url": "https://fr.wikipedia.org/wiki/Fichier:Logo_Collectivité_Corse_2018.svg",
+  "status": "logo institutionnel, marque déposée (fr.wikipedia, usage d'identification)",
+  "retrieved": "2026-09-30",
+  "notes": "Logo since 2018 (bilingual); isula.corsica footer PNG is the same V mark; official SVG not found"
+ },
+ {
+  "body": "idf",
+  "name": "Région Île-de-France",
+  "file": "logos/idf.svg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Région_Île-de-France_(logo).svg",
+  "status": "Commons: Public domain; logo institutionnel (2019)",
+  "retrieved": "2026-09-30",
+  "notes": "iledefrance.fr header SVG is white variant so Commons colour version used; same design"
+ },
+ {
+  "body": "pdl",
+  "name": "Région Pays de la Loire",
+  "file": "logos/pdl.svg",
+  "source_url": "https://www.paysdelaloire.fr/themes/custom/drup_theme/images/logo-2022.svg",
+  "status": "logo institutionnel, marque de la Région — usage d'identification",
+  "retrieved": "2026-09-30",
+  "notes": "Official site SVG (logo-2022) fetched 2026-09-30"
+ },
+ {
+  "body": "cvl",
+  "name": "Région Centre-Val de Loire",
+  "file": "logos/cvl.svg",
+  "source_url": "https://www.centre-valdeloire.fr/sites/default/files/media/document/2024-12/logo-rvb-ecran-rcvl-2024.zip",
+  "status": "logo institutionnel, marque de la Région — usage d'identification",
+  "retrieved": "2026-09-30",
+  "notes": "Official kit de communication (2024-12), COULEURS RVB SVG, unaltered"
+ },
+ {
+  "body": "bfc",
+  "name": "Région Bourgogne-Franche-Comté",
+  "file": "logos/bfc.svg",
+  "source_url": "https://www.bourgognefranchecomte.fr/themes/custom/bourg/logo.svg",
+  "status": "logo institutionnel, marque de la Région — usage d'identification",
+  "retrieved": "2026-09-30",
+  "notes": "Official site header SVG fetched 2026-09-30"
+ }
+]

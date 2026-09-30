@@ -1,0 +1,222 @@
+[
+ {
+  "body": "ign",
+  "name": "Institut national de l'information géographique et forestière (IGN)",
+  "file": "logos/ign.svg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:IGN_logo_2012.svg",
+  "status": "PD-textlogo (Commons) — marque déposée — usage d'identification",
+  "retrieved": "2026-09-30",
+  "has_marianne": false,
+  "notes": "Logo in force since Jan 2012 (Commons). ign.fr header shows same IGN mark (compact, no name) = logos/ign_mark.png 300x200 (official, <512px alt). ign.fr header pairs it with separate RF bloc-marque image. No 2025-26 change found."
+ },
+ {
+  "body": "insee",
+  "name": "Insee",
+  "file": "logos/insee.svg",
+  "source_url": "https://www.insee.fr/static/img/logoInseeFr.svg",
+  "status": "official site asset — marque déposée — usage d'identification",
+  "retrieved": "2026-09-30",
+  "has_marianne": false,
+  "notes": "New logo (histogram) launched 3 Sep 2025; matches insee.fr header today. SVG width/height in mm: resvg_py needs those attrs stripped (viewBox ok). Tagline 'Mesurer pour comprendre' included."
+ },
+ {
+  "body": "bdf",
+  "name": "Banque de France",
+  "file": "logos/bdf.svg",
+  "source_url": "https://www.banque-france.fr/sites/bdf_espaces2/themes/custom/bdf_espaces2/logo.svg",
+  "status": "official site asset — marque déposée — usage d'identification",
+  "retrieved": "2026-09-30",
+  "has_marianne": false,
+  "notes": "Header logo banque-france.fr today; includes 'Eurosystème'."
+ },
+ {
+  "body": "cnil",
+  "name": "CNIL",
+  "file": "logos/cnil.svg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:CNIL_logo_2016.svg",
+  "status": "PD (Commons) — marque déposée — usage d'identification",
+  "retrieved": "2026-09-30",
+  "has_marianne": false,
+  "notes": "2016 logo; visually identical to cnil.fr header logo.png (390x50, too small, not kept). Includes tagline. No Marianne."
+ },
+ {
+  "body": "ademe",
+  "name": "ADEME (Agence de la transition écologique)",
+  "file": "logos/ademe.svg",
+  "source_url": "https://librairie.ademe.fr/img/logo-1711361540.svg",
+  "status": "official ADEME site asset — marque déposée — usage d'identification",
+  "retrieved": "2026-09-30",
+  "has_marianne": true,
+  "notes": "Standalone ADEME square mark (no Marianne) from official ademe.fr librairie header. ademe.fr itself blocked by Cloudflare. Official identity pairs it with RF bloc-marque (fr.wikipedia Logo ADEME.svg composite seen, not kept). Standalone file provided."
+ },
+ {
+  "body": "onf",
+  "name": "Office national des forêts",
+  "file": "logos/onf.svg",
+  "source_url": "https://www.onf.fr/ (inline SVG, footer logo)",
+  "status": "official site asset (inline SVG) — marque déposée — usage d'identification",
+  "retrieved": "2026-09-30",
+  "has_marianne": false,
+  "notes": "Extracted verbatim from onf.fr footer. Site pairs with RF bloc separately."
+ },
+ {
+  "body": "parcs",
+  "name": "Parcs nationaux de France",
+  "file": "logos/parcs.png",
+  "source_url": "https://www.parcsnationaux.fr/themes/pnx/pnf/logo.png",
+  "status": "official site asset — marque déposée — usage d'identification",
+  "retrieved": "2026-09-30",
+  "has_marianne": true,
+  "notes": "Official header logo is a composite: RF bloc-marque + PNF spiral. 387x172 PNG only (<512 px, no SVG on site). Commons has 'Parc Nationaux de France.png' (not checked vs site)."
+ },
+ {
+  "body": "defenseur",
+  "name": "Défenseur des droits",
+  "file": "logos/defenseur.svg",
+  "source_url": "https://www.defenseurdesdroits.fr/themes/custom/customer/logo.svg",
+  "status": "official site asset — marque déposée — usage d'identification",
+  "retrieved": "2026-09-30",
+  "has_marianne": false,
+  "notes": "Own logo (D + wordmark + 'RÉPUBLIQUE FRANÇAISE' text with red/blue bar); no Marianne figure/flag block. Matches header today."
+ },
+ {
+  "body": "bnf",
+  "name": "Bibliothèque nationale de France",
+  "file": "logos/bnf.svg",
+  "source_url": "https://www.bnf.fr/sites/default/files/logo.svg",
+  "status": "official site asset; identical to Commons Logo_BnF.svg (PD) — marque déposée — usage d'identification",
+  "retrieved": "2026-09-30",
+  "has_marianne": false,
+  "notes": "Identical bytes to Commons file. Render shows tight crop at viewBox edge (bracket left, F right) — that is the true design, not verified against print charter."
+ },
+ {
+  "body": "cnes",
+  "name": "CNES",
+  "file": "logos/cnes.png",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Logo_CNES_2017_triangulaire_bleu.png",
+  "status": "PD (Commons) — marque déposée — usage d'identification",
+  "retrieved": "2026-09-30",
+  "has_marianne": false,
+  "notes": "926x781 Commons version; same as cnes.fr header (200px). Site pairs with RF bloc separately."
+ },
+ {
+  "body": "senat",
+  "name": "Sénat",
+  "file": "logos/senat.svg",
+  "source_url": "https://www.senat.fr/_assets/cru-1790229872/eee83a27e1e6e241ed7098a5f815474c/Frontend/assets/static/senat/senat-logo.svg",
+  "status": "official site asset — marque déposée — usage d'identification",
+  "retrieved": "2026-09-30",
+  "has_marianne": false,
+  "notes": "senat.fr header logo (S emblem + SÉNAT). Parliament mark, distinct from State bloc-marque. Asset URL has a cache-hash path."
+ },
+ {
+  "body": "assemblee",
+  "name": "Assemblée nationale",
+  "file": "logos/assemblee.png",
+  "source_url": "https://www.assemblee-nationale.fr/assets/images/logo_an_square_rs.png",
+  "status": "official site asset — marque déposée — usage d'identification",
+  "retrieved": "2026-09-30",
+  "has_marianne": false,
+  "notes": "600x550 full logo (facade + ASSEMBLÉE NATIONALE). Header uses a small blue-square variant (84px, not kept). Parliament mark, no Marianne. Opaque bg, no SVG on site."
+ },
+ {
+  "body": "inpi",
+  "name": "INPI",
+  "file": "logos/inpi.svg",
+  "source_url": "https://www.inpi.fr/sites/default/files/2025-05/logo.svg",
+  "status": "official site asset — marque déposée — usage d'identification",
+  "retrieved": "2026-09-30",
+  "has_marianne": true,
+  "notes": "Official header logo (2025-05) = RF bloc-marque + inpi FRANCE. Composite file. No standalone-without-Marianne file located."
+ },
+ {
+  "body": "amf",
+  "name": "Autorité des marchés financiers",
+  "file": "logos/amf.svg",
+  "source_url": "https://www.amf-france.org/sites/institutionnel/files/AMF_grand_logo_site_1.svg",
+  "status": "official site asset — marque déposée — usage d'identification",
+  "retrieved": "2026-09-30",
+  "has_marianne": false,
+  "notes": "Header logo today, horizontal lockup. Also AMF_petit_logo_site.svg (small)."
+ },
+ {
+  "body": "acpr",
+  "name": "ACPR",
+  "file": "logos/acpr.svg",
+  "source_url": "https://acpr.banque-france.fr/sites/bdf_espaces2/themes/custom/bdf_acpr/logo.svg",
+  "status": "official site asset — marque déposée — usage d'identification",
+  "retrieved": "2026-09-30",
+  "has_marianne": false,
+  "notes": "acpr.banque-france.fr logo (ACPR + Banque de France). Same design as Commons Logo ACPR.svg."
+ },
+ {
+  "body": "afd",
+  "name": "Agence française de développement",
+  "file": "logos/afd.svg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:AFD_logo.svg",
+  "status": "PD (Commons) — marque déposée — usage d'identification",
+  "retrieved": "2026-09-30",
+  "has_marianne": false,
+  "notes": "Commons SVG; afd.fr header PNG (2025-03, 270x110) shows same ring+AFD design. Site pairs with RF bloc separately."
+ },
+ {
+  "body": "brgm",
+  "name": "BRGM",
+  "file": "logos/brgm.svg",
+  "source_url": "https://www.brgm.fr/sites/default/files/logos/2020-12/logo-brgm-etat-fr-couleurs.svg",
+  "status": "official site asset — marque déposée — usage d'identification",
+  "retrieved": "2026-09-30",
+  "has_marianne": true,
+  "notes": "Official header logo = 'BRGM avec logo République française' composite (alt text says so). Standalone brgm mark only on fr.wikipedia Logo_BRGM.svg (173px, not kept)."
+ },
+ {
+  "body": "conseilconst",
+  "name": "Conseil constitutionnel",
+  "file": "logos/conseilconst.svg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Conseil_Constitutionnel,_logo_2016.svg",
+  "status": "PD (Commons) — marque déposée — usage d'identification",
+  "retrieved": "2026-09-30",
+  "has_marianne": false,
+  "notes": "2016 logo (C emblem + CONSEIL CONSTITUTIONNEL text). conseil-constitutionnel.fr header = same emblem (theme logo.svg) + HTML text; emblem-only official file not kept. Site blocked curl (429), fetched via Browser Hub."
+ },
+ {
+  "body": "archives",
+  "name": "Archives nationales",
+  "file": "logos/archives.svg",
+  "source_url": "https://www.archives-nationales.culture.gouv.fr/themes/custom/archives_nationales/img/logo-archives-nationales.svg",
+  "status": "official site asset — marque déposée — usage d'identification",
+  "retrieved": "2026-09-30",
+  "has_marianne": false,
+  "notes": "Header/footer logo today. 189 KB SVG, renders fine. Site is DSFR, pairs with RF bloc separately."
+ },
+ {
+  "body": "asnr",
+  "name": "Autorité de sûreté nucléaire et de radioprotection",
+  "file": "logos/asnr.jpg",
+  "source_url": "https://www.asnr.fr/sites/asnr/files/styles/logo_md/public/2024-12/Logo-ASNR-developpe_web.png.jpg",
+  "status": "official site asset (JPEG, 792x202) — marque déposée — usage d'identification",
+  "retrieved": "2026-09-30",
+  "has_marianne": false,
+  "notes": "ASNR created Jan 2025; logo from asnr.fr header. Commons ASNR_logo.jpg (CC0, 950x250) same. JPEG white bg, no SVG found."
+ },
+ {
+  "body": "anses",
+  "name": "Anses",
+  "file": "logos/anses.svg",
+  "source_url": "https://www.anses.fr/themes/custom/anses/logo.svg",
+  "status": "official site asset — marque déposée — usage d'identification",
+  "retrieved": "2026-09-30",
+  "has_marianne": true,
+  "notes": "anses.fr header shows this standalone logo next to a separate marianne.svg (RF bloc). Standalone file provided; Commons also has 'Logo ANSES (Bloc-marque République Française).svg' composite."
+ },
+ {
+  "body": "art",
+  "name": "Autorité de régulation des transports (ART)",
+  "file": "logos/art.svg",
+  "source_url": "https://www.autorite-transports.fr/wp-content/themes/arafer/static/img/logo-autorite-regulation-transports.svg",
+  "status": "official site asset — marque déposée — usage d'identification",
+  "retrieved": "2026-09-30",
+  "has_marianne": true,
+  "notes": "Header logo (CSS background) = ART wordmark + RF bloc (Marianne, Liberté Égalité Fraternité). Composite; no standalone found."
+ }
+]

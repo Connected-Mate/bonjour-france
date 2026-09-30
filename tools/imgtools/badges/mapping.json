@@ -1,633 +1,701 @@
 {
- "_note": "slot (inventory base name) -> French public body medallion. Names only + generic pictograms; no real logos.",
+ "_note": "round 4 — slot (inventory base name) -> body. kind=logo: real logo, unaltered, on a white disc; kind=text: name only (State bloc-marque never reproduced). Rendered by discs.py.",
  "bodies": {
   "acpr": {
-   "ring_top": "AUTORITÉ DE CONTRÔLE PRUDENTIEL",
-   "ring_bottom": "ET DE RÉSOLUTION",
-   "pictogram": "monnaie",
-   "colour": "#2e3b4e",
-   "master": "masters/acpr.svg"
+   "name": "ACPR",
+   "kind": "logo",
+   "logo": "logos/acpr.svg",
+   "source_url": "https://acpr.banque-france.fr/sites/bdf_espaces2/themes/custom/bdf_acpr/logo.svg",
+   "status": "official site asset — marque déposée — usage d'identification"
   },
   "ademe": {
-   "ring_top": "ADEME",
-   "ring_bottom": "TRANSITION ÉCOLOGIQUE",
-   "pictogram": "energie",
-   "colour": "#127a66",
-   "master": "masters/ademe.svg"
+   "name": "ADEME",
+   "kind": "logo",
+   "logo": "logos/ademe.svg",
+   "source_url": "https://librairie.ademe.fr/img/logo-1711361540.svg",
+   "status": "official ADEME site asset — marque déposée — usage d'identification"
   },
   "afd": {
-   "ring_top": "AGENCE FRANÇAISE DE DÉVELOPPEMENT",
-   "ring_bottom": "AFD",
-   "pictogram": "globe",
-   "colour": "#0f5277",
-   "master": "masters/afd.svg"
+   "name": "AFD",
+   "kind": "logo",
+   "logo": "logos/afd.svg",
+   "source_url": "https://commons.wikimedia.org/wiki/File:AFD_logo.svg",
+   "status": "PD (Commons) — marque déposée — usage d'identification"
   },
   "ameli": {
-   "ring_top": "L’ASSURANCE MALADIE",
-   "ring_bottom": "SÉCURITÉ SOCIALE",
-   "pictogram": "sante",
-   "colour": "#1f4e9c",
-   "master": "masters/ameli.svg"
+   "name": "L’Assurance Maladie",
+   "kind": "logo",
+   "logo": "logos/ameli.svg",
+   "source_url": "https://www.ameli.fr/themes/custom/ameli_v2/libraries/public/images/logo.svg",
+   "status": "marque déposée — usage d'identification"
   },
   "amf": {
-   "ring_top": "AUTORITÉ DES MARCHÉS FINANCIERS",
-   "ring_bottom": "AMF",
-   "pictogram": "stats",
-   "colour": "#1c4d6b",
-   "master": "masters/amf.svg"
+   "name": "AMF",
+   "kind": "logo",
+   "logo": "logos/amf.svg",
+   "source_url": "https://www.amf-france.org/sites/institutionnel/files/AMF_grand_logo_site_1.svg",
+   "status": "official site asset — marque déposée — usage d'identification"
   },
   "anil": {
-   "ring_top": "ANIL",
-   "ring_bottom": "INFORMATION LOGEMENT",
-   "pictogram": "logement",
-   "colour": "#1f4a78",
-   "master": "masters/anil.svg"
+   "name": "ANIL",
+   "kind": "logo",
+   "logo": "logos/anil.svg",
+   "source_url": "https://www.anil.org/_assets/2cdbe9cb694b7570aa05b07b14d5f82a/Sources/img/logo-anil.svg",
+   "status": "marque déposée — usage d'identification"
   },
   "anses": {
-   "ring_top": "ANSES",
-   "ring_bottom": "SÉCURITÉ SANITAIRE",
-   "pictogram": "securite",
-   "colour": "#2a6a4a",
-   "master": "masters/anses.svg"
+   "name": "Anses",
+   "kind": "logo",
+   "logo": "logos/anses.svg",
+   "source_url": "https://www.anses.fr/themes/custom/anses/logo.svg",
+   "status": "official site asset — marque déposée — usage d'identification"
   },
   "archives": {
-   "ring_top": "ARCHIVES NATIONALES",
-   "ring_bottom": "MÉMOIRE ET PATRIMOINE",
-   "pictogram": "archives",
-   "colour": "#2b2c36",
-   "master": "masters/archives.svg"
+   "name": "Archives nationales",
+   "kind": "logo",
+   "logo": "logos/archives.svg",
+   "source_url": "https://www.archives-nationales.culture.gouv.fr/themes/custom/archives_nationales/img/logo-archives-nationales.svg",
+   "status": "official site asset — marque déposée — usage d'identification"
   },
   "armees": {
-   "ring_top": "MINISTÈRE DES ARMÉES",
-   "ring_bottom": "DÉFENSE",
-   "pictogram": "securite",
-   "colour": "#2d3a2e",
-   "master": "masters/armees.svg"
+   "name": "Ministère des Armées",
+   "kind": "text",
+   "lines": [
+    "Ministère",
+    "des Armées"
+   ],
+   "short": "Armées",
+   "why_text": "État — bloc-marque"
   },
   "ars": {
-   "ring_top": "AGENCE RÉGIONALE DE SANTÉ",
-   "ring_bottom": "ARS",
-   "pictogram": "sante",
-   "colour": "#2c5e8c",
-   "master": "masters/ars.svg"
+   "name": "Agence régionale de santé",
+   "kind": "text",
+   "lines": [
+    "Agence",
+    "régionale",
+    "de santé"
+   ],
+   "short": "ARS",
+   "why_text": "État — bloc-marque"
   },
   "art": {
-   "ring_top": "AUTORITÉ DE RÉGULATION DES TRANSPORTS",
-   "ring_bottom": "ART",
-   "pictogram": "transport",
-   "colour": "#243f66",
-   "master": "masters/art.svg"
+   "name": "Autorité de régulation des transports",
+   "kind": "text",
+   "lines": [
+    "Autorité de",
+    "régulation des",
+    "transports"
+   ],
+   "short": "ART",
+   "why_text": "logo officiel = composite avec le bloc-marque"
   },
   "asnr": {
-   "ring_top": "AUTORITÉ DE SÛRETÉ NUCLÉAIRE",
-   "ring_bottom": "ET DE RADIOPROTECTION",
-   "pictogram": "sciences",
-   "colour": "#1d2233",
-   "master": "masters/asnr.svg"
+   "name": "ASNR",
+   "kind": "logo",
+   "logo": "logos/asnr.jpg",
+   "source_url": "https://www.asnr.fr/sites/asnr/files/styles/logo_md/public/2024-12/Logo-ASNR-developpe_web.png.jpg",
+   "status": "official site asset (JPEG, 792x202) — marque déposée — usage d'identification"
   },
   "asp": {
-   "ring_top": "AGENCE DE SERVICES ET DE PAIEMENT",
-   "ring_bottom": "ASP",
-   "pictogram": "euro",
-   "colour": "#1f6b52",
-   "master": "masters/asp.svg"
+   "name": "Agence de services et de paiement",
+   "kind": "text",
+   "lines": [
+    "Agence",
+    "de services",
+    "et de paiement"
+   ],
+   "short": "ASP",
+   "why_text": "État — bloc-marque"
   },
   "assemblee": {
-   "ring_top": "ASSEMBLÉE NATIONALE",
-   "ring_bottom": "DÉBAT PARLEMENTAIRE",
-   "pictogram": "batiment",
-   "colour": "#1f3868",
-   "master": "masters/assemblee.svg"
+   "name": "Assemblée nationale",
+   "kind": "logo",
+   "logo": "logos/assemblee.png",
+   "source_url": "https://www.assemblee-nationale.fr/assets/images/logo_an_square_rs.png",
+   "status": "official site asset — marque déposée — usage d'identification"
+  },
+  "aura": {
+   "name": "Région Auvergne-Rhône-Alpes",
+   "kind": "logo",
+   "logo": "logos/aura.svg",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Auvergne-Rhône-Alpes.svg",
+   "status": "Commons: Public domain; logo institutionnel (Graphéine 2017)"
   },
   "bdf": {
-   "ring_top": "BANQUE DE FRANCE",
-   "ring_bottom": "BANQUE CENTRALE",
-   "pictogram": "monnaie",
-   "colour": "#152f55",
-   "master": "masters/bdf.svg"
+   "name": "Banque de France",
+   "kind": "logo",
+   "logo": "logos/bdf.svg",
+   "source_url": "https://www.banque-france.fr/sites/bdf_espaces2/themes/custom/bdf_espaces2/logo.svg",
+   "status": "official site asset — marque déposée — usage d'identification"
+  },
+  "bfc": {
+   "name": "Région Bourgogne-Franche-Comté",
+   "kind": "logo",
+   "logo": "logos/bfc.svg",
+   "source_url": "https://www.bourgognefranchecomte.fr/themes/custom/bourg/logo.svg",
+   "status": "logo institutionnel, marque de la Région — usage d'identification"
   },
   "bnf": {
-   "ring_top": "BIBLIOTHÈQUE NATIONALE DE FRANCE",
-   "ring_bottom": "BNF",
-   "pictogram": "culture",
-   "colour": "#1d1f2a",
-   "master": "masters/bnf.svg"
+   "name": "BnF",
+   "kind": "logo",
+   "logo": "logos/bnf.svg",
+   "source_url": "https://www.bnf.fr/sites/default/files/logo.svg",
+   "status": "official site asset; identical to Commons Logo_BnF.svg (PD) — marque déposée — usage d'identification"
   },
-  "bonjour": {
-   "ring_top": "BONJOUR, FRANCE",
-   "ring_bottom": "SITE NON OFFICIEL",
-   "pictogram": "bulle",
-   "colour": "#8a6320",
-   "master": "masters/bonjour.svg"
+  "bordeaux": {
+   "name": "Ville de Bordeaux",
+   "kind": "logo",
+   "logo": "logos/bordeaux.svg",
+   "source_url": "https://fr.wikipedia.org/wiki/Fichier:Logo_Ville_de_Bordeaux.svg",
+   "status": "marque déposée (fr.wikipedia, 2025-05) — usage d'identification"
+  },
+  "bretagne": {
+   "name": "Région Bretagne",
+   "kind": "logo",
+   "logo": "logos/bretagne.svg",
+   "source_url": "https://fr.wikipedia.org/wiki/Fichier:Région-bretagne-logo.svg",
+   "status": "logo institutionnel, marque déposée (fr.wikipedia, usage d'identification)"
   },
   "brgm": {
-   "ring_top": "BUREAU DE RECHERCHES",
-   "ring_bottom": "GÉOLOGIQUES ET MINIÈRES",
-   "pictogram": "montagne",
-   "colour": "#3a3a3f",
-   "master": "masters/brgm.svg"
+   "name": "BRGM",
+   "kind": "text",
+   "lines": [
+    "BRGM"
+   ],
+   "short": "BRGM",
+   "why_text": "logo officiel = composite avec le bloc-marque"
   },
   "cada": {
-   "ring_top": "COMMISSION D’ACCÈS AUX DOCUMENTS ADMINISTRATIFS",
-   "ring_bottom": "CADA",
-   "pictogram": "archives",
-   "colour": "#0f5c5a",
-   "master": "masters/cada.svg"
+   "name": "Commission d’accès aux documents administratifs",
+   "kind": "text",
+   "lines": [
+    "CADA"
+   ],
+   "short": "CADA",
+   "why_text": "État — bloc-marque"
   },
   "caf": {
-   "ring_top": "CAISSE D’ALLOCATIONS FAMILIALES",
-   "ring_bottom": "CAF",
-   "pictogram": "famille",
-   "colour": "#16639f",
-   "master": "masters/caf.svg"
+   "name": "Caisse d’allocations familiales",
+   "kind": "logo",
+   "logo": "logos/caf.svg",
+   "source_url": "https://www.caf.fr/themes/custom/caf_bootstrap5/images/icons/logo_cnaf.svg",
+   "status": "marque déposée — usage d'identification"
   },
   "cnes": {
-   "ring_top": "CNES",
-   "ring_bottom": "AGENCE SPATIALE",
-   "pictogram": "planete",
-   "colour": "#141a33",
-   "master": "masters/cnes.svg"
+   "name": "CNES",
+   "kind": "logo",
+   "logo": "logos/cnes.png",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Logo_CNES_2017_triangulaire_bleu.png",
+   "status": "PD (Commons) — marque déposée — usage d'identification"
   },
   "cnil": {
-   "ring_top": "CNIL",
-   "ring_bottom": "DONNÉES PERSONNELLES",
-   "pictogram": "cadenas",
-   "colour": "#3a2f6b",
-   "master": "masters/cnil.svg"
+   "name": "CNIL",
+   "kind": "logo",
+   "logo": "logos/cnil.svg",
+   "source_url": "https://commons.wikimedia.org/wiki/File:CNIL_logo_2016.svg",
+   "status": "PD (Commons) — marque déposée — usage d'identification"
   },
   "conseilconst": {
-   "ring_top": "CONSEIL CONSTITUTIONNEL",
-   "ring_bottom": "CONTRÔLE DES ÉLECTIONS",
-   "pictogram": "vote",
-   "colour": "#3a3150",
-   "master": "masters/conseilconst.svg"
+   "name": "Conseil constitutionnel",
+   "kind": "logo",
+   "logo": "logos/conseilconst.svg",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Conseil_Constitutionnel,_logo_2016.svg",
+   "status": "PD (Commons) — marque déposée — usage d'identification"
   },
   "conseiletat": {
-   "ring_top": "CONSEIL D’ÉTAT",
-   "ring_bottom": "JUSTICE ADMINISTRATIVE",
-   "pictogram": "batiment",
-   "colour": "#2d3b4e",
-   "master": "masters/conseiletat.svg"
+   "name": "Conseil d’État",
+   "kind": "text",
+   "lines": [
+    "Conseil",
+    "d’État"
+   ],
+   "short": "CE",
+   "why_text": "État — bloc-marque"
+  },
+  "corse": {
+   "name": "Collectivité de Corse",
+   "kind": "logo",
+   "logo": "logos/corse.svg",
+   "source_url": "https://fr.wikipedia.org/wiki/Fichier:Logo_Collectivité_Corse_2018.svg",
+   "status": "logo institutionnel, marque déposée (fr.wikipedia, usage d'identification)"
   },
   "crous": {
-   "ring_top": "CROUS",
-   "ring_bottom": "VIE ÉTUDIANTE",
-   "pictogram": "education",
-   "colour": "#a3222c",
-   "master": "masters/crous.svg"
+   "name": "Crous",
+   "kind": "logo",
+   "logo": "logos/crous.svg",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Logo_Crous.svg",
+   "status": "Public domain (Commons, 2025-10) + marque déposée"
+  },
+  "cvl": {
+   "name": "Région Centre-Val de Loire",
+   "kind": "logo",
+   "logo": "logos/cvl.svg",
+   "source_url": "https://www.centre-valdeloire.fr/sites/default/files/media/document/2024-12/logo-rvb-ecran-rcvl-2024.zip",
+   "status": "logo institutionnel, marque de la Région — usage d'identification"
   },
   "dae": {
-   "ring_top": "DIRECTION DES ACHATS DE L’ÉTAT",
-   "ring_bottom": "ACHATS PUBLICS",
-   "pictogram": "batiment",
-   "colour": "#8a6320",
-   "master": "masters/dae.svg"
+   "name": "Direction des achats de l’État",
+   "kind": "text",
+   "lines": [
+    "Achats",
+    "de l’État"
+   ],
+   "short": "DAE",
+   "why_text": "État — bloc-marque"
   },
   "defenseur": {
-   "ring_top": "DÉFENSEUR DES DROITS",
-   "ring_bottom": "ACCÈS AU DROIT",
-   "pictogram": "justice",
-   "colour": "#4a2d72",
-   "master": "masters/defenseur.svg"
+   "name": "Défenseur des droits",
+   "kind": "logo",
+   "logo": "logos/defenseur.svg",
+   "source_url": "https://www.defenseurdesdroits.fr/themes/custom/customer/logo.svg",
+   "status": "official site asset — marque déposée — usage d'identification"
   },
   "dgac": {
-   "ring_top": "DIRECTION GÉNÉRALE DE L’AVIATION CIVILE",
-   "ring_bottom": "DGAC",
-   "pictogram": "voyage",
-   "colour": "#1d5a9e",
-   "master": "masters/dgac.svg"
+   "name": "Direction générale de l’Aviation civile",
+   "kind": "text",
+   "lines": [
+    "Aviation",
+    "civile"
+   ],
+   "short": "DGAC",
+   "why_text": "État — bloc-marque"
   },
   "dge": {
-   "ring_top": "DIRECTION GÉNÉRALE DES ENTREPRISES",
-   "ring_bottom": "DGE",
-   "pictogram": "industrie",
-   "colour": "#24406b",
-   "master": "masters/dge.svg"
+   "name": "Direction générale des Entreprises",
+   "kind": "text",
+   "lines": [
+    "Direction",
+    "générale des",
+    "Entreprises"
+   ],
+   "short": "DGE",
+   "why_text": "État — bloc-marque"
   },
   "dgfip": {
-   "ring_top": "DIRECTION GÉNÉRALE DES FINANCES PUBLIQUES",
-   "ring_bottom": "IMPÔTS",
-   "pictogram": "impots",
-   "colour": "#16505a",
-   "master": "masters/dgfip.svg"
+   "name": "Finances publiques (DGFiP)",
+   "kind": "text",
+   "lines": [
+    "Finances",
+    "publiques"
+   ],
+   "short": "DGFiP",
+   "why_text": "État — bloc-marque"
   },
   "diplomatie": {
-   "ring_top": "FRANCE DIPLOMATIE",
-   "ring_bottom": "FRANÇAIS DE L’ÉTRANGER",
-   "pictogram": "globe",
-   "colour": "#1c3a6b",
-   "master": "masters/diplomatie.svg"
+   "name": "France Diplomatie",
+   "kind": "text",
+   "lines": [
+    "France",
+    "Diplomatie"
+   ],
+   "short": "MEAE",
+   "why_text": "État — bloc-marque"
   },
   "douane": {
-   "ring_top": "LA DOUANE",
-   "ring_bottom": "VOYAGEURS ET MARCHANDISES",
-   "pictogram": "valise",
-   "colour": "#1a2d4f",
-   "master": "masters/douane.svg"
+   "name": "La Douane",
+   "kind": "text",
+   "lines": [
+    "La",
+    "Douane"
+   ],
+   "short": "Douane",
+   "why_text": "État — bloc-marque"
   },
   "enfance": {
-   "ring_top": "ENFANCE EN DANGER",
-   "ring_bottom": "ALLÔ 119",
-   "pictogram": "famille",
-   "colour": "#1a6a5c",
-   "master": "masters/enfance.svg"
+   "name": "Allô Enfance en danger (119)",
+   "kind": "text",
+   "lines": [
+    "Allô",
+    "Enfance",
+    "en danger"
+   ],
+   "short": "119",
+   "why_text": "État — GIP Enfance en danger"
   },
   "fonctionpub": {
-   "ring_top": "FONCTION PUBLIQUE",
-   "ring_bottom": "DGAFP",
-   "pictogram": "emploi",
-   "colour": "#1d3a6e",
-   "master": "masters/fonctionpub.svg"
+   "name": "Fonction publique",
+   "kind": "text",
+   "lines": [
+    "Fonction",
+    "publique"
+   ],
+   "short": "DGAFP",
+   "why_text": "État — bloc-marque"
   },
   "franceconnect": {
-   "ring_top": "FRANCECONNECT",
-   "ring_bottom": "IDENTIFICATION EN LIGNE",
-   "pictogram": "cadenas",
-   "colour": "#1f3f8f",
-   "master": "masters/franceconnect.svg"
+   "name": "FranceConnect",
+   "kind": "text",
+   "lines": [
+    "France",
+    "Connect"
+   ],
+   "short": "FranceConnect",
+   "why_text": "État — logo avec profil de Marianne"
   },
   "francetitres": {
-   "ring_top": "FRANCE TITRES",
-   "ring_bottom": "ANTS",
-   "pictogram": "identite",
-   "colour": "#2d5596",
-   "master": "masters/francetitres.svg"
+   "name": "France Titres (ANTS)",
+   "kind": "text",
+   "lines": [
+    "France",
+    "Titres"
+   ],
+   "short": "ANTS",
+   "why_text": "État — bloc-marque"
   },
   "francetravail": {
-   "ring_top": "FRANCE TRAVAIL",
-   "ring_bottom": "EMPLOI ET FORMATION",
-   "pictogram": "emploi",
-   "colour": "#2a2f7e",
-   "master": "masters/francetravail.svg"
+   "name": "France Travail",
+   "kind": "logo",
+   "logo": "logos/francetravail.svg",
+   "source_url": "https://commons.wikimedia.org/wiki/File:France_Travail_2024.svg",
+   "status": "Public domain (Commons, PD-textlogo) + marque déposée"
   },
   "georisques": {
-   "ring_top": "GÉORISQUES",
-   "ring_bottom": "RISQUES NATURELS",
-   "pictogram": "eau",
-   "colour": "#0b4f7c",
-   "master": "masters/georisques.svg"
+   "name": "Géorisques",
+   "kind": "text",
+   "lines": [
+    "Géorisques"
+   ],
+   "short": "Risques",
+   "why_text": "État — bloc-marque"
+  },
+  "grandest": {
+   "name": "Région Grand Est",
+   "kind": "logo",
+   "logo": "logos/grandest.png",
+   "source_url": "https://www.grandest.fr/wp-content/uploads/2024/05/logo-hd.png",
+   "status": "logo institutionnel, marque de la Région — usage d'identification"
+  },
+  "hdf": {
+   "name": "Région Hauts-de-France",
+   "kind": "logo",
+   "logo": "logos/hdf.svg",
+   "source_url": "https://www.hautsdefrance.fr/app/themes/hautsdefrance-1.5.202310/img/logo_HDF.svg",
+   "status": "logo institutionnel, marque de la Région — usage d'identification"
+  },
+  "idf": {
+   "name": "Région Île-de-France",
+   "kind": "logo",
+   "logo": "logos/idf.svg",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Région_Île-de-France_(logo).svg",
+   "status": "Commons: Public domain; logo institutionnel (2019)"
   },
   "ign": {
-   "ring_top": "IGN",
-   "ring_bottom": "INFORMATION GÉOGRAPHIQUE",
-   "pictogram": "carte",
-   "colour": "#0f5a7c",
-   "master": "masters/ign.svg"
+   "name": "IGN",
+   "kind": "logo",
+   "logo": "logos/ign.svg",
+   "source_url": "https://commons.wikimedia.org/wiki/File:IGN_logo_2012.svg",
+   "status": "PD-textlogo (Commons) — marque déposée — usage d'identification"
   },
   "inpi": {
-   "ring_top": "INPI",
-   "ring_bottom": "PROPRIÉTÉ INDUSTRIELLE",
-   "pictogram": "ampoule",
-   "colour": "#8a3a1c",
-   "master": "masters/inpi.svg"
+   "name": "INPI",
+   "kind": "text",
+   "lines": [
+    "INPI"
+   ],
+   "short": "INPI",
+   "why_text": "logo officiel = composite avec le bloc-marque"
   },
   "insee": {
-   "ring_top": "INSEE",
-   "ring_bottom": "STATISTIQUES PUBLIQUES",
-   "pictogram": "stats",
-   "colour": "#5a2a5e",
-   "master": "masters/insee.svg"
+   "name": "Insee",
+   "kind": "logo",
+   "logo": "logos/insee.svg",
+   "source_url": "https://www.insee.fr/static/img/logoInseeFr.svg",
+   "status": "official site asset — marque déposée — usage d'identification"
   },
   "interieur": {
-   "ring_top": "MINISTÈRE DE L’INTÉRIEUR",
-   "ring_bottom": "ÉLECTIONS",
-   "pictogram": "vote",
-   "colour": "#1f3460",
-   "master": "masters/interieur.svg"
+   "name": "Ministère de l’Intérieur",
+   "kind": "text",
+   "lines": [
+    "Ministère",
+    "de l’Intérieur"
+   ],
+   "short": "Intérieur",
+   "why_text": "État — bloc-marque"
   },
   "justice": {
-   "ring_top": "MINISTÈRE DE LA JUSTICE",
-   "ring_bottom": "TRIBUNAUX",
-   "pictogram": "justice",
-   "colour": "#0f5550",
-   "master": "masters/justice.svg"
+   "name": "Ministère de la Justice",
+   "kind": "text",
+   "lines": [
+    "Ministère",
+    "de la",
+    "Justice"
+   ],
+   "short": "Justice",
+   "why_text": "État — bloc-marque"
   },
   "laposte": {
-   "ring_top": "LA POSTE",
-   "ring_bottom": "COURRIER ET COLIS",
-   "pictogram": "courrier",
-   "colour": "#e9b91c",
-   "master": "masters/laposte.svg"
+   "name": "La Poste",
+   "kind": "logo",
+   "logo": "logos/laposte.svg",
+   "source_url": "https://www.laposte.fr/ecom/_nuxt/logo-part-horizontal.BtezbiGr.svg",
+   "status": "marque déposée — usage d'identification"
   },
   "legifrance": {
-   "ring_top": "LÉGIFRANCE",
-   "ring_bottom": "LE DROIT FRANÇAIS",
-   "pictogram": "archives",
-   "colour": "#25405e",
-   "master": "masters/legifrance.svg"
+   "name": "Légifrance",
+   "kind": "text",
+   "lines": [
+    "Légifrance"
+   ],
+   "short": "Légifrance",
+   "why_text": "État — bloc-marque"
   },
-  "local:seal-local-arapahoe-county": {
-   "ring_top": "COMMUNAUTÉ DES VALLONS",
-   "ring_bottom": "INTERCOMMUNALITÉ",
-   "pictogram": "mairie",
-   "colour": "#1d3a6e",
-   "master": "masters/local-seal-local-arapahoe-county.svg"
-  },
-  "local:seal-local-arizona": {
-   "ring_top": "RÉGION DES CANYONS",
-   "ring_bottom": "TERRE DU SUD",
-   "pictogram": "montagne",
-   "colour": "#8c3b1f",
-   "master": "masters/local-seal-local-arizona.svg"
-  },
-  "local:seal-local-ashland-oregon": {
-   "ring_top": "VILLE DE BELLERIVE",
-   "ring_bottom": "MAIRIE",
-   "pictogram": "mairie",
-   "colour": "#285f35",
-   "master": "masters/local-seal-local-ashland-oregon.svg"
-  },
-  "local:seal-local-boston": {
-   "ring_top": "VILLE DE PORT-CLAIR",
-   "ring_bottom": "CITÉ MARITIME",
-   "pictogram": "mer",
-   "colour": "#1b2033",
-   "master": "masters/local-seal-local-boston.svg"
-  },
-  "local:seal-local-boulder-county": {
-   "ring_top": "PAYS DES CRÊTES",
-   "ring_bottom": "COMMUNAUTÉ",
-   "pictogram": "montagne",
-   "colour": "#285f35",
-   "master": "masters/local-seal-local-boulder-county.svg"
-  },
-  "local:seal-local-brookline-massachusetts": {
-   "ring_top": "VILLE DE VAL-FLEURI",
-   "ring_bottom": "MAIRIE",
-   "pictogram": "mairie",
-   "colour": "#6a1f2b",
-   "master": "masters/local-seal-local-brookline-massachusetts.svg"
-  },
-  "local:seal-local-colorado": {
-   "ring_top": "RÉGION DES CIMES",
-   "ring_bottom": "MONTAGNES",
-   "pictogram": "montagne",
-   "colour": "#1d5a9e",
-   "master": "masters/local-seal-local-colorado.svg"
-  },
-  "local:seal-local-columbia-county-oregon": {
-   "ring_top": "PAYS DES DEUX RIVES",
-   "ring_bottom": "COMMUNAUTÉ",
-   "pictogram": "eau",
-   "colour": "#0b4f7c",
-   "master": "masters/local-seal-local-columbia-county-oregon.svg"
-  },
-  "local:seal-local-cuyahoga-county": {
-   "ring_top": "PAYS DE LA RIVIÈRE",
-   "ring_bottom": "INTERCOMMUNALITÉ",
-   "pictogram": "mairie",
-   "colour": "#1d3a6e",
-   "master": "masters/local-seal-local-cuyahoga-county.svg"
-  },
-  "local:seal-local-florida": {
-   "ring_top": "RÉGION DU LITTORAL",
-   "ring_bottom": "TERRE DE SOLEIL",
-   "pictogram": "climat",
-   "colour": "#0b4f7c",
-   "master": "masters/local-seal-local-florida.svg"
-  },
-  "local:seal-local-henderson-county-north-carolina": {
-   "ring_top": "PAYS DES COLLINES",
-   "ring_bottom": "COMMUNAUTÉ DE COMMUNES",
-   "pictogram": "montagne",
-   "colour": "#285f35",
-   "master": "masters/local-seal-local-henderson-county-north-carolina.svg"
-  },
-  "local:seal-local-maricopa-county": {
-   "ring_top": "PAYS DU PLATEAU",
-   "ring_bottom": "COMMUNAUTÉ",
-   "pictogram": "climat",
-   "colour": "#8c3b1f",
-   "master": "masters/local-seal-local-maricopa-county.svg"
-  },
-  "local:seal-local-maryland": {
-   "ring_top": "RÉGION DES BAIES",
-   "ring_bottom": "LITTORAL",
-   "pictogram": "mer",
-   "colour": "#6a1f2b",
-   "master": "masters/local-seal-local-maryland.svg"
-  },
-  "local:seal-local-minnesota": {
-   "ring_top": "RÉGION DES LACS",
-   "ring_bottom": "TERRE D’EAU",
-   "pictogram": "eau",
-   "colour": "#1d5a9e",
-   "master": "masters/local-seal-local-minnesota.svg"
-  },
-  "local:seal-local-nebraska": {
-   "ring_top": "RÉGION DES PLAINES",
-   "ring_bottom": "TERRE AGRICOLE",
-   "pictogram": "agriculture",
-   "colour": "#8c3b1f",
-   "master": "masters/local-seal-local-nebraska.svg"
-  },
-  "local:seal-local-north-dakota": {
-   "ring_top": "RÉGION DU NORD",
-   "ring_bottom": "CHAMPS ET PRAIRIES",
-   "pictogram": "agriculture",
-   "colour": "#356a2a",
-   "master": "masters/local-seal-local-north-dakota.svg"
-  },
-  "local:seal-local-ohio": {
-   "ring_top": "RÉGION DES VALLÉES",
-   "ring_bottom": "COMMUNES UNIES",
-   "pictogram": "mairie",
-   "colour": "#1d3a6e",
-   "master": "masters/local-seal-local-ohio.svg"
-  },
-  "local:seal-local-oregon": {
-   "ring_top": "RÉGION DES FORÊTS",
-   "ring_bottom": "TERRE VERTE",
-   "pictogram": "nature",
-   "colour": "#285f35",
-   "master": "masters/local-seal-local-oregon.svg"
-  },
-  "local:seal-local-redmond-washington": {
-   "ring_top": "VILLE DE CLAIRMONT",
-   "ring_bottom": "MAIRIE",
-   "pictogram": "mairie",
-   "colour": "#0f5550",
-   "master": "masters/local-seal-local-redmond-washington.svg"
-  },
-  "local:seal-local-rialto-california": {
-   "ring_top": "VILLE DE SAINT-ARLET",
-   "ring_bottom": "MAIRIE",
-   "pictogram": "mairie",
-   "colour": "#8c3b1f",
-   "master": "masters/local-seal-local-rialto-california.svg"
-  },
-  "local:seal-local-texas": {
-   "ring_top": "RÉGION DU GRAND SUD",
-   "ring_bottom": "TERRE DE SOLEIL",
-   "pictogram": "climat",
-   "colour": "#1c2f59",
-   "master": "masters/local-seal-local-texas.svg"
-  },
-  "local:seal-local-washington": {
-   "ring_top": "RÉGION DES PINS",
-   "ring_bottom": "TERRE D’OUEST",
-   "pictogram": "nature",
-   "colour": "#0f5550",
-   "master": "masters/local-seal-local-washington.svg"
-  },
-  "mairie": {
-   "ring_top": "MAIRIE",
-   "ring_bottom": "LISTES ÉLECTORALES",
-   "pictogram": "mairie",
-   "colour": "#1d3a6e",
-   "master": "masters/mairie.svg"
+  "lille": {
+   "name": "Ville de Lille",
+   "kind": "logo",
+   "logo": "logos/lille.png",
+   "source_url": "https://www.lille.fr/extension/yosemite_custom/design/www/images/logo.png",
+   "status": "logo institutionnel de la Ville — usage d'identification"
   },
   "marine": {
-   "ring_top": "MARINE NATIONALE",
-   "ring_bottom": "DÉFENSE",
-   "pictogram": "mer",
-   "colour": "#16294f",
-   "master": "masters/marine.svg"
-  },
-  "mdph": {
-   "ring_top": "MAISON DÉPARTEMENTALE",
-   "ring_bottom": "DES PERSONNES HANDICAPÉES",
-   "pictogram": "accessibilite",
-   "colour": "#1d5a9e",
-   "master": "masters/mdph.svg"
+   "name": "Marine nationale",
+   "kind": "text",
+   "lines": [
+    "Marine",
+    "nationale"
+   ],
+   "short": "Marine",
+   "why_text": "État — armées"
   },
   "meteo": {
-   "ring_top": "MÉTÉO-FRANCE",
-   "ring_bottom": "PRÉVISIONS ET VIGILANCE",
-   "pictogram": "climat",
-   "colour": "#1b68ab",
-   "master": "masters/meteo.svg"
+   "name": "Météo-France",
+   "kind": "logo",
+   "logo": "logos/meteo.svg",
+   "source_url": "https://meteofrance.com/themes/custom/theme_public/dist/img/logo.svg",
+   "status": "marque déposée — usage d'identification"
+  },
+  "montpellier": {
+   "name": "Ville de Montpellier",
+   "kind": "logo",
+   "logo": "logos/montpellier.png",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Logo_Ville_de_Montpellier_(2025).png",
+   "status": "CC0 (Commons, 2026-03-14)"
   },
   "msa": {
-   "ring_top": "MUTUALITÉ SOCIALE AGRICOLE",
-   "ring_bottom": "MSA",
-   "pictogram": "agriculture",
-   "colour": "#356a2a",
-   "master": "masters/msa.svg"
+   "name": "MSA",
+   "kind": "logo",
+   "logo": "logos/msa.svg",
+   "source_url": "https://www.msa.fr/lfp/o/z80-msa-rwd-theme/images/logo.svg",
+   "status": "marque déposée — usage d'identification"
+  },
+  "nantes": {
+   "name": "Nantes (Ville & Métropole)",
+   "kind": "logo",
+   "logo": "logos/nantes.svg",
+   "source_url": "https://medias-metropole.nantes.fr/s3fs-public/svg/2024-12/nantes-logo.svg",
+   "status": "logo institutionnel de la Ville — usage d'identification"
+  },
+  "nice": {
+   "name": "Ville de Nice",
+   "kind": "logo",
+   "logo": "logos/nice.svg",
+   "source_url": "https://www.nice.fr/wp-content/uploads/2025/02/ville-de-nice-logo.svg",
+   "status": "logo institutionnel de la Ville — usage d'identification"
+  },
+  "normandie": {
+   "name": "Région Normandie",
+   "kind": "logo",
+   "logo": "logos/normandie.png",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Logo-region-normandie-rvb.jpg",
+   "status": "Commons: CC BY 4.0; logo institutionnel"
+  },
+  "nouvelleaquitaine": {
+   "name": "Région Nouvelle-Aquitaine",
+   "kind": "logo",
+   "logo": "logos/nouvelleaquitaine.png",
+   "source_url": "https://fr.wikipedia.org/wiki/Fichier:Logo_Région_Nouvelle_Aquitaine_2026.jpg",
+   "status": "logo institutionnel, marque de la Région — usage d'identification"
+  },
+  "occitanie": {
+   "name": "Région Occitanie",
+   "kind": "logo",
+   "logo": "logos/occitanie.png",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Logo_Occitanie.png",
+   "status": "Commons: Public domain (threshold of originality); logo institutionnel"
   },
   "onacvg": {
-   "ring_top": "OFFICE NATIONAL DES COMBATTANTS",
-   "ring_bottom": "ET DES VICTIMES DE GUERRE",
-   "pictogram": "ruban",
-   "colour": "#1c2f59",
-   "master": "masters/onacvg.svg"
+   "name": "Office national des combattants et des victimes de guerre",
+   "kind": "text",
+   "lines": [
+    "ONaCVG"
+   ],
+   "short": "ONaCVG",
+   "why_text": "État — bloc-marque"
   },
   "onf": {
-   "ring_top": "OFFICE NATIONAL DES FORÊTS",
-   "ring_bottom": "ONF",
-   "pictogram": "nature",
-   "colour": "#285f35",
-   "master": "masters/onf.svg"
+   "name": "Office national des forêts",
+   "kind": "logo",
+   "logo": "logos/onf.svg",
+   "source_url": "https://www.onf.fr/ (inline SVG, footer logo)",
+   "status": "official site asset (inline SVG) — marque déposée — usage d'identification"
+  },
+  "paca": {
+   "name": "Région Sud (Provence-Alpes-Côte d’Azur)",
+   "kind": "logo",
+   "logo": "logos/paca.svg",
+   "source_url": "https://www.maregionsud.fr/typo3conf/ext/e_magineurs/region_sud/Resources/Public/Images/Logo.svg",
+   "status": "logo institutionnel, marque de la Région — usage d'identification"
   },
   "paf": {
-   "ring_top": "POLICE AUX FRONTIÈRES",
-   "ring_bottom": "AÉROPORTS ET PORTS",
-   "pictogram": "voyage",
-   "colour": "#24406b",
-   "master": "masters/paf.svg"
+   "name": "Police aux frontières",
+   "kind": "text",
+   "lines": [
+    "Police aux",
+    "frontières"
+   ],
+   "short": "PAF",
+   "why_text": "État — bloc-marque"
   },
-  "parcs": {
-   "ring_top": "PARCS NATIONAUX DE FRANCE",
-   "ring_bottom": "NATURE PROTÉGÉE",
-   "pictogram": "montagne",
-   "colour": "#4a6a2c",
-   "master": "masters/parcs.svg"
+  "paris": {
+   "name": "Ville de Paris",
+   "kind": "logo",
+   "logo": "logos/paris.svg",
+   "source_url": "https://www.paris.fr/ (inline SVG of header, unchanged + xmlns)",
+   "status": "logo institutionnel de la Ville — usage d'identification"
+  },
+  "pdl": {
+   "name": "Région Pays de la Loire",
+   "kind": "logo",
+   "logo": "logos/pdl.svg",
+   "source_url": "https://www.paysdelaloire.fr/themes/custom/drup_theme/images/logo-2022.svg",
+   "status": "logo institutionnel, marque de la Région — usage d'identification"
   },
   "pharos": {
-   "ring_top": "PHAROS",
-   "ring_bottom": "SIGNALEMENTS EN LIGNE",
-   "pictogram": "numerique",
-   "colour": "#1b2033",
-   "master": "masters/pharos.svg"
+   "name": "Pharos",
+   "kind": "text",
+   "lines": [
+    "Pharos"
+   ],
+   "short": "Pharos",
+   "why_text": "État — ministère de l’Intérieur"
   },
   "police": {
-   "ring_top": "POLICE NATIONALE",
-   "ring_bottom": "SÉCURITÉ PUBLIQUE",
-   "pictogram": "securite",
-   "colour": "#1b2f5b",
-   "master": "masters/police.svg"
+   "name": "Police nationale",
+   "kind": "text",
+   "lines": [
+    "Police",
+    "nationale"
+   ],
+   "short": "Police",
+   "why_text": "État — identité ministérielle"
+  },
+  "rennes": {
+   "name": "Ville de Rennes",
+   "kind": "logo",
+   "logo": "logos/rennes.svg",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Ville_de_RENNES_Noir.svg",
+   "status": "Public domain, trademarked (Commons, 2022-10)"
   },
   "retraite": {
-   "ring_top": "L’ASSURANCE RETRAITE",
-   "ring_bottom": "SÉCURITÉ SOCIALE",
-   "pictogram": "sablier",
-   "colour": "#9c4a1c",
-   "master": "masters/retraite.svg"
+   "name": "L’Assurance retraite",
+   "kind": "logo",
+   "logo": "logos/retraite.png",
+   "source_url": "https://commons.wikimedia.org/wiki/File:L’Assurance_retraite_Caisse_nationale.png",
+   "status": "CC BY-SA 4.0 (Commons file, 1066px) + marque déposée"
+  },
+  "rf": {
+   "name": "République française",
+   "kind": "text",
+   "lines": [
+    "République",
+    "française"
+   ],
+   "short": "RF",
+   "why_text": "État — jamais de Marianne ni de tricolore"
   },
   "securitecivile": {
-   "ring_top": "SÉCURITÉ CIVILE",
-   "ring_bottom": "PROTECTION DES POPULATIONS",
-   "pictogram": "securite",
-   "colour": "#8c2a1f",
-   "master": "masters/securitecivile.svg"
+   "name": "Sécurité civile",
+   "kind": "text",
+   "lines": [
+    "Sécurité",
+    "civile"
+   ],
+   "short": "Sécurité",
+   "why_text": "État — identité ministérielle"
   },
   "senat": {
-   "ring_top": "SÉNAT",
-   "ring_bottom": "PARLEMENT",
-   "pictogram": "batiment",
-   "colour": "#7a1f2b",
-   "master": "masters/senat.svg"
+   "name": "Sénat",
+   "kind": "logo",
+   "logo": "logos/senat.svg",
+   "source_url": "https://www.senat.fr/_assets/cru-1790229872/eee83a27e1e6e241ed7098a5f815474c/Frontend/assets/static/senat/senat-logo.svg",
+   "status": "official site asset — marque déposée — usage d'identification"
   },
   "servicepublic": {
-   "ring_top": "SERVICE-PUBLIC",
-   "ring_bottom": "VOS DROITS ET DÉMARCHES",
-   "pictogram": "info",
-   "colour": "#1f2a66",
-   "master": "masters/servicepublic.svg"
+   "name": "Service-Public.fr",
+   "kind": "text",
+   "lines": [
+    "Service-",
+    "Public.fr"
+   ],
+   "short": "SP.fr",
+   "why_text": "État — bloc-marque"
   },
   "sncf": {
-   "ring_top": "SNCF",
-   "ring_bottom": "TRANSPORT FERROVIAIRE",
-   "pictogram": "transport",
-   "colour": "#7a1c44",
-   "master": "masters/sncf.svg"
+   "name": "SNCF",
+   "kind": "logo",
+   "logo": "logos/sncf.svg",
+   "source_url": "https://fr.wikipedia.org/wiki/Fichier:Logo_SNCF_(2011).svg",
+   "status": "marque déposée — usage d'identification (fr.wikipedia, re-uploaded 2025-01)"
   },
   "spf": {
-   "ring_top": "SANTÉ PUBLIQUE FRANCE",
-   "ring_bottom": "PRÉVENTION",
-   "pictogram": "sante",
-   "colour": "#0f6360",
-   "master": "masters/spf.svg"
+   "name": "Santé publique France",
+   "kind": "logo",
+   "logo": "logos/spf.svg",
+   "source_url": "https://www.santepubliquefrance.fr/themes/custom/santepubliquefrance/logo.svg",
+   "status": "marque déposée — usage d'identification"
+  },
+  "strasbourg": {
+   "name": "Strasbourg (Ville & Eurométropole)",
+   "kind": "logo",
+   "logo": "logos/strasbourg.png",
+   "source_url": "https://www.strasbourg.eu/logos (official ZIP, 'Bandeau Signature' green)",
+   "status": "logo institutionnel de la Ville — usage d'identification"
+  },
+  "toulouse": {
+   "name": "Toulouse (Mairie & Métropole)",
+   "kind": "logo",
+   "logo": "logos/toulouse.svg",
+   "source_url": "https://www.toulouse.fr/sites/toulouse-fr/files/header/logo_toulousemairiemetropoleok_3_0.svg",
+   "status": "logo institutionnel de la Ville — usage d'identification"
   },
   "travail": {
-   "ring_top": "INSPECTION DU TRAVAIL",
-   "ring_bottom": "SANTÉ ET SÉCURITÉ",
-   "pictogram": "emploi",
-   "colour": "#6b5220",
-   "master": "masters/travail.svg"
+   "name": "Inspection du travail",
+   "kind": "text",
+   "lines": [
+    "Inspection",
+    "du travail"
+   ],
+   "short": "Travail",
+   "why_text": "État — bloc-marque"
   },
   "urssaf": {
-   "ring_top": "URSSAF",
-   "ring_bottom": "COTISATIONS SOCIALES",
-   "pictogram": "euro",
-   "colour": "#1d3f72",
-   "master": "masters/urssaf.svg"
+   "name": "Urssaf",
+   "kind": "logo",
+   "logo": "logos/urssaf.svg",
+   "source_url": "https://fr.wikipedia.org/wiki/Fichier:URSSAF_Logo.svg",
+   "status": "marque déposée — usage d'identification (fr.wikipedia)"
   },
   "viepublique": {
-   "ring_top": "VIE-PUBLIQUE",
-   "ring_bottom": "INSTITUTIONS ET DÉBATS",
-   "pictogram": "bulle_i",
-   "colour": "#34405a",
-   "master": "masters/viepublique.svg"
+   "name": "Vie-publique.fr",
+   "kind": "text",
+   "lines": [
+    "Vie",
+    "publique"
+   ],
+   "short": "Vie-pub",
+   "why_text": "État — bloc-marque"
   }
  },
  "slots": {
   "cbp": {
    "body": "douane",
-   "ring": [
-    "LA DOUANE",
-    "VOYAGEURS ET MARCHANDISES"
-   ],
+   "kind": "text",
    "files": [
     "_astro/cbp.BRJfxWm9.png"
    ]
   },
   "cbp.gov": {
    "body": "douane",
-   "ring": [
-    "LA DOUANE",
-    "VOYAGEURS ET MARCHANDISES"
-   ],
+   "kind": "text",
    "files": [
     "_astro/cbp.gov.BEckqu-F.webp",
     "_astro/cbp.gov.BekIHV1k.webp",
@@ -642,10 +710,7 @@
   },
   "congress": {
    "body": "senat",
-   "ring": [
-    "SÉNAT",
-    "PARLEMENT"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/congress.DZsCdqMP.webp",
     "_astro/congress.US2_ITtS.webp",
@@ -656,10 +721,7 @@
   },
   "dea": {
    "body": "spf",
-   "ring": [
-    "SANTÉ PUBLIQUE FRANCE",
-    "PRÉVENTION"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/dea.CmeYcQyU.webp",
     "_astro/dea.Cz594QVE.webp",
@@ -670,10 +732,7 @@
   },
   "employment-navy": {
    "body": "marine",
-   "ring": [
-    "MARINE NATIONALE",
-    "DÉFENSE"
-   ],
+   "kind": "text",
    "files": [
     "_astro/employment-navy.C5MVgyO_.webp",
     "_astro/employment-navy.Di009D_k.webp",
@@ -683,10 +742,7 @@
   },
   "energy": {
    "body": "ademe",
-   "ring": [
-    "ADEME",
-    "TRANSITION ÉCOLOGIQUE"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/energy.B955_PBC.webp",
     "_astro/energy.BPnWYQ1T.webp",
@@ -697,10 +753,7 @@
   },
   "faa": {
    "body": "dgac",
-   "ring": [
-    "DIRECTION GÉNÉRALE DE L’AVIATION CIVILE",
-    "DGAC"
-   ],
+   "kind": "text",
    "files": [
     "_astro/faa.BQu6UgSF.webp",
     "_astro/faa.ChSXuODM.webp",
@@ -710,11 +763,8 @@
    ]
   },
   "fallback-ada.gov": {
-   "body": "mdph",
-   "ring": [
-    "MAISON DÉPARTEMENTALE",
-    "DES PERSONNES HANDICAPÉES"
-   ],
+   "body": "defenseur",
+   "kind": "logo",
    "files": [
     "_astro/fallback-ada.gov.KEM6P8LS.webp",
     "images/agency-seals/fallback-ada.gov.webp"
@@ -722,10 +772,7 @@
   },
   "fallback-archives.gov": {
    "body": "archives",
-   "ring": [
-    "ARCHIVES NATIONALES",
-    "MÉMOIRE ET PATRIMOINE"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/fallback-archives.gov.0MDdbVqo.webp",
     "_astro/fallback-archives.gov.B4xluClp.webp",
@@ -736,10 +783,7 @@
   },
   "fallback-cbp.gov": {
    "body": "douane",
-   "ring": [
-    "LA DOUANE",
-    "VOYAGEURS ET MARCHANDISES"
-   ],
+   "kind": "text",
    "files": [
     "_astro/fallback-cbp.gov.BPY-8wt0.webp",
     "_astro/fallback-cbp.gov.DceNc2HT.webp",
@@ -749,10 +793,7 @@
   },
   "fallback-census.gov": {
    "body": "insee",
-   "ring": [
-    "INSEE",
-    "STATISTIQUES PUBLIQUES"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/fallback-census.gov.8kLCiPJh.webp",
     "_astro/fallback-census.gov.C4RqG5iN.webp",
@@ -763,10 +804,7 @@
   },
   "fallback-childcare.gov": {
    "body": "caf",
-   "ring": [
-    "CAISSE D’ALLOCATIONS FAMILIALES",
-    "CAF"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/fallback-childcare.gov.CLMcWtf0.webp",
     "images/agency-seals/fallback-childcare.gov.webp"
@@ -774,10 +812,7 @@
   },
   "fallback-childwelfare.gov": {
    "body": "enfance",
-   "ring": [
-    "ENFANCE EN DANGER",
-    "ALLÔ 119"
-   ],
+   "kind": "text",
    "files": [
     "_astro/fallback-childwelfare.gov.BINtjuO2.webp",
     "_astro/fallback-childwelfare.gov.CeV_e_ou.webp",
@@ -788,10 +823,7 @@
   },
   "fallback-congress.gov": {
    "body": "assemblee",
-   "ring": [
-    "ASSEMBLÉE NATIONALE",
-    "DÉBAT PARLEMENTAIRE"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/fallback-congress.gov.oyXBqE6a.webp",
     "images/agency-seals/fallback-congress.gov.webp"
@@ -799,10 +831,7 @@
   },
   "fallback-copyright.gov": {
    "body": "inpi",
-   "ring": [
-    "INPI",
-    "PROPRIÉTÉ INDUSTRIELLE"
-   ],
+   "kind": "text",
    "files": [
     "_astro/fallback-copyright.gov.92uC81Ld.webp",
     "_astro/fallback-copyright.gov.CurDSu7O.webp",
@@ -813,10 +842,7 @@
   },
   "fallback-data.census.gov": {
    "body": "insee",
-   "ring": [
-    "INSEE",
-    "STATISTIQUES PUBLIQUES"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/fallback-data.census.gov.BJRpJoCa.webp",
     "_astro/fallback-data.census.gov.CCT1BteD.webp",
@@ -825,21 +851,15 @@
   },
   "fallback-disasterassistance.gov": {
    "body": "securitecivile",
-   "ring": [
-    "SÉCURITÉ CIVILE",
-    "PROTECTION DES POPULATIONS"
-   ],
+   "kind": "text",
    "files": [
     "_astro/fallback-disasterassistance.gov.BRWmLDSN.webp",
     "images/agency-seals/fallback-disasterassistance.gov.webp"
    ]
   },
   "fallback-eac.gov": {
-   "body": "mairie",
-   "ring": [
-    "MAIRIE",
-    "LISTES ÉLECTORALES"
-   ],
+   "body": "interieur",
+   "kind": "text",
    "files": [
     "_astro/fallback-eac.gov.CQQT5KkE.webp",
     "_astro/fallback-eac.gov.THHtSby7.webp",
@@ -848,10 +868,7 @@
   },
   "fallback-fec.gov": {
    "body": "conseilconst",
-   "ring": [
-    "CONSEIL CONSTITUTIONNEL",
-    "CONTRÔLE DES ÉLECTIONS"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/fallback-fec.gov._vUHq2ja.webp",
     "images/agency-seals/fallback-fec.gov.webp"
@@ -859,10 +876,7 @@
   },
   "fallback-federalregister.gov": {
    "body": "legifrance",
-   "ring": [
-    "LÉGIFRANCE",
-    "LE DROIT FRANÇAIS"
-   ],
+   "kind": "text",
    "files": [
     "_astro/fallback-federalregister.gov.BtDO_RlE.webp",
     "_astro/fallback-federalregister.gov.C1xfUTso.webp",
@@ -873,10 +887,7 @@
   },
   "fallback-floodsmart.gov": {
    "body": "georisques",
-   "ring": [
-    "GÉORISQUES",
-    "RISQUES NATURELS"
-   ],
+   "kind": "text",
    "files": [
     "_astro/fallback-floodsmart.gov.BFxv7NEF.webp",
     "_astro/fallback-floodsmart.gov.BTt8d-YM.webp",
@@ -885,10 +896,7 @@
   },
   "fallback-foia.gov": {
    "body": "cada",
-   "ring": [
-    "COMMISSION D’ACCÈS AUX DOCUMENTS ADMINISTRATIFS",
-    "CADA"
-   ],
+   "kind": "text",
    "files": [
     "_astro/fallback-foia.gov.B7WadDth.webp",
     "_astro/fallback-foia.gov.D0Nq7awf.webp",
@@ -899,10 +907,7 @@
   },
   "fallback-fvap.gov": {
    "body": "diplomatie",
-   "ring": [
-    "FRANCE DIPLOMATIE",
-    "FRANÇAIS DE L’ÉTRANGER"
-   ],
+   "kind": "text",
    "files": [
     "_astro/fallback-fvap.gov.CuwsHy1n.webp",
     "images/agency-seals/fallback-fvap.gov.webp"
@@ -910,10 +915,7 @@
   },
   "fallback-grants.gov": {
    "body": "asp",
-   "ring": [
-    "AGENCE DE SERVICES ET DE PAIEMENT",
-    "ASP"
-   ],
+   "kind": "text",
    "files": [
     "_astro/fallback-grants.gov.C4qqf9EJ.webp",
     "_astro/fallback-grants.gov._FJINvIj.webp",
@@ -922,10 +924,7 @@
   },
   "fallback-gsa.gov": {
    "body": "dae",
-   "ring": [
-    "DIRECTION DES ACHATS DE L’ÉTAT",
-    "ACHATS PUBLICS"
-   ],
+   "kind": "text",
    "files": [
     "_astro/fallback-gsa.gov.D6Ox3zre.webp",
     "_astro/fallback-gsa.gov.DNOOBnQt.webp",
@@ -935,10 +934,7 @@
   },
   "fallback-healthcare.gov": {
    "body": "ameli",
-   "ring": [
-    "L’ASSURANCE MALADIE",
-    "SÉCURITÉ SOCIALE"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/fallback-healthcare.gov.BYbZp5MM.webp",
     "images/agency-seals/fallback-healthcare.gov.webp"
@@ -946,10 +942,7 @@
   },
   "fallback-house.gov": {
    "body": "assemblee",
-   "ring": [
-    "ASSEMBLÉE NATIONALE",
-    "DÉBAT PARLEMENTAIRE"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/fallback-house.gov.CGZsIYCB.webp",
     "images/agency-seals/fallback-house.gov.webp"
@@ -957,10 +950,7 @@
   },
   "fallback-hrsa.gov": {
    "body": "ars",
-   "ring": [
-    "AGENCE RÉGIONALE DE SANTÉ",
-    "ARS"
-   ],
+   "kind": "text",
    "files": [
     "_astro/fallback-hrsa.gov.BYWacT7q.webp",
     "_astro/fallback-hrsa.gov.zdEwHdCH.webp",
@@ -969,10 +959,7 @@
   },
   "fallback-ic3.gov": {
    "body": "pharos",
-   "ring": [
-    "PHAROS",
-    "SIGNALEMENTS EN LIGNE"
-   ],
+   "kind": "text",
    "files": [
     "_astro/fallback-ic3.gov.BbrFZ7OL.webp",
     "_astro/fallback-ic3.gov.C_Pb-Rx6.webp",
@@ -983,10 +970,7 @@
   },
   "fallback-identitytheft.gov": {
    "body": "cnil",
-   "ring": [
-    "CNIL",
-    "DONNÉES PERSONNELLES"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/fallback-identitytheft.gov.D5h_2vaP.webp",
     "_astro/fallback-identitytheft.gov.D5vp7qHS.webp",
@@ -995,10 +979,7 @@
   },
   "fallback-ihs.gov": {
    "body": "spf",
-   "ring": [
-    "SANTÉ PUBLIQUE FRANCE",
-    "PRÉVENTION"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/fallback-ihs.gov.B7km7iAQ.webp",
     "_astro/fallback-ihs.gov.BVzOha3c.webp",
@@ -1009,10 +990,7 @@
   },
   "fallback-insurekidsnow.gov": {
    "body": "ameli",
-   "ring": [
-    "L’ASSURANCE MALADIE",
-    "SÉCURITÉ SOCIALE"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/fallback-insurekidsnow.gov.BYbN7ykU.webp",
     "images/agency-seals/fallback-insurekidsnow.gov.webp"
@@ -1020,10 +998,7 @@
   },
   "fallback-investor.gov": {
    "body": "amf",
-   "ring": [
-    "AUTORITÉ DES MARCHÉS FINANCIERS",
-    "AMF"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/fallback-investor.gov.C7hi-uQ_.webp",
     "_astro/fallback-investor.gov.CJwFl3Gx.webp",
@@ -1032,10 +1007,7 @@
   },
   "fallback-login.gov": {
    "body": "franceconnect",
-   "ring": [
-    "FRANCECONNECT",
-    "IDENTIFICATION EN LIGNE"
-   ],
+   "kind": "text",
    "files": [
     "_astro/fallback-login.gov.BWHR_AKb.webp",
     "_astro/fallback-login.gov.Bie3e5vN.webp",
@@ -1046,10 +1018,7 @@
   },
   "fallback-medicaid.gov": {
    "body": "ameli",
-   "ring": [
-    "L’ASSURANCE MALADIE",
-    "SÉCURITÉ SOCIALE"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/fallback-medicaid.gov.Bmy0Tllk.webp",
     "images/agency-seals/fallback-medicaid.gov.webp"
@@ -1057,10 +1026,7 @@
   },
   "fallback-medicare.gov": {
    "body": "retraite",
-   "ring": [
-    "L’ASSURANCE RETRAITE",
-    "SÉCURITÉ SOCIALE"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/fallback-medicare.gov.B1gfghR_.webp",
     "_astro/fallback-medicare.gov.CDmUTZYl.webp",
@@ -1070,10 +1036,7 @@
   },
   "fallback-milconnect.dmdc.osd.mil": {
    "body": "armees",
-   "ring": [
-    "MINISTÈRE DES ARMÉES",
-    "DÉFENSE"
-   ],
+   "kind": "text",
    "files": [
     "_astro/fallback-milconnect.dmdc.osd.mil.CQhreHFi.webp",
     "_astro/fallback-milconnect.dmdc.osd.mil.DEmguXLL.webp",
@@ -1082,10 +1045,7 @@
   },
   "fallback-ncua.gov": {
    "body": "bdf",
-   "ring": [
-    "BANQUE DE FRANCE",
-    "BANQUE CENTRALE"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/fallback-ncua.gov.BNDBI9ti.webp",
     "_astro/fallback-ncua.gov.BRkeLOc0.webp",
@@ -1096,10 +1056,7 @@
   },
   "fallback-occ.gov": {
    "body": "acpr",
-   "ring": [
-    "AUTORITÉ DE CONTRÔLE PRUDENTIEL",
-    "ET DE RÉSOLUTION"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/fallback-occ.gov.DSrIHMQS.webp",
     "images/agency-seals/fallback-occ.gov.webp"
@@ -1107,10 +1064,7 @@
   },
   "fallback-opm.gov": {
    "body": "fonctionpub",
-   "ring": [
-    "FONCTION PUBLIQUE",
-    "DGAFP"
-   ],
+   "kind": "text",
    "files": [
     "_astro/fallback-opm.gov.j0heChz_.webp",
     "images/agency-seals/fallback-opm.gov.webp"
@@ -1118,10 +1072,7 @@
   },
   "fallback-pbgc.gov": {
    "body": "retraite",
-   "ring": [
-    "L’ASSURANCE RETRAITE",
-    "SÉCURITÉ SOCIALE"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/fallback-pbgc.gov.BQTWNsiw.webp",
     "_astro/fallback-pbgc.gov.CuVjHkHd.webp",
@@ -1129,11 +1080,8 @@
    ]
   },
   "fallback-recreation.gov": {
-   "body": "parcs",
-   "ring": [
-    "PARCS NATIONAUX DE FRANCE",
-    "NATURE PROTÉGÉE"
-   ],
+   "body": "onf",
+   "kind": "logo",
    "files": [
     "_astro/fallback-recreation.gov.BGH1_fqs.webp",
     "images/agency-seals/fallback-recreation.gov.webp"
@@ -1141,10 +1089,7 @@
   },
   "fallback-sam.gov": {
    "body": "dae",
-   "ring": [
-    "DIRECTION DES ACHATS DE L’ÉTAT",
-    "ACHATS PUBLICS"
-   ],
+   "kind": "text",
    "files": [
     "_astro/fallback-sam.gov.DN_ObR4g.webp",
     "images/agency-seals/fallback-sam.gov.webp"
@@ -1152,10 +1097,7 @@
   },
   "fallback-sec.gov": {
    "body": "amf",
-   "ring": [
-    "AUTORITÉ DES MARCHÉS FINANCIERS",
-    "AMF"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/fallback-sec.gov.CPzg-zJ3.webp",
     "_astro/fallback-sec.gov.DQFKLRox.webp",
@@ -1164,10 +1106,7 @@
   },
   "fallback-senate.gov": {
    "body": "senat",
-   "ring": [
-    "SÉNAT",
-    "PARLEMENT"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/fallback-senate.gov.BpZmqJMj.webp",
     "_astro/fallback-senate.gov.Ds2t5q1J.webp",
@@ -1176,10 +1115,7 @@
   },
   "fallback-studentaid.gov": {
    "body": "crous",
-   "ring": [
-    "CROUS",
-    "VIE ÉTUDIANTE"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/fallback-studentaid.gov.41tK8wPk.webp",
     "_astro/fallback-studentaid.gov.B5z-KUt7.webp",
@@ -1189,10 +1125,7 @@
   },
   "fallback-tsa.gov": {
    "body": "paf",
-   "ring": [
-    "POLICE AUX FRONTIÈRES",
-    "AÉROPORTS ET PORTS"
-   ],
+   "kind": "text",
    "files": [
     "_astro/fallback-tsa.gov.BKo6orXy.webp",
     "_astro/fallback-tsa.gov.CoEb1uZw.webp",
@@ -1200,11 +1133,8 @@
    ]
   },
   "fallback-usa.gov": {
-   "body": "bonjour",
-   "ring": [
-    "BONJOUR, FRANCE",
-    "SITE NON OFFICIEL"
-   ],
+   "body": "servicepublic",
+   "kind": "text",
    "files": [
     "_astro/fallback-usa.gov.C3Bg_5J2.webp",
     "_astro/fallback-usa.gov.CF68YOMe.webp",
@@ -1214,10 +1144,7 @@
   },
   "fallback-usajobs.gov": {
    "body": "francetravail",
-   "ring": [
-    "FRANCE TRAVAIL",
-    "EMPLOI ET FORMATION"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/fallback-usajobs.gov.eYjLUHtp.webp",
     "images/agency-seals/fallback-usajobs.gov.webp"
@@ -1225,10 +1152,7 @@
   },
   "fallback-uscourts.gov": {
    "body": "justice",
-   "ring": [
-    "MINISTÈRE DE LA JUSTICE",
-    "TRIBUNAUX"
-   ],
+   "kind": "text",
    "files": [
     "_astro/fallback-uscourts.gov.BX4jraIg.webp",
     "images/agency-seals/fallback-uscourts.gov.webp"
@@ -1236,10 +1160,7 @@
   },
   "fallback-uspto.gov": {
    "body": "inpi",
-   "ring": [
-    "INPI",
-    "PROPRIÉTÉ INDUSTRIELLE"
-   ],
+   "kind": "text",
    "files": [
     "_astro/fallback-uspto.gov.Db-hl2uN.webp",
     "images/agency-seals/fallback-uspto.gov.webp"
@@ -1247,10 +1168,7 @@
   },
   "fallback-vote.gov": {
    "body": "interieur",
-   "ring": [
-    "MINISTÈRE DE L’INTÉRIEUR",
-    "ÉLECTIONS"
-   ],
+   "kind": "text",
    "files": [
     "_astro/fallback-vote.gov.CNQYRY3U.webp",
     "_astro/fallback-vote.gov.GvtYXhw6.webp",
@@ -1259,10 +1177,7 @@
   },
   "fallback-weather.gov": {
    "body": "meteo",
-   "ring": [
-    "MÉTÉO-FRANCE",
-    "PRÉVISIONS ET VIGILANCE"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/fallback-weather.gov.C7XzHzDZ.webp",
     "_astro/fallback-weather.gov.Ckp6pbur.webp",
@@ -1271,10 +1186,7 @@
   },
   "fallback-whitehouse.gov": {
    "body": "viepublique",
-   "ring": [
-    "VIE-PUBLIQUE",
-    "INSTITUTIONS ET DÉBATS"
-   ],
+   "kind": "text",
    "files": [
     "_astro/fallback-whitehouse.gov.BAETRxHg.webp",
     "_astro/fallback-whitehouse.gov.Bswnl_bD.webp",
@@ -1285,10 +1197,7 @@
   },
   "fbi": {
    "body": "police",
-   "ring": [
-    "POLICE NATIONALE",
-    "SÉCURITÉ PUBLIQUE"
-   ],
+   "kind": "text",
    "files": [
     "_astro/fbi.BYTZ517l.webp",
     "_astro/fbi.CICDat66.webp",
@@ -1299,10 +1208,7 @@
   },
   "forest-service": {
    "body": "onf",
-   "ring": [
-    "OFFICE NATIONAL DES FORÊTS",
-    "ONF"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/forest-service.Ba5lEDr5.webp",
     "_astro/forest-service.CoqvKvi7.webp",
@@ -1313,20 +1219,14 @@
   },
   "government-social-security-seal": {
    "body": "retraite",
-   "ring": [
-    "L’ASSURANCE RETRAITE",
-    "SÉCURITÉ SOCIALE"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/government-social-security-seal.Dpjif139.svg"
    ]
   },
   "government-veterans-affairs-seal": {
    "body": "onacvg",
-   "ring": [
-    "OFFICE NATIONAL DES COMBATTANTS",
-    "ET DES VICTIMES DE GUERRE"
-   ],
+   "kind": "text",
    "files": [
     "_astro/government-veterans-affairs-seal.BJedzMk5.webp",
     "_astro/government-veterans-affairs-seal.C9OySFNL.webp",
@@ -1336,11 +1236,8 @@
    ]
   },
   "great-seal": {
-   "body": "bonjour",
-   "ring": [
-    "BONJOUR, FRANCE",
-    "SITE NON OFFICIEL"
-   ],
+   "body": "rf",
+   "kind": "text",
    "files": [
     "_astro/great-seal.Bb9LzwrX.webp",
     "_astro/great-seal.DuhxJkNk.webp",
@@ -1351,10 +1248,7 @@
   },
   "gsa-gold-seal": {
    "body": "dae",
-   "ring": [
-    "DIRECTION DES ACHATS DE L’ÉTAT",
-    "ACHATS PUBLICS"
-   ],
+   "kind": "text",
    "files": [
     "_astro/gsa-gold-seal.CtNoxpjH.webp",
     "_astro/gsa-gold-seal.CznenTUT.webp",
@@ -1368,21 +1262,15 @@
    ]
   },
   "gsa": {
-   "body": "dae",
-   "ring": [
-    "DIRECTION DES ACHATS DE L’ÉTAT",
-    "ACHATS PUBLICS"
-   ],
+   "body": "franceconnect",
+   "kind": "text",
    "files": [
     "_astro/gsa.M0-_aUhb.png"
    ]
   },
   "house": {
    "body": "assemblee",
-   "ring": [
-    "ASSEMBLÉE NATIONALE",
-    "DÉBAT PARLEMENTAIRE"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/house.BejDULLV.webp",
     "_astro/house.CEA1QRmz.webp",
@@ -1393,10 +1281,7 @@
   },
   "hud": {
    "body": "anil",
-   "ring": [
-    "ANIL",
-    "INFORMATION LOGEMENT"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/hud.9QBoOzlN.webp",
     "_astro/hud.Bgye8JdV.webp",
@@ -1407,10 +1292,7 @@
   },
   "labor": {
    "body": "francetravail",
-   "ring": [
-    "FRANCE TRAVAIL",
-    "EMPLOI ET FORMATION"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/labor.CTGUSz8H.webp",
     "_astro/labor.FO2aBPfZ.webp",
@@ -1422,10 +1304,7 @@
   },
   "library-of-congress": {
    "body": "bnf",
-   "ring": [
-    "BIBLIOTHÈQUE NATIONALE DE FRANCE",
-    "BNF"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/library-of-congress.BfIqrFGB.webp",
     "_astro/library-of-congress.CjZBdb_R.webp",
@@ -1436,10 +1315,7 @@
   },
   "medicare-seal": {
    "body": "ameli",
-   "ring": [
-    "L’ASSURANCE MALADIE",
-    "SÉCURITÉ SOCIALE"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/medicare-seal.C0pp4AKM.webp",
     "_astro/medicare-seal.COge1uVM.webp",
@@ -1451,10 +1327,7 @@
   },
   "name-change-irs": {
    "body": "dgfip",
-   "ring": [
-    "DIRECTION GÉNÉRALE DES FINANCES PUBLIQUES",
-    "IMPÔTS"
-   ],
+   "kind": "text",
    "files": [
     "_astro/name-change-irs.CUMZgREv.webp",
     "_astro/name-change-irs.DVWssMI0.webp",
@@ -1464,10 +1337,7 @@
   },
   "name-change-ssa": {
    "body": "retraite",
-   "ring": [
-    "L’ASSURANCE RETRAITE",
-    "SÉCURITÉ SOCIALE"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/name-change-ssa.BLj2A8uT.webp",
     "_astro/name-change-ssa.BcGhL01r.webp",
@@ -1477,10 +1347,7 @@
   },
   "name-change-state": {
    "body": "francetitres",
-   "ring": [
-    "FRANCE TITRES",
-    "ANTS"
-   ],
+   "kind": "text",
    "files": [
     "_astro/name-change-state.BqbRsWjI.webp",
     "_astro/name-change-state.CzZOP9W6.webp",
@@ -1490,30 +1357,21 @@
   },
   "nasa": {
    "body": "cnes",
-   "ring": [
-    "CNES",
-    "AGENCE SPATIALE"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/nasa.DIeN37cV.png"
    ]
   },
   "navy": {
    "body": "marine",
-   "ring": [
-    "MARINE NATIONALE",
-    "DÉFENSE"
-   ],
+   "kind": "text",
    "files": [
     "_astro/navy.C_nGW14m.png"
    ]
   },
   "patent-and-trademark": {
    "body": "inpi",
-   "ring": [
-    "INPI",
-    "PROPRIÉTÉ INDUSTRIELLE"
-   ],
+   "kind": "text",
    "files": [
     "_astro/patent-and-trademark.BeNWWQ2s.webp",
     "_astro/patent-and-trademark.CXoh9jRf.webp",
@@ -1524,10 +1382,7 @@
   },
   "seal-administrative-conference-of-the-united-states": {
    "body": "conseiletat",
-   "ring": [
-    "CONSEIL D’ÉTAT",
-    "JUSTICE ADMINISTRATIVE"
-   ],
+   "kind": "text",
    "files": [
     "_astro/seal-administrative-conference-of-the-united-states.B1W4bXBu.webp",
     "_astro/seal-administrative-conference-of-the-united-states.B4Sb5fss.webp",
@@ -1538,10 +1393,7 @@
   },
   "seal-customs-and-border-protection": {
    "body": "douane",
-   "ring": [
-    "LA DOUANE",
-    "VOYAGEURS ET MARCHANDISES"
-   ],
+   "kind": "text",
    "files": [
     "_astro/seal-customs-and-border-protection.B_Z7ku3o.webp",
     "_astro/seal-customs-and-border-protection.BkCOr655.webp",
@@ -1552,10 +1404,7 @@
   },
   "seal-development-finance-corporation": {
    "body": "afd",
-   "ring": [
-    "AGENCE FRANÇAISE DE DÉVELOPPEMENT",
-    "AFD"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/seal-development-finance-corporation.DYhnIPoQ.webp",
     "_astro/seal-development-finance-corporation.Do7Lz9B7.webp",
@@ -1566,10 +1415,7 @@
   },
   "seal-federal-mine-safety-and-health-review-commission": {
    "body": "travail",
-   "ring": [
-    "INSPECTION DU TRAVAIL",
-    "SANTÉ ET SÉCURITÉ"
-   ],
+   "kind": "text",
    "files": [
     "_astro/seal-federal-mine-safety-and-health-review-commission.BckpTUTC.webp",
     "_astro/seal-federal-mine-safety-and-health-review-commission.BkF4q3vD.webp",
@@ -1580,10 +1426,7 @@
   },
   "seal-geographic-names-board": {
    "body": "ign",
-   "ring": [
-    "IGN",
-    "INFORMATION GÉOGRAPHIQUE"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/seal-geographic-names-board.9PmBsBn3.webp",
     "_astro/seal-geographic-names-board.B2taCvvB.webp",
@@ -1594,10 +1437,7 @@
   },
   "seal-industry-and-security-bureau": {
    "body": "dge",
-   "ring": [
-    "DIRECTION GÉNÉRALE DES ENTREPRISES",
-    "DGE"
-   ],
+   "kind": "text",
    "files": [
     "_astro/seal-industry-and-security-bureau.5NkPz5qz.webp",
     "_astro/seal-industry-and-security-bureau.BddIIB70.webp",
@@ -1608,10 +1448,7 @@
   },
   "seal-inter-american-foundation": {
    "body": "afd",
-   "ring": [
-    "AGENCE FRANÇAISE DE DÉVELOPPEMENT",
-    "AFD"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/seal-inter-american-foundation.BGEFsnT3.webp",
     "_astro/seal-inter-american-foundation.C4a4GbZm.webp",
@@ -1622,10 +1459,7 @@
   },
   "seal-legal-services-corporation": {
    "body": "defenseur",
-   "ring": [
-    "DÉFENSEUR DES DROITS",
-    "ACCÈS AU DROIT"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/seal-legal-services-corporation.B922vWhW.webp",
     "_astro/seal-legal-services-corporation.DNMWCeiG.webp",
@@ -1635,11 +1469,8 @@
    ]
   },
   "seal-local-arapahoe-county": {
-   "body": "local:seal-local-arapahoe-county",
-   "ring": [
-    "COMMUNAUTÉ DES VALLONS",
-    "INTERCOMMUNALITÉ"
-   ],
+   "body": "nantes",
+   "kind": "logo",
    "files": [
     "_astro/seal-local-arapahoe-county.7Ib43ANL.webp",
     "_astro/seal-local-arapahoe-county.C2ONBE-I.webp",
@@ -1649,11 +1480,8 @@
    ]
   },
   "seal-local-arizona": {
-   "body": "local:seal-local-arizona",
-   "ring": [
-    "RÉGION DES CANYONS",
-    "TERRE DU SUD"
-   ],
+   "body": "occitanie",
+   "kind": "logo",
    "files": [
     "_astro/seal-local-arizona.-XtJxzPP.webp",
     "_astro/seal-local-arizona.BUnIOSV8.webp",
@@ -1663,11 +1491,8 @@
    ]
   },
   "seal-local-ashland-oregon": {
-   "body": "local:seal-local-ashland-oregon",
-   "ring": [
-    "VILLE DE BELLERIVE",
-    "MAIRIE"
-   ],
+   "body": "toulouse",
+   "kind": "logo",
    "files": [
     "_astro/seal-local-ashland-oregon.BY5lHeKl.webp",
     "_astro/seal-local-ashland-oregon.BujPI6Qt.webp",
@@ -1677,11 +1502,8 @@
    ]
   },
   "seal-local-boston": {
-   "body": "local:seal-local-boston",
-   "ring": [
-    "VILLE DE PORT-CLAIR",
-    "CITÉ MARITIME"
-   ],
+   "body": "rennes",
+   "kind": "logo",
    "files": [
     "_astro/seal-local-boston.BBxZFG6C.webp",
     "_astro/seal-local-boston.BDETw_ku.webp",
@@ -1691,11 +1513,8 @@
    ]
   },
   "seal-local-boulder-county": {
-   "body": "local:seal-local-boulder-county",
-   "ring": [
-    "PAYS DES CRÊTES",
-    "COMMUNAUTÉ"
-   ],
+   "body": "corse",
+   "kind": "logo",
    "files": [
     "_astro/seal-local-boulder-county.CDk0u4JW.webp",
     "_astro/seal-local-boulder-county.C_EdIYLt.webp",
@@ -1705,11 +1524,8 @@
    ]
   },
   "seal-local-brookline-massachusetts": {
-   "body": "local:seal-local-brookline-massachusetts",
-   "ring": [
-    "VILLE DE VAL-FLEURI",
-    "MAIRIE"
-   ],
+   "body": "paris",
+   "kind": "logo",
    "files": [
     "_astro/seal-local-brookline-massachusetts.8vXG0VGR.webp",
     "_astro/seal-local-brookline-massachusetts.BGyOXNu1.webp",
@@ -1719,11 +1535,8 @@
    ]
   },
   "seal-local-colorado": {
-   "body": "local:seal-local-colorado",
-   "ring": [
-    "RÉGION DES CIMES",
-    "MONTAGNES"
-   ],
+   "body": "aura",
+   "kind": "logo",
    "files": [
     "_astro/seal-local-colorado.AQeKZ5-I.webp",
     "_astro/seal-local-colorado.BWb8Urp5.webp",
@@ -1733,11 +1546,8 @@
    ]
   },
   "seal-local-columbia-county-oregon": {
-   "body": "local:seal-local-columbia-county-oregon",
-   "ring": [
-    "PAYS DES DEUX RIVES",
-    "COMMUNAUTÉ"
-   ],
+   "body": "pdl",
+   "kind": "logo",
    "files": [
     "_astro/seal-local-columbia-county-oregon.C2Z-DEgN.webp",
     "_astro/seal-local-columbia-county-oregon.CTtzyqBh.webp",
@@ -1747,11 +1557,8 @@
    ]
   },
   "seal-local-cuyahoga-county": {
-   "body": "local:seal-local-cuyahoga-county",
-   "ring": [
-    "PAYS DE LA RIVIÈRE",
-    "INTERCOMMUNALITÉ"
-   ],
+   "body": "bordeaux",
+   "kind": "logo",
    "files": [
     "_astro/seal-local-cuyahoga-county.BcPUxQMz.webp",
     "_astro/seal-local-cuyahoga-county.CQzXjc5U.webp",
@@ -1761,11 +1568,8 @@
    ]
   },
   "seal-local-florida": {
-   "body": "local:seal-local-florida",
-   "ring": [
-    "RÉGION DU LITTORAL",
-    "TERRE DE SOLEIL"
-   ],
+   "body": "paca",
+   "kind": "logo",
    "files": [
     "_astro/seal-local-florida.C3dgZoVs.webp",
     "_astro/seal-local-florida.C5aNCMo1.webp",
@@ -1775,11 +1579,8 @@
    ]
   },
   "seal-local-henderson-county-north-carolina": {
-   "body": "local:seal-local-henderson-county-north-carolina",
-   "ring": [
-    "PAYS DES COLLINES",
-    "COMMUNAUTÉ DE COMMUNES"
-   ],
+   "body": "montpellier",
+   "kind": "logo",
    "files": [
     "_astro/seal-local-henderson-county-north-carolina.Bb0kEU0a.webp",
     "_astro/seal-local-henderson-county-north-carolina.C0tCQluY.webp",
@@ -1789,11 +1590,8 @@
    ]
   },
   "seal-local-maricopa-county": {
-   "body": "local:seal-local-maricopa-county",
-   "ring": [
-    "PAYS DU PLATEAU",
-    "COMMUNAUTÉ"
-   ],
+   "body": "lille",
+   "kind": "logo",
    "files": [
     "_astro/seal-local-maricopa-county.Dc3L_JlF.webp",
     "_astro/seal-local-maricopa-county.DdP5Q5wD.webp",
@@ -1803,11 +1601,8 @@
    ]
   },
   "seal-local-maryland": {
-   "body": "local:seal-local-maryland",
-   "ring": [
-    "RÉGION DES BAIES",
-    "LITTORAL"
-   ],
+   "body": "normandie",
+   "kind": "logo",
    "files": [
     "_astro/seal-local-maryland.6wKvKJbH.webp",
     "_astro/seal-local-maryland.C9x3hhm2.webp",
@@ -1817,11 +1612,8 @@
    ]
   },
   "seal-local-minnesota": {
-   "body": "local:seal-local-minnesota",
-   "ring": [
-    "RÉGION DES LACS",
-    "TERRE D’EAU"
-   ],
+   "body": "grandest",
+   "kind": "logo",
    "files": [
     "_astro/seal-local-minnesota.9R_MocAb.webp",
     "_astro/seal-local-minnesota.BUl_WzVL.webp",
@@ -1831,11 +1623,8 @@
    ]
   },
   "seal-local-nebraska": {
-   "body": "local:seal-local-nebraska",
-   "ring": [
-    "RÉGION DES PLAINES",
-    "TERRE AGRICOLE"
-   ],
+   "body": "cvl",
+   "kind": "logo",
    "files": [
     "_astro/seal-local-nebraska.BYM8e9Gl.webp",
     "_astro/seal-local-nebraska.DeWFbDwv.webp",
@@ -1845,11 +1634,8 @@
    ]
   },
   "seal-local-north-dakota": {
-   "body": "local:seal-local-north-dakota",
-   "ring": [
-    "RÉGION DU NORD",
-    "CHAMPS ET PRAIRIES"
-   ],
+   "body": "hdf",
+   "kind": "logo",
    "files": [
     "_astro/seal-local-north-dakota.C1KkoZoY.webp",
     "_astro/seal-local-north-dakota.CtvBaoO0.webp",
@@ -1859,11 +1645,8 @@
    ]
   },
   "seal-local-ohio": {
-   "body": "local:seal-local-ohio",
-   "ring": [
-    "RÉGION DES VALLÉES",
-    "COMMUNES UNIES"
-   ],
+   "body": "bfc",
+   "kind": "logo",
    "files": [
     "_astro/seal-local-ohio.B6POV5-I.webp",
     "_astro/seal-local-ohio.BF6Ok2AE.webp",
@@ -1873,11 +1656,8 @@
    ]
   },
   "seal-local-oregon": {
-   "body": "local:seal-local-oregon",
-   "ring": [
-    "RÉGION DES FORÊTS",
-    "TERRE VERTE"
-   ],
+   "body": "bretagne",
+   "kind": "logo",
    "files": [
     "_astro/seal-local-oregon.BAXu72gy.webp",
     "_astro/seal-local-oregon.cF-9XTJI.webp",
@@ -1887,11 +1667,8 @@
    ]
   },
   "seal-local-redmond-washington": {
-   "body": "local:seal-local-redmond-washington",
-   "ring": [
-    "VILLE DE CLAIRMONT",
-    "MAIRIE"
-   ],
+   "body": "strasbourg",
+   "kind": "logo",
    "files": [
     "_astro/seal-local-redmond-washington.8_Ezz8ot.webp",
     "_astro/seal-local-redmond-washington.Bwc8_Th2.webp",
@@ -1901,11 +1678,8 @@
    ]
   },
   "seal-local-rialto-california": {
-   "body": "local:seal-local-rialto-california",
-   "ring": [
-    "VILLE DE SAINT-ARLET",
-    "MAIRIE"
-   ],
+   "body": "nice",
+   "kind": "logo",
    "files": [
     "_astro/seal-local-rialto-california.C96XDbzH.webp",
     "_astro/seal-local-rialto-california.Dca_FhPG.webp",
@@ -1915,11 +1689,8 @@
    ]
   },
   "seal-local-texas": {
-   "body": "local:seal-local-texas",
-   "ring": [
-    "RÉGION DU GRAND SUD",
-    "TERRE DE SOLEIL"
-   ],
+   "body": "nouvelleaquitaine",
+   "kind": "logo",
    "files": [
     "_astro/seal-local-texas.BaAQ4IXc.webp",
     "_astro/seal-local-texas.CXF8VXXN.webp",
@@ -1929,11 +1700,8 @@
    ]
   },
   "seal-local-washington": {
-   "body": "local:seal-local-washington",
-   "ring": [
-    "RÉGION DES PINS",
-    "TERRE D’OUEST"
-   ],
+   "body": "idf",
+   "kind": "logo",
    "files": [
     "_astro/seal-local-washington.C6FybDgD.webp",
     "_astro/seal-local-washington.CToxXPUS.webp",
@@ -1944,10 +1712,7 @@
   },
   "seal-national-credit-union-administration": {
    "body": "bdf",
-   "ring": [
-    "BANQUE DE FRANCE",
-    "BANQUE CENTRALE"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/seal-national-credit-union-administration.BV-OiNG5.webp",
     "_astro/seal-national-credit-union-administration.Bthm8N9L.webp",
@@ -1958,10 +1723,7 @@
   },
   "seal-nuclear-regulatory-commission": {
    "body": "asnr",
-   "ring": [
-    "AUTORITÉ DE SÛRETÉ NUCLÉAIRE",
-    "ET DE RADIOPROTECTION"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/seal-nuclear-regulatory-commission.B2XXbPQc.webp",
     "_astro/seal-nuclear-regulatory-commission.Coa80P1_.webp",
@@ -1972,10 +1734,7 @@
   },
   "seal-occupational-safety-and-health-review-commission": {
    "body": "anses",
-   "ring": [
-    "ANSES",
-    "SÉCURITÉ SANITAIRE"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/seal-occupational-safety-and-health-review-commission.1hHG8m5J.webp",
     "_astro/seal-occupational-safety-and-health-review-commission.BxaQmDmG.webp",
@@ -1986,10 +1745,7 @@
   },
   "seal-surface-mining-reclamation-and-enforcement-office": {
    "body": "brgm",
-   "ring": [
-    "BUREAU DE RECHERCHES",
-    "GÉOLOGIQUES ET MINIÈRES"
-   ],
+   "kind": "text",
    "files": [
     "_astro/seal-surface-mining-reclamation-and-enforcement-office.4XG_SE8V.webp",
     "_astro/seal-surface-mining-reclamation-and-enforcement-office.DqDv7qpJ.webp",
@@ -2000,10 +1756,7 @@
   },
   "seal-united-states-courts": {
    "body": "justice",
-   "ring": [
-    "MINISTÈRE DE LA JUSTICE",
-    "TRIBUNAUX"
-   ],
+   "kind": "text",
    "files": [
     "_astro/seal-united-states-courts.CXbhPApL.webp",
     "_astro/seal-united-states-courts.CrD7Rezc.webp",
@@ -2014,10 +1767,7 @@
   },
   "ssa.gov": {
    "body": "retraite",
-   "ring": [
-    "L’ASSURANCE RETRAITE",
-    "SÉCURITÉ SOCIALE"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/ssa.gov.B-cXURd0.webp",
     "_astro/ssa.gov.CATDGZ5g.webp",
@@ -2028,10 +1778,7 @@
   },
   "state.gov": {
    "body": "francetitres",
-   "ring": [
-    "FRANCE TITRES",
-    "ANTS"
-   ],
+   "kind": "text",
    "files": [
     "_astro/state.gov.BTW2QrqM.webp",
     "_astro/state.gov.B_rBgQJw.webp",
@@ -2043,10 +1790,7 @@
   },
   "surface-transportation-board": {
    "body": "art",
-   "ring": [
-    "AUTORITÉ DE RÉGULATION DES TRANSPORTS",
-    "ART"
-   ],
+   "kind": "text",
    "files": [
     "_astro/surface-transportation-board.0-QfgMF1.webp",
     "_astro/surface-transportation-board.CurGXE_H.webp",
@@ -2057,10 +1801,7 @@
   },
   "transportation": {
    "body": "sncf",
-   "ring": [
-    "SNCF",
-    "TRANSPORT FERROVIAIRE"
-   ],
+   "kind": "logo",
    "files": [
     "_astro/transportation.CluMB0o8.webp",
     "_astro/transportation.DOdSU5EP.webp",
@@ -2072,10 +1813,7 @@
   },
   "treasury": {
    "body": "dgfip",
-   "ring": [
-    "DIRECTION GÉNÉRALE DES FINANCES PUBLIQUES",
-    "IMPÔTS"
-   ],
+   "kind": "text",
    "files": [
     "_astro/treasury.BBxP8Ef3.webp",
     "_astro/treasury.BO7M2pyt.webp",
@@ -2090,10 +1828,7 @@
   },
   "us-marshals": {
    "body": "justice",
-   "ring": [
-    "MINISTÈRE DE LA JUSTICE",
-    "TRIBUNAUX"
-   ],
+   "kind": "text",
    "files": [
     "_astro/us-marshals.2Wy4jHpP.webp",
     "_astro/us-marshals.BSgGWmW-.webp",
@@ -2104,10 +1839,7 @@
   },
   "veterans-crisis-line-seal": {
    "body": "onacvg",
-   "ring": [
-    "OFFICE NATIONAL DES COMBATTANTS",
-    "ET DES VICTIMES DE GUERRE"
-   ],
+   "kind": "text",
    "files": [
     "_astro/veterans-crisis-line-seal.B27te_bF.webp",
     "_astro/veterans-crisis-line-seal.Cu9cW98J.webp",
@@ -2117,93 +1849,90 @@
   },
   "seal-commerce": {
    "body": "urssaf",
-   "ring": [
-    "URSSAF",
-    "COTISATIONS SOCIALES"
-   ],
+   "kind": "logo",
    "files": [
     "images/agency-seals/seal-commerce.svg"
    ]
   },
   "seal-energy": {
    "body": "crous",
-   "ring": [
-    "CROUS",
-    "VIE ÉTUDIANTE"
-   ],
+   "kind": "logo",
    "files": [
     "images/agency-seals/seal-energy.svg"
    ]
   },
   "seal-interior": {
-   "body": "msa",
-   "ring": [
-    "MUTUALITÉ SOCIALE AGRICOLE",
-    "MSA"
-   ],
+   "body": "onf",
+   "kind": "logo",
    "files": [
     "images/agency-seals/seal-interior.svg"
    ]
   },
   "seal-patent-and-trademark-office": {
-   "body": "servicepublic",
-   "ring": [
-    "SERVICE-PUBLIC",
-    "VOS DROITS ET DÉMARCHES"
-   ],
+   "body": "meteo",
+   "kind": "logo",
    "files": [
     "images/agency-seals/seal-patent-and-trademark-office.svg"
    ]
   },
   "seal-state": {
    "body": "laposte",
-   "ring": [
-    "LA POSTE",
-    "COURRIER ET COLIS"
-   ],
+   "kind": "logo",
    "files": [
     "images/agency-seals/seal-state.svg"
    ]
   },
   "seal-treasury": {
-   "body": "dgfip",
-   "ring": [
-    "DIRECTION GÉNÉRALE DES FINANCES PUBLIQUES",
-    "IMPÔTS"
-   ],
+   "body": "bdf",
+   "kind": "logo",
    "files": [
     "images/agency-seals/seal-treasury.svg"
    ]
   },
   "seal-tsa": {
    "body": "paf",
-   "ring": [
-    "POLICE AUX FRONTIÈRES",
-    "AÉROPORTS ET PORTS"
-   ],
+   "kind": "text",
    "files": [
     "images/agency-seals/seal-tsa.svg"
    ]
   },
   "seal-veterans-affairs": {
    "body": "ameli",
-   "ring": [
-    "L’ASSURANCE MALADIE",
-    "SÉCURITÉ SOCIALE"
-   ],
+   "kind": "logo",
    "files": [
     "images/agency-seals/seal-veterans-affairs.svg"
    ]
   },
   "social-security-older": {
    "body": "caf",
-   "ring": [
-    "CAISSE D’ALLOCATIONS FAMILIALES",
-    "CAF"
-   ],
+   "kind": "logo",
    "files": [
     "images/home/seals/social-security-older.svg"
    ]
+  },
+  "seal-nasa": {
+   "body": "cnes",
+   "kind": "logo",
+   "files": [
+    "images/agency-seals/seal-nasa.svg"
+   ],
+   "note": "override-only file (no mirror original); manifesto stack cycle"
+  },
+  "seal-noaa": {
+   "body": "meteo",
+   "kind": "logo",
+   "files": [
+    "images/agency-seals/seal-noaa.svg"
+   ],
+   "note": "override-only file (no mirror original); manifesto stack cycle"
+  },
+  "seal-agriculture": {
+   "body": "msa",
+   "kind": "logo",
+   "files": [
+    "images/agency-seals/seal-agriculture.svg"
+   ],
+   "note": "override-only file (no mirror original); manifesto stack cycle"
   }
  }
 }

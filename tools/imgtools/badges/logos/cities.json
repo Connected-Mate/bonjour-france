@@ -1,0 +1,101 @@
+[
+ {
+  "body": "paris",
+  "name": "Ville de Paris",
+  "file": "logos/paris.svg",
+  "source_url": "https://www.paris.fr/ (inline SVG of header, unchanged + xmlns)",
+  "status": "logo institutionnel de la Ville — usage d'identification",
+  "retrieved": "2026-09-30",
+  "notes": "Header logo paris.fr 2026, black wordmark+sail; visually checked. Same mark as Commons 'Paris horizontal logo.svg'."
+ },
+ {
+  "body": "lyon",
+  "name": "Ville de Lyon",
+  "file": "logos/lyon.svg",
+  "source_url": "https://fr.wikipedia.org/wiki/Fichier:Logo_Ville_de_Lyon.svg",
+  "status": "marque déposée (fr.wikipedia, upload 2022-12) — usage d'identification",
+  "retrieved": "2026-09-30",
+  "notes": "Colour lion/tricolour + 'VILLE DE LYON', vector. lyon.fr header shows monochrome variant only (PNG 220x49 kept as logos/lyon-alt-mono.png, low-res). Not cross-checked against a colour asset on lyon.fr (logothèque page gated). Visually checked."
+ },
+ {
+  "body": "marseille",
+  "name": "Ville de Marseille",
+  "file": null,
+  "source_url": "https://www.marseille.fr/",
+  "status": "NOT FOUND",
+  "retrieved": "2026-09-30",
+  "notes": "marseille.fr header uses only blason (armoiries) + 'Marseille.fr' text, PNG 305x75 white; no separate modern logo asset found; Commons/Wikidata have none; charte PDF unreachable. Not saved (coat of arms). Needs decision."
+ },
+ {
+  "body": "toulouse",
+  "name": "Toulouse Mairie-Métropole",
+  "file": "logos/toulouse.svg",
+  "source_url": "https://www.toulouse.fr/sites/toulouse-fr/files/header/logo_toulousemairiemetropoleok_3_0.svg",
+  "status": "logo institutionnel de la Ville — usage d'identification",
+  "retrieved": "2026-09-30",
+  "notes": "Current shared Mairie-Métropole brand as in toulouse.fr header (2026). Older Commons 'Logo mairie de Toulouse' (2023, occitan cross) superseded. Visually checked."
+ },
+ {
+  "body": "lille",
+  "name": "Ville de Lille",
+  "file": "logos/lille.png",
+  "source_url": "https://www.lille.fr/extension/yosemite_custom/design/www/images/logo.png",
+  "status": "logo institutionnel de la Ville — usage d'identification",
+  "retrieved": "2026-09-30",
+  "notes": "Header logo lille.fr: red disc. Only 284x284 px (below 512 target; no hi-res/SVG on site). Commons 'Logo ville de Lille.svg' (PD-marked, 2017) is the same mark without disc, alt if vector wanted. Visually checked."
+ },
+ {
+  "body": "nantes",
+  "name": "Nantes Ville & Métropole",
+  "file": "logos/nantes.svg",
+  "source_url": "https://medias-metropole.nantes.fr/s3fs-public/svg/2024-12/nantes-logo.svg",
+  "status": "logo institutionnel de la Ville — usage d'identification",
+  "retrieved": "2026-09-30",
+  "notes": "Shared Nantes Ville & Métropole brand (2024-12), black, as in metropole.nantes.fr header. City-only 'logo Nantes.svg' on the site is white-only. Commons/fr-wiki 2010 logo outdated. Visually checked."
+ },
+ {
+  "body": "bordeaux",
+  "name": "Ville de Bordeaux",
+  "file": "logos/bordeaux.svg",
+  "source_url": "https://fr.wikipedia.org/wiki/Fichier:Logo_Ville_de_Bordeaux.svg",
+  "status": "marque déposée (fr.wikipedia, 2025-05) — usage d'identification",
+  "retrieved": "2026-09-30",
+  "notes": "Colour long version; shape matches bordeaux.fr header logo (which is white-only). Visually compared. Contains red+blue+white square, has own background."
+ },
+ {
+  "body": "strasbourg",
+  "name": "Ville et Eurométropole de Strasbourg (Strasbourg.eu)",
+  "file": "logos/strasbourg.png",
+  "source_url": "https://www.strasbourg.eu/logos (official ZIP, 'Bandeau Signature' green)",
+  "status": "logo institutionnel de la Ville — usage d'identification",
+  "retrieved": "2026-09-30",
+  "notes": "Official green banner PNG downscaled 8172->2000 px (only resize). Shared Ville+Eurométropole brand; has own green background. Visually checked. Commons 2010 version outdated."
+ },
+ {
+  "body": "nice",
+  "name": "Ville de Nice",
+  "file": "logos/nice.svg",
+  "source_url": "https://www.nice.fr/wp-content/uploads/2025/02/ville-de-nice-logo.svg",
+  "status": "logo institutionnel de la Ville — usage d'identification",
+  "retrieved": "2026-09-30",
+  "notes": "nice.fr header SVG (2025-02), blue; includes small blason inside the logo (part of the official logo). Visually checked."
+ },
+ {
+  "body": "montpellier",
+  "name": "Ville de Montpellier",
+  "file": "logos/montpellier.png",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Logo_Ville_de_Montpellier_(2025).png",
+  "status": "CC0 (Commons, 2026-03-14)",
+  "retrieved": "2026-09-30",
+  "notes": "Blue 'M' block logo, 908x1143 PNG; same layout as official montpellier.fr header (monochrome there, shared with Métropole SVG). Visually checked."
+ },
+ {
+  "body": "rennes",
+  "name": "Ville de Rennes",
+  "file": "logos/rennes.svg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Ville_de_RENNES_Noir.svg",
+  "status": "Public domain, trademarked (Commons, 2022-10)",
+  "retrieved": "2026-09-30",
+  "notes": "City logo 2022 (Wikidata preferred). rennes.fr header now uses shared 'Rennes Ville et Métropole' brand instead; not used. Visually checked."
+ }
+]

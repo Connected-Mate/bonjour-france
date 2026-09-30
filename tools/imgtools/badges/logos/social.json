@@ -1,0 +1,132 @@
+[
+ {
+  "body": "laposte",
+  "name": "La Poste Groupe",
+  "file": "logos/laposte.svg",
+  "source_url": "https://www.laposte.fr/ecom/_nuxt/logo-part-horizontal.BtezbiGr.svg",
+  "status": "marque déposée — usage d'identification",
+  "retrieved": "2026-09-30",
+  "has_marianne": false,
+  "notes": "Header logo served on laposte.fr today (blue bird + LA POSTE, 2022-23 Carré Noir identity). Alt yellow-oval version: logo-light svg (not saved). Site blocks browsers (Access Denied) but curl HTML shows this asset in header. Viewbox tight, bird bleeds to left edge."
+ },
+ {
+  "body": "sncf",
+  "name": "SNCF (groupe)",
+  "file": "logos/sncf.svg",
+  "source_url": "https://fr.wikipedia.org/wiki/Fichier:Logo_SNCF_(2011).svg",
+  "status": "marque déposée — usage d'identification (fr.wikipedia, re-uploaded 2025-01)",
+  "retrieved": "2026-09-30",
+  "has_marianne": false,
+  "notes": "Carmillon wordmark violet-to-red gradient with white SNCF, current since 2011, still the group logo. sncf.com/groupe-sncf.com return 403 to curl/Hub so NOT cross-checked on official site; verified via Wikipedia + press (Carré Noir carmillon). Wide 448x235 rounded-corner block, white letters inside."
+ },
+ {
+  "body": "urssaf",
+  "name": "Urssaf",
+  "file": "logos/urssaf.svg",
+  "source_url": "https://fr.wikipedia.org/wiki/Fichier:URSSAF_Logo.svg",
+  "status": "marque déposée — usage d'identification (fr.wikipedia)",
+  "retrieved": "2026-09-30",
+  "has_marianne": false,
+  "notes": "2021 identity (Vaadigm) with signature 'Au service de notre protection sociale' included in the file. urssaf.fr unreachable (403/reset) so not cross-checked on site; identity 2021 confirmed by Urssaf/Pajemploi news."
+ },
+ {
+  "body": "caf",
+  "name": "Caisse d'allocations familiales (Allocations familiales)",
+  "file": "logos/caf.svg",
+  "source_url": "https://www.caf.fr/themes/custom/caf_bootstrap5/images/icons/logo_cnaf.svg",
+  "status": "marque déposée — usage d'identification",
+  "retrieved": "2026-09-30",
+  "has_marianne": false,
+  "notes": "Blue tile 'Allocations familiales' = logo in caf.fr header today (identical to fr.wikipedia file updated 2026-07). caf.fr also shows a white 'caf.fr' wordmark (logo_caf_fr.svg) but it is white-only, unusable on white disc. Square tile with white border."
+ },
+ {
+  "body": "ameli",
+  "name": "L'Assurance Maladie / ameli",
+  "file": "logos/ameli.svg",
+  "source_url": "https://www.ameli.fr/themes/custom/ameli_v2/libraries/public/images/logo.svg",
+  "status": "marque déposée — usage d'identification",
+  "retrieved": "2026-09-30",
+  "has_marianne": false,
+  "notes": "Header logo of ameli.fr today (l'Assurance Maladie + 'Agir ensemble, protéger chacun' + ameli.fr). Very wide (approx 4:1) - small on a disc."
+ },
+ {
+  "body": "msa",
+  "name": "Mutualité sociale agricole",
+  "file": "logos/msa.svg",
+  "source_url": "https://www.msa.fr/lfp/o/z80-msa-rwd-theme/images/logo.svg",
+  "status": "marque déposée — usage d'identification",
+  "retrieved": "2026-09-30",
+  "has_marianne": false,
+  "notes": "Header logo of msa.fr today (msa tile + santé/famille/retraite/services). Wide ~1.9:1."
+ },
+ {
+  "body": "francetravail",
+  "name": "France Travail",
+  "file": "logos/francetravail.svg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:France_Travail_2024.svg",
+  "status": "Public domain (Commons, PD-textlogo) + marque déposée",
+  "retrieved": "2026-09-30",
+  "has_marianne": false,
+  "notes": "2024 logo (dots + France Travail). francetravail.fr shell exposes only favicon on cdn; logo unchanged since Jan 2024 launch."
+ },
+ {
+  "body": "retraite",
+  "name": "L'Assurance retraite (Caisse nationale)",
+  "file": "logos/retraite.png",
+  "source_url": "https://commons.wikimedia.org/wiki/File:L’Assurance_retraite_Caisse_nationale.png",
+  "status": "CC BY-SA 4.0 (Commons file, 1066px) + marque déposée",
+  "retrieved": "2026-09-30",
+  "has_marianne": false,
+  "notes": "Current gold/blue logo; this hi-res version carries 'CAISSE NATIONALE' line. Official header version without that line = retraite-header.png (344x80 only, official lassuranceretraite.fr newlogo.png). Header SVG on site is white-only (logobl.svg)."
+ },
+ {
+  "body": "crous",
+  "name": "Les Crous (CNOUS)",
+  "file": "logos/crous.svg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Logo_Crous.svg",
+  "status": "Public domain (Commons, 2025-10) + marque déposée",
+  "retrieved": "2026-09-30",
+  "has_marianne": false,
+  "notes": "Red disc 'les Crous' matches official etudiant.gouv.fr PNG (Logo_Les_Crous_1_0.png, only 120x175). Text runs to disc edge by design. SVG dimensions are in mm (some rasterisers need size override)."
+ },
+ {
+  "body": "franceconnect",
+  "name": "FranceConnect",
+  "file": "logos/franceconnect.svg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Logo_FranceConnect_en_Octobre_2022.svg",
+  "status": "Commons file + marque déposée (État)",
+  "retrieved": "2026-09-30",
+  "has_marianne": false,
+  "notes": "Standard FranceConnect logo (hexagon + Marianne profile, Oct 2022). franceconnect.gouv.fr currently shows a special '10 ans' variant (fc-logo-10-ans.svg, temporary) so the standard one was chosen. Contains a Marianne profile emblem but NOT the RÉPUBLIQUE FRANÇAISE bloc-marque: flag false, parent to decide."
+ },
+ {
+  "body": "anil",
+  "name": "ANIL",
+  "file": "logos/anil.svg",
+  "source_url": "https://www.anil.org/_assets/2cdbe9cb694b7570aa05b07b14d5f82a/Sources/img/logo-anil.svg",
+  "status": "marque déposée — usage d'identification",
+  "retrieved": "2026-09-30",
+  "has_marianne": false,
+  "notes": "Header logo of anil.org today (anil + Agence Nationale pour l'Information sur le Logement). Simplified mark also available: logo-anil-simple.svg (not saved)."
+ },
+ {
+  "body": "spf",
+  "name": "Santé publique France",
+  "file": "logos/spf.svg",
+  "source_url": "https://www.santepubliquefrance.fr/themes/custom/santepubliquefrance/logo.svg",
+  "status": "marque déposée — usage d'identification",
+  "retrieved": "2026-09-30",
+  "has_marianne": false,
+  "notes": "Header logo of santepubliquefrance.fr today. Site pairs it with a separate République française block (logo-RF.svg) which is NOT included."
+ },
+ {
+  "body": "meteo",
+  "name": "Météo-France",
+  "file": "logos/meteo.svg",
+  "source_url": "https://meteofrance.com/themes/custom/theme_public/dist/img/logo.svg",
+  "status": "marque déposée — usage d'identification",
+  "retrieved": "2026-09-30",
+  "has_marianne": false,
+  "notes": "Blue square logo in meteofrance.com header today. Variant with tagline: logo_fond_bleu.svg (not saved). Blue tile ~square."
+ }
+]

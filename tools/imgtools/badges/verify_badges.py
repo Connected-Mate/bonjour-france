@@ -1,12 +1,12 @@
 """Prove every medallion override matches its mirror original: pixel size, format, alpha
 (round on transparent when the original is transparent), SVG = pure vector with same viewBox.
 usage: python3 tools/imgtools/badges/verify_badges.py   (exit 1 on any failure)"""
-import sys, json, re
+import sys, json, re, os
 import xml.etree.ElementTree as ET
 from PIL import Image
 import resvg_py
 sys.path.insert(0, '/Users/0104389S/Projects/hello-france/tools/imgtools/badges')
-from run import svg_dims, SLOTS
+from discs import svg_dims, SLOTS, EXTRA_SVG
 R = '/Users/0104389S/Projects/hello-france/'
 m = json.load(open(R + 'tools/imgtools/badges/mapping.json'))
 inv = json.load(open(R + 'tools/image-inventory.json'))
@@ -36,14 +36,21 @@ for key, slot in m['slots'].items():
                 ET.fromstring(t)
             except ET.ParseError as e:
                 probs.append(f'xml {e}')
-            if '<text' in t or '<image' in t or 'font-family' in t:
-                probs.append('not pure vector')
-            if svg_dims(o) != svg_dims(n):
+            if '<text' in t or 'font-family' in t:
+                probs.append('live text (must be outlines)')
+            if re.search(r'href="(?!data:image/(svg\+xml|png|jpeg);base64,)', t):
+                probs.append('external/non-data image reference')
+            if os.path.exists(o) and svg_dims(o) != svg_dims(n):
                 probs.append(f'viewBox {svg_dims(n)} != {svg_dims(o)}')
             try:
-                resvg_py.svg_to_bytes(svg_string=t, width=64)
+                import io
+                im = Image.open(io.BytesIO(bytes(resvg_py.svg_to_bytes(svg_string=t, width=128)))).convert('RGBA')
+                if im.getpixel((0, 0))[3] > 8: probs.append('svg corner not transparent')
+                if im.getpixel((64, 64))[3] < 250: probs.append('svg centre not opaque disc')
             except Exception as e:
                 probs.append(f'render {e}')
+        elif not os.path.exists(o):
+            probs.append('no mirror original') if not p.endswith('.svg') else None
         else:
             n_ras += 1
             a, c = Image.open(o), Image.open(n)

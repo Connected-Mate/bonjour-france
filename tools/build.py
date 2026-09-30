@@ -405,6 +405,30 @@ def patch_flags() -> None:
         warn("US flag data URI not found — check the notice icon")
 
 
+def patch_badge_names() -> None:
+    """The manifesto's cycling badges are looked up by US domain; give each the name of the French body
+    now drawn on its disc (tools/imgtools/badges/mapping.json), so screen readers announce the right name."""
+    mp = ROOT / "tools/imgtools/badges/mapping.json"
+    if not mp.exists():
+        return
+    m = json.loads(read(mp))
+    hp = read(astro(r"home-page\..*\.js$"))
+    urls = re.search(r"Ai=\[((?:`https://[^`]+`,?)+)\]", hp)
+    si_path = astro(r"source-icon\..*\.js$")
+    si = read(si_path)
+    seal_of = {}
+    for d, f in re.findall(r"\[`([a-z0-9.-]+)`,`([^`]+\.(?:svg|webp))`\]", si):
+        seal_of.setdefault(d, f)  # the first map (seals) wins over the fallback map
+    names = []
+    for u in re.findall(r"`https://([^`]+)`", urls.group(1)) if urls else []:
+        f = seal_of.get(u)
+        slot = m["slots"].get(re.sub(r"\.(svg|webp)$", "", f)) if f else None
+        if slot:
+            names.append(f"[`{u}`,`{js_literal(m['bodies'][slot['body']]['name'])}`]")
+    if names:
+        write(si_path, must_replace(si, "var l=new Map([", "var l=new Map([" + ",".join(names) + ",", si_path.name, 1))
+
+
 def patch_link_allowlist() -> None:
     """Chat answers only render links to allow-listed hosts (originally .gov/.mil): allow French public sites
     and Mistral's chat (for the « Demander à Mistral » link)."""
@@ -498,6 +522,12 @@ def legal_documents():
                         links[a], links[b] = ph["licence_url"], ph["source_url"]
                         paras.append(f"« {ph['title']} » — {ph['author']}, <{a}>{ph['licence']}</{a}>, "
                                      f"<{b}>source</{b}> ({ph.get('changes') or 'recadrée'}).")
+                elif b == "{{LOGOS}}":
+                    logos = json.loads(read(I18N / "logo-credits.json")) if (I18N / "logo-credits.json").exists() else []
+                    for lg in sorted(logos, key=lambda x: x["name"].lower()):
+                        a = f"l{len(links) + 1}"
+                        links[a] = lg["source_url"]
+                        paras.append(f"{lg['name']} — <{a}>source</{a}> ({lg['status']}).")
                 elif isinstance(b, dict) and "list" in b:
                     paras += [rich("— " + it) for it in b["list"]]
                 else:
@@ -775,6 +805,7 @@ def main() -> None:
     patch_html_text(by_en)
     patch_react_copy()
     patch_sources()
+    patch_badge_names()
     patch_link_allowlist()
     patch_flags()
     patch_js_literals(by_en)
