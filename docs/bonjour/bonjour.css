@@ -147,14 +147,15 @@ svg[viewBox="0 0 1390 263.577"] > * { display: none; }
 
 /* "Poser la question à Mistral" — primary button inside the chat answer */
 a.bf-mistral-cta {
-  display: inline-flex; align-items: center; gap: .5rem; margin: .25rem 0 .25rem;
-  min-height: 2.75rem; padding: 0 1.25rem; border-radius: 999px;
+  display: inline-block; margin: .25rem 0; white-space: nowrap;
+  padding: .875rem 1.25rem; border-radius: 999px;
   background: #000; color: #fff !important; text-decoration: none !important;
   font: 700 .9375rem/1 "Helvetica Now Display", system-ui, sans-serif; letter-spacing: -.01em;
 }
 a.bf-mistral-cta:hover { background: rgb(0 0 0 / .85); }
 a.bf-mistral-cta:focus-visible { outline: none; box-shadow: 0 0 0 2px #fff, 0 0 0 4px #0b1a33; }
-a.bf-mistral-cta svg { color: #fff; }
+a.bf-mistral-cta svg { color: #fff; vertical-align: -3px; margin-left: .25rem; }
+a.bf-mistral-cta span { text-decoration: none !important; display: inline !important; white-space: nowrap; }
 
 /* credited photos: no native callout, long-press shows the credit */
 img[src*="/address-change."],img[src*="/camp-apache."],img[src*="/camp-brookchar."],img[src*="/camp-hoyer."],img[src*="/camp-winn."],img[src*="/campground."],img[src*="/child-future."],img[src*="/child-passport."],img[src*="/crowd."],img[src*="/family."],img[src*="/goose-island."],img[src*="/grandstaff."],img[src*="/hotdog-bottom."],img[src*="/hotdog-top."],img[src*="/housing."],img[src*="/medicare."],img[src*="/military-service."],img[src*="/name-change."],img[src*="/national-park."],img[src*="/new-business."],img[src*="/new-job."],img[src*="/passport."],img[src*="/passport-cover, passport-book, passport-card, passport-thumbnail."],img[src*="/pharmacy-lakeside."],img[src*="/pharmacy-ridgeview."],img[src*="/pharmacy-town-center."],img[src*="/privacy."],img[src*="/roadmap-desktop."],img[src*="/sand-flats."],img[src*="/social-security."],img[src*="/veteran-care."]{-webkit-touch-callout:none;-webkit-user-select:none;user-select:none}
