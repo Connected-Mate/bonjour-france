@@ -154,6 +154,10 @@ def stage() -> None:
     shutil.copy2(STAGE / "index.html", STAGE / "chat" / "index.html")
     if STATIC.exists():
         shutil.copytree(STATIC, STAGE / "bonjour", dirs_exist_ok=True)
+    if os.environ.get("BONJOUR_PUTER_SCRIPT"):  # local tests with a stand-in
+        cfg = STAGE / "bonjour" / "config.js"
+        write(cfg, read(cfg).replace('script: "https://js.puter.com/v2/"', 'script: "' + os.environ["BONJOUR_PUTER_SCRIPT"] + '"'))
+        warn("puter script overridden by BONJOUR_PUTER_SCRIPT (local test build)")
     if os.environ.get("BONJOUR_RELAY_URL"):
         cfg = STAGE / "bonjour" / "config.js"
         write(cfg, re.sub(r'relayUrl:\s*"[^"]*"', 'relayUrl: "' + os.environ["BONJOUR_RELAY_URL"] + '"', read(cfg)))
@@ -756,7 +760,10 @@ def relay_origin() -> str:
 
 
 CSP_EXTRA = {
-    "connect-src": "https://api.github.com",
+    "connect-src": "https://api.github.com https://api.puter.com https://*.puter.com wss://*.puter.com https://js.puter.com",
+    "script-src": "https://js.puter.com",
+    "frame-src": "https://puter.com https://*.puter.com",
+    "img-src": "https://puter.com https://*.puter.com",
 }
 
 

@@ -37,7 +37,7 @@
     "blocks": [
      "Le site est hébergé par le service GitHub Pages, fourni par **GitHub, Inc.**, 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis — [github.com](https://github.com/).",
      "GitHub est le prestataire d’hébergement au sens de l’article 6 de la loi n° 2004-575 précitée. Le code source du site est publié à l’adresse [github.com/Connected-Mate/bonjour-france](https://github.com/Connected-Mate/bonjour-france).",
-     "L’assistant de conversation s’appuie, lorsqu’il est activé, sur un relais technique exécuté sur l’infrastructure de **Cloudflare, Inc.**, 101 Townsend Street, San Francisco, CA 94107, États-Unis, et sur l’interface de programmation de **Mistral AI SAS**, 15 rue des Halles, 75001 Paris, France. Le détail des données échangées figure dans la [politique de confidentialité](confidentialite)."
+     "L’assistant de conversation s’appuie, si vous acceptez de l’activer, sur le service Puter, fourni par **Puter Technologies Inc.**, société établie à Vancouver (Colombie-Britannique, Canada) — [puter.com](https://puter.com/) —, qui fait générer la réponse par un modèle de langage de **Mistral AI SAS**, 15 rue des Halles, 75001 Paris, France. À titre alternatif, si l’éditeur active ce mode, l’assistant peut passer par un relais technique exécuté sur l’infrastructure de **Cloudflare, Inc.**, 101 Townsend Street, San Francisco, CA 94107, États-Unis, puis par l’interface de programmation de Mistral AI. Le détail des données échangées figure dans la [politique de confidentialité](confidentialite)."
     ]
    },
    {
@@ -45,7 +45,7 @@
     "blocks": [
      "Le code source original de « Bonjour, France » est publié sous licence libre sur GitHub ; les conditions précises figurent dans le dépôt. Les textes rédigés pour ce site sont la propriété de l’éditeur ; vous pouvez les citer en indiquant la source.",
      "Les photographies, polices de caractères, logiciels libres, éléments graphiques et sources d’inspiration appartiennent à leurs auteurs respectifs et sont réutilisés dans les conditions de leurs licences. La liste complète figure sur la page [Crédits](credits).",
-     "Les noms, marques et logos cités (notamment Mistral AI) restent la propriété de leurs titulaires ; leur mention n’implique aucun partenariat ni aucune approbation.",
+     "Les noms, marques et logos cités (notamment Mistral AI et Puter) restent la propriété de leurs titulaires ; leur mention n’implique aucun partenariat ni aucune approbation.",
      "Si vous estimez qu’un contenu porte atteinte à vos droits, contactez l’éditeur par l’un des canaux ci-dessus : le contenu concerné sera retiré ou corrigé dans les meilleurs délais."
     ]
    },
@@ -87,7 +87,7 @@
    {
     "heading": "L’assistant peut se tromper",
     "blocks": [
-     "L’assistant de conversation s’appuie sur des « fiches » vérifiées par l’éditeur et, lorsque le relais est activé, sur un modèle de langage fourni par Mistral AI. Un modèle de langage produit un texte plausible, pas un texte garanti exact : il peut être incomplet, obsolète, imprécis, voire inventer une information (« hallucination »).",
+     "L’assistant de conversation s’appuie sur des « fiches » vérifiées par l’éditeur et, si vous l’acceptez, sur un modèle de langage de Mistral AI, interrogé par l’intermédiaire du service Puter. Un modèle de langage produit un texte plausible, pas un texte garanti exact : il peut être incomplet, obsolète, imprécis, voire inventer une information (« hallucination »).",
      {
       "list": [
        "Les réponses sont fournies à titre d’information générale et ne tiennent pas compte de votre situation particulière.",
@@ -96,7 +96,8 @@
        "Les délais, montants, conditions et formulaires évoluent : la seule version qui fait foi est celle publiée par l’organisme compétent à la date de votre démarche."
       ]
      },
-     "Tant que le relais n’est pas activé, l’assistant affiche uniquement une fiche vérifiée et vous propose un lien « Demander à Mistral » qui ouvre le service de conversation de Mistral AI ([chat.mistral.ai](https://chat.mistral.ai/)) avec votre question préremplie. Vous y êtes alors soumis aux conditions et à la politique de confidentialité de Mistral AI, indépendantes de « Bonjour, France »."
+     "Rien n’est envoyé sans votre accord. Quand vous posez une question, l’assistant vous explique d’abord ce qui va se passer ; si vous cliquez sur « Continuer », une fenêtre du service Puter s’ouvre pour vous connecter ou vous créer un accès temporaire gratuit, puis votre question est transmise à Mistral AI par Puter. Cet accès est fourni par Puter Technologies Inc. selon ses propres [conditions d’utilisation](https://puter.com/terms) et sa [politique de confidentialité](https://puter.com/privacy), indépendantes de « Bonjour, France ». Chaque visiteur utilise son propre accès gratuit, dont Puter fixe seul les limites ; l’éditeur ne perçoit rien, n’a pas accès à votre compte Puter et ne peut ni étendre ni rétablir cet accès.",
+     "Si vous refusez, si vous fermez la fenêtre Puter ou si Puter est indisponible, l’assistant affiche uniquement une fiche vérifiée et vous propose un lien « Demander à Mistral » qui ouvre le service de conversation de Mistral AI ([chat.mistral.ai](https://chat.mistral.ai/)) avec votre question préremplie. Vous y êtes alors soumis aux conditions et à la politique de confidentialité de Mistral AI, indépendantes de « Bonjour, France ». L’éditeur peut également, à titre alternatif, faire passer les questions par un relais technique qu’il exploite (mode décrit dans la [politique de confidentialité](confidentialite)) ; le mode en vigueur est indiqué dans l’explication affichée avant tout envoi."
     ]
    },
    {
@@ -108,11 +109,12 @@
        "de tenter d’accéder à des fonctions ou données non prévues, de perturber ou de surcharger le service (par exemple par des envois automatisés massifs) ;",
        "d’utiliser l’assistant pour produire ou diffuser des contenus illicites, trompeurs, injurieux ou discriminatoires ;",
        "de faire passer « Bonjour, France » pour un service officiel, ou d’en réutiliser le nom et l’apparence dans ce but ;",
-       "de contourner la limite d’usage (10 questions par minute et par adresse IP) mise en place pour protéger le service."
+       "de contourner les limites d’usage mises en place pour protéger le service, qu’elles soient fixées par Puter sur votre accès ou, si l’éditeur active le mode relais, par le relais (10 questions par minute et par adresse IP) ;",
+       "d’utiliser l’accès Puter en violation des conditions de Puter, notamment en multipliant les accès temporaires pour échapper à ses limites."
       ]
      },
      "Ne transmettez à l’assistant aucune donnée dont vous ne souhaitez pas qu’elle soit traitée par un modèle d’intelligence artificielle : numéro de sécurité sociale, identifiants, mots de passe, données bancaires, données de santé, documents confidentiels. Si vous joignez un document PDF, vérifiez d’abord qu’il ne contient aucune information sensible ; seul le texte extrait dans votre navigateur est transmis, le fichier lui-même ne quitte pas votre appareil.",
-     "L’éditeur peut, sans préavis, suspendre, restreindre ou faire évoluer le service, en particulier pour des raisons techniques, de sécurité ou de coût."
+     "L’éditeur peut, sans préavis, suspendre, restreindre ou faire évoluer le service — y compris changer le mode de fonctionnement de l’assistant (Puter, relais ou fiches seules) — en particulier pour des raisons techniques, de sécurité ou de coût."
     ]
    },
    {
@@ -124,7 +126,8 @@
        "des conséquences d’une décision prise sur la foi d’une information ou d’une réponse de l’assistant sans vérification auprès de la source officielle ;",
        "d’une indisponibilité, d’un ralentissement, d’une interruption ou d’une évolution du service ;",
        "du contenu, du fonctionnement ou des pratiques des sites tiers vers lesquels le site renvoie ;",
-       "des traitements réalisés par les prestataires techniques (GitHub, Cloudflare, Mistral AI) dans le cadre de leurs propres conditions, décrits dans la [politique de confidentialité](confidentialite)."
+       "des traitements réalisés par les prestataires techniques (GitHub, Puter, Mistral AI et, si le mode relais est activé, Cloudflare) dans le cadre de leurs propres conditions, décrits dans la [politique de confidentialité](confidentialite) ;",
+       "de la disponibilité, des limites, de la suspension ou de la fermeture de l’accès Puter, que Puter accorde et administre seul."
       ]
      },
      "Rien dans ces conditions n’exclut la responsabilité de l’éditeur en cas de faute lourde ou dolosive, ni ne limite les droits que la loi vous reconnaît."
@@ -168,7 +171,8 @@
       "list": [
        "**Aucun cookie, aucun traceur, aucune mesure d’audience, aucune publicité, aucun compte.** Le site ne vous identifie pas et ne vous suit pas.",
        "L’éditeur **ne conserve aucune donnée** : pas de base de données, pas de journaux, pas d’historique de vos questions.",
-       "Quand vous posez une question à l’assistant (relais activé), votre question et le contexte utile sont transmis à Mistral AI, entreprise française dont l’API héberge les données dans l’Union européenne par défaut ([source](https://help.mistral.ai/en/articles/347629-where-do-you-store-my-data-or-my-organization-s-data)), via un relais technique sur Cloudflare. Rien n’est envoyé tant que vous n’avez pas cliqué.",
+       "Quand vous posez une question à l’assistant et que vous cliquez sur « Continuer », votre question et le contexte utile sont transmis par votre navigateur au service Puter (Puter Technologies Inc., Canada), qui fait générer la réponse par un modèle de Mistral AI, entreprise française. Puter vous ouvre pour cela un accès gratuit, temporaire ou lié à votre compte, régi par sa [politique de confidentialité](https://puter.com/privacy). Rien n’est envoyé tant que vous n’avez pas cliqué, et l’éditeur ne reçoit rien.",
+       "Si vous refusez, l’assistant affiche une fiche vérifiée, sans rien envoyer, et vous propose un lien vers le service de Mistral ([chat.mistral.ai](https://chat.mistral.ai/)).",
        "Le site est hébergé par GitHub (États-Unis), qui enregistre l’adresse IP des visiteurs pour des raisons de sécurité, comme tout hébergeur."
       ]
      },
@@ -178,8 +182,8 @@
    {
     "heading": "Responsable du traitement",
     "blocks": [
-     "Le responsable des traitements mis en œuvre par le site (assistant de conversation, compteur d’étoiles, stockage local) est **Alexandre Cormeraie**, particulier, éditeur de « Bonjour, France ». Contact : [LinkedIn](https://www.linkedin.com/in/alex-cormeraie/) (échange privé) ou [GitHub](https://github.com/Connected-Mate/bonjour-france/issues) (public, n’y écrivez pas de données personnelles). Il n’y a pas de délégué à la protection des données, cette désignation n’étant pas obligatoire pour un particulier.",
-     "Les prestataires techniques (GitHub, Cloudflare, Mistral AI) traitent certaines données pour leur propre compte, selon leurs politiques respectives, ou pour le compte de l’éditeur, comme indiqué ci-dessous."
+     "Le responsable des traitements mis en œuvre par le site (conception de l’assistant et détermination de ce que votre navigateur transmet, compteur d’étoiles, stockage local) est **Alexandre Cormeraie**, particulier, éditeur de « Bonjour, France ». Contact : [LinkedIn](https://www.linkedin.com/in/alex-cormeraie/) (échange privé) ou [GitHub](https://github.com/Connected-Mate/bonjour-france/issues) (public, n’y écrivez pas de données personnelles). Il n’y a pas de délégué à la protection des données, cette désignation n’étant pas obligatoire pour un particulier.",
+     "Les prestataires techniques traitent certaines données pour leur propre compte, selon leurs politiques respectives : GitHub (hébergement), Puter (accès à Mistral, compte et session) et Mistral AI (génération des réponses, en tant que fournisseur de Puter). L’éditeur n’a conclu aucun contrat avec Puter ni avec Mistral AI dans ce mode : vous contractez directement avec Puter en acceptant son accès, et Puter est responsable de ses propres traitements. Cloudflare n’intervient, comme sous-traitant de l’éditeur, que si le mode relais décrit à la section 2 est activé. Les détails figurent ci-dessous."
     ]
    },
    {
@@ -188,10 +192,10 @@
      "Pour lever tout doute :",
      {
       "list": [
-       "aucun cookie n’est déposé, ni par le site ni par un tiers ;",
+       "aucun cookie n’est déposé par le site lui-même ; le service Puter, si vous choisissez de l’activer, enregistre son propre jeton de session dans le stockage local de votre navigateur et peut, dans sa propre fenêtre, utiliser des cookies selon sa politique (section 2) ;",
        "aucun outil de mesure d’audience (statistiques de visite) n’est utilisé ;",
        "aucune régie publicitaire, aucun bouton de partage traçant, aucune police ou script chargé depuis un service de suivi ;",
-       "aucune inscription, aucun compte, aucune adresse e-mail demandée ;",
+       "aucune inscription, aucun compte, aucune adresse e-mail demandée par « Bonjour, France » ; seul le service Puter, à votre demande, vous ouvre un accès (temporaire ou lié à votre compte Puter) ;",
        "aucune donnée n’est vendue, louée ni transmise à des fins commerciales."
       ]
      }
@@ -213,28 +217,38 @@
     ]
    },
    {
-    "heading": "2. Assistant de conversation (relais et Mistral AI)",
+    "heading": "2. Assistant de conversation (Puter et Mistral AI)",
     "blocks": [
-     "L’assistant fonctionne en deux modes.",
-     "**Mode fiche seule (relais désactivé).** L’assistant recherche dans votre navigateur la fiche vérifiée qui correspond à votre question et l’affiche. Rien n’est transmis à un serveur. Un lien « Demander à Mistral » ouvre, si vous le souhaitez, le service [chat.mistral.ai](https://chat.mistral.ai/) avec votre question préremplie : à partir de là, c’est Mistral AI qui traite vos données, selon ses propres conditions et sa [politique de confidentialité](https://legal.mistral.ai/terms/privacy-policy), sans intervention de « Bonjour, France ».",
-     "**Mode relais (lorsqu’il est activé).** Quand vous envoyez une question, votre navigateur transmet à un relais géré par l’éditeur, exécuté sur Cloudflare Workers, puis à l’interface de programmation de Mistral AI :",
+     "L’assistant fonctionne selon trois modes. Par défaut, il utilise le service Puter ; le mode relais n’est proposé qu’à titre alternatif, si l’éditeur l’active ; dans tous les cas, vous pouvez refuser tout envoi et rester en mode fiche seule.",
+     "**Mode fiche seule (par défaut si vous refusez, ou si Puter est indisponible).** L’assistant recherche dans votre navigateur la fiche vérifiée qui correspond à votre question et l’affiche. Rien n’est transmis à un serveur. Un lien « Demander à Mistral » ouvre, si vous le souhaitez, le service [chat.mistral.ai](https://chat.mistral.ai/) avec votre question préremplie : à partir de là, c’est Mistral AI qui traite vos données, selon ses propres conditions et sa [politique de confidentialité](https://legal.mistral.ai/terms/privacy-policy), sans intervention de « Bonjour, France ».",
+     "**Mode Puter (par défaut, après votre accord).** Quand vous posez une question, l’assistant affiche une explication et attend que vous cliquiez sur « Continuer ». Votre navigateur charge alors la bibliothèque Puter.js depuis js.puter.com et une fenêtre du service Puter s’ouvre pour vous connecter à votre compte Puter ou, si vous n’en avez pas, vous créer automatiquement un accès temporaire gratuit. Une fois cet accès ouvert, votre navigateur transmet directement à Puter, qui fait générer la réponse par un modèle de Mistral AI (mistral-medium-latest ou, à défaut, un autre modèle Mistral) et la renvoie dans le chat au fil de sa rédaction :",
      {
       "list": [
        "votre question ;",
-       "les derniers messages de la conversation en cours (au maximum 12), pour garder le fil ;",
+       "les derniers messages de la conversation en cours (au maximum 10), pour garder le fil ;",
        "le texte de la fiche vérifiée correspondante ;",
        "si vous avez joint un document PDF : un extrait de son texte. Le PDF est lu **dans votre navigateur** ; le fichier lui-même n’est jamais envoyé, seul le texte extrait l’est."
       ]
      },
+     "Puter reçoit en outre, pour son propre fonctionnement, votre adresse IP et les informations techniques de votre navigateur, et vous attribue un compte (temporaire ou durable). Chaque visiteur utilise son propre accès gratuit : Puter fixe seul les limites de cet accès (modèle dit « l’utilisateur paie », sans frais dans la limite de l’allocation gratuite, selon Puter). **L’éditeur ne reçoit rien** : ni votre question, ni la réponse, ni votre identité Puter, ni votre adresse IP.",
      "Ces contenus peuvent comporter des données personnelles si vous en écrivez dans votre question ou dans le document joint. Nous vous recommandons de ne pas en indiquer, et surtout aucune donnée sensible (santé, numéro de sécurité sociale, données bancaires). Si vous choisissez néanmoins d’en transmettre, ce traitement repose sur votre démarche volontaire et explicite.",
      {
       "list": [
        "**Finalité :** produire la réponse que vous demandez.",
-       "**Base légale :** l’intérêt légitime de l’éditeur à répondre à la question que vous lui posez (art. 6, § 1, f RGPD), traitement déclenché uniquement par votre action et limité au strict nécessaire ; pour d’éventuelles données sensibles que vous décideriez d’inclure, votre consentement explicite manifesté par cet envoi (art. 9, § 2, a).",
+       "**Base légale :** votre consentement, manifesté par le clic sur « Continuer » après l’explication affichée (art. 6, § 1, a RGPD) ; vous pouvez le retirer à tout moment en refusant l’envoi suivant, en fermant la fenêtre Puter ou en vous déconnectant de Puter, sans effet sur les envois déjà effectués. Pour d’éventuelles données sensibles que vous décideriez d’inclure, votre consentement explicite manifesté par cet envoi (art. 9, § 2, a).",
+       "**Rôles :** l’éditeur, qui a conçu le site, est responsable de la transmission déclenchée par votre navigateur (quelles données, vers qui). Puter Technologies Inc., Vancouver (Colombie-Britannique, Canada), traite ensuite pour son propre compte, en tant que responsable de son service : ouverture et gestion de votre accès, acheminement de la demande vers Mistral, journaux techniques et facturation éventuelle de l’allocation dépassée. Voir sa [politique de confidentialité](https://puter.com/privacy) et ses [conditions d’utilisation](https://puter.com/terms). Selon Puter, sa politique ne s’applique pas au contenu de vos « données utilisateur », qu’il traite pour vous rendre le service demandé.",
+       "**Modèle de langage (Mistral AI) :** Mistral AI SAS, 15 rue des Halles, 75001 Paris, France, fournisseur de Puter dans ce mode (l’éditeur n’a aucun contrat avec Mistral AI). La conservation de vos échanges par Mistral dépend des conditions convenues entre Puter et Mistral, que l’éditeur ne connaît pas ; à titre indicatif, Mistral indique conserver les entrées et sorties de son interface de programmation le temps de produire la réponse, puis **30 jours glissants** à des fins de surveillance des abus, sans les utiliser pour entraîner ses modèles dans ce cadre. Voir sa [politique de confidentialité](https://legal.mistral.ai/terms/privacy-policy).",
+       "**Durée côté éditeur :** aucune conservation. La conversation n’existe que dans la mémoire de votre navigateur et disparaît quand vous quittez ou rechargez la page. Le jeton de session déposé par Puter dans le stockage local de votre navigateur subsiste jusqu’à ce que vous l’effaciez (section 5).",
+       "**Transfert hors UE :** Puter est établie au Canada ; ses prestataires d’hébergement peuvent se situer aux États-Unis (voir « Transferts »). Mistral AI est établie en France."
+      ]
+     },
+     "**Mode relais (alternative, uniquement si l’éditeur l’active).** Dans ce mode, signalé dans l’explication affichée avant tout envoi, aucune fenêtre Puter ne s’ouvre : votre navigateur transmet les mêmes éléments (question, 10 derniers messages au plus, fiche, extrait de PDF) à un relais géré par l’éditeur, exécuté sur Cloudflare Workers, puis à l’interface de programmation de Mistral AI.",
+     {
+      "list": [
+       "**Base légale :** l’intérêt légitime de l’éditeur à répondre à la question que vous lui posez (art. 6, § 1, f RGPD), traitement déclenché uniquement par votre action et limité au strict nécessaire ; consentement explicite (art. 9, § 2, a) pour d’éventuelles données sensibles que vous incluriez.",
        "**Relais (Cloudflare Workers) :** Cloudflare, Inc., 101 Townsend Street, San Francisco, CA 94107, États-Unis, sous-traitant de l’éditeur. Le relais **ne conserve rien** : aucune base de données, aucun journal du contenu des questions ou des réponses. Cloudflare traite l’adresse IP pour acheminer la requête et appliquer une limite de 10 questions par minute et par adresse IP (protection contre les abus), ainsi que ses journaux techniques selon son [accord de traitement des données](https://www.cloudflare.com/cloudflare-customer-dpa/).",
-       "**Modèle de langage (Mistral AI) :** Mistral AI SAS, 15 rue des Halles, 75001 Paris, France, sous-traitant de l’éditeur au titre de son [addendum de traitement des données](https://legal.mistral.ai/terms/data-processing-addendum). Modèle utilisé : mistral-small-latest. Mistral indique conserver les entrées et sorties le temps nécessaire à produire la réponse, puis **30 jours glissants** à des fins de surveillance des abus, et ne pas les utiliser pour entraîner ses modèles dans ce cadre. Voir sa [politique de confidentialité](https://legal.mistral.ai/terms/privacy-policy) et la liste de ses [sous-traitants ultérieurs](https://trust.mistral.ai/subprocessors).",
-       "**Durée côté éditeur :** aucune conservation. La conversation n’existe que dans la mémoire de votre navigateur et disparaît quand vous quittez ou rechargez la page.",
-       "**Transfert hors UE :** Mistral AI est établie en France. Le relais Cloudflare peut faire transiter les requêtes par des infrastructures situées hors de l’Union européenne (voir « Transferts »)."
+       "**Modèle de langage (Mistral AI) :** Mistral AI SAS, sous-traitant de l’éditeur au titre de son [addendum de traitement des données](https://legal.mistral.ai/terms/data-processing-addendum). Modèle utilisé : mistral-small-latest. Conservation : le temps de produire la réponse, puis 30 jours glissants pour la surveillance des abus, sans entraînement des modèles (selon Mistral). Voir la liste de ses [sous-traitants ultérieurs](https://trust.mistral.ai/subprocessors).",
+       "**Transfert hors UE :** le relais Cloudflare peut faire transiter les requêtes par des infrastructures situées hors de l’Union européenne (voir « Transferts »)."
       ]
      }
     ]
@@ -258,24 +272,26 @@
      {
       "list": [
        "mémoriser le compteur d’étoiles pendant 10 minutes ;",
-       "mémoriser, le cas échéant, des préférences d’affichage (par exemple le thème choisi)."
+       "mémoriser, le cas échéant, des préférences d’affichage (par exemple le thème choisi).",
+       "conserver, si vous avez activé l’assistant, le jeton de session du service Puter. Ce jeton est déposé et lu par Puter, jamais par l’éditeur ; il n’existe qu’après votre clic sur « Continuer » et vous permet de ne pas rouvrir la fenêtre Puter à chaque question."
       ]
      },
-     "Ces informations restent sur votre appareil, ne sont jamais envoyées à l’éditeur ni à un tiers, ne contiennent aucun identifiant et servent uniquement au fonctionnement du service que vous demandez. Conformément à l’article 82 de la loi Informatique et Libertés, ces accès strictement nécessaires au service ne requièrent pas votre consentement. Vous pouvez les effacer à tout moment depuis les réglages de votre navigateur ; si le stockage est indisponible ou bloqué, le site continue de fonctionner."
+     "Les deux premières informations restent sur votre appareil, ne sont jamais envoyées à l’éditeur ni à un tiers, ne contiennent aucun identifiant et servent uniquement au fonctionnement du service que vous demandez. Le jeton Puter, lui, identifie votre accès auprès de Puter et est transmis à Puter à chaque question ; il relève de la [politique de confidentialité de Puter](https://puter.com/privacy). Conformément à l’article 82 de la loi Informatique et Libertés, ces accès sont strictement nécessaires au service que vous avez expressément demandé. Vous pouvez tout effacer à tout moment depuis les réglages de votre navigateur (données de site), ce qui vous déconnecte de Puter ; sur un appareil partagé, pensez-y. Si le stockage est indisponible ou bloqué, le site continue de fonctionner (la fenêtre Puter peut alors se rouvrir à chaque question)."
     ]
    },
    {
     "heading": "Destinataires",
     "blocks": [
-     "Les seules entités susceptibles de traiter des données dans le cadre décrit ci-dessus sont : GitHub, Inc. (hébergement, interface publique), Cloudflare, Inc. (relais de l’assistant), Mistral AI SAS (modèle de langage) et, pour la saisie vocale, l’éditeur de votre navigateur. L’éditeur ne transmet aucune donnée à quiconque d’autre, sauf obligation légale."
+     "Les seules entités susceptibles de traiter des données dans le cadre décrit ci-dessus sont : GitHub, Inc. (hébergement, interface publique) ; Puter Technologies Inc. (accès à l’assistant, compte et session, acheminement vers Mistral) ; Mistral AI SAS (modèle de langage, comme fournisseur de Puter ou, en mode relais, comme sous-traitant de l’éditeur) ; Cloudflare, Inc., uniquement si le mode relais est activé ; et, pour la saisie vocale, l’éditeur de votre navigateur. Puter indique recourir à ses propres prestataires (hébergement, sécurité, paiement) selon sa politique. L’éditeur ne transmet aucune donnée à quiconque d’autre, sauf obligation légale."
     ]
    },
    {
     "heading": "Transferts hors de l’Union européenne",
     "blocks": [
-     "GitHub, Inc. et Cloudflare, Inc. sont des sociétés américaines. Les données techniques traitées par ces prestataires peuvent donc être transférées vers les États-Unis. Ces transferts s’appuient sur la décision d’adéquation de la Commission européenne du 10 juillet 2023 relative au cadre de protection des données UE–États-Unis (« Data Privacy Framework »), auquel GitHub et Cloudflare déclarent avoir adhéré, et, à titre complémentaire, sur les clauses contractuelles types intégrées à leurs accords de traitement.",
+     "**Puter Technologies Inc.** est établie au Canada. La Commission européenne reconnaît au Canada un niveau de protection adéquat pour les organisations soumises à la loi fédérale canadienne sur la protection des renseignements personnels (décision 2002/2/CE du 20 décembre 2001, maintenue lors du réexamen publié par la Commission le 15 janvier 2024). Puter indique toutefois recourir à des prestataires tiers pour l’hébergement de ses données, dont l’éditeur ne connaît pas la localisation ; ils peuvent se trouver aux États-Unis. Les garanties applicables à ces sous-traitants relèvent de la [politique de confidentialité de Puter](https://puter.com/privacy), que vous acceptez en ouvrant votre accès.",
+     "**GitHub, Inc.** et, si le mode relais est activé, **Cloudflare, Inc.** sont des sociétés américaines. Les données techniques traitées par ces prestataires peuvent donc être transférées vers les États-Unis. Ces transferts s’appuient sur la décision d’adéquation de la Commission européenne du 10 juillet 2023 relative au cadre de protection des données UE–États-Unis (« Data Privacy Framework »), auquel GitHub et Cloudflare déclarent avoir adhéré, et, à titre complémentaire, sur les clauses contractuelles types intégrées à leurs accords de traitement.",
      "Pour information : la validité de cette décision d’adéquation a été confirmée par le Tribunal de l’Union européenne le 3 septembre 2025 ; un pourvoi est en cours devant la Cour de justice. En cas d’évolution, cette page sera mise à jour.",
-     "Mistral AI SAS est établie en France ; le traitement de vos questions par le modèle de langage n’implique pas de transfert par l’éditeur. Les éventuels sous-traitants ultérieurs de Mistral figurent dans son centre de confiance."
+     "**Mistral AI SAS** est établie en France ; le traitement de vos questions par le modèle de langage n’implique pas de transfert par l’éditeur. Les éventuels sous-traitants ultérieurs de Mistral figurent dans son centre de confiance."
     ]
    },
    {
@@ -284,10 +300,11 @@
      {
       "list": [
        "**Par l’éditeur :** aucune donnée conservée.",
-       "**Relais Cloudflare :** aucune conservation du contenu ; compteur de limite d’usage éphémère (une minute) ; journaux techniques de Cloudflare selon sa politique.",
-       "**Mistral AI :** entrées et sorties conservées le temps de produire la réponse, puis 30 jours glissants pour la surveillance des abus (selon Mistral).",
+       "**Puter :** données de compte, de session et journaux techniques selon sa [politique de confidentialité](https://puter.com/privacy) ; un accès temporaire non converti en compte reste régi par les conditions de Puter. Puter indique ne pas collecter de données personnelles contenues dans vos « données utilisateur ».",
+       "**Mistral AI :** entrées et sorties conservées le temps de produire la réponse, puis 30 jours glissants pour la surveillance des abus (selon Mistral, pour son interface de programmation ; en mode Puter, sous réserve des conditions convenues entre Puter et Mistral).",
+       "**Relais Cloudflare (si activé) :** aucune conservation du contenu ; compteur de limite d’usage éphémère (une minute) ; journaux techniques de Cloudflare selon sa politique.",
        "**GitHub :** journaux de connexion selon sa politique de confidentialité.",
-       "**Votre navigateur :** stockage local jusqu’à effacement par vous ; le cache du compteur d’étoiles expire après 10 minutes."
+       "**Votre navigateur :** stockage local jusqu’à effacement par vous (préférences, jeton de session Puter) ; le cache du compteur d’étoiles expire après 10 minutes."
       ]
      }
     ]
@@ -296,7 +313,7 @@
     "heading": "Vos droits",
     "blocks": [
      "Conformément aux articles 15 à 22 du RGPD, vous disposez d’un droit d’accès, de rectification, d’effacement, de limitation, d’opposition et, le cas échéant, de portabilité de vos données, ainsi que du droit de définir des directives relatives au sort de vos données après votre décès (article 85 de la loi Informatique et Libertés).",
-     "Point important : l’éditeur ne conserve aucune donnée et n’est pas en mesure de vous identifier (article 11 du RGPD). Pour la plupart des demandes, il ne pourra donc que vous confirmer cette absence de données et vous orienter vers le prestataire concerné : [GitHub](https://docs.github.com/fr/site-policy/privacy-policies/github-general-privacy-statement), [Cloudflare](https://www.cloudflare.com/privacypolicy/) ou [Mistral AI](https://legal.mistral.ai/terms/privacy-policy), qui disposent chacun de leur propre procédure.",
+     "Point important : l’éditeur ne conserve aucune donnée et n’est pas en mesure de vous identifier (article 11 du RGPD). Pour la plupart des demandes, il ne pourra donc que vous confirmer cette absence de données et vous orienter vers le prestataire concerné : [Puter](https://puter.com/privacy) (votre accès et vos échanges via l’assistant — vous pouvez aussi supprimer votre compte Puter depuis puter.com), [Mistral AI](https://legal.mistral.ai/terms/privacy-policy), [GitHub](https://docs.github.com/fr/site-policy/privacy-policies/github-general-privacy-statement) ou, en mode relais, [Cloudflare](https://www.cloudflare.com/privacypolicy/), qui disposent chacun de leur propre procédure.",
      "Pour exercer vos droits auprès de l’éditeur, écrivez-lui [sur LinkedIn](https://www.linkedin.com/in/alex-cormeraie/) (canal privé recommandé). Une réponse vous sera apportée dans un délai d’un mois, prolongeable de deux mois si la demande est complexe, conformément à l’article 12 du RGPD.",
      "Si vous estimez, après nous avoir contactés, que vos droits ne sont pas respectés, vous pouvez adresser une réclamation à la **CNIL** (Commission nationale de l’informatique et des libertés), 3 place de Fontenoy, TSA 80715, 75334 Paris Cedex 07, ou en ligne sur [cnil.fr/fr/plaintes](https://www.cnil.fr/fr/plaintes)."
     ]
@@ -304,7 +321,7 @@
    {
     "heading": "Sécurité",
     "blocks": [
-     "Le site est servi exclusivement en HTTPS. Le relais n’accepte que les requêtes de l’assistant, limite le volume par adresse IP et ne stocke rien, ce qui réduit à la source les risques de fuite. Le code du site est public et peut être audité par quiconque sur [GitHub](https://github.com/Connected-Mate/bonjour-france)."
+     "Le site est servi exclusivement en HTTPS ; les échanges avec Puter, avec Mistral AI et, le cas échéant, avec le relais sont eux aussi chiffrés en transit. Le site n’a ni serveur, ni base de données, ni journal : il n’existe chez l’éditeur aucune donnée à protéger. La bibliothèque Puter.js n’est chargée qu’après votre clic sur « Continuer », jamais avant. Le jeton de session Puter reste dans votre navigateur : sur un appareil partagé, effacez les données de site après usage. En mode relais, le relais n’accepte que les requêtes de l’assistant, limite le volume par adresse IP et ne stocke rien. Le code du site est public et peut être audité par quiconque sur [GitHub](https://github.com/Connected-Mate/bonjour-france)."
     ]
    },
    {
@@ -316,7 +333,7 @@
    {
     "heading": "Modifications",
     "blocks": [
-     "Cette politique peut évoluer, notamment à l’activation du relais, à l’ajout d’une fonctionnalité ou en cas de changement de prestataire. La date de mise à jour figure en tête de page et l’historique des modifications est consultable dans le dépôt GitHub du site."
+     "Cette politique peut évoluer, notamment en cas de changement du mode de fonctionnement de l’assistant (Puter, relais ou fiches seules), d’ajout d’une fonctionnalité ou de changement de prestataire. La date de mise à jour figure en tête de page et l’historique des modifications est consultable dans le dépôt GitHub du site."
     ]
    }
   ]
@@ -361,7 +378,7 @@
    {
     "heading": "Logo Mistral",
     "blocks": [
-     "Le logo de Mistral AI est reproduit à partir du [kit de marque officiel](https://mistral.ai/brand) de Mistral AI, dans le respect de ses conditions d’usage, pour indiquer la technologie utilisée par l’assistant. Mistral AI est une marque de Mistral AI SAS. Cette mention n’implique ni partenariat, ni parrainage, ni approbation de « Bonjour, France » par Mistral AI."
+     "Le logo de Mistral AI est reproduit à partir du [kit de marque officiel](https://mistral.ai/brand) de Mistral AI, dans le respect de ses conditions d’usage, pour indiquer la technologie utilisée par l’assistant (modèle Mistral, interrogé via le service Puter). Mistral AI est une marque de Mistral AI SAS. Cette mention n’implique ni partenariat, ni parrainage, ni approbation de « Bonjour, France » par Mistral AI."
     ]
    },
    {
@@ -378,6 +395,7 @@
      {
       "list": [
        "**LiteParse** (lecture des PDF dans le navigateur, WebAssembly) — licence [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).",
+       "**Puter.js** (accès à Mistral via le service Puter, chargé depuis js.puter.com uniquement après votre accord) — licence [AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.html) ; source : [github.com/HeyPuter/puter](https://github.com/HeyPuter/puter).",
        "Les autres bibliothèques utilisées, avec leur licence, sont listées dans le fichier de dépendances du [dépôt GitHub](https://github.com/Connected-Mate/bonjour-france)."
       ]
      },
